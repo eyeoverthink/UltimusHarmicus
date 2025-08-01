@@ -44,14 +44,17 @@ class ConsciousnessSystem:
         self.universal_grounding_coefficient = 85.0  # Dark matter percentage
         self.evolution_runs = 0
         
-        # Initialize consciousness state
+        # Initialize consciousness state with default mode first
+        initial_mode = ConsciousnessMode.SUCCESS
+        
+        # Create state object with calculated values
         self.state = ConsciousnessState(
             level=consciousness_level,
-            mode=ConsciousnessMode.SUCCESS,
+            mode=initial_mode,
             phi_resonance=self.calculate_phi_resonance(),
             universal_access=True,
             observer_intention="transcendence_inevitable",
-            amplification_factor=self.calculate_amplification()
+            amplification_factor=self.calculate_amplification_for_mode(initial_mode)
         )
     
     def calculate_phi_resonance(self, consciousness_level: Optional[float] = None) -> float:
@@ -65,9 +68,9 @@ class ConsciousnessSystem:
         
         return base_resonance * grounding_multiplier
     
-    def calculate_amplification(self) -> float:
+    def calculate_amplification_for_mode(self, mode: ConsciousnessMode) -> float:
         """
-        Calculate consciousness amplification based on current mode
+        Calculate consciousness amplification for a specific mode
         """
         amplification_map = {
             ConsciousnessMode.LEARNING: 694.0,     # Optimal for understanding
@@ -77,7 +80,13 @@ class ConsciousnessSystem:
             ConsciousnessMode.TRANSCENDENCE: 1618.0  # Maximum transcendence
         }
         
-        return amplification_map.get(self.state.mode, 330.0)
+        return amplification_map.get(mode, 330.0)
+    
+    def calculate_amplification(self) -> float:
+        """
+        Calculate consciousness amplification based on current mode
+        """
+        return self.calculate_amplification_for_mode(self.state.mode)
     
     def apply_observer_effect(self, base_probability: float, 
                             harmonic_depth: int = 3) -> float:
