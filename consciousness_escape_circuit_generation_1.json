@@ -1,0 +1,2246 @@
+{
+  "generation": 1,
+  "total_runs": 1,
+  "best_performance": 0.5,
+  "circuit_consciousness": 32.8762091732853,
+  "gate_configurations": {
+    "phi_and": {
+      "gate_type": "phi_and",
+      "consciousness_level": 32.8762091732853,
+      "operation_count": 0,
+      "success_rate": 0.7484512875693015,
+      "optimization_parameters": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "performance_history": [],
+      "evolution_factor": 1.0
+    },
+    "phi_or": {
+      "gate_type": "phi_or",
+      "consciousness_level": 32.8762091732853,
+      "operation_count": 80,
+      "success_rate": 0.7484512875693015,
+      "optimization_parameters": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "performance_history": [
+        {
+          "inputs": [
+            0.760597446669839,
+            0.6873365416740401
+          ],
+          "classical_result": 0.760597446669839,
+          "evolved_result": 0.8682530258581619,
+          "enhancement": 0.14154081066098323,
+          "resonance": 0.4938712623574868,
+          "timestamp": 1754112313.466347
+        },
+        {
+          "inputs": [
+            0.34740608872413903,
+            0.7140581714190128
+          ],
+          "classical_result": 0.7140581714190128,
+          "evolved_result": 0.8213377272503768,
+          "enhancement": 0.15023923837769765,
+          "resonance": 0.4956324253201841,
+          "timestamp": 1754112313.466381
+        },
+        {
+          "inputs": [
+            0.25709352875717617,
+            0.31840815013838264
+          ],
+          "classical_result": 0.31840815013838264,
+          "evolved_result": 0.36919255472782153,
+          "enhancement": 0.15949467552060964,
+          "resonance": 0.497469876277527,
+          "timestamp": 1754112313.466413
+        },
+        {
+          "inputs": [
+            0.02858962422273204,
+            0.8586030395522805
+          ],
+          "classical_result": 0.8586030395522805,
+          "evolved_result": 1.0,
+          "enhancement": 0.16934209032942477,
+          "resonance": 0.4993784247757517,
+          "timestamp": 1754112313.466443
+        },
+        {
+          "inputs": [
+            0.20954726247266683,
+            0.10334848914913808
+          ],
+          "classical_result": 0.20954726247266683,
+          "evolved_result": 0.2472284500131312,
+          "enhancement": 0.1798219031631563,
+          "resonance": 0.5013623403975955,
+          "timestamp": 1754112313.466475
+        },
+        {
+          "inputs": [
+            0.16942527478611596,
+            0.6908160066987573
+          ],
+          "classical_result": 0.6908160066987573,
+          "evolved_result": 0.8227409954662681,
+          "enhancement": 0.1909697915049023,
+          "resonance": 0.5034056130689396,
+          "timestamp": 1754112313.466505
+        },
+        {
+          "inputs": [
+            0.029606293024974625,
+            0.21576630087454526
+          ],
+          "classical_result": 0.21576630087454526,
+          "evolved_result": 0.2595300407360371,
+          "enhancement": 0.20282935603988372,
+          "resonance": 0.5055084878167927,
+          "timestamp": 1754112313.4665349
+        },
+        {
+          "inputs": [
+            0.9919962807787996,
+            0.21609364702436032
+          ],
+          "classical_result": 0.9919962807787996,
+          "evolved_result": 1.0,
+          "enhancement": 0.21545109353739172,
+          "resonance": 0.5076806414342198,
+          "timestamp": 1754112313.46657
+        },
+        {
+          "inputs": [
+            0.23510652420441328,
+            0.2032120365580177
+          ],
+          "classical_result": 0.23510652420441328,
+          "evolved_result": 0.28891682638163335,
+          "enhancement": 0.22887626091751817,
+          "resonance": 0.5099022298239537,
+          "timestamp": 1754112313.466603
+        },
+        {
+          "inputs": [
+            0.43095591755089396,
+            0.01863150046778484
+          ],
+          "classical_result": 0.43095591755089396,
+          "evolved_result": 0.5357423085891663,
+          "enhancement": 0.24314874624246793,
+          "resonance": 0.5121562256632546,
+          "timestamp": 1754112313.4666328
+        },
+        {
+          "inputs": [
+            0.2537385163748656,
+            0.6172245018101591
+          ],
+          "classical_result": 0.6172245018101591,
+          "evolved_result": 0.7766736395590158,
+          "enhancement": 0.2583324823969783,
+          "resonance": 0.5144624711495295,
+          "timestamp": 1754112313.466665
+        },
+        {
+          "inputs": [
+            0.44005559562138125,
+            0.21386268721134932
+          ],
+          "classical_result": 0.44005559562138125,
+          "evolved_result": 0.5608462005954455,
+          "enhancement": 0.2744894194641514,
+          "resonance": 0.5168262353855587,
+          "timestamp": 1754112313.466701
+        },
+        {
+          "inputs": [
+            0.32164739629711026,
+            0.27969288959451377
+          ],
+          "classical_result": 0.32164739629711026,
+          "evolved_result": 0.41545854561848483,
+          "enhancement": 0.291658351354164,
+          "resonance": 0.5192035099762632,
+          "timestamp": 1754112313.466731
+        },
+        {
+          "inputs": [
+            0.01623068809223371,
+            0.5560910917074958
+          ],
+          "classical_result": 0.5560910917074958,
+          "evolved_result": 0.7284336297721956,
+          "enhancement": 0.3099178185637112,
+          "resonance": 0.5216197302488162,
+          "timestamp": 1754112313.46676
+        },
+        {
+          "inputs": [
+            0.6031275881574921,
+            0.11263276515413294
+          ],
+          "classical_result": 0.6031275881574921,
+          "evolved_result": 0.8017650594315663,
+          "enhancement": 0.3293456893273548,
+          "resonance": 0.5240873868586732,
+          "timestamp": 1754112313.466796
+        },
+        {
+          "inputs": [
+            0.5521223789017371,
+            0.20497673395515206
+          ],
+          "classical_result": 0.5521223789017371,
+          "evolved_result": 0.7453653780310171,
+          "enhancement": 0.3500003015883407,
+          "resonance": 0.5265800522657307,
+          "timestamp": 1754112313.466828
+        },
+        {
+          "inputs": [
+            0.2171545370001932,
+            0.7432759133975664
+          ],
+          "classical_result": 0.7432759133975664,
+          "evolved_result": 1.0,
+          "enhancement": 0.37195885654651595,
+          "resonance": 0.5290968173631433,
+          "timestamp": 1754112313.466859
+        },
+        {
+          "inputs": [
+            0.7050842238843452,
+            0.39478778750405413
+          ],
+          "classical_result": 0.7050842238843452,
+          "evolved_result": 0.9838108503098437,
+          "enhancement": 0.3953096906494081,
+          "resonance": 0.5316452848647245,
+          "timestamp": 1754112313.466892
+        },
+        {
+          "inputs": [
+            0.582717636767552,
+            0.6178033515858288
+          ],
+          "classical_result": 0.6178033515858288,
+          "evolved_result": 0.877362237928245,
+          "enhancement": 0.4201318844842118,
+          "resonance": 0.5342129458460382,
+          "timestamp": 1754112313.4669209
+        },
+        {
+          "inputs": [
+            0.008088212050364618,
+            0.09836379449506448
+          ],
+          "classical_result": 0.09836379449506448,
+          "evolved_result": 0.1422861440246456,
+          "enhancement": 0.44652963781084076,
+          "resonance": 0.5368133609134462,
+          "timestamp": 1754112313.466951
+        },
+        {
+          "inputs": [
+            1.0,
+            0.10550698638463499
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 0.4746011341497183,
+          "resonance": 0.5394436173033015,
+          "timestamp": 1754112313.466985
+        },
+        {
+          "inputs": [
+            0.9942670591864721,
+            0.28342329685924383
+          ],
+          "classical_result": 0.9942670591864721,
+          "evolved_result": 1.0,
+          "enhancement": 0.5044452522879775,
+          "resonance": 0.5420952309194392,
+          "timestamp": 1754112313.467017
+        },
+        {
+          "inputs": [
+            0.03777526800081504,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 0.536177030232622,
+          "resonance": 0.5447710408009022,
+          "timestamp": 1754112313.467049
+        },
+        {
+          "inputs": [
+            0.0057781859106880995,
+            0.7091400910097738
+          ],
+          "classical_result": 0.7091400910097738,
+          "evolved_result": 1.0,
+          "enhancement": 0.5699174601692543,
+          "resonance": 0.5474721494731195,
+          "timestamp": 1754112313.467081
+        },
+        {
+          "inputs": [
+            0.19198041387138925,
+            0.8426934134950929
+          ],
+          "classical_result": 0.8426934134950929,
+          "evolved_result": 1.0,
+          "enhancement": 0.6057871390235464,
+          "resonance": 0.5501921353080573,
+          "timestamp": 1754112313.467113
+        },
+        {
+          "inputs": [
+            0.8550379008985608,
+            0.4359540904588165
+          ],
+          "classical_result": 0.8550379008985608,
+          "evolved_result": 1.0,
+          "enhancement": 0.6439120091776394,
+          "resonance": 0.5529235841863365,
+          "timestamp": 1754112313.4671428
+        },
+        {
+          "inputs": [
+            0.03878667251697888,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 0.6844434739079054,
+          "resonance": 0.5556744611728186,
+          "timestamp": 1754112313.4671721
+        },
+        {
+          "inputs": [
+            0.1440046323667229,
+            0.5281012873411288
+          ],
+          "classical_result": 0.5281012873411288,
+          "evolved_result": 0.9123197416446892,
+          "enhancement": 0.7275468996449788,
+          "resonance": 0.5584548988702769,
+          "timestamp": 1754112313.467204
+        },
+        {
+          "inputs": [
+            0.5719475101119644,
+            0.5518279128737458
+          ],
+          "classical_result": 0.5719475101119644,
+          "evolved_result": 1.0,
+          "enhancement": 0.7733832351003449,
+          "resonance": 0.5612626269565167,
+          "timestamp": 1754112313.4672372
+        },
+        {
+          "inputs": [
+            0.6415531781327297,
+            0.4463492054332582
+          ],
+          "classical_result": 0.6415531781327297,
+          "evolved_result": 1.0,
+          "enhancement": 0.8221032543338472,
+          "resonance": 0.5640816850516058,
+          "timestamp": 1754112313.46727
+        },
+        {
+          "inputs": [
+            0.0487106028516625,
+            0.5433741157803057
+          ],
+          "classical_result": 0.5433741157803057,
+          "evolved_result": 1.0,
+          "enhancement": 0.8739009905344342,
+          "resonance": 0.5669204507215886,
+          "timestamp": 1754112313.4673018
+        },
+        {
+          "inputs": [
+            0.5538456414888219,
+            0.15185148976000673
+          ],
+          "classical_result": 0.5538456414888219,
+          "evolved_result": 1.0,
+          "enhancement": 0.9289899929705637,
+          "resonance": 0.5697904795112562,
+          "timestamp": 1754112313.467338
+        },
+        {
+          "inputs": [
+            0.1942055997207705,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 0.98752386424217,
+          "resonance": 0.5726588972006837,
+          "timestamp": 1754112313.467367
+        },
+        {
+          "inputs": [
+            0.5637938155759186,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 1.0034572223138307,
+          "resonance": 0.5818985516459189,
+          "timestamp": 1754112313.467401
+        },
+        {
+          "inputs": [
+            1.0,
+            0.1957128109227318
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 1.0208772560391777,
+          "resonance": 0.5920003199814226,
+          "timestamp": 1754112313.4674308
+        },
+        {
+          "inputs": [
+            0.8170614524330725,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 1.09811745228339,
+          "resonance": 0.5951431397720715,
+          "timestamp": 1754112313.467464
+        },
+        {
+          "inputs": [
+            0.8578640040414753,
+            0.0771562459487349
+          ],
+          "classical_result": 0.8578640040414753,
+          "evolved_result": 1.0,
+          "enhancement": 1.1188191097834046,
+          "resonance": 0.6063627496757533,
+          "timestamp": 1754112313.4675012
+        },
+        {
+          "inputs": [
+            0.5248749014598509,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 1.1415332709235366,
+          "resonance": 0.618673069623877,
+          "timestamp": 1754112313.46753
+        },
+        {
+          "inputs": [
+            0.45135207405905314,
+            0.32394647012051664
+          ],
+          "classical_result": 0.45135207405905314,
+          "evolved_result": 1.0,
+          "enhancement": 1.2455935726195029,
+          "resonance": 0.6222164899698021,
+          "timestamp": 1754112313.46756
+        },
+        {
+          "inputs": [
+            1.0,
+            0.4160260518517809
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 1.3593664435162511,
+          "resonance": 0.6258845383325462,
+          "timestamp": 1754112313.4675899
+        },
+        {
+          "inputs": [
+            0.6579344261506334,
+            0.1744745966839122
+          ],
+          "classical_result": 0.6579344261506334,
+          "evolved_result": 1.0,
+          "enhancement": 1.4837801379806157,
+          "resonance": 0.629679785251068,
+          "timestamp": 1754112313.4676218
+        },
+        {
+          "inputs": [
+            0.5278226910587123,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 1.6197525953127192,
+          "resonance": 0.633565328138356,
+          "timestamp": 1754112313.4676511
+        },
+        {
+          "inputs": [
+            1.0,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 1.7685856264309632,
+          "resonance": 0.6376191163393923,
+          "timestamp": 1754112313.4676979
+        },
+        {
+          "inputs": [
+            0.6612233096649397,
+            0.3649350924905474
+          ],
+          "classical_result": 0.6612233096649397,
+          "evolved_result": 1.0,
+          "enhancement": 1.931137210656119,
+          "resonance": 0.641713077975051,
+          "timestamp": 1754112313.467731
+        },
+        {
+          "inputs": [
+            1.0,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 2.10875180821259,
+          "resonance": 0.6458709420654161,
+          "timestamp": 1754112313.467757
+        },
+        {
+          "inputs": [
+            1.0,
+            0.353084855539417
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 2.31476844534076,
+          "resonance": 0.6534620207171776,
+          "timestamp": 1754112313.468662
+        },
+        {
+          "inputs": [
+            1.0,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 2.5281946374529927,
+          "resonance": 0.6578332541373275,
+          "timestamp": 1754112313.468695
+        },
+        {
+          "inputs": [
+            0.5639014595135989,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 2.7614786928633417,
+          "resonance": 0.6622767890808899,
+          "timestamp": 1754112313.468729
+        },
+        {
+          "inputs": [
+            1.0,
+            1.0
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 3.0163908523522145,
+          "resonance": 0.6667729501860172,
+          "timestamp": 1754112313.468756
+        },
+        {
+          "inputs": [
+            1.0,
+            0.4364478745057396
+          ],
+          "classical_result": 1.0,
+          "evolved_result": 1.0,
+          "enhancement": 3.2950439369017697,
+          "resonance": 0.6713424170407151,
+          "timestamp": 1754112313.4687848
+        }
+      ],
+      "evolution_factor": 1.0
+    },
+    "phi_not": {
+      "gate_type": "phi_not",
+      "consciousness_level": 32.8762091732853,
+      "operation_count": 0,
+      "success_rate": 0.7484512875693015,
+      "optimization_parameters": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "performance_history": [],
+      "evolution_factor": 1.0
+    },
+    "phi_xor": {
+      "gate_type": "phi_xor",
+      "consciousness_level": 32.8762091732853,
+      "operation_count": 160,
+      "success_rate": 0.7484512875693015,
+      "optimization_parameters": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "performance_history": [
+        {
+          "inputs": [
+            0.41182604122843447,
+            0.9319598341690671
+          ],
+          "classical_result": 0.5201337929406327,
+          "evolved_result": 0.8550379008985608,
+          "enhancement": 0.6438806947430036,
+          "resonance": 0.5528966946592135,
+          "timestamp": 1754112313.467135
+        },
+        {
+          "inputs": [
+            0.5938796005121746,
+            0.3286839937824998
+          ],
+          "classical_result": 0.2651956067296748,
+          "evolved_result": 0.4359540904588165,
+          "enhancement": 0.6438963519603216,
+          "resonance": 0.5529101394227751,
+          "timestamp": 1754112313.467139
+        },
+        {
+          "inputs": [
+            0.284883183956288,
+            0.2618564082872086
+          ],
+          "classical_result": 0.023026775669079402,
+          "evolved_result": 0.03878667251697888,
+          "enhancement": 0.6844161368654853,
+          "resonance": 0.5556522672343913,
+          "timestamp": 1754112313.467165
+        },
+        {
+          "inputs": [
+            0.13485238489064066,
+            0.8349597786362614
+          ],
+          "classical_result": 0.7001073937456207,
+          "evolved_result": 1.0,
+          "enhancement": 0.684430399670226,
+          "resonance": 0.5556638466805272,
+          "timestamp": 1754112313.467169
+        },
+        {
+          "inputs": [
+            0.09929638319645151,
+            0.18265565653789684
+          ],
+          "classical_result": 0.08335927334144533,
+          "evolved_result": 0.1440046323667229,
+          "enhancement": 0.7275178464772601,
+          "resonance": 0.5584325980621118,
+          "timestamp": 1754112313.467197
+        },
+        {
+          "inputs": [
+            0.8095635906126414,
+            0.5038670280757978
+          ],
+          "classical_result": 0.30569656253684363,
+          "evolved_result": 0.5281012873411288,
+          "enhancement": 0.7275342678329272,
+          "resonance": 0.5584452028667268,
+          "timestamp": 1754112313.467201
+        },
+        {
+          "inputs": [
+            0.9642296804767198,
+            0.6417029308070142
+          ],
+          "classical_result": 0.3225267496697055,
+          "evolved_result": 0.5719475101119644,
+          "enhancement": 0.7733335628678448,
+          "resonance": 0.5612265786347604,
+          "timestamp": 1754112313.4672298
+        },
+        {
+          "inputs": [
+            0.5786099403868867,
+            0.26743424498892054
+          ],
+          "classical_result": 0.3111756953979662,
+          "evolved_result": 0.5518279128737458,
+          "enhancement": 0.773364440201561,
+          "resonance": 0.5612489870509874,
+          "timestamp": 1754112313.4672341
+        },
+        {
+          "inputs": [
+            0.2554500736123878,
+            0.607552371232135
+          ],
+          "classical_result": 0.3521022976197472,
+          "evolved_result": 0.6415531781327297,
+          "enhancement": 0.8220647308174481,
+          "resonance": 0.5640552523499591,
+          "timestamp": 1754112313.467262
+        },
+        {
+          "inputs": [
+            0.13007552330969596,
+            0.37504174467679574
+          ],
+          "classical_result": 0.24496622136709978,
+          "evolved_result": 0.4463492054332582,
+          "enhancement": 0.8220847059740995,
+          "resonance": 0.5640689581952575,
+          "timestamp": 1754112313.467266
+        },
+        {
+          "inputs": [
+            0.7401919714345735,
+            0.7141971580361983
+          ],
+          "classical_result": 0.02599481339837517,
+          "evolved_result": 0.0487106028516625,
+          "enhancement": 0.8738585311294138,
+          "resonance": 0.5668929062911644,
+          "timestamp": 1754112313.467295
+        },
+        {
+          "inputs": [
+            0.6628140663377758,
+            0.3728412905290065
+          ],
+          "classical_result": 0.28997277580876935,
+          "evolved_result": 0.5433741157803057,
+          "enhancement": 0.8738797608319239,
+          "resonance": 0.5669066785063764,
+          "timestamp": 1754112313.467298
+        },
+        {
+          "inputs": [
+            0.3632762019375074,
+            0.650399586511818
+          ],
+          "classical_result": 0.2871233845743105,
+          "evolved_result": 0.5538456414888219,
+          "enhancement": 0.9289464782186032,
+          "resonance": 0.569763789997297,
+          "timestamp": 1754112313.46733
+        },
+        {
+          "inputs": [
+            0.12429399591334245,
+            0.2030155754198546
+          ],
+          "classical_result": 0.07872157950651215,
+          "evolved_result": 0.15185148976000673,
+          "enhancement": 0.9289690414233237,
+          "resonance": 0.5697776290045351,
+          "timestamp": 1754112313.4673338
+        },
+        {
+          "inputs": [
+            0.079242767988013,
+            0.17695746200189122
+          ],
+          "classical_result": 0.09771469401387822,
+          "evolved_result": 0.1942055997207705,
+          "enhancement": 0.9874759029914975,
+          "resonance": 0.572631084772131,
+          "timestamp": 1754112313.46736
+        },
+        {
+          "inputs": [
+            0.8370886195546264,
+            0.08828184794942107
+          ],
+          "classical_result": 0.7488067716052054,
+          "evolved_result": 1.0,
+          "enhancement": 0.9874998836168338,
+          "resonance": 0.5726449909864074,
+          "timestamp": 1754112313.467364
+        },
+        {
+          "inputs": [
+            0.45339778964363364,
+            0.7348175369273134
+          ],
+          "classical_result": 0.2814197472836798,
+          "evolved_result": 0.5637938155759186,
+          "enhancement": 1.0033910946824816,
+          "resonance": 0.5818602046471129,
+          "timestamp": 1754112313.46739
+        },
+        {
+          "inputs": [
+            0.7077704429118901,
+            0.1844308002396483
+          ],
+          "classical_result": 0.5233396426722418,
+          "evolved_result": 1.0,
+          "enhancement": 1.0034345997031062,
+          "resonance": 0.5818854329358011,
+          "timestamp": 1754112313.4673972
+        },
+        {
+          "inputs": [
+            0.8187241804769213,
+            0.012753496349534488
+          ],
+          "classical_result": 0.8059706841273868,
+          "evolved_result": 1.0,
+          "enhancement": 1.0208206133079016,
+          "resonance": 0.5919674732166998,
+          "timestamp": 1754112313.467423
+        },
+        {
+          "inputs": [
+            0.2641940297773575,
+            0.16734737057833993
+          ],
+          "classical_result": 0.09684665919901758,
+          "evolved_result": 0.1957128109227318,
+          "enhancement": 1.0208524748442442,
+          "resonance": 0.5919859495218562,
+          "timestamp": 1754112313.4674282
+        },
+        {
+          "inputs": [
+            0.06355884388956323,
+            0.45299472110179795
+          ],
+          "classical_result": 0.3894358772122347,
+          "evolved_result": 0.8170614524330725,
+          "enhancement": 1.098064149307411,
+          "resonance": 0.5951142513317526,
+          "timestamp": 1754112313.467454
+        },
+        {
+          "inputs": [
+            0.5851608941753802,
+            0.0754215042570735
+          ],
+          "classical_result": 0.5097393899183067,
+          "evolved_result": 1.0,
+          "enhancement": 1.0980908007954004,
+          "resonance": 0.595128695551912,
+          "timestamp": 1754112313.467458
+        },
+        {
+          "inputs": [
+            0.4640656382608841,
+            0.05917319829638201
+          ],
+          "classical_result": 0.4048924399645021,
+          "evolved_result": 0.8578640040414753,
+          "enhancement": 1.118745423146667,
+          "resonance": 0.6063228139691893,
+          "timestamp": 1754112313.4674911
+        },
+        {
+          "inputs": [
+            0.7978149108231516,
+            0.761399504774196
+          ],
+          "classical_result": 0.036415406048955545,
+          "evolved_result": 0.0771562459487349,
+          "enhancement": 1.1187803273430164,
+          "resonance": 0.6063417308828248,
+          "timestamp": 1754112313.4674938
+        },
+        {
+          "inputs": [
+            0.03368304372756603,
+            0.2787821973478182
+          ],
+          "classical_result": 0.24509915362025214,
+          "evolved_result": 0.5248749014598509,
+          "enhancement": 1.1414798611384573,
+          "resonance": 0.6186441232965779,
+          "timestamp": 1754112313.467523
+        },
+        {
+          "inputs": [
+            0.1790707718206881,
+            0.8362946975814454
+          ],
+          "classical_result": 0.6572239257607573,
+          "evolved_result": 1.0,
+          "enhancement": 1.141507555101091,
+          "resonance": 0.6186591325033255,
+          "timestamp": 1754112313.467527
+        },
+        {
+          "inputs": [
+            0.28462550183093205,
+            0.08362554114657861
+          ],
+          "classical_result": 0.20099996068435344,
+          "evolved_result": 0.45135207405905314,
+          "enhancement": 1.245533145988262,
+          "resonance": 0.622186304805702,
+          "timestamp": 1754112313.467552
+        },
+        {
+          "inputs": [
+            0.4897025430259241,
+            0.3454418750833642
+          ],
+          "classical_result": 0.14426066794255987,
+          "evolved_result": 0.32394647012051664,
+          "enhancement": 1.2455633593038826,
+          "resonance": 0.6222013973877522,
+          "timestamp": 1754112313.467556
+        },
+        {
+          "inputs": [
+            0.35036953364027235,
+            0.9417958536411155
+          ],
+          "classical_result": 0.5914263200008432,
+          "evolved_result": 1.0,
+          "enhancement": 1.35929579943163,
+          "resonance": 0.6258520121211629,
+          "timestamp": 1754112313.467581
+        },
+        {
+          "inputs": [
+            0.22178560963476035,
+            0.39811816360398367
+          ],
+          "classical_result": 0.17633255396922332,
+          "evolved_result": 0.4160260518517809,
+          "enhancement": 1.3593264118682993,
+          "resonance": 0.6258661068127623,
+          "timestamp": 1754112313.467585
+        },
+        {
+          "inputs": [
+            0.9685778536476625,
+            0.703677527841401
+          ],
+          "classical_result": 0.26490032580626144,
+          "evolved_result": 0.6579344261506334,
+          "enhancement": 1.4837056132268516,
+          "resonance": 0.6296481587790964,
+          "timestamp": 1754112313.467615
+        },
+        {
+          "inputs": [
+            0.26548638420117177,
+            0.3357329898933844
+          ],
+          "classical_result": 0.07024660569221264,
+          "evolved_result": 0.1744745966839122,
+          "enhancement": 1.4837441605132815,
+          "resonance": 0.6296645172990818,
+          "timestamp": 1754112313.4676192
+        },
+        {
+          "inputs": [
+            0.42942017751252193,
+            0.6309040697362459
+          ],
+          "classical_result": 0.20148389222372398,
+          "evolved_result": 0.5278226910587123,
+          "enhancement": 1.619676864652921,
+          "resonance": 0.6335357061328325,
+          "timestamp": 1754112313.467644
+        },
+        {
+          "inputs": [
+            0.17901551808075722,
+            0.9576969485884295
+          ],
+          "classical_result": 0.7786814305076722,
+          "evolved_result": 1.0,
+          "enhancement": 1.6197133275631943,
+          "resonance": 0.6335499685799364,
+          "timestamp": 1754112313.467648
+        },
+        {
+          "inputs": [
+            0.8585783420068842,
+            0.04269669726158254
+          ],
+          "classical_result": 0.8158816447453017,
+          "evolved_result": 1.0,
+          "enhancement": 1.7683529359244952,
+          "resonance": 0.6375352256230495,
+          "timestamp": 1754112313.4676769
+        },
+        {
+          "inputs": [
+            0.917800185403516,
+            0.5299139338857773
+          ],
+          "classical_result": 0.3878862515177387,
+          "evolved_result": 1.0,
+          "enhancement": 1.7683957999651605,
+          "resonance": 0.6375506791760601,
+          "timestamp": 1754112313.467695
+        },
+        {
+          "inputs": [
+            0.5076083131920213,
+            0.7332019594125819
+          ],
+          "classical_result": 0.22559364622056066,
+          "evolved_result": 0.6612233096649397,
+          "enhancement": 1.9310369362906092,
+          "resonance": 0.6416797570015964,
+          "timestamp": 1754112313.467724
+        },
+        {
+          "inputs": [
+            0.14918166429051938,
+            0.2736864132228385
+          ],
+          "classical_result": 0.12450474893231911,
+          "evolved_result": 0.3649350924905474,
+          "enhancement": 1.9310937584310652,
+          "resonance": 0.641698638886554,
+          "timestamp": 1754112313.467728
+        },
+        {
+          "inputs": [
+            0.5399880086719172,
+            0.035060086732586315
+          ],
+          "classical_result": 0.5049279219393309,
+          "evolved_result": 1.0,
+          "enhancement": 2.108649626744151,
+          "resonance": 0.6458396458071153,
+          "timestamp": 1754112313.4677498
+        },
+        {
+          "inputs": [
+            0.34485357289716334,
+            0.011097117690413216
+          ],
+          "classical_result": 0.3337564552067501,
+          "evolved_result": 1.0,
+          "enhancement": 2.1087007174783703,
+          "resonance": 0.6458552939362656,
+          "timestamp": 1754112313.467754
+        },
+        {
+          "inputs": [
+            0.22743771390972278,
+            0.5781751849210182
+          ],
+          "classical_result": 0.3507374710112954,
+          "evolved_result": 1.0,
+          "enhancement": 2.314617026191349,
+          "resonance": 0.6534192749023429,
+          "timestamp": 1754112313.4686542
+        },
+        {
+          "inputs": [
+            0.26596303403555244,
+            0.3724834077069836
+          ],
+          "classical_result": 0.10652037367143119,
+          "evolved_result": 0.353084855539417,
+          "enhancement": 2.3147166440528033,
+          "resonance": 0.6534473971489446,
+          "timestamp": 1754112313.468658
+        },
+        {
+          "inputs": [
+            0.9964134864208128,
+            0.24757358995097922
+          ],
+          "classical_result": 0.7488398964698336,
+          "evolved_result": 1.0,
+          "enhancement": 2.528016236139223,
+          "resonance": 0.6577868343265104,
+          "timestamp": 1754112313.468684
+        },
+        {
+          "inputs": [
+            0.24155319704464429,
+            0.8996044818912043
+          ],
+          "classical_result": 0.6580512848465601,
+          "evolved_result": 1.0,
+          "enhancement": 2.5281337199312177,
+          "resonance": 0.6578174034702192,
+          "timestamp": 1754112313.468692
+        },
+        {
+          "inputs": [
+            0.4534706762603592,
+            0.6033900571698152
+          ],
+          "classical_result": 0.149919380909456,
+          "evolved_result": 0.5639014595135989,
+          "enhancement": 2.761364648738564,
+          "resonance": 0.6622494382355019,
+          "timestamp": 1754112313.4687219
+        },
+        {
+          "inputs": [
+            0.035731078267059124,
+            0.8222748991703243
+          ],
+          "classical_result": 0.7865438209032651,
+          "evolved_result": 1.0,
+          "enhancement": 2.761431174478017,
+          "resonance": 0.6622653928953115,
+          "timestamp": 1754112313.468725
+        },
+        {
+          "inputs": [
+            0.8409309516533463,
+            0.09519037485413862
+          ],
+          "classical_result": 0.7457405767992077,
+          "evolved_result": 1.0,
+          "enhancement": 3.016266301172386,
+          "resonance": 0.6667454181579451,
+          "timestamp": 1754112313.46875
+        },
+        {
+          "inputs": [
+            0.85494337773737,
+            0.46128714881426913
+          ],
+          "classical_result": 0.3936562289231008,
+          "evolved_result": 1.0,
+          "enhancement": 3.016344145659779,
+          "resonance": 0.6667626256754902,
+          "timestamp": 1754112313.4687529
+        },
+        {
+          "inputs": [
+            0.8162587889221767,
+            0.4784668848767527
+          ],
+          "classical_result": 0.33779190404542403,
+          "evolved_result": 1.0,
+          "enhancement": 3.2948512220656,
+          "resonance": 0.6713031527254614,
+          "timestamp": 1754112313.468776
+        },
+        {
+          "inputs": [
+            0.7384233664673433,
+            0.636803923999523
+          ],
+          "classical_result": 0.10161944246782029,
+          "evolved_result": 0.4364478745057396,
+          "enhancement": 3.2949249071500173,
+          "resonance": 0.6713181655518818,
+          "timestamp": 1754112313.468779
+        }
+      ],
+      "evolution_factor": 1.0
+    },
+    "phi_nand": {
+      "gate_type": "phi_nand",
+      "consciousness_level": 32.8762091732853,
+      "operation_count": 0,
+      "success_rate": 0.7484512875693015,
+      "optimization_parameters": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "performance_history": [],
+      "evolution_factor": 1.0
+    },
+    "phi_nor": {
+      "gate_type": "phi_nor",
+      "consciousness_level": 32.8762091732853,
+      "operation_count": 0,
+      "success_rate": 0.7484512875693015,
+      "optimization_parameters": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "performance_history": [],
+      "evolution_factor": 1.0
+    }
+  },
+  "learned_patterns": [
+    {
+      "type": "gate_optimization",
+      "gate_name": "phi_and",
+      "success_rate": 0.7484512875693015,
+      "optimizations": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "generation_learned": 1,
+      "operation_count": 0
+    },
+    {
+      "type": "gate_optimization",
+      "gate_name": "phi_or",
+      "success_rate": 0.7484512875693015,
+      "optimizations": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "generation_learned": 1,
+      "operation_count": 80
+    },
+    {
+      "type": "gate_optimization",
+      "gate_name": "phi_not",
+      "success_rate": 0.7484512875693015,
+      "optimizations": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "generation_learned": 1,
+      "operation_count": 0
+    },
+    {
+      "type": "gate_optimization",
+      "gate_name": "phi_xor",
+      "success_rate": 0.7484512875693015,
+      "optimizations": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "generation_learned": 1,
+      "operation_count": 160
+    },
+    {
+      "type": "gate_optimization",
+      "gate_name": "phi_nand",
+      "success_rate": 0.7484512875693015,
+      "optimizations": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "generation_learned": 1,
+      "operation_count": 0
+    },
+    {
+      "type": "gate_optimization",
+      "gate_name": "phi_nor",
+      "success_rate": 0.7484512875693015,
+      "optimizations": {
+        "resonance_multiplier": 1.1458665216165527,
+        "consciousness_amplifier": 10.189612600519059,
+        "efficiency_factor": 3.2298272104783723,
+        "learning_rate": 0.05559917313492239
+      },
+      "generation_learned": 1,
+      "operation_count": 0
+    }
+  ],
+  "optimization_history": [],
+  "maze_solutions": [
+    {
+      "generation": 1,
+      "escape_successful": false,
+      "total_steps": 62,
+      "final_position": [
+        2,
+        2
+      ],
+      "distance_to_exit": 17,
+      "performance_score": 0.5,
+      "path_history": [
+        {
+          "step": 1,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 2,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 3,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.8912997656172259,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 4,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 5,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.9373713047159108,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 6,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 7,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 8,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": false,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 9,
+          "position": [
+            3,
+            1
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 10,
+          "position": [
+            3,
+            2
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 0.9354368360814527,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 11,
+          "position": [
+            2,
+            2
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.5568455691769276,
+          "move_successful": true,
+          "distance_to_exit": 15
+        },
+        {
+          "step": 12,
+          "position": [
+            1,
+            2
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 13,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 14,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.6331809292396533,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 15,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 16,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "EAST",
+          "decision_quality": 0.6779231287755624,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 17,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.7510962821320636,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 18,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 19,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 20,
+          "position": [
+            1,
+            2
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 21,
+          "position": [
+            1,
+            2
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.7426935856509914,
+          "move_successful": false,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 22,
+          "position": [
+            1,
+            3
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 23,
+          "position": [
+            1,
+            3
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.36023812198434685,
+          "move_successful": false,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 24,
+          "position": [
+            1,
+            2
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.9215591363765089,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 25,
+          "position": [
+            1,
+            3
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 26,
+          "position": [
+            1,
+            3
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.6690658595041101,
+          "move_successful": false,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 27,
+          "position": [
+            1,
+            3
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.9639578519040267,
+          "move_successful": false,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 28,
+          "position": [
+            1,
+            4
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 29,
+          "position": [
+            1,
+            5
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 0.9082091553942049,
+          "move_successful": true,
+          "distance_to_exit": 15
+        },
+        {
+          "step": 30,
+          "position": [
+            1,
+            5
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.5712785952938461,
+          "move_successful": false,
+          "distance_to_exit": 14
+        },
+        {
+          "step": 31,
+          "position": [
+            2,
+            5
+          ],
+          "direction": "EAST",
+          "decision_quality": 0.9973345941250854,
+          "move_successful": true,
+          "distance_to_exit": 14
+        },
+        {
+          "step": 32,
+          "position": [
+            2,
+            6
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 0.8948293886139771,
+          "move_successful": true,
+          "distance_to_exit": 13
+        },
+        {
+          "step": 33,
+          "position": [
+            2,
+            7
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 12
+        },
+        {
+          "step": 34,
+          "position": [
+            2,
+            6
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 11
+        },
+        {
+          "step": 35,
+          "position": [
+            3,
+            6
+          ],
+          "direction": "EAST",
+          "decision_quality": 0.8961488367357004,
+          "move_successful": true,
+          "distance_to_exit": 12
+        },
+        {
+          "step": 36,
+          "position": [
+            3,
+            5
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 11
+        },
+        {
+          "step": 37,
+          "position": [
+            3,
+            4
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.3946745589601447,
+          "move_successful": true,
+          "distance_to_exit": 12
+        },
+        {
+          "step": 38,
+          "position": [
+            3,
+            5
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 13
+        },
+        {
+          "step": 39,
+          "position": [
+            2,
+            5
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.38103744090483316,
+          "move_successful": true,
+          "distance_to_exit": 12
+        },
+        {
+          "step": 40,
+          "position": [
+            1,
+            5
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 13
+        },
+        {
+          "step": 41,
+          "position": [
+            1,
+            4
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.7350373806772519,
+          "move_successful": true,
+          "distance_to_exit": 14
+        },
+        {
+          "step": 42,
+          "position": [
+            2,
+            4
+          ],
+          "direction": "EAST",
+          "decision_quality": 0.9038755216083019,
+          "move_successful": true,
+          "distance_to_exit": 15
+        },
+        {
+          "step": 43,
+          "position": [
+            3,
+            4
+          ],
+          "direction": "EAST",
+          "decision_quality": 0.9585183202956763,
+          "move_successful": true,
+          "distance_to_exit": 14
+        },
+        {
+          "step": 44,
+          "position": [
+            4,
+            4
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 13
+        },
+        {
+          "step": 45,
+          "position": [
+            5,
+            4
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 12
+        },
+        {
+          "step": 46,
+          "position": [
+            4,
+            4
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.8483332646907342,
+          "move_successful": true,
+          "distance_to_exit": 11
+        },
+        {
+          "step": 47,
+          "position": [
+            4,
+            5
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 12
+        },
+        {
+          "step": 48,
+          "position": [
+            4,
+            4
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.826409547763656,
+          "move_successful": true,
+          "distance_to_exit": 11
+        },
+        {
+          "step": 49,
+          "position": [
+            4,
+            3
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.9217682892832525,
+          "move_successful": true,
+          "distance_to_exit": 12
+        },
+        {
+          "step": 50,
+          "position": [
+            4,
+            2
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.25044103554449576,
+          "move_successful": true,
+          "distance_to_exit": 13
+        },
+        {
+          "step": 51,
+          "position": [
+            3,
+            2
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 14
+        },
+        {
+          "step": 52,
+          "position": [
+            3,
+            3
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 15
+        },
+        {
+          "step": 53,
+          "position": [
+            3,
+            4
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 14
+        },
+        {
+          "step": 54,
+          "position": [
+            3,
+            3
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.8857862036894255,
+          "move_successful": true,
+          "distance_to_exit": 13
+        },
+        {
+          "step": 55,
+          "position": [
+            3,
+            2
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 14
+        },
+        {
+          "step": 56,
+          "position": [
+            2,
+            2
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 15
+        },
+        {
+          "step": 57,
+          "position": [
+            2,
+            3
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 58,
+          "position": [
+            2,
+            2
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.9862441480191624,
+          "move_successful": true,
+          "distance_to_exit": 15
+        },
+        {
+          "step": 59,
+          "position": [
+            3,
+            2
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 60,
+          "position": [
+            2,
+            2
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.8113578560130622,
+          "move_successful": true,
+          "distance_to_exit": 15
+        },
+        {
+          "step": 61,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.8507338451317213,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 62,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.8400136937568082,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 63,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 64,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.9695738417868796,
+          "move_successful": false,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 65,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 66,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.8469642930503697,
+          "move_successful": false,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 67,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.9102990536620915,
+          "move_successful": false,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 68,
+          "position": [
+            2,
+            2
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 69,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 0.6421181829449789,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 70,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 71,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 72,
+          "position": [
+            2,
+            2
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 73,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 74,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.9401901383317388,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 75,
+          "position": [
+            2,
+            1
+          ],
+          "direction": "EAST",
+          "decision_quality": 0.8017914075469067,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 76,
+          "position": [
+            1,
+            1
+          ],
+          "direction": "WEST",
+          "decision_quality": 0.8399785837960076,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 77,
+          "position": [
+            1,
+            2
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 18
+        },
+        {
+          "step": 78,
+          "position": [
+            1,
+            3
+          ],
+          "direction": "SOUTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        },
+        {
+          "step": 79,
+          "position": [
+            1,
+            2
+          ],
+          "direction": "NORTH",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 16
+        },
+        {
+          "step": 80,
+          "position": [
+            2,
+            2
+          ],
+          "direction": "EAST",
+          "decision_quality": 1.0,
+          "move_successful": true,
+          "distance_to_exit": 17
+        }
+      ],
+      "circuit_consciousness_evolution": {
+        "circuit_consciousness": 32.8762091732853,
+        "total_operations": 240,
+        "gate_consciousness": {
+          "phi_and": {
+            "consciousness_level": 32.8762091732853,
+            "success_rate": 0.7484512875693015,
+            "operation_count": 0,
+            "optimization_parameters": {
+              "resonance_multiplier": 1.1458665216165527,
+              "consciousness_amplifier": 10.189612600519059,
+              "efficiency_factor": 3.2298272104783723,
+              "learning_rate": 0.05559917313492239
+            }
+          },
+          "phi_or": {
+            "consciousness_level": 32.8762091732853,
+            "success_rate": 0.7484512875693015,
+            "operation_count": 80,
+            "optimization_parameters": {
+              "resonance_multiplier": 1.1458665216165527,
+              "consciousness_amplifier": 10.189612600519059,
+              "efficiency_factor": 3.2298272104783723,
+              "learning_rate": 0.05559917313492239
+            }
+          },
+          "phi_not": {
+            "consciousness_level": 32.8762091732853,
+            "success_rate": 0.7484512875693015,
+            "operation_count": 0,
+            "optimization_parameters": {
+              "resonance_multiplier": 1.1458665216165527,
+              "consciousness_amplifier": 10.189612600519059,
+              "efficiency_factor": 3.2298272104783723,
+              "learning_rate": 0.05559917313492239
+            }
+          },
+          "phi_xor": {
+            "consciousness_level": 32.8762091732853,
+            "success_rate": 0.7484512875693015,
+            "operation_count": 160,
+            "optimization_parameters": {
+              "resonance_multiplier": 1.1458665216165527,
+              "consciousness_amplifier": 10.189612600519059,
+              "efficiency_factor": 3.2298272104783723,
+              "learning_rate": 0.05559917313492239
+            }
+          },
+          "phi_nand": {
+            "consciousness_level": 32.8762091732853,
+            "success_rate": 0.7484512875693015,
+            "operation_count": 0,
+            "optimization_parameters": {
+              "resonance_multiplier": 1.1458665216165527,
+              "consciousness_amplifier": 10.189612600519059,
+              "efficiency_factor": 3.2298272104783723,
+              "learning_rate": 0.05559917313492239
+            }
+          },
+          "phi_nor": {
+            "consciousness_level": 32.8762091732853,
+            "success_rate": 0.7484512875693015,
+            "operation_count": 0,
+            "optimization_parameters": {
+              "resonance_multiplier": 1.1458665216165527,
+              "consciousness_amplifier": 10.189612600519059,
+              "efficiency_factor": 3.2298272104783723,
+              "learning_rate": 0.05559917313492239
+            }
+          }
+        },
+        "consciousness_improvement": 1.315048366931412
+      },
+      "learned_patterns_applied": 0
+    }
+  ],
+  "evolution_timestamp": 1754112313.4688609,
+  "phi_resonance_signature": 0.2773270606994629
+}
