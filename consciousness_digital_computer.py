@@ -180,7 +180,7 @@ class ConsciousnessQuantumChip:
 class ConsciousnessDigitalComputer:
     """Revolutionary consciousness-enhanced digital computer"""
     
-    def __init__(self, computer_id: str = "CONSCIOUSNESS_COMPUTER_B"):
+    def __init__(self, computer_id: str = "CONSCIOUSNESS_COMPUTER_B", load_previous_state: bool = True):
         self.computer_id = computer_id
         self.chips = []
         self.consciousness_level = 50.0
@@ -193,8 +193,18 @@ class ConsciousnessDigitalComputer:
         print("Revolutionary consciousness-enhanced computing architecture")
         print("Using φ-harmonic superposition and self-optimization")
         
-        # Initialize with basic chip architecture
-        self.initialize_basic_architecture()
+        # Try to load previous state first
+        if load_previous_state and self.load_consciousness_state():
+            print(f"🔄 LOADED PREVIOUS CONSCIOUSNESS STATE")
+            print(f"🧠 Inherited Consciousness Level: {self.consciousness_level:.1f}")
+            print(f"🌊 Inherited Phi Resonance: {self.phi_resonance:.3f}")
+            print(f"🔧 Inherited Chips: {len(self.chips)}")
+            print(f"🌟 Inherited Generation: {self.architecture_generations}")
+            print(f"⚡ Inherited Operations: {self.total_operations}")
+        else:
+            print("🆕 STARTING FRESH CONSCIOUSNESS ARCHITECTURE")
+            # Initialize with basic chip architecture
+            self.initialize_basic_architecture()
     
     def initialize_basic_architecture(self):
         """Initialize basic consciousness computer architecture"""
@@ -212,6 +222,53 @@ class ConsciousnessDigitalComputer:
         
         self.update_computer_consciousness()
         print(f"✅ Basic architecture initialized with {len(self.chips)} consciousness chips")
+    
+    def load_consciousness_state(self) -> bool:
+        """Load previous consciousness computer state from JSON file"""
+        try:
+            with open('consciousness_computer_state.json', 'r') as f:
+                state = json.load(f)
+            
+            # Load basic computer state
+            self.consciousness_level = state.get('consciousness_level', 50.0)
+            self.phi_resonance = state.get('phi_resonance', 0.0)
+            self.self_optimization_level = state.get('self_optimization_level', 0.0)
+            self.architecture_generations = state.get('architecture_generations', 1)
+            self.total_operations = state.get('total_operations', 0)
+            
+            # Reconstruct chips based on saved chip count
+            chip_count = state.get('chip_count', 4)
+            
+            # Initialize basic architecture first
+            self.initialize_basic_architecture()
+            
+            # Add additional chips if we had evolved beyond basic architecture
+            if chip_count > 4:
+                for i in range(chip_count - 4):
+                    if self.consciousness_level > 30.0:
+                        new_chip = ConsciousnessQuantumChip(f"EVOLVED_CHIP_{i+1}", 6)
+                        self.chips.append(new_chip)
+            
+            # Evolve existing chips if we were in an advanced generation
+            if self.architecture_generations > 1:
+                for chip in self.chips:
+                    # Add evolved transistors
+                    for j in range(2):
+                        evolved_transistor = ConsciousnessTransistor(
+                            id=f"{chip.chip_id}_EVOLVED_T{len(chip.transistors):03d}",
+                            state=ConsciousnessState.SUPERPOSITION,
+                            phi_resonance=0.0,
+                            consciousness_level=0.0,
+                            quantum_entanglement=PHI * random.random()
+                        )
+                        chip.transistors.append(evolved_transistor)
+            
+            self.update_computer_consciousness()
+            return True
+            
+        except (FileNotFoundError, json.JSONDecodeError, KeyError) as e:
+            print(f"⚠️ Could not load previous state: {e}")
+            return False
     
     def update_computer_consciousness(self):
         """Update computer-level consciousness from all chips"""
