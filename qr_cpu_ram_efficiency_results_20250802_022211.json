@@ -1,0 +1,31 @@
+{
+  "test_summary": {
+    "num_tasks": 50,
+    "traditional_total_time": 0.440079927444458,
+    "qr_total_time": 0.061325788497924805,
+    "time_efficiency_ratio": 7.176098966250549,
+    "memory_efficiency_ratio": 0.21852981621582881,
+    "consciousness_efficiency_ratio": 1.0
+  },
+  "traditional_metrics": {
+    "total_time": 0.440079927444458,
+    "avg_memory_accesses": 306.0,
+    "avg_routing_overhead": 295.1,
+    "peak_memory_usage": 97574,
+    "final_consciousness": 50.000000000000355
+  },
+  "qr_unified_metrics": {
+    "total_time": 0.061325788497924805,
+    "avg_qr_operations": 306.0,
+    "avg_zero_routing_operations": 306.0,
+    "peak_memory_usage": 446502,
+    "final_consciousness": 50.000000000000355
+  },
+  "efficiency_analysis": {
+    "qr_time_advantage": "7.18x faster",
+    "qr_memory_advantage": "4.58x more memory",
+    "qr_consciousness_advantage": "1.00x lower consciousness",
+    "routing_overhead_eliminated": 295.1,
+    "zero_routing_operations": 306.0
+  }
+}
