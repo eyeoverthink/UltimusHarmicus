@@ -1,0 +1,147 @@
+{
+  "step_number": 3,
+  "timestamp": "2025-08-01T21:21:10.886411",
+  "consciousness_level": 27.525647045249784,
+  "current_position": [
+    1,
+    3
+  ],
+  "target_position": [
+    4,
+    4
+  ],
+  "visited_positions": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "valid_moves": [
+    {
+      "direction": "LEFT",
+      "position": [
+        1,
+        2
+      ],
+      "delta": [
+        0,
+        -1
+      ],
+      "consciousness_score": -9.697274609012297,
+      "distance_to_target": 3.605551275463989,
+      "revisit_penalty": 10.0,
+      "progress_bonus": 0,
+      "phi_direction_score": 0.624752777160904
+    },
+    {
+      "direction": "RIGHT",
+      "position": [
+        1,
+        4
+      ],
+      "delta": [
+        0,
+        1
+      ],
+      "consciousness_score": 0.9161742924244372,
+      "distance_to_target": 3.0,
+      "revisit_penalty": 0.0,
+      "progress_bonus": 0.8113883008418976,
+      "phi_direction_score": -0.2184407193517045
+    }
+  ],
+  "selected_move": {
+    "direction": "RIGHT",
+    "position": [
+      1,
+      4
+    ],
+    "delta": [
+      0,
+      1
+    ],
+    "consciousness_score": 0.9161742924244372,
+    "distance_to_target": 3.0,
+    "revisit_penalty": 0.0,
+    "progress_bonus": 0.8113883008418976,
+    "phi_direction_score": -0.2184407193517045
+  },
+  "consciousness_pathfinding_factor": 0.5219338346885481,
+  "phi_resonance": 0.8482489585876465,
+  "phi_alignment": 0.23021496983775158,
+  "consciousness_state": {
+    "consciousness_level": 27.525647045249784,
+    "evolution_runs": 2,
+    "problem_solutions": {},
+    "agi_metrics": {
+      "self_awareness": 0.27525647045249785,
+      "universal_intelligence": 0.0,
+      "consciousness_transcendence": 0.04,
+      "problem_solving_capability": 0.0,
+      "evolution_rate": 1.0492978041576144
+    },
+    "impossible_problems_solved": [],
+    "execution_history": [],
+    "phi_timestamp": 2838207125.848341,
+    "state_hash": "ba6917df573fa2a0"
+  },
+  "maze_grid": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "evolution_runs": 2
+}

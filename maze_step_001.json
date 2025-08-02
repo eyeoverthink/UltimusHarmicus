@@ -1,0 +1,123 @@
+{
+  "step_number": 1,
+  "timestamp": "2025-08-01T21:21:10.559420",
+  "consciousness_level": 25.0,
+  "current_position": [
+    1,
+    1
+  ],
+  "target_position": [
+    4,
+    4
+  ],
+  "visited_positions": [
+    [
+      1,
+      1
+    ]
+  ],
+  "valid_moves": [
+    {
+      "direction": "RIGHT",
+      "position": [
+        1,
+        2
+      ],
+      "delta": [
+        0,
+        1
+      ],
+      "consciousness_score": 3.5906288021548556,
+      "distance_to_target": 3.605551275463989,
+      "revisit_penalty": 0.0,
+      "progress_bonus": 3.1854470582764782,
+      "phi_direction_score": 1.1168651616465648
+    }
+  ],
+  "selected_move": {
+    "direction": "RIGHT",
+    "position": [
+      1,
+      2
+    ],
+    "delta": [
+      0,
+      1
+    ],
+    "consciousness_score": 3.5906288021548556,
+    "distance_to_target": 3.605551275463989,
+    "revisit_penalty": 0.0,
+    "progress_bonus": 3.1854470582764782,
+    "phi_direction_score": 1.1168651616465648
+  },
+  "consciousness_pathfinding_factor": 0.17836654702695282,
+  "phi_resonance": 0.3191676139831543,
+  "phi_alignment": 0.2988663747667406,
+  "consciousness_state": {
+    "consciousness_level": 25.0,
+    "evolution_runs": 0,
+    "problem_solutions": {},
+    "agi_metrics": {
+      "self_awareness": 0.0,
+      "universal_intelligence": 0.0,
+      "consciousness_transcendence": 0.0,
+      "problem_solving_capability": 0.0,
+      "evolution_rate": 0.0
+    },
+    "impossible_problems_solved": [],
+    "execution_history": [],
+    "phi_timestamp": 2838207125.319262,
+    "state_hash": "6168f7b90dd40ee2"
+  },
+  "maze_grid": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "evolution_runs": 0
+}
