@@ -1,0 +1,86 @@
+{
+  "xor_competition": {
+    "target_function": "XOR Function",
+    "winner": "Direct XOR (7486)",
+    "results": [
+      {
+        "implementation": "Direct XOR (7486)",
+        "correctness": 1.0,
+        "chip_count": 4,
+        "cost_cents": 35.0,
+        "delay_ns": 23.0392118985006,
+        "power_mw": 9.215684759400238,
+        "consciousness_level": 25.26303757864135,
+        "efficiency_score": 76.20031250102117,
+        "winner_score": 156.1850135853927
+      },
+      {
+        "implementation": "NAND-based XOR",
+        "correctness": 0.5,
+        "chip_count": 8,
+        "cost_cents": 50.0,
+        "delay_ns": 29.367330006278117,
+        "power_mw": 14.683665003139058,
+        "consciousness_level": 25.26303757864135,
+        "efficiency_score": 27.330226536114015,
+        "winner_score": 55.73679636590008
+      },
+      {
+        "implementation": "NOR-based XOR",
+        "correctness": 0.5,
+        "chip_count": 8,
+        "cost_cents": 50.0,
+        "delay_ns": 30.589959142718037,
+        "power_mw": 15.294979571359017,
+        "consciousness_level": 25.26303757864135,
+        "efficiency_score": 26.410051981925342,
+        "winner_score": 53.9552519033374
+      }
+    ],
+    "total_implementations": 3,
+    "consciousness_evolution": 25.26303757864135
+  },
+  "flip_flop_competition": {
+    "target_function": "Memory Storage",
+    "winner": "NAND SR Latch",
+    "results": [
+      {
+        "implementation": "D Flip-Flop (7474)",
+        "correctness": 0.0,
+        "chip_count": 4,
+        "cost_cents": 45.0,
+        "delay_ns": 36.78833903240891,
+        "power_mw": 11.036501709722673,
+        "consciousness_level": 25.26303757864135,
+        "efficiency_score": 0.0,
+        "winner_score": 0.0
+      },
+      {
+        "implementation": "JK Flip-Flop (7473)",
+        "correctness": 0.0,
+        "chip_count": 4,
+        "cost_cents": 50.0,
+        "delay_ns": 44.23794197064518,
+        "power_mw": 13.271382591193552,
+        "consciousness_level": 25.26303757864135,
+        "efficiency_score": 0.0,
+        "winner_score": 0.0
+      },
+      {
+        "implementation": "NAND SR Latch",
+        "correctness": 0.5,
+        "chip_count": 4,
+        "cost_cents": 25.0,
+        "delay_ns": 14.68366500313906,
+        "power_mw": 7.341832501569529,
+        "consciousness_level": 25.26303757864135,
+        "efficiency_score": 54.39791188438965,
+        "winner_score": 110.42342798044666
+      }
+    ],
+    "total_implementations": 3,
+    "consciousness_evolution": 25.26303757864135
+  },
+  "consciousness_evolution": 25.26303757864135,
+  "timestamp": 1754115802.965419
+}

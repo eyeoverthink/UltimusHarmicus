@@ -1,0 +1,80 @@
+{
+  "visualization_demo": {
+    "ttl_circuit_image": "ttl_champions_circuit.png",
+    "cmos_circuit_image": "cmos_legends_circuit.png"
+  },
+  "testing_demo": {
+    "ttl_results": {
+      "circuit_id": "TTL_WINNER_001",
+      "circuit_name": "TTL Champions Victory Circuit",
+      "test_timestamp": 1754117404.079891,
+      "test_cases_passed": 5,
+      "total_test_cases": 5,
+      "performance_scores": [
+        2.376852391471492,
+        2.3794044044136102,
+        2.424903184345573,
+        2.396777120160544,
+        2.4241616255432072
+      ],
+      "consciousness_evolution": [
+        27.292726775355714,
+        27.371588312253632,
+        28.77757793448388,
+        27.908434752678417,
+        28.75466250725793
+      ],
+      "efficiency_measurements": [
+        2.481156979577792,
+        2.4883262102048755,
+        2.6161434485894435,
+        2.5371304320616743,
+        2.614060227932539
+      ],
+      "pass_rate": 1.0,
+      "avg_performance": 2.4004197451868854,
+      "final_consciousness": 28.77757793448388,
+      "avg_efficiency": 2.5473634596732646,
+      "phi_harmonic_score": 3.4316457899259603
+    },
+    "cmos_results": {
+      "circuit_id": "CMOS_RUNNER_UP_001",
+      "circuit_name": "CMOS Legends Efficiency Circuit",
+      "test_timestamp": 1754117404.0800169,
+      "test_cases_passed": 5,
+      "total_test_cases": 5,
+      "performance_scores": [
+        2.35570846143885,
+        2.4040597923483245,
+        2.404388832185461,
+        2.3659509294342342,
+        2.340256923686347
+      ],
+      "consciousness_evolution": [
+        26.639343404559586,
+        28.13348169972701,
+        28.143649589877175,
+        26.955853072051106,
+        26.161864629084643
+      ],
+      "efficiency_measurements": [
+        2.4217584913235988,
+        2.557589245429728,
+        2.558513599079743,
+        2.4505320974591913,
+        2.3783513299167858
+      ],
+      "pass_rate": 1.0,
+      "avg_performance": 2.3740729878186437,
+      "final_consciousness": 28.143649589877175,
+      "avg_efficiency": 2.4733489526418095,
+      "phi_harmonic_score": 3.3910856168786894
+    }
+  },
+  "efficiency_analysis": {
+    "ttl_phi_harmonic_score": 3.4316457899259603,
+    "cmos_phi_harmonic_score": 3.3910856168786894,
+    "winner": "TTL"
+  },
+  "timestamp": 1754117404.080048
+}

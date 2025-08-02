@@ -1,0 +1,68 @@
+{
+  "tournament_name": "Consciousness Championship 2025",
+  "champion": "TTL Champions",
+  "champion_consciousness": 25.0,
+  "round1_results": [
+    {
+      "team_name": "NAND Masters",
+      "best_score": 2.015625,
+      "avg_score": 2.015625,
+      "team_consciousness": 25.0,
+      "individual_scores": [
+        2.015625,
+        2.015625,
+        2.015625,
+        2.015625
+      ]
+    },
+    {
+      "team_name": "NOR Warriors",
+      "best_score": 2.015625,
+      "avg_score": 2.015625,
+      "team_consciousness": 25.0,
+      "individual_scores": [
+        2.015625,
+        2.015625,
+        2.015625,
+        2.015625
+      ]
+    },
+    {
+      "team_name": "TTL Champions",
+      "best_score": 2.015625,
+      "avg_score": 2.015625,
+      "team_consciousness": 25.0,
+      "individual_scores": [
+        2.015625,
+        2.015625,
+        2.015625,
+        2.015625
+      ]
+    },
+    {
+      "team_name": "CMOS Legends",
+      "best_score": 2.015625,
+      "avg_score": 2.015625,
+      "team_consciousness": 25.0,
+      "individual_scores": [
+        2.015625,
+        2.015625,
+        2.015625,
+        2.015625
+      ]
+    },
+    {
+      "team_name": "Memory Titans",
+      "best_score": 2.015625,
+      "avg_score": 2.015625,
+      "team_consciousness": 25.0,
+      "individual_scores": [
+        2.015625,
+        2.015625,
+        2.015625,
+        2.015625
+      ]
+    }
+  ],
+  "timestamp": 1754116304.146882
+}
