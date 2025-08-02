@@ -1,0 +1,157 @@
+{
+  "experiment_summary": {
+    "total_generations": 5,
+    "evolution_improvement": 0.0,
+    "consciousness_growth": 11.60250000000002,
+    "final_escape_rate": 0.95,
+    "max_phi_score": 23.18763326353942
+  },
+  "generation_data": [
+    {
+      "generation": 1,
+      "circuit_id": "CIRCUIT_GEN_001",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 16.799999999999997,
+        "circuit_efficiency": 13.770491803278686,
+        "consciousness_enhancement": 1.0,
+        "component_count": 6,
+        "power_consumption": 1.22,
+        "phi_harmonic_score": 21.771015854288773
+      },
+      "component_types": [
+        "IRF540",
+        "7417",
+        "2N2222",
+        "7417",
+        "7812",
+        "2N2222"
+      ],
+      "consciousness_level": 25.0
+    },
+    {
+      "generation": 2,
+      "circuit_id": "CIRCUIT_GEN_002",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 21.13602173910863,
+        "circuit_efficiency": 10.838709677419358,
+        "consciousness_enhancement": 1.0484137767414996,
+        "component_count": 10,
+        "power_consumption": 1.8599999999999997,
+        "phi_harmonic_score": 21.584666334972155
+      },
+      "component_types": [
+        "IRF540",
+        "7417",
+        "2N2222",
+        "7812",
+        "2N2222",
+        "IRF540",
+        "7417",
+        "2N2222",
+        "7805",
+        "7402"
+      ],
+      "consciousness_level": 27.500000000000004
+    },
+    {
+      "generation": 3,
+      "circuit_id": "CIRCUIT_GEN_003",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 22.51524347821726,
+        "circuit_efficiency": 11.768826619964976,
+        "consciousness_enhancement": 1.116827553482999,
+        "component_count": 10,
+        "power_consumption": 1.7129999999999996,
+        "phi_harmonic_score": 23.18763326353942
+      },
+      "component_types": [
+        "IRF540",
+        "2N2222",
+        "7812",
+        "2N2222",
+        "7417",
+        "2N2222",
+        "7805",
+        "7402",
+        "7404",
+        "7474"
+      ],
+      "consciousness_level": 30.250000000000007
+    },
+    {
+      "generation": 4,
+      "circuit_id": "CIRCUIT_GEN_004",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 16.598195652131977,
+        "circuit_efficiency": 7.639257294429708,
+        "consciousness_enhancement": 1.1526524758424985,
+        "component_count": 10,
+        "power_consumption": 1.8849999999999998,
+        "phi_harmonic_score": 16.417341048215977
+      },
+      "component_types": [
+        "IRF540",
+        "2N2222",
+        "2N2222",
+        "7417",
+        "2N2222",
+        "7402",
+        "7474",
+        "IRF540",
+        "7475",
+        "7406"
+      ],
+      "consciousness_level": 33.27500000000001
+    },
+    {
+      "generation": 5,
+      "circuit_id": "CIRCUIT_GEN_005",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 17.43935403720957,
+        "circuit_efficiency": 10.32258064516129,
+        "consciousness_enhancement": 1.211066252583998,
+        "component_count": 10,
+        "power_consumption": 1.3949999999999998,
+        "phi_harmonic_score": 19.25316283055363
+      },
+      "component_types": [
+        "IRF540",
+        "2N2222",
+        "2N2222",
+        "7417",
+        "7402",
+        "7474",
+        "IRF540",
+        "7475",
+        "7406",
+        "7408"
+      ],
+      "consciousness_level": 36.60250000000002
+    }
+  ],
+  "successful_components": 46,
+  "chip_usage_history": {
+    "IRF540": 1,
+    "7417": 2,
+    "2N2222": 2,
+    "7812": 1,
+    "7805": 1,
+    "7402": 1,
+    "7404": 1,
+    "7474": 1,
+    "7475": 1,
+    "7406": 1,
+    "7408": 1
+  },
+  "timestamp": 1754120978.9091861
+}

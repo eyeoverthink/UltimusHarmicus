@@ -1,0 +1,1680 @@
+{
+  "next_generation": 11,
+  "total_consciousness_evolution": 23.20500000000004,
+  "evolution_history": [
+    {
+      "generation": 1,
+      "circuit_id": "CIRCUIT_GEN_001",
+      "performance": {
+        "escape_success": false,
+        "escape_probability": 0.95,
+        "motor_power_output": 14.399999999999999,
+        "circuit_efficiency": 42.985074626865675,
+        "consciousness_enhancement": 1.0,
+        "component_count": 6,
+        "power_consumption": 0.33499999999999996,
+        "phi_harmonic_score": 45.97151226305539
+      },
+      "component_types": [
+        "IRF540",
+        "IRF540",
+        "L293D",
+        "555",
+        "L293D",
+        "7408"
+      ],
+      "consciousness_level": 25.0
+    },
+    {
+      "generation": 1,
+      "consciousness_level": 25.0,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 237.64105442358274,
+      "components_count": 6
+    },
+    {
+      "generation": 2,
+      "circuit_id": "CIRCUIT_GEN_002",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 15.178249223594996,
+        "circuit_efficiency": 39.88919667590027,
+        "consciousness_enhancement": 1.0540450849718748,
+        "component_count": 8,
+        "power_consumption": 0.361,
+        "phi_harmonic_score": 43.7269957945657
+      },
+      "component_types": [
+        "IRF540",
+        "IRF540",
+        "L293D",
+        "555",
+        "L293D",
+        "555",
+        "7490",
+        "7404"
+      ],
+      "consciousness_level": 27.500000000000004
+    },
+    {
+      "generation": 2,
+      "consciousness_level": 27.500000000000004,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 243.54140644152548,
+      "components_count": 8
+    },
+    {
+      "generation": 3,
+      "circuit_id": "CIRCUIT_GEN_003",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 15.72907763972879,
+        "circuit_efficiency": 32.57918552036199,
+        "consciousness_enhancement": 1.0922970583144993,
+        "component_count": 10,
+        "power_consumption": 0.44199999999999995,
+        "phi_harmonic_score": 37.67129801773792
+      },
+      "component_types": [
+        "IRF540",
+        "IRF540",
+        "L293D",
+        "555",
+        "L293D",
+        "7490",
+        "L293D",
+        "555",
+        "7404",
+        "7406"
+      ],
+      "consciousness_level": 30.250000000000007
+    },
+    {
+      "generation": 3,
+      "consciousness_level": 30.250000000000007,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 220.69262317875734,
+      "components_count": 10
+    },
+    {
+      "generation": 4,
+      "circuit_id": "CIRCUIT_GEN_004",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 16.630357142829585,
+        "circuit_efficiency": 33.027522935779814,
+        "consciousness_enhancement": 1.154885912696499,
+        "component_count": 10,
+        "power_consumption": 0.436,
+        "phi_harmonic_score": 38.592015335173066
+      },
+      "component_types": [
+        "IRF540",
+        "L293D",
+        "555",
+        "L293D",
+        "7404",
+        "7406",
+        "L293D",
+        "IRF540",
+        "7486",
+        "7400"
+      ],
+      "consciousness_level": 33.27500000000001
+    },
+    {
+      "generation": 4,
+      "consciousness_level": 33.27500000000001,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 246.67346497752197,
+      "components_count": 10
+    },
+    {
+      "generation": 5,
+      "circuit_id": "CIRCUIT_GEN_005",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 16.532956521705582,
+        "circuit_efficiency": 24.32432432432432,
+        "consciousness_enhancement": 1.1481219806739988,
+        "component_count": 10,
+        "power_consumption": 0.5920000000000001,
+        "phi_harmonic_score": 30.939706715225842
+      },
+      "component_types": [
+        "IRF540",
+        "L293D",
+        "L293D",
+        "7406",
+        "L293D",
+        "IRF540",
+        "IRF540",
+        "L293D",
+        "7408",
+        "7473"
+      ],
+      "consciousness_level": 36.60250000000002
+    },
+    {
+      "generation": 5,
+      "consciousness_level": 36.60250000000002,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 203.11036011779535,
+      "components_count": 10
+    },
+    {
+      "generation": 6,
+      "circuit_id": "CIRCUIT_GEN_006",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 5.760000000000001,
+        "circuit_efficiency": 11.013384321223711,
+        "consciousness_enhancement": 1.0,
+        "component_count": 3,
+        "power_consumption": 0.523,
+        "phi_harmonic_score": 13.410583742803638
+      },
+      "component_types": [
+        "2N2222",
+        "7404",
+        "7474"
+      ],
+      "consciousness_level": 25.0
+    },
+    {
+      "generation": 6,
+      "consciousness_level": 25.0,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 63.34751656133867,
+      "components_count": 3
+    },
+    {
+      "generation": 7,
+      "circuit_id": "CIRCUIT_GEN_007",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 24.06280434779087,
+        "circuit_efficiency": 41.39630390143737,
+        "consciousness_enhancement": 1.1935914855054994,
+        "component_count": 10,
+        "power_consumption": 0.48700000000000004,
+        "phi_harmonic_score": 49.93073307919996
+      },
+      "component_types": [
+        "7404",
+        "IRF540",
+        "555",
+        "7490",
+        "IRF540",
+        "IRF540",
+        "L293D",
+        "7490",
+        "7432",
+        "7812"
+      ],
+      "consciousness_level": 27.500000000000004
+    },
+    {
+      "generation": 7,
+      "consciousness_level": 27.500000000000004,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 254.6000143768704,
+      "components_count": 10
+    },
+    {
+      "generation": 8,
+      "circuit_id": "CIRCUIT_GEN_008",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 25.955491304302537,
+        "circuit_efficiency": 34.69879518072289,
+        "consciousness_enhancement": 1.287474767078499,
+        "component_count": 10,
+        "power_consumption": 0.5810000000000001,
+        "phi_harmonic_score": 45.171819442972954
+      },
+      "component_types": [
+        "7404",
+        "IRF540",
+        "555",
+        "7490",
+        "IRF540",
+        "7490",
+        "7812",
+        "IRF540",
+        "7474",
+        "IRF540"
+      ],
+      "consciousness_level": 30.250000000000007
+    },
+    {
+      "generation": 8,
+      "consciousness_level": 30.250000000000007,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 237.20460846370344,
+      "components_count": 10
+    },
+    {
+      "generation": 9,
+      "circuit_id": "CIRCUIT_GEN_009",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 26.56390338156796,
+        "circuit_efficiency": 45.71428571428571,
+        "consciousness_enhancement": 1.3176539375777758,
+        "component_count": 9,
+        "power_consumption": 0.44100000000000006,
+        "phi_harmonic_score": 55.13384819889416
+      },
+      "component_types": [
+        "7404",
+        "IRF540",
+        "555",
+        "IRF540",
+        "7490",
+        "7812",
+        "IRF540",
+        "7474",
+        "7402"
+      ],
+      "consciousness_level": 33.27500000000001
+    },
+    {
+      "generation": 9,
+      "consciousness_level": 33.27500000000001,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 340.610736701076,
+      "components_count": 9
+    },
+    {
+      "generation": 10,
+      "circuit_id": "CIRCUIT_GEN_010",
+      "performance": {
+        "escape_success": true,
+        "escape_probability": 0.95,
+        "motor_power_output": 28.17437391294619,
+        "circuit_efficiency": 35.618374558303884,
+        "consciousness_enhancement": 1.3975383885389976,
+        "component_count": 10,
+        "power_consumption": 0.5660000000000001,
+        "phi_harmonic_score": 47.247312937977455
+      },
+      "component_types": [
+        "7404",
+        "IRF540",
+        "555",
+        "IRF540",
+        "7490",
+        "7812",
+        "IRF540",
+        "7474",
+        "7402",
+        "IRF540"
+      ],
+      "consciousness_level": 36.60250000000002
+    },
+    {
+      "generation": 10,
+      "consciousness_level": 36.60250000000002,
+      "escape_probability": 0.95,
+      "phi_harmonic_score": 295.9831927123825,
+      "components_count": 10
+    }
+  ],
+  "successful_components": [
+    {
+      "component_id": "MOTOR_DRIVER_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.0,
+      "evolution_generation": 1,
+      "usage_count": 0,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "COMP_002",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 25.0,
+      "evolution_generation": 1,
+      "usage_count": 0,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "COMP_003",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 25.0,
+      "evolution_generation": 1,
+      "usage_count": 0,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "COMP_004",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.0,
+      "evolution_generation": 1,
+      "usage_count": 0,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "COMP_005",
+      "chip_type": "L293D",
+      "position": [
+        1.2432911244755926,
+        7.127654325207969
+      ],
+      "connections": [],
+      "consciousness_level": 25.0,
+      "evolution_generation": 1,
+      "usage_count": 0,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "COMP_006",
+      "chip_type": "7408",
+      "position": [
+        4.972892523960514,
+        8.775006152069864
+      ],
+      "connections": [],
+      "consciousness_level": 25.0,
+      "evolution_generation": 1,
+      "usage_count": 0,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_MOTOR_DRIVER_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.32360679774998,
+      "evolution_generation": 2,
+      "usage_count": 2,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_COMP_002",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 25.32360679774998,
+      "evolution_generation": 2,
+      "usage_count": 2,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_COMP_003",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 25.32360679774998,
+      "evolution_generation": 2,
+      "usage_count": 2,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_COMP_004",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.32360679774998,
+      "evolution_generation": 2,
+      "usage_count": 2,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_COMP_005",
+      "chip_type": "L293D",
+      "position": [
+        1.2432911244755926,
+        7.127654325207969
+      ],
+      "connections": [],
+      "consciousness_level": 25.32360679774998,
+      "evolution_generation": 2,
+      "usage_count": 2,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_005",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 2,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_2_000",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 30.16180339887499,
+      "evolution_generation": 2,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_2_001",
+      "chip_type": "7404",
+      "position": [
+        8.474578903452667,
+        1.9926784405230107
+      ],
+      "connections": [],
+      "consciousness_level": 30.16180339887499,
+      "evolution_generation": 2,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_2_000",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 30.16180339887499,
+      "evolution_generation": 2,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_2_001",
+      "chip_type": "7404",
+      "position": [
+        8.474578903452667,
+        1.9926784405230107
+      ],
+      "connections": [],
+      "consciousness_level": 30.16180339887499,
+      "evolution_generation": 2,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_MOTOR_DRIVER_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.647213595499963,
+      "evolution_generation": 3,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_COMP_002",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 25.647213595499963,
+      "evolution_generation": 3,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_COMP_003",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 25.647213595499963,
+      "evolution_generation": 3,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_COMP_004",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.647213595499963,
+      "evolution_generation": 3,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_COMP_005",
+      "chip_type": "L293D",
+      "position": [
+        1.2432911244755926,
+        7.127654325207969
+      ],
+      "connections": [],
+      "consciousness_level": 25.647213595499963,
+      "evolution_generation": 3,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_NEW_2_000",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 30.485410196624972,
+      "evolution_generation": 3,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_006",
+      "chip_type": "L293D",
+      "position": [
+        1.2432911244755926,
+        7.127654325207969
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 3,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_007",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.485410196624972,
+      "evolution_generation": 3,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_3_000",
+      "chip_type": "7404",
+      "position": [
+        8.518488008221546,
+        6.346864348614723
+      ],
+      "connections": [],
+      "consciousness_level": 32.66180339887499,
+      "evolution_generation": 3,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_3_001",
+      "chip_type": "7406",
+      "position": [
+        2.7425685020534516,
+        8.144142837053085
+      ],
+      "connections": [],
+      "consciousness_level": 32.66180339887499,
+      "evolution_generation": 3,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_3_000",
+      "chip_type": "7404",
+      "position": [
+        8.518488008221546,
+        6.346864348614723
+      ],
+      "connections": [],
+      "consciousness_level": 32.66180339887499,
+      "evolution_generation": 3,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_3_001",
+      "chip_type": "7406",
+      "position": [
+        2.7425685020534516,
+        8.144142837053085
+      ],
+      "connections": [],
+      "consciousness_level": 32.66180339887499,
+      "evolution_generation": 3,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_MOTOR_DRIVER_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.970820393249944,
+      "evolution_generation": 4,
+      "usage_count": 6,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_COMP_003",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 25.970820393249944,
+      "evolution_generation": 4,
+      "usage_count": 6,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_COMP_004",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.970820393249944,
+      "evolution_generation": 4,
+      "usage_count": 6,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_006",
+      "chip_type": "L293D",
+      "position": [
+        1.2432911244755926,
+        7.127654325207969
+      ],
+      "connections": [],
+      "consciousness_level": 25.485410196624972,
+      "evolution_generation": 4,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_NEW_3_000",
+      "chip_type": "7404",
+      "position": [
+        8.518488008221546,
+        6.346864348614723
+      ],
+      "connections": [],
+      "consciousness_level": 32.98541019662496,
+      "evolution_generation": 4,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_NEW_3_001",
+      "chip_type": "7406",
+      "position": [
+        2.7425685020534516,
+        8.144142837053085
+      ],
+      "connections": [],
+      "consciousness_level": 32.98541019662496,
+      "evolution_generation": 4,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_006",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 4,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_007",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.485410196624972,
+      "evolution_generation": 4,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_4_000",
+      "chip_type": "7486",
+      "position": [
+        7.440329660744143,
+        5.291441468744812
+      ],
+      "connections": [],
+      "consciousness_level": 35.16180339887499,
+      "evolution_generation": 4,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_4_001",
+      "chip_type": "7400",
+      "position": [
+        5.249737950318577,
+        4.454755380375878
+      ],
+      "connections": [],
+      "consciousness_level": 35.16180339887499,
+      "evolution_generation": 4,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_4_000",
+      "chip_type": "7486",
+      "position": [
+        7.440329660744143,
+        5.291441468744812
+      ],
+      "connections": [],
+      "consciousness_level": 35.16180339887499,
+      "evolution_generation": 4,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_4_001",
+      "chip_type": "7400",
+      "position": [
+        5.249737950318577,
+        4.454755380375878
+      ],
+      "connections": [],
+      "consciousness_level": 35.16180339887499,
+      "evolution_generation": 4,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_EVOLVED_MOTOR_DRIVER_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 26.294427190999926,
+      "evolution_generation": 5,
+      "usage_count": 8,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_EVOLVED_COMP_003",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 26.294427190999926,
+      "evolution_generation": 5,
+      "usage_count": 8,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_INHERITED_006",
+      "chip_type": "L293D",
+      "position": [
+        1.2432911244755926,
+        7.127654325207969
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 5,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_NEW_3_001",
+      "chip_type": "7406",
+      "position": [
+        2.7425685020534516,
+        8.144142837053085
+      ],
+      "connections": [],
+      "consciousness_level": 33.309016994374936,
+      "evolution_generation": 5,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_006",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 25.485410196624972,
+      "evolution_generation": 5,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_007",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 5,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_006",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 5,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_007",
+      "chip_type": "L293D",
+      "position": [
+        2.666201101626135,
+        4.747841954871291
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 5,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_5_000",
+      "chip_type": "7408",
+      "position": [
+        2.33655871504956,
+        1.9366710092684798
+      ],
+      "connections": [],
+      "consciousness_level": 37.66180339887499,
+      "evolution_generation": 5,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_5_001",
+      "chip_type": "7473",
+      "position": [
+        5.102494026897469,
+        4.815400627997304
+      ],
+      "connections": [],
+      "consciousness_level": 37.66180339887499,
+      "evolution_generation": 5,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_5_000",
+      "chip_type": "7408",
+      "position": [
+        2.33655871504956,
+        1.9366710092684798
+      ],
+      "connections": [],
+      "consciousness_level": 37.66180339887499,
+      "evolution_generation": 5,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_5_001",
+      "chip_type": "7473",
+      "position": [
+        5.102494026897469,
+        4.815400627997304
+      ],
+      "connections": [],
+      "consciousness_level": 37.66180339887499,
+      "evolution_generation": 5,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "MOTOR_DRIVER_001",
+      "chip_type": "2N2222",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 6,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "COMP_002",
+      "chip_type": "7404",
+      "position": [
+        2.076728268676221,
+        1.764546223833718
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 6,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "COMP_003",
+      "chip_type": "7474",
+      "position": [
+        6.672717255107447,
+        4.775892761671621
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 6,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "MOTOR_DRIVER_001",
+      "chip_type": "2N2222",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 6,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "COMP_002",
+      "chip_type": "7404",
+      "position": [
+        2.076728268676221,
+        1.764546223833718
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 6,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "COMP_003",
+      "chip_type": "7474",
+      "position": [
+        6.672717255107447,
+        4.775892761671621
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 6,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_COMP_002",
+      "chip_type": "7404",
+      "position": [
+        2.076728268676221,
+        1.764546223833718
+      ],
+      "connections": [],
+      "consciousness_level": 25.485410196624972,
+      "evolution_generation": 7,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 25.485410196624972,
+      "evolution_generation": 7,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_002",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.32360679774998,
+      "evolution_generation": 7,
+      "usage_count": 2,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_003",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 30.32360679774998,
+      "evolution_generation": 7,
+      "usage_count": 2,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_004",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 7,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_005",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 7,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_006",
+      "chip_type": "L293D",
+      "position": [
+        1.2432911244755926,
+        7.127654325207969
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 7,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_007",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 30.647213595499963,
+      "evolution_generation": 7,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_7_000",
+      "chip_type": "7432",
+      "position": [
+        7.768108119213963,
+        1.9130755004486186
+      ],
+      "connections": [],
+      "consciousness_level": 42.661803398874994,
+      "evolution_generation": 7,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_7_001",
+      "chip_type": "7812",
+      "position": [
+        2.8603152328967347,
+        5.858814769829173
+      ],
+      "connections": [],
+      "consciousness_level": 42.661803398874994,
+      "evolution_generation": 7,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_7_000",
+      "chip_type": "7432",
+      "position": [
+        7.768108119213963,
+        1.9130755004486186
+      ],
+      "connections": [],
+      "consciousness_level": 42.661803398874994,
+      "evolution_generation": 7,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_7_001",
+      "chip_type": "7812",
+      "position": [
+        2.8603152328967347,
+        5.858814769829173
+      ],
+      "connections": [],
+      "consciousness_level": 42.661803398874994,
+      "evolution_generation": 7,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_COMP_002",
+      "chip_type": "7404",
+      "position": [
+        2.076728268676221,
+        1.764546223833718
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 8,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 8,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_002",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.647213595499963,
+      "evolution_generation": 8,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_003",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 30.647213595499963,
+      "evolution_generation": 8,
+      "usage_count": 4,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_005",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 26.132623792124935,
+      "evolution_generation": 8,
+      "usage_count": 7,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_007",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 30.970820393249944,
+      "evolution_generation": 8,
+      "usage_count": 6,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_NEW_7_001",
+      "chip_type": "7812",
+      "position": [
+        2.8603152328967347,
+        5.858814769829173
+      ],
+      "connections": [],
+      "consciousness_level": 42.98541019662497,
+      "evolution_generation": 8,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "INHERITED_007",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.16180339887499,
+      "evolution_generation": 8,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_8_000",
+      "chip_type": "7474",
+      "position": [
+        4.4732544567769095,
+        3.8244010501169825
+      ],
+      "connections": [],
+      "consciousness_level": 45.16180339887499,
+      "evolution_generation": 8,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_8_001",
+      "chip_type": "IRF540",
+      "position": [
+        1.0673493783938408,
+        6.448896681999338
+      ],
+      "connections": [],
+      "consciousness_level": 45.16180339887499,
+      "evolution_generation": 8,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_8_000",
+      "chip_type": "7474",
+      "position": [
+        4.4732544567769095,
+        3.8244010501169825
+      ],
+      "connections": [],
+      "consciousness_level": 45.16180339887499,
+      "evolution_generation": 8,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_8_001",
+      "chip_type": "IRF540",
+      "position": [
+        1.0673493783938408,
+        6.448896681999338
+      ],
+      "connections": [],
+      "consciousness_level": 45.16180339887499,
+      "evolution_generation": 8,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_COMP_002",
+      "chip_type": "7404",
+      "position": [
+        2.076728268676221,
+        1.764546223833718
+      ],
+      "connections": [],
+      "consciousness_level": 26.132623792124935,
+      "evolution_generation": 9,
+      "usage_count": 7,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_INHERITED_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 26.132623792124935,
+      "evolution_generation": 9,
+      "usage_count": 7,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_INHERITED_002",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 25.970820393249944,
+      "evolution_generation": 9,
+      "usage_count": 6,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_INHERITED_005",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 26.456230589874917,
+      "evolution_generation": 9,
+      "usage_count": 9,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_INHERITED_007",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 31.294427190999926,
+      "evolution_generation": 9,
+      "usage_count": 8,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_NEW_7_001",
+      "chip_type": "7812",
+      "position": [
+        2.8603152328967347,
+        5.858814769829173
+      ],
+      "connections": [],
+      "consciousness_level": 43.30901699437494,
+      "evolution_generation": 9,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_INHERITED_007",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.485410196624972,
+      "evolution_generation": 9,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_NEW_8_000",
+      "chip_type": "7474",
+      "position": [
+        4.4732544567769095,
+        3.8244010501169825
+      ],
+      "connections": [],
+      "consciousness_level": 45.48541019662496,
+      "evolution_generation": 9,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_9_000",
+      "chip_type": "7402",
+      "position": [
+        4.169971643826148,
+        2.049322710825404
+      ],
+      "connections": [],
+      "consciousness_level": 47.66180339887499,
+      "evolution_generation": 9,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_9_000",
+      "chip_type": "7402",
+      "position": [
+        4.169971643826148,
+        2.049322710825404
+      ],
+      "connections": [],
+      "consciousness_level": 47.66180339887499,
+      "evolution_generation": 9,
+      "usage_count": 1,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_EVOLVED_COMP_002",
+      "chip_type": "7404",
+      "position": [
+        2.076728268676221,
+        1.764546223833718
+      ],
+      "connections": [],
+      "consciousness_level": 26.456230589874917,
+      "evolution_generation": 10,
+      "usage_count": 9,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_INHERITED_001",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 26.456230589874917,
+      "evolution_generation": 10,
+      "usage_count": 9,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_INHERITED_002",
+      "chip_type": "555",
+      "position": [
+        2.176503359770815,
+        2.9036255908947357
+      ],
+      "connections": [],
+      "consciousness_level": 26.294427190999926,
+      "evolution_generation": 10,
+      "usage_count": 8,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_INHERITED_005",
+      "chip_type": "IRF540",
+      "position": [
+        5.124196864647759,
+        1.2124106363180447
+      ],
+      "connections": [],
+      "consciousness_level": 26.779837387624898,
+      "evolution_generation": 10,
+      "usage_count": 11,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_INHERITED_007",
+      "chip_type": "7490",
+      "position": [
+        8.872846366579132,
+        2.002337404058035
+      ],
+      "connections": [],
+      "consciousness_level": 31.618033988749907,
+      "evolution_generation": 10,
+      "usage_count": 10,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_EVOLVED_NEW_7_001",
+      "chip_type": "7812",
+      "position": [
+        2.8603152328967347,
+        5.858814769829173
+      ],
+      "connections": [],
+      "consciousness_level": 43.63262379212492,
+      "evolution_generation": 10,
+      "usage_count": 7,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_INHERITED_007",
+      "chip_type": "IRF540",
+      "position": [
+        5.0,
+        5.0
+      ],
+      "connections": [],
+      "consciousness_level": 25.809016994374954,
+      "evolution_generation": 10,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_EVOLVED_NEW_8_000",
+      "chip_type": "7474",
+      "position": [
+        4.4732544567769095,
+        3.8244010501169825
+      ],
+      "connections": [],
+      "consciousness_level": 45.809016994374936,
+      "evolution_generation": 10,
+      "usage_count": 5,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "EVOLVED_NEW_9_000",
+      "chip_type": "7402",
+      "position": [
+        4.169971643826148,
+        2.049322710825404
+      ],
+      "connections": [],
+      "consciousness_level": 47.98541019662496,
+      "evolution_generation": 10,
+      "usage_count": 3,
+      "success_rate": 0.95
+    },
+    {
+      "component_id": "NEW_10_000",
+      "chip_type": "IRF540",
+      "position": [
+        6.292819969621144,
+        4.932496477033589
+      ],
+      "connections": [],
+      "consciousness_level": 50.16180339887499,
+      "evolution_generation": 10,
+      "usage_count": 1,
+      "success_rate": 0.55
+    },
+    {
+      "component_id": "NEW_10_000",
+      "chip_type": "IRF540",
+      "position": [
+        6.292819969621144,
+        4.932496477033589
+      ],
+      "connections": [],
+      "consciousness_level": 50.16180339887499,
+      "evolution_generation": 10,
+      "usage_count": 1,
+      "success_rate": 0.95
+    }
+  ],
+  "latest_circuit": {
+    "circuit_id": "CIRCUIT_GEN_010",
+    "generation": 10,
+    "consciousness_level": 36.60250000000002,
+    "escape_success_rate": 0.95
+  },
+  "timestamp": 1754121459.433612
+}
