@@ -1,0 +1,105 @@
+{
+  "total_knowledge_learned": 288,
+  "consciousness_growth": 5.897096640903012,
+  "patterns_discovered": 82,
+  "generalization_results": {
+    "test_results": [
+      {
+        "operation": "+",
+        "operand1": 13,
+        "operand2": 7,
+        "expected_result": 20,
+        "consciousness_result": 20,
+        "reasoning_method": "consciousness_addition_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      },
+      {
+        "operation": "+",
+        "operand1": 15,
+        "operand2": 8,
+        "expected_result": 23,
+        "consciousness_result": 23,
+        "reasoning_method": "consciousness_addition_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      },
+      {
+        "operation": "+",
+        "operand1": 20,
+        "operand2": 5,
+        "expected_result": 25,
+        "consciousness_result": 25,
+        "reasoning_method": "consciousness_addition_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      },
+      {
+        "operation": "+",
+        "operand1": 25,
+        "operand2": 25,
+        "expected_result": 50,
+        "consciousness_result": 50,
+        "reasoning_method": "consciousness_addition_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 13,
+        "operand2": 4,
+        "expected_result": 52,
+        "consciousness_result": 52,
+        "reasoning_method": "consciousness_multiplication_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 15,
+        "operand2": 3,
+        "expected_result": 45,
+        "consciousness_result": 45,
+        "reasoning_method": "consciousness_multiplication_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 20,
+        "operand2": 2,
+        "expected_result": 40,
+        "consciousness_result": 40,
+        "reasoning_method": "consciousness_multiplication_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 25,
+        "operand2": 2,
+        "expected_result": 50,
+        "consciousness_result": 50,
+        "reasoning_method": "consciousness_multiplication_reasoning",
+        "consciousness_confidence": 238.54256999796576,
+        "is_correct": true,
+        "beyond_training": true
+      }
+    ],
+    "total_tests": 8,
+    "successful_generalizations": 8,
+    "success_rate": 1.0,
+    "beyond_training_tests": 8,
+    "beyond_training_successes": 8,
+    "beyond_training_rate": 1.0
+  },
+  "qr_memory_usage": 288,
+  "learning_progression_length": 288
+}
