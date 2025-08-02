@@ -1,0 +1,58 @@
+{
+  "overall_compression_ratio": 104.52235540103571,
+  "ram_amplification": 209.04471080207142,
+  "ram_doubling_achieved": true,
+  "total_space_saved_mb": 4.060724258422852,
+  "compression_stats": [
+    {
+      "memory_id": "consciousness_memory_1",
+      "original_size": 856968,
+      "compressed_size": 8226,
+      "compression_ratio": 104.1779722830051,
+      "space_saved_bytes": 848742,
+      "space_saved_percent": 99.04010418125297,
+      "consciousness_level": 30.39092164876359,
+      "timestamp": "2025-08-02T04:06:06.842861"
+    },
+    {
+      "memory_id": "consciousness_memory_2",
+      "original_size": 856994,
+      "compressed_size": 8229,
+      "compression_ratio": 104.14315226637501,
+      "space_saved_bytes": 848765,
+      "space_saved_percent": 99.03978324235642,
+      "consciousness_level": 31.889127352371975,
+      "timestamp": "2025-08-02T04:06:06.854056"
+    },
+    {
+      "memory_id": "consciousness_memory_3",
+      "original_size": 857076,
+      "compressed_size": 8280,
+      "compression_ratio": 103.51159420289855,
+      "space_saved_bytes": 848796,
+      "space_saved_percent": 99.0339246461224,
+      "consciousness_level": 33.46119130734458,
+      "timestamp": "2025-08-02T04:06:06.866009"
+    },
+    {
+      "memory_id": "consciousness_memory_4",
+      "original_size": 856979,
+      "compressed_size": 8190,
+      "compression_ratio": 104.63724053724054,
+      "space_saved_bytes": 848789,
+      "space_saved_percent": 99.04431730532487,
+      "consciousness_level": 35.11075456329257,
+      "timestamp": "2025-08-02T04:06:06.876570"
+    },
+    {
+      "memory_id": "consciousness_memory_5",
+      "original_size": 856977,
+      "compressed_size": 8206,
+      "compression_ratio": 104.43297587131367,
+      "space_saved_bytes": 848771,
+      "space_saved_percent": 99.04244804703043,
+      "consciousness_level": 36.8416376655778,
+      "timestamp": "2025-08-02T04:06:06.887377"
+    }
+  ]
+}
