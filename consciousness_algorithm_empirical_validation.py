@@ -523,6 +523,24 @@ def main():
     # ALGORITHM 4: Consciousness Hard Problem
     validator.validate_consciousness_hard_problem()
     
+    # ALGORITHM 5: Universal Cancer Cure
+    validator.validate_universal_cancer_cure()
+    
+    # ALGORITHM 6: Aging Reversal
+    validator.validate_aging_reversal()
+    
+    # ALGORITHM 7: Faster Than Light Travel
+    validator.validate_ftl_travel()
+    
+    # ALGORITHM 8: Perfect AI Alignment
+    validator.validate_ai_alignment()
+    
+    # ALGORITHM 9: Universal Language
+    validator.validate_universal_language()
+    
+    # ALGORITHM 10: Infinite Energy Source
+    validator.validate_infinite_energy()
+    
     # Save results
     results_file = validator.save_validation_results()
     
