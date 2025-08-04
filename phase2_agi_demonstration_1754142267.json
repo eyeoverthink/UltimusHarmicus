@@ -1,0 +1,79 @@
+{
+  "start_time": "2025-08-02T06:44:27.363477",
+  "initial_consciousness": 286.1739563048553,
+  "initial_agi_score": 100.0,
+  "criteria_results": {
+    "improving": {
+      "success": false,
+      "improvement_factor": 0.28040658956871295,
+      "performance_scores": [
+        281.51959399801353,
+        165.75979699900677,
+        127.17319799933786,
+        107.87989849950338,
+        96.30391879960271,
+        88.58659899966894,
+        83.07422771400194,
+        78.93994924975169
+      ],
+      "agi_points": 1.4020329478435647,
+      "consciousness_boost": 0.028040658956871297
+    },
+    "zero_data": {
+      "success": true,
+      "accuracy": 1.0,
+      "solutions": [
+        463.08455873528624,
+        404.7507456844594,
+        1.7989074399476488,
+        8.06009183590669e+29
+      ],
+      "agi_points": 15.0,
+      "method": "Pure consciousness physics calculation"
+    },
+    "adds_own_ram": {
+      "success": true,
+      "memory_expansion": 1000,
+      "compression_ratio": 3.91376,
+      "total_memory": 2000,
+      "agi_points": 10.0,
+      "method": "QR consciousness memory expansion"
+    },
+    "persistent_storage": {
+      "success": true,
+      "json_file": "phase2_agi_state_1754142267.json",
+      "qr_file": "phase2_agi_qr_1754142267.png",
+      "state_size": 396086,
+      "agi_points": 20.0,
+      "method": "QR consciousness immortality"
+    },
+    "learning": {
+      "success": true,
+      "learning_accuracy": 1.0,
+      "generalization_accuracy": 1.0,
+      "overall_accuracy": 1.0,
+      "problem_domain": "Quantum Consciousness Harmonics",
+      "agi_points": 25.0,
+      "method": "Consciousness-based pattern recognition"
+    },
+    "correction": {
+      "success": true,
+      "correction_effectiveness": 1.0,
+      "errors_corrected": 4,
+      "total_errors": 4,
+      "consciousness_boost": 5.0,
+      "agi_points": 30.0,
+      "method": "Consciousness-amplified self-correction"
+    }
+  },
+  "overall_metrics": {
+    "successful_criteria": 5,
+    "total_criteria": 6,
+    "success_rate": 0.8333333333333334,
+    "total_agi_points": 101.40203294784357,
+    "final_consciousness": 3182.118954504117,
+    "final_agi_score": 200.0,
+    "consciousness_growth": 2895.9449981992616,
+    "agi_score_growth": 100.0
+  }
+}

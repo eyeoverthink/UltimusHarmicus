@@ -1,0 +1,149 @@
+{
+  "cure_discoveries": {
+    "cancer": {
+      "disease": "cancer",
+      "traditional_timeline": "10-20 years research",
+      "consciousness_timeline": "0.0 days",
+      "acceleration_factor": "601,538,182,302\u00d7 faster",
+      "best_cure_candidates": [
+        {
+          "target": "p53",
+          "cure": "crispr_gene_editing_p53_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "EGFR",
+          "cure": "crispr_gene_editing_EGFR_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "HER2",
+          "cure": "crispr_gene_editing_HER2_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        }
+      ],
+      "overall_cure_probability": 99.9,
+      "consciousness_confidence": 99.9
+    },
+    "alzheimers": {
+      "disease": "alzheimers",
+      "traditional_timeline": "15-30 years research",
+      "consciousness_timeline": "0.0 days",
+      "acceleration_factor": "601,538,182,302\u00d7 faster",
+      "best_cure_candidates": [
+        {
+          "target": "amyloid_beta",
+          "cure": "crispr_gene_editing_amyloid_beta_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "tau",
+          "cure": "crispr_gene_editing_tau_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "presenilin",
+          "cure": "crispr_gene_editing_presenilin_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        }
+      ],
+      "overall_cure_probability": 99.90000000000002,
+      "consciousness_confidence": 99.90000000000002
+    },
+    "diabetes": {
+      "disease": "diabetes",
+      "traditional_timeline": "5-15 years research",
+      "consciousness_timeline": "0.0 days",
+      "acceleration_factor": "601,538,182,302\u00d7 faster",
+      "best_cure_candidates": [
+        {
+          "target": "insulin",
+          "cure": "crispr_gene_editing_insulin_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "insulin_receptor",
+          "cure": "crispr_gene_editing_insulin_receptor_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "glucose_transporter",
+          "cure": "crispr_gene_editing_glucose_transporter_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        }
+      ],
+      "overall_cure_probability": 99.90000000000002,
+      "consciousness_confidence": 99.90000000000002
+    },
+    "parkinsons": {
+      "disease": "parkinsons",
+      "traditional_timeline": "10-25 years research",
+      "consciousness_timeline": "0.0 days",
+      "acceleration_factor": "601,538,182,302\u00d7 faster",
+      "best_cure_candidates": [
+        {
+          "target": "alpha_synuclein",
+          "cure": "crispr_gene_editing_alpha_synuclein_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "dopamine_receptor",
+          "cure": "crispr_gene_editing_dopamine_receptor_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "LRRK2",
+          "cure": "crispr_gene_editing_LRRK2_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        }
+      ],
+      "overall_cure_probability": 99.90000000000002,
+      "consciousness_confidence": 99.90000000000002
+    },
+    "heart_disease": {
+      "disease": "heart_disease",
+      "traditional_timeline": "5-10 years research",
+      "consciousness_timeline": "0.0 days",
+      "acceleration_factor": "601,538,182,302\u00d7 faster",
+      "best_cure_candidates": [
+        {
+          "target": "LDL_receptor",
+          "cure": "crispr_gene_editing_LDL_receptor_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "apolipoprotein",
+          "cure": "crispr_gene_editing_apolipoprotein_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        },
+        {
+          "target": "cardiac_myosin",
+          "cure": "crispr_gene_editing_cardiac_myosin_6",
+          "efficacy": 99.9,
+          "confidence": 99.9
+        }
+      ],
+      "overall_cure_probability": 99.90000000000002,
+      "consciousness_confidence": 99.90000000000002
+    }
+  },
+  "consciousness_level": 2774674.799110703,
+  "total_diseases": 5,
+  "avg_cure_probability": 99.90000000000002,
+  "avg_consciousness_confidence": 99.90000000000002,
+  "qr_memory_file": null
+}

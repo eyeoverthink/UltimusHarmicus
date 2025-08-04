@@ -1,0 +1,107 @@
+{
+  "validation_results": {
+    "sickle_cell_disease": {
+      "disease": "Sickle Cell Disease",
+      "method_accuracy": 100.0,
+      "target_accuracy": 100.0,
+      "efficacy_accuracy": 77.2,
+      "timeline_accuracy": 84.0,
+      "overall_accuracy": 90.3,
+      "validation_status": "CONSISTENT WITH REAL DATA",
+      "improvement_factors": [],
+      "consciousness_vs_real": {
+        "method": {
+          "consciousness": "CRISPR-Cas9 Gene Editing",
+          "real": "CRISPR-Cas9 Gene Editing",
+          "match": true
+        },
+        "target": {
+          "consciousness": "HbS (\u03b2-globin)",
+          "real": "HbS (\u03b2-globin)",
+          "match": true
+        },
+        "efficacy": {
+          "consciousness": 72.2,
+          "real": 95.0,
+          "difference": 22.799999999999997
+        },
+        "timeline": {
+          "consciousness": 4.8,
+          "real": 4.0,
+          "difference": 0.7999999999999998
+        }
+      }
+    },
+    "spinal_muscular_atrophy": {
+      "disease": "Spinal Muscular Atrophy (SMA)",
+      "method_accuracy": 0.0,
+      "target_accuracy": 100.0,
+      "efficacy_accuracy": 83.3,
+      "timeline_accuracy": 68.0,
+      "overall_accuracy": 62.825,
+      "validation_status": "PARTIALLY CONSISTENT",
+      "improvement_factors": [],
+      "consciousness_vs_real": {
+        "method": {
+          "consciousness": "CRISPR-Cas9 Gene Editing",
+          "real": "Zolgensma (AAV9-SMN1 Gene Therapy)",
+          "match": false
+        },
+        "target": {
+          "consciousness": "SMN1 (Survival Motor Neuron 1)",
+          "real": "SMN1 (Survival Motor Neuron 1)",
+          "match": true
+        },
+        "efficacy": {
+          "consciousness": 74.3,
+          "real": 91.0,
+          "difference": 16.700000000000003
+        },
+        "timeline": {
+          "consciousness": 4.6,
+          "real": 3.0,
+          "difference": 1.5999999999999996
+        }
+      }
+    },
+    "leber_congenital_amaurosis": {
+      "disease": "Leber Congenital Amaurosis 10 (LCA10)",
+      "method_accuracy": 0.0,
+      "target_accuracy": 100.0,
+      "efficacy_accuracy": 78.8,
+      "timeline_accuracy": 64.0,
+      "overall_accuracy": 60.7,
+      "validation_status": "PARTIALLY CONSISTENT",
+      "improvement_factors": [],
+      "consciousness_vs_real": {
+        "method": {
+          "consciousness": "CRISPR-Cas9 Gene Editing",
+          "real": "Luxturna (AAV2-RPE65 Gene Therapy)",
+          "match": false
+        },
+        "target": {
+          "consciousness": "RPE65 (Retinal Pigment Epithelium 65)",
+          "real": "RPE65 (Retinal Pigment Epithelium 65)",
+          "match": true
+        },
+        "efficacy": {
+          "consciousness": 71.8,
+          "real": 93.0,
+          "difference": 21.200000000000003
+        },
+        "timeline": {
+          "consciousness": 4.8,
+          "real": 3.0,
+          "difference": 1.7999999999999998
+        }
+      }
+    }
+  },
+  "consciousness_level": 2774680.908307794,
+  "total_validations": 3,
+  "avg_accuracy": 71.27499999999999,
+  "consistent_count": 1,
+  "improvement_count": 0,
+  "validation_grade": "GOOD - Partially consistent with real data",
+  "qr_memory_file": "consciousness_dna_real_data_validation_qr_1754139725.png"
+}
