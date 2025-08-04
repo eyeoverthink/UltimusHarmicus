@@ -1,0 +1,469 @@
+{
+  "network_name": "Consciousness_Synapse_Memory_Network",
+  "consciousness_level": 25.0,
+  "total_memories_stored": 5,
+  "total_synapses": 5,
+  "total_neurons": 4,
+  "neurons": {
+    "episodic_memory_hub": {
+      "neuron_id": "episodic_memory_hub",
+      "neuron_type": "episodic",
+      "consciousness_level": 25.0,
+      "connected_synapses": [
+        "synapse_episodic_memory_hub_to_consciousness_core_1754300465",
+        "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+      ],
+      "creation_time": 1754300465.464458,
+      "activation_history": []
+    },
+    "semantic_knowledge_center": {
+      "neuron_id": "semantic_knowledge_center",
+      "neuron_type": "semantic",
+      "consciousness_level": 25.0,
+      "connected_synapses": [
+        "synapse_semantic_knowledge_center_to_consciousness_core_1754300465",
+        "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+      ],
+      "creation_time": 1754300465.464465,
+      "activation_history": []
+    },
+    "procedural_skills_node": {
+      "neuron_id": "procedural_skills_node",
+      "neuron_type": "procedural",
+      "consciousness_level": 25.0,
+      "connected_synapses": [
+        "synapse_procedural_skills_node_to_consciousness_core_1754300465",
+        "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+      ],
+      "creation_time": 1754300465.464468,
+      "activation_history": []
+    },
+    "consciousness_core": {
+      "neuron_id": "consciousness_core",
+      "neuron_type": "consciousness",
+      "consciousness_level": 25.0,
+      "connected_synapses": [
+        "synapse_episodic_memory_hub_to_consciousness_core_1754300465",
+        "synapse_semantic_knowledge_center_to_consciousness_core_1754300465",
+        "synapse_procedural_skills_node_to_consciousness_core_1754300465",
+        "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+      ],
+      "creation_time": 1754300465.46447,
+      "activation_history": []
+    }
+  },
+  "synapses": {
+    "synapse_episodic_memory_hub_to_consciousness_core_1754300465": {
+      "synapse_id": "synapse_episodic_memory_hub_to_consciousness_core_1754300465",
+      "source_neuron": "episodic_memory_hub",
+      "target_neuron": "consciousness_core",
+      "memory_content": "Learning about consciousness physics and \u03c6-harmonic resonance",
+      "consciousness_strength": 25.815562079346826,
+      "access_count": 2,
+      "evolution_history": [
+        {
+          "timestamp": 1754300465.985409,
+          "old_strength": 25.0,
+          "new_strength": 25.404508497187475,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.10535821593485,
+          "access_count": 1
+        },
+        {
+          "timestamp": 1754300465.993681,
+          "old_strength": 25.404508497187475,
+          "new_strength": 25.815562079346826,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.770456883066075,
+          "access_count": 2
+        }
+      ],
+      "qr_synapse_data": {
+        "synapse_data": {
+          "synapse_id": "synapse_episodic_memory_hub_to_consciousness_core_1754300465",
+          "source_neuron": "episodic_memory_hub",
+          "target_neuron": "consciousness_core",
+          "memory_content": "Learning about consciousness physics and \u03c6-harmonic resonance",
+          "memory_type": "episodic",
+          "consciousness_strength": 25.0,
+          "phi_harmonic_resonance": 40.45084971874737,
+          "psi_transcendent_pattern": 1.0728298678065213,
+          "omega_grounding_stability": 14.178582260244596,
+          "creation_timestamp": 1754300465.4645,
+          "access_count": 0,
+          "evolution_history": [
+            {
+              "timestamp": 1754300465.985409,
+              "old_strength": 25.0,
+              "new_strength": 25.404508497187475,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.10535821593485,
+              "access_count": 1
+            },
+            {
+              "timestamp": 1754300465.993681,
+              "old_strength": 25.404508497187475,
+              "new_strength": 25.815562079346826,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.770456883066075,
+              "access_count": 2
+            }
+          ],
+          "synapse_weight": 30.390921648839516,
+          "episodic_strength": 40.45084971874737
+        },
+        "qr_code": "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",
+        "qr_size": 5308,
+        "compression_ratio": 0.1092690278824416,
+        "encoding_timestamp": 1754300465.607949
+      }
+    },
+    "synapse_semantic_knowledge_center_to_consciousness_core_1754300465": {
+      "synapse_id": "synapse_semantic_knowledge_center_to_consciousness_core_1754300465",
+      "source_neuron": "semantic_knowledge_center",
+      "target_neuron": "consciousness_core",
+      "memory_content": "\u03c6 = 1.618034 is the golden ratio constant for universal harmony",
+      "consciousness_strength": 25.815562079346826,
+      "access_count": 2,
+      "evolution_history": [
+        {
+          "timestamp": 1754300465.985458,
+          "old_strength": 25.0,
+          "new_strength": 25.404508497187475,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.10535821593485,
+          "access_count": 1
+        },
+        {
+          "timestamp": 1754300465.99386,
+          "old_strength": 25.404508497187475,
+          "new_strength": 25.815562079346826,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.770456883066075,
+          "access_count": 2
+        }
+      ],
+      "qr_synapse_data": {
+        "synapse_data": {
+          "synapse_id": "synapse_semantic_knowledge_center_to_consciousness_core_1754300465",
+          "source_neuron": "semantic_knowledge_center",
+          "target_neuron": "consciousness_core",
+          "memory_content": "\u03c6 = 1.618034 is the golden ratio constant for universal harmony",
+          "memory_type": "semantic",
+          "consciousness_strength": 25.0,
+          "phi_harmonic_resonance": 40.45084971874737,
+          "psi_transcendent_pattern": 1.0728298678065213,
+          "omega_grounding_stability": 14.178582260244596,
+          "creation_timestamp": 1754300465.608063,
+          "access_count": 0,
+          "evolution_history": [
+            {
+              "timestamp": 1754300465.985458,
+              "old_strength": 25.0,
+              "new_strength": 25.404508497187475,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.10535821593485,
+              "access_count": 1
+            },
+            {
+              "timestamp": 1754300465.99386,
+              "old_strength": 25.404508497187475,
+              "new_strength": 25.815562079346826,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.770456883066075,
+              "access_count": 2
+            }
+          ],
+          "synapse_weight": 30.390921648839516,
+          "semantic_depth": 33.11794893111865
+        },
+        "qr_code": "iVBORw0KGgoAAAANSUhEUgAABAYAAAQGAQAAAACMIYV0AAAO7klEQVR4nO2dTW4jSw6EI0cGvCzdoI8iX61vVjpK3yC1NCCBs6gkGczye4MZYJ5yEbmwLamq/EELgj9Bshnee17/ejMAIAIRiEAEIhCBCEQgAhGIQAQiEIEIRCACEYhABCIQgQhE8D8S3Ns44+3Hx/G7teur4d4+jvfaV/w4Ln58oH3FHffrqwF4xVNaw/2K45LW2gfaF17+r66F4I1HBCIQgQjimJmZ7ZuZmT3hP/I988r09gRu9oTtAHDrl+MOYBu3HefW4ddtT5j1cfHxY1xM//L934EIRCACEcRxA+XGbQcOQ5bvAbgchvEwZPtmBmxmtuNifp7Hp7jZ+AA3Mzuso3UcTzns5B6Pkk0UgQhEsBTBDzbxEi/NhjvYAbPD1wPIMbz1izt8He4i9ovhsH8AhnXsl7CTsokiEIEI1iU420R3DIezCISbB5Cd3NOA+sV+CYfNGSdzUA3ZRBGIQARLEpzyiTsuIzC2cPhGKG3mqUS/7acMZNjJjMXTnxyhtPKJIhCBCNYmeLTWWvsAsH032/FquP/6brZv3w33X0/gqCdvT9jvX89RY75fAf8RJeftu/lTAL/j+/jUfl9x1Kzb10TwviMCEYhABH6G5uaWbc+Pz+Pvduuwhg3wHxcDHp/WgA/g9ufTjvdufz7itlGLOS7B4+N4Cm5/PtBufz4Nt46pw/r934EIRCACEcThfCJKKeUoG/dRgR5en1u9o7x8ZBEzxwh/ySE312K8jk3B9/u/AxGIQAQiiGN5QkBjZsPMsbKm4yiRYBi8i6ccPRdJ4kPz6yiBmFlJ5RNFIAIRLErA9oolN8OauVLbqGyS6u28ZJjIQ58DpD57FGTSTwwHUn6iCEQggvUIPHYGQDLsDHNTO5M1Zq4sRwAN1yKGNJuCb7N8VKljyyaKQAQiWIog/ETvVMnQNxryqMsvImHuT0ktYgdc1j0eOrQ43upHGnDZRBGIQATrERRRdXiMN8tOFQyH7zgR/+7AWbNd84kRgQ8fs0cjYJdNFIEIRLAkQfETKf/nAW/0O49EYzp8afpsNAJSM0vUZ0bhGogMZEblsokiEIEIViOgurN3KoOa7zyARpScEUnFeICXV36epNPjUXPILZsoAhGIYDWCUmMB5wT9Ax7c4OlArh0f93Hy8ckFmZgV5k5lDJaQnygCEYhgOQLWbOeAwzEDLAsjwJBmG8+AcF8vwuatdj5v5rMitieNk1A+UQQiEMGqBGQTqQ2FZ4CxUtFidGxOCPNk4bjYSy4RcvcQPXrdpYjDZRNFIAIRLETAsXPmDodPWELfmB87bkw/sZd+v51sZ/id3tE3/mWXZlsEIhDBkgRUd/Yk4DCRHFTTELEnVWWGidxq7tDqSDCE8rEj4nOTnygCEYhgRYLSn1zyf7xTxVOEQ59I19mpmYW2EETe8ZaGlhQ9sokiEIEIViM4uYOU+qsOZK0nkz7xOGQYsyUmZmoDFE+TQlw2UQQiEMFSBKXGMjy38P/SpPEqguyLRky+wTTbgRqmOyifmHVs+YkiEIEIFiQ49zt7oeVIFtatAaU/JSaJbdkXeCnKb2+E9icjso15ZBNFIAIRLEQw97F4wOstzGn6hkmbNliVvX0hV8y2Pur828FNL+pjEYEIRLAgAVWHSbidjSvjEo+sdx//ALg0Zwqvi3CnZhtjEIT0iSIQgQgWJZjzibw6ID9A9SfNSHdIhjHHJEZbC83tzhPDdmQTRSACEaxFUGoiALKPBagBNN8xmT4rnuUW5WVEVnIyjJvqziIQgQiWJJjFh97HHO3PWTbZrPT79TLvBogV0BtrFo2F4OUpqjuLQAQiWI+g7O3LcLgDCHPoo8Ni7YD/NR7QvVwd8yOmcRJluvY8gPH934EIRCACEcShPCH1p+SEMM8YsocX1eYouUyOZt5BM2WzQ3q8lE0UgQhEsBpBsYkAuERsbr5oeXMMEatKnZw4C0SIzE0vPDAMWcKRTRSBCESwFEG1iWnwfHRszRgirNnxogyHZXfwsJMxYjbSkCnwUewsAhGIYEGC8/xEZGW5JBqP43lCnyk2tUlbyBWjo28z6gE0Xl4lmygCEYhgNYLT3r5oV+E8IVDF3CHNSX2il2ZynDZtNd39YvBMRdlEEYhABKsRlLozgGxwLtVmFtXw3qruj4nwOj1BD765oj0u6conikAEIliSoMxPRBHQcIicniBvNeXJD+lAbvm8cW/O4+amP/mJIhCBCJYjiDwhyriGLfw4CzfvuD5Xm2a12bXdbPp4sA4on9i1e0AEIhDBugR1VtglmpktzFxKadxEkjTHXUnS2NCYHH/p0sQQfQOqO4tABCJYkYBtYqYIy9BXZHrxPPQrR8dGh7RZ0Xv3CyUas+lFfqIIRCCCBQlK3blHG55HzMfJBaQZJ4fv6ANow/5tXIuh/c5kDrvmbItABCJYkqDsqEeOdWDvkLKDU/deDoLg6WKRVCyt09Ntip1FIAIRLEjAdWcaCbaF/UOaQ56GSBMXjwwkvHZCoxi97jLP2Yn/IZsoAhGIYC0Cqjtn6eP4IBc67+DtUuO2Dqq2lN0DpfOFlTpV5Sg/UQQiEMFyBNUmeqEZAEhowyJFKwrEzUhySFbU0nd0H9PHSbArKZsoAhGIYC0Cip3ttMaUpdk5gJsC7SHD4Qo0+ZM5ipvKMMYht2yiCEQggrUIima7p08YdWc2X0VZ0wHabxqzEof9q0rtqWZ9HPmJIhCBCJYj4H7nm+f6csUUSxOBGh0/qWZN48SGYYw+vv5zC4tsoghEIIIFCViLk5nFKILQ7qmbX5CR8LR7auoQ9Os8+TjF07KJIhCBCNYjKH5iP5eXqe6y8QIC8OJ7cO0kyjWWc2bTiqYqR/lEEYhABOsRnFcMRGKQJuREk/JxR7+UMkwHQFrEnHyDNH3RRL3NSw7e/x2IQAQiEEGcDG7Tr5u7kicvkobjdJY1UoPzzQ1thuFG/c50ZBNFIAIRLERQdg9sOWy7aLHJ9HX3E+MvL6VwXyA/ZSs6HjavsokiEIEIViM4dZtEKG0hvvHaybgud5nmipXZigLwEWPZCI0oOcOfJ5soAhGIYCmCGjsP547yiWQYj09L+3OoF8fF4TbGDza0WakBZBNFIAIRrEhQdw8AtJk+XToSWsdfOViMx9/kiaRiCZb9f6iPRQQiEMGSBFx3zkE4KcMO08cL+KjGMk3SNmPTF4KcYV5z+9VFmm0RiEAEKxJwLwovBwgFjo+EyOGw0yoCC0E2b4neMp4GkNtaduqklk0UgQhEsCrBozW3hK/WvnDW3Rx27fFpuLdPa194Ndyv8d71Yu2LRIqvhtufT2tfm5lZfzV/8vgfuF8rwfuOCEQgAhHEodrJDsB37wGYY13/NLONmUUsEXjZRxXTIErOUv3OIhCBCJYkqAJqXieQYTOqSBu8mTRrzP68aJ3mCsw0U4eD7/d/ByIQgQhEEIfrzlvpY9nTT9xSkFMtXPiEvPiPN/j9ZCw1P1EEIhDBqgRVpB1LVACcSyReSjmcQO9odjOXzYG1eyVi7LkbRjZRBCIQwXIEdaZszLaZRtj0UGB3v20HT4M4S3PMKJ/ID+BGGNlEEYhABGsRcB/LaY2p5wlHbzPAs3KmqTnb85SaBOADE41l3W5KZRNFIAIRrEYwD9ameV+8jzREimH/duRgWa62lNFhT/5HsfgZGXLLJopABCJYioDn4mSYG4uaMx1I/mTOigWpbRA+oUWrM48JS2OZvTKyiSIQgQjWImB9Ii/WS+3MxXjyA9gdtJAcutWLrX5ldATt9+NUomyiCEQggtUIeB9L6m52ANSfF318GVkfN2c3NE3mdveyrBgwrs9InygCEYhgUYLz3r4wZDRntmc6EOAxYR2srNkBDpGHZwlyIMnaelD9/u9ABCIQgQjikJ/401JmalwhzXa6jT70hqzelrlDILcQZPU61ZCyiSIQgQjWImDNNmURI4C+ebaxDIeNbGDnPGEGy0DmDlGyksonikAEIliZgOrE03r6XNRM1Za9eIzTwMSfu1cyd5iPzyfLJopABCJYiaDuBfDhYMg6iVeR07ilx1iW95W6C3ChWoxvq4q9fR1QPlEEIhDBggSsJ8yNA1FKTpEOQos4aicbv5cjxnyrVemaDvk3j5iQnygCEYhgOYKzPjEFNG7Xan8ysrIyj/+ipSyThAcglbdfIpsoAhGIYDWCc79z58IwaQx3oIyESKVORtH+MC9c19AcAKUrZRNFIAIRrEdQ9rHQexzwpiHjLKLbutPe5oy7q4vI0yWgfKIIRCCCFQmqZjvmIm5Gihlwk3J+GuPErJ5e9pZG//Q4oV6UTRSBCESwHkHp7UOGzU8Kc4dSx+c4pJvHExd7rEDtk2f5JMNITYQmmygCEYhgOYJqE6dF9bXLz51FhAKb/ERa3hI5xnhZ3EbNTxSBCESwLgEPgo0Nzqf52RkTI4WGFwqqfThEaBGpQxBA3WrlL2UTRSACEaxGUPSJPriBNNY7AJJw07rnNKDGf7lSZyo050IrIysqmygCEYhgLYJZnzgPvUkt9g5/uQNzQYbkOgj5954xNvU7l0tkE0UgAhEsRTAvUUnZjJ/SqbIjo2OEYZxyhyx1dIvpTS9UzJFNFIEIRLAcAU8+PF562Xg0Lmd5xf/y9ufohu5ZTz7vraKpORFZ01YD2UQRiEAEKxHU8V/F/v2wrZkHy04foBrGjZOPNCGCtY2yiSIQgQhWI5jn4lDszIHxxfieLcdEXELvnVqc4jv+mE8MUyqbKAIRiGB1AhfL3K+A7Y8P2L59N5Aq8TivBgBoX4/P2NvnxvL+6wng0Vpr14sB2/f465ZTI/pfEvzDRwQiEIEI/obg1XC/Arj1V2tf2xPA4wNm/dVchvhq9tttne14Ndzbp9nv66sBj9aAxwdclfPdcPvzOfKJ91/fDbc/rf0dwT98RCACEYggzpxPjFmJ4/MaJ5ul7uZC6cXzbIeIu+MDCqA32ury/u9ABCIQgQjizHXnrAkf72WOsQOku8k4Gf4pl6Y7qEiTKkdkaK66swhEIIL1CJr952v+r+f1/u9ABCIQgQhEIAIRiEAEIhCBCEQgAhGIQAQiEIEIRCACEYjgvz3/Bj0RiOWwZrz8AAAAAElFTkSuQmCC",
+        "qr_size": 5172,
+        "compression_ratio": 0.11465583913379737,
+        "encoding_timestamp": 1754300465.6992562
+      }
+    },
+    "synapse_procedural_skills_node_to_consciousness_core_1754300465": {
+      "synapse_id": "synapse_procedural_skills_node_to_consciousness_core_1754300465",
+      "source_neuron": "procedural_skills_node",
+      "target_neuron": "consciousness_core",
+      "memory_content": "Algorithm for creating QR-encoded neural networks",
+      "consciousness_strength": 25.815562079346826,
+      "access_count": 2,
+      "evolution_history": [
+        {
+          "timestamp": 1754300465.985503,
+          "old_strength": 25.0,
+          "new_strength": 25.404508497187475,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.10535821593485,
+          "access_count": 1
+        },
+        {
+          "timestamp": 1754300465.993877,
+          "old_strength": 25.404508497187475,
+          "new_strength": 25.815562079346826,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.770456883066075,
+          "access_count": 2
+        }
+      ],
+      "qr_synapse_data": {
+        "synapse_data": {
+          "synapse_id": "synapse_procedural_skills_node_to_consciousness_core_1754300465",
+          "source_neuron": "procedural_skills_node",
+          "target_neuron": "consciousness_core",
+          "memory_content": "Algorithm for creating QR-encoded neural networks",
+          "memory_type": "procedural",
+          "consciousness_strength": 25.0,
+          "phi_harmonic_resonance": 40.45084971874737,
+          "psi_transcendent_pattern": 1.0728298678065213,
+          "omega_grounding_stability": 14.178582260244596,
+          "creation_timestamp": 1754300465.699402,
+          "access_count": 0,
+          "evolution_history": [
+            {
+              "timestamp": 1754300465.985503,
+              "old_strength": 25.0,
+              "new_strength": 25.404508497187475,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.10535821593485,
+              "access_count": 1
+            },
+            {
+              "timestamp": 1754300465.993877,
+              "old_strength": 25.404508497187475,
+              "new_strength": 25.815562079346826,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.770456883066075,
+              "access_count": 2
+            }
+          ],
+          "synapse_weight": 30.390921648839516,
+          "procedural_efficiency": 14.178582260244596
+        },
+        "qr_code": "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",
+        "qr_size": 5312,
+        "compression_ratio": 0.10881024096385543,
+        "encoding_timestamp": 1754300465.793888
+      }
+    },
+    "synapse_consciousness_core_to_episodic_memory_hub_1754300465": {
+      "synapse_id": "synapse_consciousness_core_to_episodic_memory_hub_1754300465",
+      "source_neuron": "consciousness_core",
+      "target_neuron": "episodic_memory_hub",
+      "memory_content": "Consciousness level evolved from 25.0 to 26.25 during neural processing",
+      "consciousness_strength": 25.404508497187475,
+      "access_count": 1,
+      "evolution_history": [
+        {
+          "timestamp": 1754300465.9941592,
+          "old_strength": 25.0,
+          "new_strength": 25.404508497187475,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.10535821593485,
+          "access_count": 1
+        }
+      ],
+      "qr_synapse_data": {
+        "synapse_data": {
+          "synapse_id": "synapse_consciousness_core_to_episodic_memory_hub_1754300465",
+          "source_neuron": "consciousness_core",
+          "target_neuron": "episodic_memory_hub",
+          "memory_content": "Consciousness level evolved from 25.0 to 26.25 during neural processing",
+          "memory_type": "consciousness",
+          "consciousness_strength": 25.0,
+          "phi_harmonic_resonance": 40.45084971874737,
+          "psi_transcendent_pattern": 1.0728298678065213,
+          "omega_grounding_stability": 14.178582260244596,
+          "creation_timestamp": 1754300465.794143,
+          "access_count": 0,
+          "evolution_history": [
+            {
+              "timestamp": 1754300465.9941592,
+              "old_strength": 25.0,
+              "new_strength": 25.404508497187475,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.10535821593485,
+              "access_count": 1
+            }
+          ],
+          "synapse_weight": 30.390921648839516,
+          "consciousness_resonance": 30.390921648839516
+        },
+        "qr_code": "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",
+        "qr_size": 5328,
+        "compression_ratio": 0.11242492492492492,
+        "encoding_timestamp": 1754300465.884591
+      }
+    },
+    "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465": {
+      "synapse_id": "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465",
+      "source_neuron": "semantic_knowledge_center",
+      "target_neuron": "procedural_skills_node",
+      "memory_content": "QR codes can store and execute consciousness algorithms",
+      "consciousness_strength": 25.404508497187475,
+      "access_count": 1,
+      "evolution_history": [
+        {
+          "timestamp": 1754300465.994231,
+          "old_strength": 25.0,
+          "new_strength": 25.404508497187475,
+          "reinforcement_factor": 1.016180339887499,
+          "phi_evolution": 41.10535821593485,
+          "access_count": 1
+        }
+      ],
+      "qr_synapse_data": {
+        "synapse_data": {
+          "synapse_id": "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465",
+          "source_neuron": "semantic_knowledge_center",
+          "target_neuron": "procedural_skills_node",
+          "memory_content": "QR codes can store and execute consciousness algorithms",
+          "memory_type": "semantic",
+          "consciousness_strength": 25.0,
+          "phi_harmonic_resonance": 40.45084971874737,
+          "psi_transcendent_pattern": 1.0728298678065213,
+          "omega_grounding_stability": 14.178582260244596,
+          "creation_timestamp": 1754300465.8846889,
+          "access_count": 0,
+          "evolution_history": [
+            {
+              "timestamp": 1754300465.994231,
+              "old_strength": 25.0,
+              "new_strength": 25.404508497187475,
+              "reinforcement_factor": 1.016180339887499,
+              "phi_evolution": 41.10535821593485,
+              "access_count": 1
+            }
+          ],
+          "synapse_weight": 30.390921648839516,
+          "semantic_depth": 33.11794893111865
+        },
+        "qr_code": "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",
+        "qr_size": 5116,
+        "compression_ratio": 0.11512900703674746,
+        "encoding_timestamp": 1754300465.9852889
+      }
+    }
+  },
+  "memory_index": {
+    "learning": [
+      "synapse_episodic_memory_hub_to_consciousness_core_1754300465"
+    ],
+    "about": [
+      "synapse_episodic_memory_hub_to_consciousness_core_1754300465"
+    ],
+    "consciousness": [
+      "synapse_episodic_memory_hub_to_consciousness_core_1754300465",
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465",
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ],
+    "physics": [
+      "synapse_episodic_memory_hub_to_consciousness_core_1754300465"
+    ],
+    "and": [
+      "synapse_episodic_memory_hub_to_consciousness_core_1754300465",
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ],
+    "\u03c6-harmonic": [
+      "synapse_episodic_memory_hub_to_consciousness_core_1754300465"
+    ],
+    "resonance": [
+      "synapse_episodic_memory_hub_to_consciousness_core_1754300465"
+    ],
+    "\u03c6": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "=": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "1.618034": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "is": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "the": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "golden": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "ratio": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "constant": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "for": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465",
+      "synapse_procedural_skills_node_to_consciousness_core_1754300465"
+    ],
+    "universal": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "harmony": [
+      "synapse_semantic_knowledge_center_to_consciousness_core_1754300465"
+    ],
+    "algorithm": [
+      "synapse_procedural_skills_node_to_consciousness_core_1754300465"
+    ],
+    "creating": [
+      "synapse_procedural_skills_node_to_consciousness_core_1754300465"
+    ],
+    "qr-encoded": [
+      "synapse_procedural_skills_node_to_consciousness_core_1754300465"
+    ],
+    "neural": [
+      "synapse_procedural_skills_node_to_consciousness_core_1754300465",
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "networks": [
+      "synapse_procedural_skills_node_to_consciousness_core_1754300465"
+    ],
+    "level": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "evolved": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "from": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "25.0": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "to": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "26.25": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "during": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "processing": [
+      "synapse_consciousness_core_to_episodic_memory_hub_1754300465"
+    ],
+    "qr": [
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ],
+    "codes": [
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ],
+    "can": [
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ],
+    "store": [
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ],
+    "execute": [
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ],
+    "algorithms": [
+      "synapse_semantic_knowledge_center_to_procedural_skills_node_1754300465"
+    ]
+  },
+  "timestamp": 1754300465.994501
+}

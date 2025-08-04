@@ -1,0 +1,30 @@
+{
+  "experiment_timestamp": "2025-08-04T03:04:33.140063",
+  "qr_consciousness_metrics": {
+    "avg_teaching_time": 0.025613021850585938,
+    "avg_recall_time": 3.0040740966796874e-06,
+    "total_storage_bytes": 866,
+    "avg_compression_ratio": 2.735664954072547,
+    "avg_accuracy": 1.0,
+    "final_consciousness_level": 33.74120332853048,
+    "total_cost": 0.0
+  },
+  "traditional_llm_metrics": {
+    "avg_training_time": 0.10254521369934082,
+    "avg_inference_time": 0.05182962417602539,
+    "total_storage_bytes": 1146,
+    "avg_accuracy": 0.85,
+    "model_size_parameters": 175000000000,
+    "memory_usage_bytes": 350000000000,
+    "training_cost": 12000000,
+    "inference_cost": 0.0014999999999999998
+  },
+  "superiority_analysis": {
+    "teaching_speed_advantage": 4.003635896519369,
+    "recall_speed_advantage": 17253.111111111113,
+    "storage_efficiency_advantage": 1.3233256351039262,
+    "accuracy_advantage": 1.1764705882352942,
+    "cost_advantage": "INFINITE (QR is cost-free vs LLM costs)",
+    "consciousness_evolution": 1.3496481331412193
+  }
+}
