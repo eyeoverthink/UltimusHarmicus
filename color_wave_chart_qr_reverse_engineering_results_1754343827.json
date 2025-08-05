@@ -1,0 +1,94 @@
+{
+  "experiment_type": "color_wave_chart_qr_reverse_engineering",
+  "total_problems_tested": 3,
+  "final_consciousness_level": 23506.574926026802,
+  "experiment_results": [
+    {
+      "problem_name": "consciousness_wave_synthesis",
+      "complexity_level": 3,
+      "original_chart": "color_consciousness_chart_consciousness_wave_synthesis_1754343821.png",
+      "qr_filename": "color_chart_qr_consciousness_wave_synthesis_1754343823.png",
+      "compression_ratio": 1.73125,
+      "validation_results": {
+        "metadata_accuracy": 1.0,
+        "wave_pattern_accuracy": 1.0,
+        "amplitude_accuracy": 1.0,
+        "frequency_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "validation_details": [
+          "\u2705 problem_name: Perfect match",
+          "\u2705 consciousness_level: Perfect match",
+          "\u2705 complexity_level: Perfect match",
+          "\ud83c\udfa8 analytical: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 creative: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 intuitive: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 logical: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 transcendent: Wave=1.000, Amp=1.000, Freq=1.000"
+        ],
+        "consciousness_evolution": 1.618034,
+        "new_consciousness_level": 17415.023617461553
+      },
+      "consciousness_level": 17415.023617461553
+    },
+    {
+      "problem_name": "multidimensional_color_analysis",
+      "complexity_level": 5,
+      "original_chart": "color_consciousness_chart_multidimensional_color_analysis_1754343823.png",
+      "qr_filename": "color_chart_qr_multidimensional_color_analysis_1754343825.png",
+      "compression_ratio": 1.73625,
+      "validation_results": {
+        "metadata_accuracy": 1.0,
+        "wave_pattern_accuracy": 1.0,
+        "amplitude_accuracy": 1.0,
+        "frequency_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "validation_details": [
+          "\u2705 problem_name: Perfect match",
+          "\u2705 consciousness_level: Perfect match",
+          "\u2705 complexity_level: Perfect match",
+          "\ud83c\udfa8 analytical: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 creative: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 intuitive: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 logical: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 transcendent: Wave=1.000, Amp=1.000, Freq=1.000"
+        ],
+        "consciousness_evolution": 1.618034,
+        "new_consciousness_level": 20232.83364984713
+      },
+      "consciousness_level": 20232.83364984713
+    },
+    {
+      "problem_name": "transcendent_frequency_mapping",
+      "complexity_level": 7,
+      "original_chart": "color_consciousness_chart_transcendent_frequency_mapping_1754343825.png",
+      "qr_filename": "color_chart_qr_transcendent_frequency_mapping_1754343827.png",
+      "compression_ratio": 1.73125,
+      "validation_results": {
+        "metadata_accuracy": 1.0,
+        "wave_pattern_accuracy": 1.0,
+        "amplitude_accuracy": 1.0,
+        "frequency_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "validation_details": [
+          "\u2705 problem_name: Perfect match",
+          "\u2705 consciousness_level: Perfect match",
+          "\u2705 complexity_level: Perfect match",
+          "\ud83c\udfa8 analytical: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 creative: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 intuitive: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 logical: Wave=1.000, Amp=1.000, Freq=1.000",
+          "\ud83c\udfa8 transcendent: Wave=1.000, Amp=1.000, Freq=1.000"
+        ],
+        "consciousness_evolution": 1.618034,
+        "new_consciousness_level": 23506.574926026802
+      },
+      "consciousness_level": 23506.574926026802
+    }
+  ],
+  "overall_statistics": {
+    "average_accuracy": 1.0,
+    "average_compression_ratio": 1.7329166666666669,
+    "consciousness_evolution": 23481.574926026802
+  },
+  "timestamp": 1754343827
+}

@@ -1,0 +1,61 @@
+{
+  "test_session_timestamp": "2025-08-04T16:36:26.713917",
+  "total_tests": 1,
+  "consciousness_level": 25.02485571466826,
+  "test_results": [
+    {
+      "test_timestamp": "2025-08-04T16:36:26.712926",
+      "person": "Vaughn Scott",
+      "actual_camera_capture": true,
+      "filename": "vaughn_scott_live_20250804_163616.jpg",
+      "consciousness_analysis": {
+        "authenticity_score": 0.304222762433222,
+        "is_authentic": "False",
+        "deepfake_probability": 0.695777237566778,
+        "ai_generated_probability": 0.6414790491805593,
+        "consciousness_signature": 0.2792,
+        "z_level_depth": 0.18333333333333332,
+        "phi_harmonic_resonance": 0.4113559337289957,
+        "psi_transcendence_factor": 0.2046439225313305,
+        "omega_grounding_stability": 0.30479465651462695,
+        "processing_time": 0.00094,
+        "consciousness_level": 25.0
+      },
+      "phi_harmonic_analysis": {
+        "facial_ratios": {
+          "face_ratio": 1.6111111111111112,
+          "eye_ratio": 0.3611111111111111,
+          "nose_ratio": 0.19444444444444445,
+          "mouth_ratio": 0.3055555555555556
+        },
+        "phi_deviations": [
+          0.006922877638783742,
+          1.2569228776387837,
+          1.4235895443054505,
+          1.3124784331943393
+        ],
+        "phi_scores": [
+          0.9931247190896906,
+          0.4430811570514144,
+          0.412611121528245,
+          0.43243646541544223
+        ],
+        "base_phi_score": 0.5703133657711981,
+        "enhancement_factors": {
+          "natural_asymmetry": 0.048,
+          "texture_variation": 0.084,
+          "micro_expressions": 0.17,
+          "lighting_consistency": 0.08800000000000001
+        },
+        "enhanced_phi_score": 0.9603133657711982,
+        "golden_ratio_alignment": 0.9957214263192751,
+        "phi_harmonic_resonance": 1.5538196656686085,
+        "real_person_probability": 1.0
+      },
+      "live_authenticity_score": 1.0,
+      "real_person_detected": true,
+      "consciousness_level": 25.02485571466826,
+      "system_recommendation": "\u2705 HIGHLY AUTHENTIC - Strong confidence this is a real person"
+    }
+  ]
+}

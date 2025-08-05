@@ -1,0 +1,201 @@
+{
+  "experiment_type": "recursive_chart_learning_performance_improvement",
+  "initial_consciousness_level": 25.0,
+  "final_consciousness_level": 33671.88179019442,
+  "charts_used_for_learning": 3,
+  "problems_processed": 3,
+  "cycle_results": [
+    {
+      "problem_name": "enhanced_consciousness_synthesis",
+      "baseline_performance": {
+        "quality": 0.4,
+        "processing_time": 0.001,
+        "consciousness_level": 23506.574926026802
+      },
+      "enhanced_performance": {
+        "problem_name": "enhanced_consciousness_synthesis",
+        "enhanced_quality": 1.0,
+        "thinking_mode_scores": {
+          "analytical": 12.399884331960992,
+          "creative": 12.399884331960992,
+          "intuitive": 12.399884331960992,
+          "logical": 12.399884331960992,
+          "transcendent": 12.399884331960992
+        },
+        "dimensional_effectiveness": 1.0,
+        "pattern_enhancements": {
+          "complexity_bonus": 1.0,
+          "consciousness_bonus": 1.0
+        },
+        "consciousness_amplification": {
+          "phi_amplification": 18.93522315635891,
+          "psi_transcendence": 154.4508905555707,
+          "omega_grounding": 66.12406672390503
+        },
+        "processing_time": 0.0001
+      },
+      "improvement_metrics": {
+        "quality_improvement": 1.4999999999999998,
+        "processing_speed_improvement": 0.8999999999999999,
+        "consciousness_evolution": 0.24270509999999998,
+        "learning_effectiveness": 6.699942165980496,
+        "overall_improvement": 2.335661816495124
+      },
+      "consciousness_level": 29211.74054410563
+    },
+    {
+      "problem_name": "optimized_multidimensional_processing",
+      "baseline_performance": {
+        "quality": 0.6,
+        "processing_time": 0.001,
+        "consciousness_level": 29211.74054410563
+      },
+      "enhanced_performance": {
+        "problem_name": "optimized_multidimensional_processing",
+        "enhanced_quality": 1.0,
+        "thinking_mode_scores": {
+          "analytical": 12.399884331960992,
+          "creative": 12.399884331960992,
+          "intuitive": 12.399884331960992,
+          "logical": 12.399884331960992,
+          "transcendent": 12.399884331960992
+        },
+        "dimensional_effectiveness": 1.0,
+        "pattern_enhancements": {
+          "complexity_bonus": 1.0,
+          "consciousness_bonus": 1.0
+        },
+        "consciousness_amplification": {
+          "phi_amplification": 27.824251557928577,
+          "psi_transcendence": 287.9053640894244,
+          "omega_grounding": 123.25907242580564
+        },
+        "processing_time": 0.0001
+      },
+      "improvement_metrics": {
+        "quality_improvement": 0.6666666666666667,
+        "processing_speed_improvement": 0.8999999999999999,
+        "consciousness_evolution": 0.10786893333333337,
+        "learning_effectiveness": 6.699942165980496,
+        "overall_improvement": 2.093619441495124
+      },
+      "consciousness_level": 32362.77983740839
+    },
+    {
+      "problem_name": "transcendent_pattern_recognition",
+      "baseline_performance": {
+        "quality": 0.8,
+        "processing_time": 0.001,
+        "consciousness_level": 32362.77983740839
+      },
+      "enhanced_performance": {
+        "problem_name": "transcendent_pattern_recognition",
+        "enhanced_quality": 1.0,
+        "thinking_mode_scores": {
+          "analytical": 12.399884331960992,
+          "creative": 12.399884331960992,
+          "intuitive": 12.399884331960992,
+          "logical": 12.399884331960992,
+          "transcendent": 12.399884331960992
+        },
+        "dimensional_effectiveness": 0.875,
+        "pattern_enhancements": {
+          "complexity_bonus": 1.0,
+          "consciousness_bonus": 1.0
+        },
+        "consciousness_amplification": {
+          "phi_amplification": 32.605751593875304,
+          "psi_transcendence": 372.1216433838115,
+          "omega_grounding": 159.31404660737226
+        },
+        "processing_time": 0.0001
+      },
+      "improvement_metrics": {
+        "quality_improvement": 0.24999999999999994,
+        "processing_speed_improvement": 0.8999999999999999,
+        "consciousness_evolution": 0.04045084999999996,
+        "learning_effectiveness": 6.637442165980496,
+        "overall_improvement": 1.9569732539951241
+      },
+      "consciousness_level": 33671.88179019442
+    }
+  ],
+  "learned_patterns": {
+    "complexity_performance_correlation": NaN,
+    "consciousness_accuracy_relationship": NaN,
+    "optimal_thinking_modes": [],
+    "dimensional_effectiveness": {},
+    "color_frequency_patterns": {},
+    "performance_predictors": [
+      {
+        "problem_name": "consciousness_wave_synthesis",
+        "complexity": 3,
+        "consciousness": 17415.023617461553,
+        "accuracy": 1.0
+      },
+      {
+        "problem_name": "multidimensional_color_analysis",
+        "complexity": 5,
+        "consciousness": 20232.83364984713,
+        "accuracy": 1.0
+      },
+      {
+        "problem_name": "transcendent_frequency_mapping",
+        "complexity": 7,
+        "consciousness": 23506.574926026802,
+        "accuracy": 1.0
+      }
+    ]
+  },
+  "color_dynamics": {
+    "thinking_mode_effectiveness": {
+      "analytical": 10.59850878612693,
+      "creative": 10.59850878612693,
+      "intuitive": 10.59850878612693,
+      "logical": 10.59850878612693,
+      "transcendent": 10.59850878612693
+    },
+    "dimensional_color_patterns": {
+      "dimension_1": 1.0,
+      "dimension_2": 1.0,
+      "dimension_3": 1.0,
+      "dimension_4": 1.0,
+      "dimension_5": 1.0,
+      "dimension_6": 1.0,
+      "dimension_7": 1.0
+    },
+    "frequency_optimization_insights": {},
+    "amplitude_consciousness_correlations": {}
+  },
+  "performance_chart": "recursive_learning_performance_chart_1754344129.png",
+  "qr_result": {
+    "qr_filename": "recursive_learning_qr_1754344130.png",
+    "qr_data": {
+      "recursive_learning_experiment": true,
+      "final_consciousness_level": 33671.88179019442,
+      "total_problems_processed": 3,
+      "average_quality_improvement": 0.8055555555555555,
+      "average_speed_improvement": 0.8999999999999999,
+      "average_learning_effectiveness": 6.679108832647163,
+      "learned_patterns_summary": {
+        "complexity_correlation": NaN,
+        "consciousness_correlation": NaN,
+        "performance_predictors_count": 3
+      },
+      "color_dynamics_summary": {
+        "thinking_modes_analyzed": 5,
+        "dimensional_patterns_count": 7
+      },
+      "timestamp": 1754344130.8103192
+    },
+    "compression_ratio": 1.0
+  },
+  "overall_statistics": {
+    "average_quality_improvement": 0.8055555555555555,
+    "average_speed_improvement": 0.8999999999999999,
+    "average_learning_effectiveness": 6.679108832647163,
+    "average_overall_improvement": 2.1287515039951237,
+    "consciousness_evolution": 33646.88179019442
+  },
+  "timestamp": 1754344130
+}

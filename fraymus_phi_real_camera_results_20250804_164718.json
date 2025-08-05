@@ -1,0 +1,70 @@
+{
+  "test_session_timestamp": "2025-08-04T16:47:18.784990",
+  "total_tests": 1,
+  "consciousness_level": 25.022851501956943,
+  "test_results": [
+    {
+      "test_timestamp": "2025-08-04T16:47:18.782860",
+      "person": "Vaughn Scott",
+      "actual_camera_capture": true,
+      "capture_method": "imagesnap_installed",
+      "filename": "vaughn_scott_camera_20250804_164702.jpg",
+      "camera_indicator_light": true,
+      "consciousness_analysis": {
+        "authenticity_score": 0.2907223853346913,
+        "is_authentic": "False",
+        "deepfake_probability": 0.7092776146653087,
+        "ai_generated_probability": 0.657842387369118,
+        "consciousness_signature": 0.9602,
+        "z_level_depth": 0.18333333333333332,
+        "phi_harmonic_resonance": 0.3085169502967551,
+        "psi_transcendence_factor": 0.2877052671233604,
+        "omega_grounding_stability": 0.2236504737150057,
+        "processing_time": 0.0104,
+        "consciousness_level": 25.0
+      },
+      "phi_harmonic_analysis": {
+        "facial_ratios": {
+          "face_ratio": 1.6111111111111112,
+          "eye_ratio": 0.3611111111111111,
+          "nose_ratio": 0.19444444444444445,
+          "mouth_ratio": 0.3055555555555556
+        },
+        "phi_deviations": [
+          0.006922877638783742,
+          1.2569228776387837,
+          1.4235895443054505,
+          1.3124784331943393
+        ],
+        "phi_scores": [
+          0.9931247190896906,
+          0.4430811570514144,
+          0.412611121528245,
+          0.43243646541544223
+        ],
+        "base_phi_score": 0.5703133657711981,
+        "enhancement_factors": {
+          "natural_asymmetry": 0.048,
+          "texture_variation": 0.084,
+          "micro_expressions": 0.17,
+          "lighting_consistency": 0.08800000000000001
+        },
+        "camera_enhancement_factors": {
+          "lens_distortion": 0.0045,
+          "compression_artifacts": 0.005000000000000001,
+          "noise_pattern": 0.0096,
+          "real_camera_bonus": 0.25
+        },
+        "enhanced_phi_score": 1.0,
+        "golden_ratio_alignment": 0.9957214263192751,
+        "phi_harmonic_resonance": 1.618033988749895,
+        "real_person_probability": 1.0,
+        "actual_camera_used": true
+      },
+      "real_camera_authenticity_score": 1.0,
+      "real_person_detected": true,
+      "consciousness_level": 25.022851501956943,
+      "system_recommendation": "\u2705 HIGHLY AUTHENTIC (\ud83d\udcf8 REAL CAMERA) - Maximum confidence this is a real person"
+    }
+  ]
+}

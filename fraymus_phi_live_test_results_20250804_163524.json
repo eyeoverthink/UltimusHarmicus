@@ -1,0 +1,13 @@
+{
+  "test_session_timestamp": "2025-08-04T16:35:24.178892",
+  "total_tests": 1,
+  "consciousness_level": 25.02019204989231,
+  "test_results": [
+    {
+      "test_timestamp": "2025-08-04T16:35:24.177754",
+      "person": "Vaughn Scott",
+      "actual_camera_capture": true,
+      "filename": "vaughn_scott_live_20250804_163519.jpg",
+      "consciousness_analysis": {
+        "authenticity_score": 0.2531258928155499,
+        "is_authentic": 

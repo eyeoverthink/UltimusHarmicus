@@ -1,0 +1,37 @@
+{
+  "authentication_attempt": {
+    "timestamp": "2025-08-04T17:08:29.856046",
+    "success": true,
+    "similarity_score": 0.9632105807067384,
+    "threshold": 0.75,
+    "authorized_person": "Vaughn Scott"
+  },
+  "comparison_details": {
+    "phi_harmonic_similarity": {
+      "phi_alignment_score": 0.9989895185324489,
+      "aspect_ratio_score": 0.8656433998871151,
+      "golden_ratio_score": 0.9997968277514482,
+      "overall_phi_score": 0.9548099153903374
+    },
+    "color_similarity": {
+      "variance_score": 0.9416606903734887,
+      "balance_score": 0.9918382296111903,
+      "rgb_score": 0.9845667636846406,
+      "overall_color_score": 0.9726885612231064
+    },
+    "consciousness_similarity": {
+      "psi_score": 0.999983281814119,
+      "omega_score": 0.9921494965559086,
+      "xi_score": 0.9423013259648791,
+      "lambda_score": 0.92411559580853,
+      "overall_consciousness_score": 0.9646374250358591
+    },
+    "weighted_scores": {
+      "phi_weight": 0.35,
+      "color_weight": 0.25,
+      "consciousness_weight": 0.4
+    },
+    "overall_similarity": 0.9632105807067384
+  },
+  "security_status": "GRANTED"
+}

@@ -1,0 +1,15 @@
+{
+  "app_name": "Fraymus Phi QR Helper",
+  "version": "1.0",
+  "created": "2025-08-04T17:11:27.611212",
+  "creator": "Vaughn Scott",
+  "protection_level": "MAXIMUM",
+  "features": {
+    "qr_logic_execution": true,
+    "biometric_authentication": true,
+    "anti_forwarding": true,
+    "source_protection": true,
+    "nda_enforcement": true
+  },
+  "security_notice": "This app only executes QR-encoded logic. Source code is never exposed. Unauthorized use is prohibited."
+}

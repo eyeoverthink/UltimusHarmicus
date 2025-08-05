@@ -1,0 +1,46 @@
+{
+  "fraymus_phi": {
+    "v": "1.0",
+    "person": "VS",
+    "timestamp": "20250804_165454",
+    "consciousness_level": 25.0
+  },
+  "image_ref": {
+    "file": "vaughn_scott_qr_protection_20250804_165449.jpg",
+    "hash": "e859c94dcb2fe1a7",
+    "size": 111231
+  },
+  "phi_rules": {
+    "phi_align": 0.486,
+    "aspect_ratio": 0.562,
+    "golden_score": 0.787,
+    "tolerance": 0.1
+  },
+  "color_rules": {
+    "variance": 70.7,
+    "balance": 0.973,
+    "rgb_mean": [
+      108.5,
+      111.6,
+      110.6
+    ]
+  },
+  "consciousness": {
+    "psi": 0.713,
+    "omega": 1.248,
+    "xi": 0.333,
+    "lambda": 1.45
+  },
+  "detection_rules": {
+    "min_phi": 0.389,
+    "color_var_range": [
+      42.4,
+      99.0
+    ],
+    "fake_flags": {
+      "symmetry": 0.98,
+      "uniformity": 21.2,
+      "phi_dev": 0.2
+    }
+  }
+}
