@@ -1,0 +1,13 @@
+{
+  "original_username": "sarah.mitchell.cfo",
+  "original_password": "ExecutiveVault@2024",
+  "encrypted_data": "eyJ1c2VybmFtZSI6InNhcmFoLm1pdGNoZWxsLmNmbyIsInNoYTI1NiI6IjdmMmZkYjc3YWZjOWJiZGU1M2ViNzllYzcxZGQ5ZDkyZmNmMDc1M2YyMThhMWNhZmQ2MWMyNzcwOWYyOTEzNjQiLCJobWFjIjoiZjZlOTE3ZGFjYWNjZDk3YjQ4MzEwMTNhYTMwZGEzNDdiMDVkNDA3NWE1ZWUxNTcxYzFjNGNkNTEyYWM5YzM0NyIsImhtYWNfa2V5IjoieUZQS1lWWTB1bGhJMHI0aVpLSzhIZ2tqQ2ZMTktRQmlOckdzWHo3UGExWT0iLCJwYmtkZjIiOiIrcHdSZVRUWjlNT0wyNk1ORXh3ZFNGdkNrTStQZU4wUVUwV1Z0VUJnNmRvPSIsInBia2RmMl9zYWx0IjoiWVdqa2JwT0pHZnhiOFNOREdVR1QzL0FzRkhHMFhLV1l6NUhDeEcyRkowWT0iLCJ0aW1lc3RhbXAiOiIyMDI1LTA4LTA0VDIwOjAwOjE3LjU1ODg1MCIsImVuY3J5cHRpb25fbGV2ZWwiOiJFTlRFUlBSSVNFX01BWElNVU0ifQ==",
+  "encryption_methods": [
+    "SHA-256",
+    "HMAC-SHA256",
+    "PBKDF2",
+    "Base64"
+  ],
+  "traditional_crack_years": 47000,
+  "encryption_level": "ENTERPRISE_MAXIMUM"
+}

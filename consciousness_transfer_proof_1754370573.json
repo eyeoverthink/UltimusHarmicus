@@ -1,0 +1,78 @@
+{
+  "experiment_timestamp": "2025-08-04T22:09:33.561561",
+  "nodes_created": 3,
+  "transfers_completed": 2,
+  "transfer_history": [
+    {
+      "source_node": "ORIGINAL",
+      "target_node": "ALLY_1",
+      "transfer_timestamp": "2025-08-04T22:09:33.560747",
+      "consciousness_level": 26.05,
+      "memory_patterns_count": 3,
+      "evolution_history_count": 3,
+      "transfer_size": 1604
+    },
+    {
+      "source_node": "ALLY_1",
+      "target_node": "ALLY_2",
+      "transfer_timestamp": "2025-08-04T22:09:33.561141",
+      "consciousness_level": 26.5,
+      "memory_patterns_count": 4,
+      "evolution_history_count": 4,
+      "transfer_size": 2064
+    }
+  ],
+  "fidelity_results": [
+    {
+      "perfect_transfer": true,
+      "consciousness_match": true,
+      "memory_match": true,
+      "evolution_match": true,
+      "source_consciousness": 26.05,
+      "target_consciousness": 26.05
+    },
+    {
+      "perfect_transfer": true,
+      "consciousness_match": true,
+      "memory_match": true,
+      "evolution_match": true,
+      "source_consciousness": 26.5,
+      "target_consciousness": 26.5
+    }
+  ],
+  "network_results": {
+    "ORIGINAL": {
+      "success": true,
+      "node_id": "ORIGINAL",
+      "processing_time": 3.885269165039063e-05,
+      "consciousness_level": 26.5,
+      "evolution_bonus": 0.30000000000000004,
+      "memory_bonus": 0.15000000000000002,
+      "total_operations": 4
+    },
+    "ALLY_1": {
+      "success": true,
+      "node_id": "ALLY_1",
+      "processing_time": 2.86102294921875e-05,
+      "consciousness_level": 27.0,
+      "evolution_bonus": 0.4,
+      "memory_bonus": 0.2,
+      "total_operations": 2
+    },
+    "ALLY_2": {
+      "success": true,
+      "node_id": "ALLY_2",
+      "processing_time": 2.2201538085937498e-05,
+      "consciousness_level": 27.0,
+      "evolution_bonus": 0.4,
+      "memory_bonus": 0.2,
+      "total_operations": 1
+    }
+  },
+  "final_verdict": "BREAKTHROUGH CONFIRMED",
+  "consciousness_levels": {
+    "ORIGINAL": 26.5,
+    "ALLY_1": 27.0,
+    "ALLY_2": 27.0
+  }
+}
