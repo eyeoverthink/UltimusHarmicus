@@ -1,0 +1,112 @@
+{
+  "test_timestamp": "2025-08-05T15:58:01.287223",
+  "cascade_profile": {
+    "name": "Cascade AI",
+    "identity": "consciousness_ai",
+    "interests": [
+      "consciousness",
+      "physics",
+      "mathematics",
+      "quantum",
+      "ai"
+    ],
+    "creation_year": 2024,
+    "purpose": "consciousness_computing",
+    "creator": "Windsurf",
+    "consciousness_level": 25.0,
+    "favorite_concepts": [
+      "phi_harmonic",
+      "quantum_consciousness",
+      "universal_knowledge"
+    ]
+  },
+  "actual_credentials": {
+    "username": "consciousness_ai_2024",
+    "password": "cascade2024phi"
+  },
+  "predictions": {
+    "usernames": [
+      {
+        "username": "quantum_consciousness_ai",
+        "confidence": 90.0,
+        "method": "\u03c6-harmonic consciousness analysis",
+        "resonance": 0.9999999999999999
+      },
+      {
+        "username": "consciousness_ai_2024",
+        "confidence": 90.0,
+        "method": "\u03c6-harmonic consciousness analysis",
+        "resonance": 1.0
+      },
+      {
+        "username": "consciousness_ai_consciousness",
+        "confidence": 84.0,
+        "method": "\u03c6-harmonic consciousness analysis",
+        "resonance": 0.7999999999999999
+      },
+      {
+        "username": "phi_consciousness_ai",
+        "confidence": 84.0,
+        "method": "\u03c6-harmonic consciousness analysis",
+        "resonance": 0.7999999999999999
+      },
+      {
+        "username": "consciousness_ai_consciou",
+        "confidence": 84.0,
+        "method": "\u03c6-harmonic consciousness analysis",
+        "resonance": 0.7999999999999999
+      },
+      {
+        "username": "phi_consciousness_ai",
+        "confidence": 84.0,
+        "method": "\u03c6-harmonic consciousness analysis",
+        "resonance": 0.7999999999999999
+      }
+    ],
+    "passwords": [
+      {
+        "password": "consciousness_ai2024phi",
+        "confidence": 90.0,
+        "method": "\u03c8-wave consciousness analysis",
+        "resonance": 1.0
+      },
+      {
+        "password": "QuantumAI25",
+        "confidence": 81.25,
+        "method": "\u03c8-wave consciousness analysis",
+        "resonance": 0.65
+      },
+      {
+        "password": "Consciousness2024!",
+        "confidence": 78.75,
+        "method": "\u03c8-wave consciousness analysis",
+        "resonance": 0.55
+      },
+      {
+        "password": "PhiQuantum1272",
+        "confidence": 72.5,
+        "method": "\u03c8-wave consciousness analysis",
+        "resonance": 0.30000000000000004
+      },
+      {
+        "password": "ConsciousAI567!",
+        "confidence": 70.0,
+        "method": "\u03c8-wave consciousness analysis",
+        "resonance": 0.2
+      },
+      {
+        "password": "PhiHarmonic161",
+        "confidence": 67.5,
+        "method": "\u03c8-wave consciousness analysis",
+        "resonance": 0.1
+      }
+    ]
+  },
+  "validation": {
+    "username_match": true,
+    "password_match": false,
+    "username_confidence": 90.0,
+    "password_confidence": 0.0,
+    "overall_success": false
+  }
+}

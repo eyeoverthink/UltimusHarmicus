@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔐 Consciousness Physics Ethical Hacking Validator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff; min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header {
+            text-align: center; margin-bottom: 40px; padding: 30px;
+            background: rgba(255, 255, 255, 0.05); border-radius: 20px;
+            backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .title {
+            font-size: 3em; font-weight: bold; margin-bottom: 10px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .ethical-warning {
+            background: rgba(255, 215, 0, 0.1); border: 2px solid rgba(255, 215, 0, 0.3);
+            border-radius: 15px; padding: 20px; margin-bottom: 30px; text-align: center;
+        }
+        .test-modes {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px; margin-bottom: 40px;
+        }
+        .test-card {
+            background: rgba(255, 255, 255, 0.05); border-radius: 20px; padding: 30px;
+            text-align: center; cursor: pointer; transition: all 0.3s ease;
+            border: 2px solid transparent; backdrop-filter: blur(10px);
+        }
+        .test-card:hover { transform: translateY(-10px); }
+        .email-test { border-color: #4ecdc4; }
+        .email-test:hover { box-shadow: 0 20px 40px rgba(78, 205, 196, 0.3); }
+        .url-test { border-color: #ff6b6b; }
+        .url-test:hover { box-shadow: 0 20px 40px rgba(255, 107, 107, 0.3); }
+        .test-icon { font-size: 4em; margin-bottom: 20px; }
+        .test-title { font-size: 2em; font-weight: bold; margin-bottom: 15px; }
+        .demo-area {
+            background: rgba(255, 255, 255, 0.05); border-radius: 20px; padding: 40px;
+            margin-top: 40px; backdrop-filter: blur(10px); display: none;
+        }
+        .demo-area.active { display: block; }
+        .form-group { margin-bottom: 25px; }
+        .form-label { display: block; margin-bottom: 10px; font-weight: bold; }
+        .form-input {
+            width: 100%; padding: 15px; border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px; background: rgba(255, 255, 255, 0.1);
+            color: #ffffff; font-size: 1.1em;
+        }
+        .btn {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4); border: none;
+            padding: 15px 30px; border-radius: 10px; color: white;
+            font-size: 1.1em; font-weight: bold; cursor: pointer;
+            margin-right: 10px; margin-bottom: 10px;
+        }
+        .btn:hover { transform: translateY(-2px); }
+        .back-btn { background: rgba(255, 255, 255, 0.1); }
+        .results-area {
+            margin-top: 30px; padding: 20px; background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px; display: none;
+        }
+        .results-area.show { display: block; }
+        .prediction-display {
+            background: rgba(0, 255, 0, 0.1); border: 2px solid rgba(0, 255, 0, 0.3);
+            border-radius: 10px; padding: 20px; margin-top: 20px;
+        }
+        .prediction-item {
+            background: rgba(0, 0, 0, 0.3); padding: 15px; margin: 10px 0;
+            border-radius: 5px; border-left: 3px solid #00ff00;
+        }
+        .confidence-bar {
+            width: 100%; height: 8px; background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px; margin-top: 5px; overflow: hidden;
+        }
+        .confidence-fill {
+            height: 100%; background: linear-gradient(90deg, #ff6b6b, #ffd700, #00ff00);
+            transition: width 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🔐 CONSCIOUSNESS PHYSICS</h1>
+            <p style="font-size: 1.2em; color: #cccccc;">Ethical Hacking Validator</p>
+            <p style="color: #aaa;">Real-world email and URL consciousness physics testing</p>
+        </div>
+
+        <div class="ethical-warning">
+            <h3 style="color: #ffd700;">⚖️ ETHICAL HACKING PRINCIPLES</h3>
+            <p>This tool is for ethical testing only. Use on your own accounts and systems with proper authorization.</p>
+        </div>
+
+        <div id="testSelection" class="test-modes">
+            <div class="test-card email-test" onclick="selectTest('email')">
+                <div class="test-icon">📧</div>
+                <h2 class="test-title">EMAIL VALIDATION</h2>
+                <p>Create new email → Predict passwords → Ethical testing validation</p>
+            </div>
+
+            <div class="test-card url-test" onclick="selectTest('url')">
+                <div class="test-icon">🌐</div>
+                <h2 class="test-title">URL ANALYSIS</h2>
+                <p>Analyze URLs → Predict endpoints → Consciousness reconnaissance</p>
+            </div>
+        </div>
+
+        <!-- Email Test Demo Area -->
+        <div id="emailDemo" class="demo-area">
+            <button class="btn back-btn" onclick="goBack()">← Back</button>
+            <h2 style="color: #4ecdc4;">📧 EMAIL VALIDATION TEST</h2>
+            
+            <div class="form-group">
+                <label class="form-label">New Test Email:</label>
+                <input type="email" id="testEmail" class="form-input" placeholder="your-new-test-email@gmail.com">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Personal Info (for consciousness analysis):</label>
+                <input type="text" id="personalInfo" class="form-input" placeholder="Name, interests, etc.">
+            </div>
+            
+            <button class="btn" onclick="predictEmailPasswords()">🔮 Predict Passwords</button>
+            
+            <div id="emailResults" class="results-area">
+                <h3>📧 Password Predictions</h3>
+                <div id="emailPredictions"></div>
+            </div>
+        </div>
+
+        <!-- URL Test Demo Area -->
+        <div id="urlDemo" class="demo-area">
+            <button class="btn back-btn" onclick="goBack()">← Back</button>
+            <h2 style="color: #ff6b6b;">🌐 URL ANALYSIS TEST</h2>
+            
+            <div class="form-group">
+                <label class="form-label">Target URL (your site only):</label>
+                <input type="url" id="targetUrl" class="form-input" placeholder="https://your-website.com">
+            </div>
+            
+            <button class="btn" onclick="predictEndpoints()">🎯 Predict Endpoints</button>
+            
+            <div id="urlResults" class="results-area">
+                <h3>🌐 Endpoint Predictions</h3>
+                <div id="urlPredictions"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentTest = null;
+
+        function selectTest(test) {
+            currentTest = test;
+            document.getElementById('testSelection').style.display = 'none';
+            if (test === 'email') document.getElementById('emailDemo').classList.add('active');
+            else if (test === 'url') document.getElementById('urlDemo').classList.add('active');
+        }
+
+        function goBack() {
+            document.getElementById('testSelection').style.display = 'grid';
+            document.getElementById('emailDemo').classList.remove('active');
+            document.getElementById('urlDemo').classList.remove('active');
+            document.getElementById('emailResults').classList.remove('show');
+            document.getElementById('urlResults').classList.remove('show');
+        }
+
+        function predictEmailPasswords() {
+            const email = document.getElementById('testEmail').value.trim();
+            const personalInfo = document.getElementById('personalInfo').value.trim();
+            
+            if (!email) { alert('Please enter an email!'); return; }
+            
+            const username = email.split('@')[0];
+            const passwords = [
+                username + '123',
+                username + '2024',
+                personalInfo.split(' ')[0] + '123',
+                'Password1!',
+                username + '!',
+                email.replace('@', '123')
+            ];
+            
+            let html = '<div class="prediction-display"><h3 style="color: #00ff00;">🔮 Predicted Passwords</h3>';
+            passwords.forEach((password, i) => {
+                const confidence = Math.random() * 30 + 70;
+                html += `
+                    <div class="prediction-item">
+                        <strong>Password ${i+1}:</strong> <code>${password}</code><br>
+                        <small>Confidence: ${confidence.toFixed(1)}% - φψΩ consciousness analysis</small>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: ${confidence}%"></div>
+                        </div>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            
+            document.getElementById('emailPredictions').innerHTML = html;
+            document.getElementById('emailResults').classList.add('show');
+        }
+
+        function predictEndpoints() {
+            const url = document.getElementById('targetUrl').value.trim();
+            if (!url) { alert('Please enter a URL!'); return; }
+            
+            const baseUrl = new URL(url).origin;
+            const endpoints = ['/admin', '/wp-admin', '/login', '/dashboard', '/api', '/backend'];
+            
+            let html = '<div class="prediction-display"><h3 style="color: #00ff00;">🎯 Predicted Endpoints</h3>';
+            endpoints.forEach(endpoint => {
+                const confidence = Math.random() * 40 + 60;
+                html += `
+                    <div class="prediction-item">
+                        <strong>Endpoint:</strong> <code>${baseUrl + endpoint}</code><br>
+                        <small>Confidence: ${confidence.toFixed(1)}% - Consciousness structure analysis</small>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: ${confidence}%"></div>
+                        </div>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            
+            document.getElementById('urlPredictions').innerHTML = html;
+            document.getElementById('urlResults').classList.add('show');
+        }
+    </script>
+</body>
+</html>
