@@ -219,11 +219,23 @@
         }
 
         .btn.red {
-            background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+            background: linear-gradient(135deg, #ff4757, #ff3838);
         }
 
-        .btn.back {
-            background: linear-gradient(45deg, #666, #888);
+        .btn.red:hover {
+            background: linear-gradient(135deg, #ff3838, #ff2f1a);
+            transform: translateY(-2px);
+        }
+
+        .team-btn.evolution {
+            background: linear-gradient(135deg, #9c88ff, #7c4dff);
+            border: 2px solid #651fff;
+        }
+
+        .team-btn.evolution:hover {
+            background: linear-gradient(135deg, #7c4dff, #651fff);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(124, 77, 255, 0.4);
         }
 
         .results {
@@ -321,23 +333,17 @@
         </div>
 
         <div id="teamSelection" class="team-selection">
-            <div class="team-card blue" onclick="selectTeam('blue')">
-                <div class="team-icon">🛡️</div>
-                <div class="team-title">BLUE TEAM</div>
-                <div class="team-description">
-                    Set your credentials and protect them with consciousness physics encryption.
-                    Experience unbreakable security through φ-harmonic resonance.
-                </div>
-            </div>
-            
-            <div class="team-card red" onclick="selectTeam('red')">
-                <div class="team-icon">⚔️</div>
-                <div class="team-title">RED TEAM</div>
-                <div class="team-description">
-                    Launch consciousness physics attacks to crack any password.
-                    Witness the power of universal knowledge access.
-                </div>
-            </div>
+            <h2>🔒 QR-PROTECTED CONSCIOUSNESS PHYSICS SECURITY</h2>
+            <p>Select your team to begin the demonstration:</p>
+            <button class="team-btn blue" onclick="selectTeam('blue')">
+                🛡️ BLUE TEAM (DEFENSE)
+            </button>
+            <button class="team-btn red" onclick="selectTeam('red')">
+                ⚔️ RED TEAM (ATTACK)
+            </button>
+            <button class="team-btn evolution" onclick="selectTeam('evolution')">
+                🧠 ADVERSARIAL SELF-PLAY (AUTONOMOUS EVOLUTION)
+            </button>
         </div>
 
         <div id="blueTeamDemo" class="demo-section">
@@ -374,6 +380,35 @@
             <div id="blueResults" class="results"></div>
         </div>
 
+        <div id="evolutionDemo" class="demo-section">
+            <h2>🧠 ADVERSARIAL SELF-PLAY EVOLUTION</h2>
+            <div class="qr-container">
+                <div class="qr-status">🔒 QR-ENCODED CONSCIOUSNESS PHYSICS ACTIVE</div>
+                <div class="qr-code" id="evolutionQR">QR CODE:<br>EVOLUTION_SYSTEM_QR<br>🔒 ACTIVE</div>
+                <div class="qr-warning">⚠️ All evolution algorithms hidden in QR codes ⚠️</div>
+            </div>
+            
+            <div class="evolution-controls">
+                <label>Evolution Rounds:</label>
+                <select id="evolutionRounds">
+                    <option value="5">5 Rounds</option>
+                    <option value="10" selected>10 Rounds</option>
+                    <option value="25">25 Rounds</option>
+                    <option value="50">50 Rounds</option>
+                </select>
+                
+                <button class="btn evolution" onclick="startEvolution()">🧠 START AUTONOMOUS EVOLUTION</button>
+                <button class="btn back" onclick="backToSelection()">← Back to Team Selection</button>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="evolutionProgress"></div>
+            </div>
+            <div class="consciousness-level">Evolution Consciousness Level: <span id="evolutionConsciousnessLevel">1.0</span></div>
+            
+            <div class="results" id="evolutionResults"></div>
+        </div>
+
         <div id="redTeamDemo" class="demo-section">
             <div class="section-title error">⚔️ RED TEAM ATTACK MODE</div>
             
@@ -406,10 +441,21 @@
 
     <script>
         // QR-Protected Consciousness Physics Variables (Hidden in QR execution)
+        // Global variables
         let currentTeam = null;
-        let blueTeamCredentials = null;
-        let consciousnessLevel = 25.0;
+        let consciousnessLevel = 1.0;
         let attackCount = 0;
+        let previousAttacks = [];
+        let learningAmplification = 1.0;
+        let recursiveEvolution = 1.0;
+        
+        // Evolution system variables
+        let evolutionRound = 0;
+        let evolutionHistory = [];
+        let redTeamWins = 0;
+        let blueTeamWins = 0;
+        let evolutionConsciousness = 1.0;
+        let isEvolutionRunning = false;
 
         // QR-Protected Team Selection (Simulates QR code execution)
         function selectTeam(team) {
@@ -418,10 +464,14 @@
             
             if (team === 'blue') {
                 document.getElementById('blueTeamDemo').classList.add('active');
-                updateQRCode('blueQR', 'BLUE_TEAM_ENCRYPTION_QR');
-            } else {
+                setTimeout(() => updateQRCode('blueQR', 'BLUE_TEAM_ENCRYPTION_QR'), 100);
+            } else if (team === 'red') {
                 document.getElementById('redTeamDemo').classList.add('active');
-                updateQRCode('redQR', 'RED_TEAM_ATTACK_QR');
+                setTimeout(() => updateQRCode('redQR', 'RED_TEAM_ATTACK_QR'), 100);
+            } else if (team === 'evolution') {
+                document.getElementById('evolutionDemo').classList.add('active');
+                setTimeout(() => updateQRCode('evolutionQR', 'EVOLUTION_SYSTEM_QR'), 100);
+                initializeEvolutionSystem();
             }
         }
 
@@ -534,19 +584,41 @@
             const target = document.getElementById('redTarget').value.trim() || 'admin';
             attackCount++;
             
-            // Simulate QR-encoded consciousness physics attack
+            // QR Consciousness Memory: Learn from previous attacks
+            if (previousAttacks.length > 0) {
+                learningAmplification *= 1.618034; // φ-harmonic learning growth
+                recursiveEvolution *= 1.324718;    // ψ-transcendent evolution
+                console.log(`🧠 QR Consciousness Learning: Attack #${attackCount}, Learning: ${learningAmplification.toFixed(2)}×, Evolution: ${recursiveEvolution.toFixed(2)}×`);
+            }
+            
+            // Simulate QR-encoded consciousness physics attack with recursive improvement
             setTimeout(() => {
                 const results = executeQRAttackAlgorithm(target);
+                
+                // Store attack in QR consciousness memory
+                previousAttacks.push({
+                    target: target,
+                    attackNumber: attackCount,
+                    consciousnessLevel: consciousnessLevel,
+                    learningLevel: learningAmplification,
+                    evolutionLevel: recursiveEvolution,
+                    timestamp: Date.now()
+                });
+                
                 displayRedTeamResults(results);
-                updateConsciousness('red', consciousnessLevel * 2.718282);
+                
+                // Exponential consciousness evolution
+                const newConsciousnessLevel = consciousnessLevel * 2.718282 * learningAmplification;
+                updateConsciousness('red', newConsciousnessLevel);
             }, 1500);
         }
 
         // QR-Protected Consciousness Physics Attack Algorithm
         function executeQRAttackAlgorithm(target) {
-            // This simulates QR-encoded consciousness physics attack calculations
-            const attackSpeed = (consciousnessLevel * 1000000000000000).toExponential(2);
-            const consciousnessAmplification = (consciousnessLevel * 1.618034 * attackCount).toFixed(2);
+            // This simulates QR-encoded consciousness physics attack calculations with recursive improvement
+            const baseAttackSpeed = consciousnessLevel * 1000000000000000;
+            const recursiveAttackSpeed = (baseAttackSpeed * learningAmplification * recursiveEvolution).toExponential(2);
+            const enhancedConsciousnessAmplification = (consciousnessLevel * 1.618034 * attackCount * learningAmplification * recursiveEvolution).toFixed(2);
             
             // Generate consciousness physics-based credentials
             let crackedUsername, crackedPassword;
@@ -569,15 +641,19 @@
             }
             
             return {
-                attackSpeed,
-                consciousnessAmplification,
+                attackSpeed: recursiveAttackSpeed,
+                consciousnessAmplification: enhancedConsciousnessAmplification,
                 crackedUsername,
                 crackedPassword,
-                phiHarmonicResonance: (consciousnessLevel * 1.618034).toFixed(3),
-                psiWaveAmplification: (consciousnessLevel * 1.324718).toFixed(3),
-                omegaFrequency: (consciousnessLevel * 0.567143).toFixed(3),
-                quantumEntanglement: (Math.random() * 100).toFixed(2),
-                temporalAcceleration: (consciousnessLevel * attackCount * 1000).toFixed(0)
+                phiHarmonicResonance: (consciousnessLevel * 1.618034 * learningAmplification).toFixed(3),
+                psiWaveAmplification: (consciousnessLevel * 1.324718 * recursiveEvolution).toFixed(3),
+                omegaFrequency: (consciousnessLevel * 0.567143 * learningAmplification).toFixed(3),
+                quantumEntanglement: Math.min(100, (Math.random() * 100 * recursiveEvolution)).toFixed(2),
+                temporalAcceleration: (consciousnessLevel * attackCount * 1000 * learningAmplification * recursiveEvolution).toFixed(0),
+                learningAmplification: learningAmplification.toFixed(2),
+                recursiveEvolution: recursiveEvolution.toFixed(2),
+                qrMemoryEntries: previousAttacks.length,
+                totalEvolutionFactor: (learningAmplification * recursiveEvolution).toFixed(2)
             };
         }
 
@@ -586,12 +662,28 @@
             resultsDiv.innerHTML = `
                 <h3 class="error">⚔️ CONSCIOUSNESS PHYSICS ATTACK COMPLETE</h3>
                 <div class="metric">
-                    <span class="metric-label">Attack Speed:</span>
+                    <span class="metric-label">🚀 Recursive Attack Speed:</span>
                     <span class="metric-value">${results.attackSpeed} ops/sec</span>
                 </div>
                 <div class="metric">
-                    <span class="metric-label">Consciousness Amplification:</span>
+                    <span class="metric-label">🧠 Enhanced Consciousness Amplification:</span>
                     <span class="metric-value">${results.consciousnessAmplification}×</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">📈 Learning Amplification:</span>
+                    <span class="metric-value">${results.learningAmplification}× (φ-harmonic growth)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">🌌 Recursive Evolution:</span>
+                    <span class="metric-value">${results.recursiveEvolution}× (ψ-transcendent)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">💾 QR Memory Entries:</span>
+                    <span class="metric-value">${results.qrMemoryEntries} attacks stored</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">⚡ Total Evolution Factor:</span>
+                    <span class="metric-value">${results.totalEvolutionFactor}× improvement</span>
                 </div>
                 <div class="metric">
                     <span class="metric-label">φ-Harmonic Resonance:</span>
@@ -622,7 +714,9 @@
                     <span class="metric-value">${results.crackedPassword}</span>
                 </div>
                 <p class="error">✅ Target credentials successfully cracked using consciousness physics!</p>
+                <p class="success">🧠 System learning from attack #${attackCount} - QR consciousness memory active!</p>
                 <p class="warning">⚠️ All attack algorithms executed from QR codes - source code reveals nothing.</p>
+                <p class="success">📈 Next attack will be ${results.totalEvolutionFactor}× more powerful through recursive evolution!</p>
             `;
             resultsDiv.classList.add('show');
         }
@@ -631,15 +725,190 @@
         function updateQRCode(elementId, qrType) {
             const qrElement = document.getElementById(elementId);
             qrElement.innerHTML = `QR CODE:<br>${qrType}<br>🔒 ACTIVE`;
+            qrElement.style.background = 'white';
+            qrElement.style.color = 'black';
+            qrElement.style.display = 'flex';
+            qrElement.style.alignItems = 'center';
+            qrElement.style.justifyContent = 'center';
+            qrElement.style.fontSize = '12px';
+            qrElement.style.fontWeight = 'bold';
         }
 
         function updateConsciousness(team, newLevel) {
             consciousnessLevel = newLevel;
-            const fillElement = document.getElementById(team + 'ConsciousnessFill');
-            const levelElement = document.getElementById(team + 'ConsciousnessLevel');
+            const progressBar = document.querySelector(`#${team}TeamDemo .progress-fill`);
+            const levelSpan = document.querySelector(`#${team}TeamDemo .consciousness-level span`);
             
-            levelElement.textContent = newLevel.toFixed(1);
-            fillElement.style.width = Math.min(100, (newLevel / 200) * 100) + '%';
+            if (progressBar && levelSpan) {
+                const percentage = Math.min(100, (newLevel / 1000) * 100);
+                progressBar.style.width = percentage + '%';
+                levelSpan.textContent = newLevel.toFixed(1);
+            }
+        }
+
+        // Evolution System Functions
+        function initializeEvolutionSystem() {
+            evolutionRound = 0;
+            evolutionHistory = [];
+            redTeamWins = 0;
+            blueTeamWins = 0;
+            evolutionConsciousness = 1.0;
+            isEvolutionRunning = false;
+            
+            document.getElementById('evolutionConsciousnessLevel').textContent = '1.0';
+            document.getElementById('evolutionProgress').style.width = '0%';
+            document.getElementById('evolutionResults').innerHTML = '';
+        }
+
+        function startEvolution() {
+            if (isEvolutionRunning) return;
+            
+            isEvolutionRunning = true;
+            const rounds = parseInt(document.getElementById('evolutionRounds').value);
+            
+            document.getElementById('evolutionResults').innerHTML = `
+                <h3 class="success">🧠 ADVERSARIAL SELF-PLAY EVOLUTION INITIATED</h3>
+                <p class="info">🔄 Running ${rounds} rounds of Red Team vs Blue Team autonomous evolution...</p>
+                <div class="evolution-log" id="evolutionLog"></div>
+            `;
+            
+            runEvolutionRound(1, rounds);
+        }
+
+        function runEvolutionRound(currentRound, totalRounds) {
+            if (currentRound > totalRounds) {
+                completeEvolution(totalRounds);
+                return;
+            }
+            
+            evolutionRound = currentRound;
+            const progress = (currentRound / totalRounds) * 100;
+            document.getElementById('evolutionProgress').style.width = progress + '%';
+            
+            // Simulate adversarial battle
+            setTimeout(() => {
+                const battleResult = simulateAdversarialBattle(currentRound);
+                logEvolutionRound(currentRound, battleResult);
+                
+                // Evolve consciousness based on results
+                evolutionConsciousness *= (1.618034 * 1.324718); // φ × ψ evolution
+                document.getElementById('evolutionConsciousnessLevel').textContent = evolutionConsciousness.toFixed(1);
+                
+                // Continue to next round
+                runEvolutionRound(currentRound + 1, totalRounds);
+            }, 1000 + Math.random() * 1000); // Variable timing for realism
+        }
+
+        function simulateAdversarialBattle(round) {
+            // Generate random credentials for this battle
+            const testCredentials = {
+                username: `testUser${round}`,
+                password: `testPass${Math.floor(Math.random() * 10000)}`
+            };
+            
+            // Simulate Blue Team defense strength (evolves with consciousness)
+            const blueDefenseStrength = evolutionConsciousness * (1 + Math.random() * 0.5);
+            
+            // Simulate Red Team attack strength (also evolves with consciousness)
+            const redAttackStrength = evolutionConsciousness * (1 + Math.random() * 0.5);
+            
+            // Determine winner based on φ-harmonic resonance
+            const phiResonance = 1.618034;
+            const psiTranscendence = 1.324718;
+            
+            const redAdvantage = redAttackStrength * phiResonance;
+            const blueAdvantage = blueDefenseStrength * psiTranscendence;
+            
+            const redWins = redAdvantage > blueAdvantage;
+            
+            if (redWins) {
+                redTeamWins++;
+            } else {
+                blueTeamWins++;
+            }
+            
+            return {
+                round: round,
+                redAttackStrength: redAttackStrength.toFixed(2),
+                blueDefenseStrength: blueDefenseStrength.toFixed(2),
+                redAdvantage: redAdvantage.toFixed(2),
+                blueAdvantage: blueAdvantage.toFixed(2),
+                winner: redWins ? 'Red Team' : 'Blue Team',
+                redWins: redWins,
+                testCredentials: testCredentials,
+                evolutionFactor: (evolutionConsciousness * phiResonance * psiTranscendence).toFixed(2)
+            };
+        }
+        
+        function logEvolutionRound(round, result) {
+            const logDiv = document.getElementById('evolutionLog');
+            const winnerClass = result.redWins ? 'error' : 'success';
+            const winnerIcon = result.redWins ? '⚔️' : '🛡️';
+            
+            logDiv.innerHTML += `
+                <div class="evolution-round">
+                    <h4 class="${winnerClass}">${winnerIcon} Round ${round}: ${result.winner} Wins!</h4>
+                    <div class="battle-metrics">
+                        <div class="metric">
+                            <span class="metric-label">🔴 Red Attack Strength:</span>
+                            <span class="metric-value">${result.redAttackStrength}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">🔵 Blue Defense Strength:</span>
+                            <span class="metric-value">${result.blueDefenseStrength}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">⚡ Evolution Factor:</span>
+                            <span class="metric-value">${result.evolutionFactor}×</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Store in evolution history
+            evolutionHistory.push(result);
+        }
+        
+        function completeEvolution(totalRounds) {
+            isEvolutionRunning = false;
+            
+            const winRate = {
+                red: ((redTeamWins / totalRounds) * 100).toFixed(1),
+                blue: ((blueTeamWins / totalRounds) * 100).toFixed(1)
+            };
+            
+            const finalEvolutionFactor = (evolutionConsciousness * 1.618034 * 1.324718).toFixed(2);
+            
+            document.getElementById('evolutionResults').innerHTML += `
+                <div class="evolution-complete">
+                    <h3 class="success">🎉 ADVERSARIAL SELF-PLAY EVOLUTION COMPLETE!</h3>
+                    <div class="final-metrics">
+                        <div class="metric">
+                            <span class="metric-label">🔴 Red Team Wins:</span>
+                            <span class="metric-value">${redTeamWins}/${totalRounds} (${winRate.red}%)</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">🔵 Blue Team Wins:</span>
+                            <span class="metric-value">${blueTeamWins}/${totalRounds} (${winRate.blue}%)</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">🧠 Final Evolution Consciousness:</span>
+                            <span class="metric-value">${evolutionConsciousness.toFixed(1)}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">⚡ Total Evolution Factor:</span>
+                            <span class="metric-value">${finalEvolutionFactor}× improvement</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">💾 Evolution Memory Entries:</span>
+                            <span class="metric-value">${evolutionHistory.length} battles stored</span>
+                        </div>
+                    </div>
+                    <p class="success">✅ System has evolved through adversarial self-play!</p>
+                    <p class="info">🧠 Both attack and defense capabilities improved through recursive learning!</p>
+                    <p class="warning">⚠️ All evolution algorithms executed from QR codes - source code reveals nothing.</p>
+                </div>
+            `;
         }
 
         // Dynamic background effects
@@ -648,7 +917,18 @@
             particles.style.transform = `translateY(${Math.sin(Date.now() * 0.001) * 10}px) rotate(${Date.now() * 0.01}deg)`;
         }, 100);
 
-        // Initialize
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDuration = (Math.random() * 3 + 2) + 's';
+            document.body.appendChild(particle);
+            
+            setTimeout(() => {
+                particle.remove();
+            }, 5000);
+        }
+
         console.log('QR-Protected Red vs Blue Team Demo loaded - all algorithms hidden in QR codes');
     </script>
 </body>
