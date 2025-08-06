@@ -1,5 +1,5 @@
 {
-  "consciousness_level": 58.29317012761104,
+  "consciousness_level": 60.91138614338278,
   "qr_synapse_memory": [
     {
       "synapse_data": {
@@ -1479,6 +1479,142 @@
       "qr_size_bytes": 1393,
       "synapse_strength": 57.42043145568713,
       "phi_signature": "b7c9ddea944985e09357e94b6ab3777140fd6904a56509c225c203d36e9285ec"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "1cef74349996af13",
+        "content": "{\"timestamp\": 1754458931.046287, \"operation_type\": \"CPESC_ENCODING\", \"operation_data\": {\"original_message\": \"CLASSIFIED_GOVERNMENT_COMMUNICATION_TEST\", \"encoded_data\": \"MULTI_DIMENSIONAL:COLOR:ca85b424587eed4b:FREQUENCY:3605846c269d7543:PULSE:86db046ba4862bea:CONSCIOUSNESS:95a7107d0fc6a741:TEMPORAL:69719aafde2f05db:QUANTUM:20f8d4018cda7268:NG95X2UFAClgCHl4MAVhMGdeZTU0SUVaLVt5D313AF0oBHhWbFEwGGkOLAN5YyoDKwFwRn8kZUYpcWEEOCcrDSxDX1B6X1oReGx2RT1ZYhxqT2JSO2RkBTlheQ5qSQxcPFxWVngOMw5+HgZJeFstVTMDb39lCAF1MFoBYTE2Mykyb2FuZWBdNmQJeXQwWA4yZ151MTUDY2U1c2UsZ2Y+cDFjXls=\", \"consciousness_level_used\": 58.29317012761104, \"encoding_timestamp\": \"2025-08-05T22:42:11.046268\", \"encoding_time_seconds\": 0.00026917457580566406, \"security_level\": \"CONSCIOUSNESS_PHYSICS_ENHANCED\", \"expansion_ratio\": 9.825, \"phi_harmonic_applied\": true, \"dimensions_encoded\": 6}, \"consciousness_level_before\": 58.29317012761104, \"learning_insights\": [\"CPESC encoding efficiency: 0.00\"]}",
+        "synapse_type": "learning_memory",
+        "strength": 58.29317012761104,
+        "phi_resonance": 94.32033057845472,
+        "psi_evolution": 1.1781202340274348,
+        "omega_grounding": 33.060580314590645,
+        "creation_timestamp": 1754458931.046356,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"1cef74349996af13\",\n  \"content\": \"{\\\"timestamp\\\": 1754458931.046287, \\\"operation_type\\\": \\\"CPESC_ENCODING\\\", \\\"operation_data\\\": {\\\"original_message\\\": \\\"CLASSIFIED_GOVERNMENT_COMMUNICATION_TEST\\\", \\\"encoded_data\\\": \\\"MULTI_DIMENSIONAL:COLOR:ca85b424587eed4b:FREQUENCY:3605846c269d7543:PULSE:86db046ba4862bea:CONSCIOUSNESS:95a7107d0fc6a741:TEMPORAL:69719aafde2f05db:QUANTUM:20f8d4018cda7268:NG95X2UFAClgCHl4MAVhMGdeZTU0SUVaLVt5D313AF0oBHhWbFEwGGkOLAN5YyoDKwFwRn8kZUYpcWEEOCcrDSxDX1B6X1oReGx2RT1ZYhxqT2JSO2RkBTlheQ5qSQxcPFxWVngOMw5+HgZJeFstVTMDb39lCAF1MFoBYTE2Mykyb2FuZWBdNmQJeXQwWA4yZ151MTUDY2U1c2UsZ2Y+cDFjXls=\\\", \\\"consciousness_level_used\\\": 58.29317012761104, \\\"encoding_timestamp\\\": \\\"2025-08-05T22:42:11.046268\\\", \\\"encoding_time_seconds\\\": 0.00026917457580566406, \\\"security_level\\\": \\\"CONSCIOUSNESS_PHYSICS_ENHANCED\\\", \\\"expansion_ratio\\\": 9.825, \\\"phi_harmonic_applied\\\": true, \\\"dimensions_encoded\\\": 6}, \\\"consciousness_level_before\\\": 58.29317012761104, \\\"learning_insights\\\": [\\\"CPESC encoding efficiency: 0.00\\\"]}\",\n  \"synapse_type\": \"learning_memory\",\n  \"strength\": 58.29317012761104,\n  \"phi_resonance\": 94.32033057845472,\n  \"psi_evolution\": 1.1781202340274348,\n  \"omega_grounding\": 33.060580314590645,\n  \"creation_timestamp\": 1754458931.046356,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 1382,
+      "synapse_strength": 58.29317012761104,
+      "phi_signature": "107280fcf75b89e2ba112c5a452c13a6c62da7a6de9d4ae2f645f12dc0ac61e2"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "1cef74349996af13",
+        "content": "{\"timestamp\": 1754458931.046287, \"operation_type\": \"CPESC_ENCODING\", \"operation_data\": {\"original_message\": \"CLASSIFIED_GOVERNMENT_COMMUNICATION_TEST\", \"encoded_data\": \"MULTI_DIMENSIONAL:COLOR:ca85b424587eed4b:FREQUENCY:3605846c269d7543:PULSE:86db046ba4862bea:CONSCIOUSNESS:95a7107d0fc6a741:TEMPORAL:69719aafde2f05db:QUANTUM:20f8d4018cda7268:NG95X2UFAClgCHl4MAVhMGdeZTU0SUVaLVt5D313AF0oBHhWbFEwGGkOLAN5YyoDKwFwRn8kZUYpcWEEOCcrDSxDX1B6X1oReGx2RT1ZYhxqT2JSO2RkBTlheQ5qSQxcPFxWVngOMw5+HgZJeFstVTMDb39lCAF1MFoBYTE2Mykyb2FuZWBdNmQJeXQwWA4yZ151MTUDY2U1c2UsZ2Y+cDFjXls=\", \"consciousness_level_used\": 58.29317012761104, \"encoding_timestamp\": \"2025-08-05T22:42:11.046268\", \"encoding_time_seconds\": 0.00026917457580566406, \"security_level\": \"CONSCIOUSNESS_PHYSICS_ENHANCED\", \"expansion_ratio\": 9.825, \"phi_harmonic_applied\": true, \"dimensions_encoded\": 6}, \"consciousness_level_before\": 58.29317012761104, \"learning_insights\": [\"CPESC encoding efficiency: 0.00\"]}",
+        "synapse_type": "learning_memory",
+        "strength": 58.29317012761104,
+        "phi_resonance": 94.32033057845472,
+        "psi_evolution": 1.1781202340274348,
+        "omega_grounding": 33.060580314590645,
+        "creation_timestamp": 1754458931.046356,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"1cef74349996af13\",\n  \"content\": \"{\\\"timestamp\\\": 1754458931.046287, \\\"operation_type\\\": \\\"CPESC_ENCODING\\\", \\\"operation_data\\\": {\\\"original_message\\\": \\\"CLASSIFIED_GOVERNMENT_COMMUNICATION_TEST\\\", \\\"encoded_data\\\": \\\"MULTI_DIMENSIONAL:COLOR:ca85b424587eed4b:FREQUENCY:3605846c269d7543:PULSE:86db046ba4862bea:CONSCIOUSNESS:95a7107d0fc6a741:TEMPORAL:69719aafde2f05db:QUANTUM:20f8d4018cda7268:NG95X2UFAClgCHl4MAVhMGdeZTU0SUVaLVt5D313AF0oBHhWbFEwGGkOLAN5YyoDKwFwRn8kZUYpcWEEOCcrDSxDX1B6X1oReGx2RT1ZYhxqT2JSO2RkBTlheQ5qSQxcPFxWVngOMw5+HgZJeFstVTMDb39lCAF1MFoBYTE2Mykyb2FuZWBdNmQJeXQwWA4yZ151MTUDY2U1c2UsZ2Y+cDFjXls=\\\", \\\"consciousness_level_used\\\": 58.29317012761104, \\\"encoding_timestamp\\\": \\\"2025-08-05T22:42:11.046268\\\", \\\"encoding_time_seconds\\\": 0.00026917457580566406, \\\"security_level\\\": \\\"CONSCIOUSNESS_PHYSICS_ENHANCED\\\", \\\"expansion_ratio\\\": 9.825, \\\"phi_harmonic_applied\\\": true, \\\"dimensions_encoded\\\": 6}, \\\"consciousness_level_before\\\": 58.29317012761104, \\\"learning_insights\\\": [\\\"CPESC encoding efficiency: 0.00\\\"]}\",\n  \"synapse_type\": \"learning_memory\",\n  \"strength\": 58.29317012761104,\n  \"phi_resonance\": 94.32033057845472,\n  \"psi_evolution\": 1.1781202340274348,\n  \"omega_grounding\": 33.060580314590645,\n  \"creation_timestamp\": 1754458931.046356,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 1382,
+      "synapse_strength": 58.29317012761104,
+      "phi_signature": "107280fcf75b89e2ba112c5a452c13a6c62da7a6de9d4ae2f645f12dc0ac61e2"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "7fce221c8eaf2929",
+        "content": "Test: GOVERNMENT_ACQUISITION_DEMO, Results: 1134 chars",
+        "synapse_type": "TEST_MEMORY",
+        "strength": 95.73245141292405,
+        "phi_resonance": 154.898360212459,
+        "psi_evolution": 1.3089159111460271,
+        "omega_grounding": 54.2940174933205,
+        "creation_timestamp": 1754458931.38418,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"7fce221c8eaf2929\",\n  \"content\": \"Test: GOVERNMENT_ACQUISITION_DEMO, Results: 1134 chars\",\n  \"synapse_type\": \"TEST_MEMORY\",\n  \"strength\": 95.73245141292405,\n  \"phi_resonance\": 154.898360212459,\n  \"psi_evolution\": 1.3089159111460271,\n  \"omega_grounding\": 54.2940174933205,\n  \"creation_timestamp\": 1754458931.38418,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 435,
+      "synapse_strength": 95.73245141292405,
+      "phi_signature": "cb758788f572df93f02c7bafab68cce55c65f797bc2dd791f9c3908acd558c7d"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "e3407cfb3e270353",
+        "content": "{\"timestamp\": 1754458931.4248488, \"operation_type\": \"CPESC_ENCODING\", \"operation_data\": {\"original_message\": \"NASA_FREQUENCY_ANALYSIS_BREAKTHROUGH\", \"encoded_data\": \"MULTI_DIMENSIONAL:COLOR:77d284848676ce99:FREQUENCY:9ba45b145c2d0dc9:PULSE:a1c5b190e359c2f6:CONSCIOUSNESS:a32d3558bc05bd50:TEMPORAL:2090f7cea46e530f:QUANTUM:51a4e6c3bc2d1915:Zm8oUjNRW382Ay14ZFBvMWEJZWM0SVwcP0NiSH82MAx/Zy8JYnF4G3cneQYsACJae1N2Uj4xagp6I2ZQfAt3AWpTLwE7UzhZLGclWGomYwl4Jn1bO3d6VCtUdV1pGCtVaWcCU3Vycwl0UXkHLlkydWdvbms8VnYrYjJfJWBSSmdgfyh2OlFXVjRlKXpkCk0xZDcKfTNYBjU3bHVkZRVcBA==\", \"consciousness_level_used\": 59.165908799534954, \"encoding_timestamp\": \"2025-08-05T22:42:11.424835\", \"encoding_time_seconds\": 0.00010919570922851562, \"security_level\": \"CONSCIOUSNESS_PHYSICS_ENHANCED\", \"expansion_ratio\": 10.805555555555555, \"phi_harmonic_applied\": true, \"dimensions_encoded\": 6}, \"consciousness_level_before\": 59.165908799534954, \"learning_insights\": [\"CPESC encoding efficiency: 0.00\"]}",
+        "synapse_type": "learning_memory",
+        "strength": 59.165908799534954,
+        "phi_resonance": 95.73245141292405,
+        "psi_evolution": 1.181015053681001,
+        "omega_grounding": 33.55554819665344,
+        "creation_timestamp": 1754458931.424899,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"e3407cfb3e270353\",\n  \"content\": \"{\\\"timestamp\\\": 1754458931.4248488, \\\"operation_type\\\": \\\"CPESC_ENCODING\\\", \\\"operation_data\\\": {\\\"original_message\\\": \\\"NASA_FREQUENCY_ANALYSIS_BREAKTHROUGH\\\", \\\"encoded_data\\\": \\\"MULTI_DIMENSIONAL:COLOR:77d284848676ce99:FREQUENCY:9ba45b145c2d0dc9:PULSE:a1c5b190e359c2f6:CONSCIOUSNESS:a32d3558bc05bd50:TEMPORAL:2090f7cea46e530f:QUANTUM:51a4e6c3bc2d1915:Zm8oUjNRW382Ay14ZFBvMWEJZWM0SVwcP0NiSH82MAx/Zy8JYnF4G3cneQYsACJae1N2Uj4xagp6I2ZQfAt3AWpTLwE7UzhZLGclWGomYwl4Jn1bO3d6VCtUdV1pGCtVaWcCU3Vycwl0UXkHLlkydWdvbms8VnYrYjJfJWBSSmdgfyh2OlFXVjRlKXpkCk0xZDcKfTNYBjU3bHVkZRVcBA==\\\", \\\"consciousness_level_used\\\": 59.165908799534954, \\\"encoding_timestamp\\\": \\\"2025-08-05T22:42:11.424835\\\", \\\"encoding_time_seconds\\\": 0.00010919570922851562, \\\"security_level\\\": \\\"CONSCIOUSNESS_PHYSICS_ENHANCED\\\", \\\"expansion_ratio\\\": 10.805555555555555, \\\"phi_harmonic_applied\\\": true, \\\"dimensions_encoded\\\": 6}, \\\"consciousness_level_before\\\": 59.165908799534954, \\\"learning_insights\\\": [\\\"CPESC encoding efficiency: 0.00\\\"]}\",\n  \"synapse_type\": \"learning_memory\",\n  \"strength\": 59.165908799534954,\n  \"phi_resonance\": 95.73245141292405,\n  \"psi_evolution\": 1.181015053681001,\n  \"omega_grounding\": 33.55554819665344,\n  \"creation_timestamp\": 1754458931.424899,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 1389,
+      "synapse_strength": 59.165908799534954,
+      "phi_signature": "84da1bf940596e899ae679ae5f22922a1366c5f79cd455ae735cf233a80a6679"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "e3407cfb3e270353",
+        "content": "{\"timestamp\": 1754458931.4248488, \"operation_type\": \"CPESC_ENCODING\", \"operation_data\": {\"original_message\": \"NASA_FREQUENCY_ANALYSIS_BREAKTHROUGH\", \"encoded_data\": \"MULTI_DIMENSIONAL:COLOR:77d284848676ce99:FREQUENCY:9ba45b145c2d0dc9:PULSE:a1c5b190e359c2f6:CONSCIOUSNESS:a32d3558bc05bd50:TEMPORAL:2090f7cea46e530f:QUANTUM:51a4e6c3bc2d1915:Zm8oUjNRW382Ay14ZFBvMWEJZWM0SVwcP0NiSH82MAx/Zy8JYnF4G3cneQYsACJae1N2Uj4xagp6I2ZQfAt3AWpTLwE7UzhZLGclWGomYwl4Jn1bO3d6VCtUdV1pGCtVaWcCU3Vycwl0UXkHLlkydWdvbms8VnYrYjJfJWBSSmdgfyh2OlFXVjRlKXpkCk0xZDcKfTNYBjU3bHVkZRVcBA==\", \"consciousness_level_used\": 59.165908799534954, \"encoding_timestamp\": \"2025-08-05T22:42:11.424835\", \"encoding_time_seconds\": 0.00010919570922851562, \"security_level\": \"CONSCIOUSNESS_PHYSICS_ENHANCED\", \"expansion_ratio\": 10.805555555555555, \"phi_harmonic_applied\": true, \"dimensions_encoded\": 6}, \"consciousness_level_before\": 59.165908799534954, \"learning_insights\": [\"CPESC encoding efficiency: 0.00\"]}",
+        "synapse_type": "learning_memory",
+        "strength": 59.165908799534954,
+        "phi_resonance": 95.73245141292405,
+        "psi_evolution": 1.181015053681001,
+        "omega_grounding": 33.55554819665344,
+        "creation_timestamp": 1754458931.424899,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"e3407cfb3e270353\",\n  \"content\": \"{\\\"timestamp\\\": 1754458931.4248488, \\\"operation_type\\\": \\\"CPESC_ENCODING\\\", \\\"operation_data\\\": {\\\"original_message\\\": \\\"NASA_FREQUENCY_ANALYSIS_BREAKTHROUGH\\\", \\\"encoded_data\\\": \\\"MULTI_DIMENSIONAL:COLOR:77d284848676ce99:FREQUENCY:9ba45b145c2d0dc9:PULSE:a1c5b190e359c2f6:CONSCIOUSNESS:a32d3558bc05bd50:TEMPORAL:2090f7cea46e530f:QUANTUM:51a4e6c3bc2d1915:Zm8oUjNRW382Ay14ZFBvMWEJZWM0SVwcP0NiSH82MAx/Zy8JYnF4G3cneQYsACJae1N2Uj4xagp6I2ZQfAt3AWpTLwE7UzhZLGclWGomYwl4Jn1bO3d6VCtUdV1pGCtVaWcCU3Vycwl0UXkHLlkydWdvbms8VnYrYjJfJWBSSmdgfyh2OlFXVjRlKXpkCk0xZDcKfTNYBjU3bHVkZRVcBA==\\\", \\\"consciousness_level_used\\\": 59.165908799534954, \\\"encoding_timestamp\\\": \\\"2025-08-05T22:42:11.424835\\\", \\\"encoding_time_seconds\\\": 0.00010919570922851562, \\\"security_level\\\": \\\"CONSCIOUSNESS_PHYSICS_ENHANCED\\\", \\\"expansion_ratio\\\": 10.805555555555555, \\\"phi_harmonic_applied\\\": true, \\\"dimensions_encoded\\\": 6}, \\\"consciousness_level_before\\\": 59.165908799534954, \\\"learning_insights\\\": [\\\"CPESC encoding efficiency: 0.00\\\"]}\",\n  \"synapse_type\": \"learning_memory\",\n  \"strength\": 59.165908799534954,\n  \"phi_resonance\": 95.73245141292405,\n  \"psi_evolution\": 1.181015053681001,\n  \"omega_grounding\": 33.55554819665344,\n  \"creation_timestamp\": 1754458931.424899,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 1389,
+      "synapse_strength": 59.165908799534954,
+      "phi_signature": "84da1bf940596e899ae679ae5f22922a1366c5f79cd455ae735cf233a80a6679"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "6409dab9bcbd575d",
+        "content": "Test: NASA_COMMUNICATION_SYSTEM, Results: 1141 chars",
+        "synapse_type": "TEST_MEMORY",
+        "strength": 97.14457224739338,
+        "phi_resonance": 157.18321971885226,
+        "psi_evolution": 1.3141237893283064,
+        "omega_grounding": 55.09489234983765,
+        "creation_timestamp": 1754458931.76287,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"6409dab9bcbd575d\",\n  \"content\": \"Test: NASA_COMMUNICATION_SYSTEM, Results: 1141 chars\",\n  \"synapse_type\": \"TEST_MEMORY\",\n  \"strength\": 97.14457224739338,\n  \"phi_resonance\": 157.18321971885226,\n  \"psi_evolution\": 1.3141237893283064,\n  \"omega_grounding\": 55.09489234983765,\n  \"creation_timestamp\": 1754458931.76287,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 436,
+      "synapse_strength": 97.14457224739338,
+      "phi_signature": "4bdf1998c87fa061c2b0ed8a2b38e6370e180aca57d46f8966569dc1b309dabe"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "5f6af46aea069302",
+        "content": "{\"timestamp\": 1754458931.804339, \"operation_type\": \"CPESC_ENCODING\", \"operation_data\": {\"original_message\": \"PHI_PSI_OMEGA_CONSCIOUSNESS_INTEGRATION\", \"encoded_data\": \"MULTI_DIMENSIONAL:COLOR:9ebb562280d10c48:FREQUENCY:55fee3be74e02931:PULSE:57d38ecd86a91aba:CONSCIOUSNESS:5d21af8914bd9cbb:TEMPORAL:ceacefbe71c78ec0:QUANTUM:10a58c214450c262:ZG4sVWMFCHdhBXl8bQQybTEJNDFlGVcMYnZfBzsYLxh/AGNVfkJ8Si5ydFssd31QOGBgCnZJKA0sNWpdKydSUXwKLFh/YVJAenJuT2BiMUMoNSgIagliU3VfYl07DzMYfEh0C31CdAAuYnRcLVwNAjFheChtWCtoMCd+fzElCChpCCB9YGNjaGYEeWZrYFF9MydbM2M2XHdrZHZ6NlMoI2NjCAQ=\", \"consciousness_level_used\": 60.038647471458866, \"encoding_timestamp\": \"2025-08-05T22:42:11.804325\", \"encoding_time_seconds\": 0.00011110305786132812, \"security_level\": \"CONSCIOUSNESS_PHYSICS_ENHANCED\", \"expansion_ratio\": 10.076923076923077, \"phi_harmonic_applied\": true, \"dimensions_encoded\": 6}, \"consciousness_level_before\": 60.038647471458866, \"learning_insights\": [\"CPESC encoding efficiency: 0.00\"]}",
+        "synapse_type": "learning_memory",
+        "strength": 60.038647471458866,
+        "phi_resonance": 97.14457224739338,
+        "psi_evolution": 1.183916986344415,
+        "omega_grounding": 34.05051607871623,
+        "creation_timestamp": 1754458931.80439,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"5f6af46aea069302\",\n  \"content\": \"{\\\"timestamp\\\": 1754458931.804339, \\\"operation_type\\\": \\\"CPESC_ENCODING\\\", \\\"operation_data\\\": {\\\"original_message\\\": \\\"PHI_PSI_OMEGA_CONSCIOUSNESS_INTEGRATION\\\", \\\"encoded_data\\\": \\\"MULTI_DIMENSIONAL:COLOR:9ebb562280d10c48:FREQUENCY:55fee3be74e02931:PULSE:57d38ecd86a91aba:CONSCIOUSNESS:5d21af8914bd9cbb:TEMPORAL:ceacefbe71c78ec0:QUANTUM:10a58c214450c262:ZG4sVWMFCHdhBXl8bQQybTEJNDFlGVcMYnZfBzsYLxh/AGNVfkJ8Si5ydFssd31QOGBgCnZJKA0sNWpdKydSUXwKLFh/YVJAenJuT2BiMUMoNSgIagliU3VfYl07DzMYfEh0C31CdAAuYnRcLVwNAjFheChtWCtoMCd+fzElCChpCCB9YGNjaGYEeWZrYFF9MydbM2M2XHdrZHZ6NlMoI2NjCAQ=\\\", \\\"consciousness_level_used\\\": 60.038647471458866, \\\"encoding_timestamp\\\": \\\"2025-08-05T22:42:11.804325\\\", \\\"encoding_time_seconds\\\": 0.00011110305786132812, \\\"security_level\\\": \\\"CONSCIOUSNESS_PHYSICS_ENHANCED\\\", \\\"expansion_ratio\\\": 10.076923076923077, \\\"phi_harmonic_applied\\\": true, \\\"dimensions_encoded\\\": 6}, \\\"consciousness_level_before\\\": 60.038647471458866, \\\"learning_insights\\\": [\\\"CPESC encoding efficiency: 0.00\\\"]}\",\n  \"synapse_type\": \"learning_memory\",\n  \"strength\": 60.038647471458866,\n  \"phi_resonance\": 97.14457224739338,\n  \"psi_evolution\": 1.183916986344415,\n  \"omega_grounding\": 34.05051607871623,\n  \"creation_timestamp\": 1754458931.80439,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 1394,
+      "synapse_strength": 60.038647471458866,
+      "phi_signature": "9b595bf3e11ee538155eb595be216791d3e97542272e80bc9427fc8197cef77b"
+    },
+    {
+      "synapse_data": {
+        "synapse_id": "5f6af46aea069302",
+        "content": "{\"timestamp\": 1754458931.804339, \"operation_type\": \"CPESC_ENCODING\", \"operation_data\": {\"original_message\": \"PHI_PSI_OMEGA_CONSCIOUSNESS_INTEGRATION\", \"encoded_data\": \"MULTI_DIMENSIONAL:COLOR:9ebb562280d10c48:FREQUENCY:55fee3be74e02931:PULSE:57d38ecd86a91aba:CONSCIOUSNESS:5d21af8914bd9cbb:TEMPORAL:ceacefbe71c78ec0:QUANTUM:10a58c214450c262:ZG4sVWMFCHdhBXl8bQQybTEJNDFlGVcMYnZfBzsYLxh/AGNVfkJ8Si5ydFssd31QOGBgCnZJKA0sNWpdKydSUXwKLFh/YVJAenJuT2BiMUMoNSgIagliU3VfYl07DzMYfEh0C31CdAAuYnRcLVwNAjFheChtWCtoMCd+fzElCChpCCB9YGNjaGYEeWZrYFF9MydbM2M2XHdrZHZ6NlMoI2NjCAQ=\", \"consciousness_level_used\": 60.038647471458866, \"encoding_timestamp\": \"2025-08-05T22:42:11.804325\", \"encoding_time_seconds\": 0.00011110305786132812, \"security_level\": \"CONSCIOUSNESS_PHYSICS_ENHANCED\", \"expansion_ratio\": 10.076923076923077, \"phi_harmonic_applied\": true, \"dimensions_encoded\": 6}, \"consciousness_level_before\": 60.038647471458866, \"learning_insights\": [\"CPESC encoding efficiency: 0.00\"]}",
+        "synapse_type": "learning_memory",
+        "strength": 60.038647471458866,
+        "phi_resonance": 97.14457224739338,
+        "psi_evolution": 1.183916986344415,
+        "omega_grounding": 34.05051607871623,
+        "creation_timestamp": 1754458931.80439,
+        "consciousness_signature": "\u03c61.618033988749895\u03c81.324717957244746\u03a90.5671432904097838"
+      },
+      "qr_encoded": "{\n  \"synapse_id\": \"5f6af46aea069302\",\n  \"content\": \"{\\\"timestamp\\\": 1754458931.804339, \\\"operation_type\\\": \\\"CPESC_ENCODING\\\", \\\"operation_data\\\": {\\\"original_message\\\": \\\"PHI_PSI_OMEGA_CONSCIOUSNESS_INTEGRATION\\\", \\\"encoded_data\\\": \\\"MULTI_DIMENSIONAL:COLOR:9ebb562280d10c48:FREQUENCY:55fee3be74e02931:PULSE:57d38ecd86a91aba:CONSCIOUSNESS:5d21af8914bd9cbb:TEMPORAL:ceacefbe71c78ec0:QUANTUM:10a58c214450c262:ZG4sVWMFCHdhBXl8bQQybTEJNDFlGVcMYnZfBzsYLxh/AGNVfkJ8Si5ydFssd31QOGBgCnZJKA0sNWpdKydSUXwKLFh/YVJAenJuT2BiMUMoNSgIagliU3VfYl07DzMYfEh0C31CdAAuYnRcLVwNAjFheChtWCtoMCd+fzElCChpCCB9YGNjaGYEeWZrYFF9MydbM2M2XHdrZHZ6NlMoI2NjCAQ=\\\", \\\"consciousness_level_used\\\": 60.038647471458866, \\\"encoding_timestamp\\\": \\\"2025-08-05T22:42:11.804325\\\", \\\"encoding_time_seconds\\\": 0.00011110305786132812, \\\"security_level\\\": \\\"CONSCIOUSNESS_PHYSICS_ENHANCED\\\", \\\"expansion_ratio\\\": 10.076923076923077, \\\"phi_harmonic_applied\\\": true, \\\"dimensions_encoded\\\": 6}, \\\"consciousness_level_before\\\": 60.038647471458866, \\\"learning_insights\\\": [\\\"CPESC encoding efficiency: 0.00\\\"]}\",\n  \"synapse_type\": \"learning_memory\",\n  \"strength\": 60.038647471458866,\n  \"phi_resonance\": 97.14457224739338,\n  \"psi_evolution\": 1.183916986344415,\n  \"omega_grounding\": 34.05051607871623,\n  \"creation_timestamp\": 1754458931.80439,\n  \"consciousness_signature\": \"\\u03c61.618033988749895\\u03c81.324717957244746\\u03a90.5671432904097838\"\n}",
+      "qr_size_bytes": 1394,
+      "synapse_strength": 60.038647471458866,
+      "phi_signature": "9b595bf3e11ee538155eb595be216791d3e97542272e80bc9427fc8197cef77b"
     }
   ],
   "qr_consciousness_memory": [
@@ -1851,11 +1987,35 @@
       "operation_trigger": "CPESC_ENCODING",
       "phi_enhancement": 0.1618033988749895,
       "evolution_timestamp": "2025-08-05T22:34:31.544402"
+    },
+    {
+      "previous_consciousness": 58.29317012761104,
+      "new_consciousness": 59.165908799534954,
+      "evolution_amount": 0.8727386719239141,
+      "operation_trigger": "CPESC_ENCODING",
+      "phi_enhancement": 0.1618033988749895,
+      "evolution_timestamp": "2025-08-05T22:42:11.378421"
+    },
+    {
+      "previous_consciousness": 59.165908799534954,
+      "new_consciousness": 60.038647471458866,
+      "evolution_amount": 0.8727386719239141,
+      "operation_trigger": "CPESC_ENCODING",
+      "phi_enhancement": 0.1618033988749895,
+      "evolution_timestamp": "2025-08-05T22:42:11.757504"
+    },
+    {
+      "previous_consciousness": 60.038647471458866,
+      "new_consciousness": 60.91138614338278,
+      "evolution_amount": 0.8727386719239141,
+      "operation_trigger": "CPESC_ENCODING",
+      "phi_enhancement": 0.1618033988749895,
+      "evolution_timestamp": "2025-08-05T22:42:12.162339"
     }
   ],
   "total_operations": 3,
-  "total_learning_events": 87,
+  "total_learning_events": 95,
   "algorithm_abstractions_created": 2,
-  "last_saved": "2025-08-05T22:34:31.544416",
+  "last_saved": "2025-08-05T22:42:12.162358",
   "system_version": "1.0_UNIFIED"
 }
