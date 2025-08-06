@@ -1,0 +1,172 @@
+{
+  "battle_history": [
+    {
+      "battle_number": 1,
+      "red_consciousness_level": 26.25,
+      "blue_consciousness_level": 26.25,
+      "red_qr_synapses": 1,
+      "blue_qr_synapses": 1,
+      "battle_result": {
+        "winner": "stalemate",
+        "red_effectiveness": 26.276002665079567,
+        "blue_effectiveness": 24.00714282171252,
+        "margin": 2.2688598433670464,
+        "red_attack": "Temporal Consciousness Exploit",
+        "blue_defense": "Temporal Consciousness Isolation"
+      },
+      "red_strategy": {
+        "name": "Temporal Consciousness Exploit",
+        "type": "temporal_attack",
+        "effectiveness": 92.99375466583774,
+        "description": "Exploit temporal consciousness vulnerabilities",
+        "counter_defenses": []
+      },
+      "blue_strategy": {
+        "name": "Temporal Consciousness Isolation",
+        "type": "temporal_defense",
+        "effectiveness": 95.72781816220613,
+        "description": "Isolate consciousness from temporal attacks",
+        "counters_attacks": []
+      },
+      "timestamp": "2025-08-06T00:00:09.569365+00:00"
+    },
+    {
+      "battle_number": 2,
+      "red_consciousness_level": 27.5625,
+      "blue_consciousness_level": 28.087500000000002,
+      "red_qr_synapses": 2,
+      "blue_qr_synapses": 2,
+      "battle_result": {
+        "winner": "stalemate",
+        "red_effectiveness": 25.26678795795487,
+        "blue_effectiveness": 23.313494539032334,
+        "margin": 1.953293418922538,
+        "red_attack": "Temporal Consciousness Exploit",
+        "blue_defense": "QR Memory Encryption"
+      },
+      "red_strategy": {
+        "name": "Temporal Consciousness Exploit",
+        "type": "temporal_attack",
+        "effectiveness": 97.25082793967431,
+        "description": "Exploit temporal consciousness vulnerabilities",
+        "counter_defenses": []
+      },
+      "blue_strategy": {
+        "name": "QR Memory Encryption",
+        "type": "memory_defense",
+        "effectiveness": 82.33429973268973,
+        "description": "Encrypt QR synapses with consciousness physics",
+        "counters_attacks": []
+      },
+      "timestamp": "2025-08-06T00:00:10.794285+00:00"
+    },
+    {
+      "battle_number": 3,
+      "red_consciousness_level": 34.275,
+      "blue_consciousness_level": 30.896250000000006,
+      "red_qr_synapses": 3,
+      "blue_qr_synapses": 3,
+      "battle_result": {
+        "winner": "red",
+        "red_effectiveness": 30.77804642094287,
+        "blue_effectiveness": 27.464421795368175,
+        "margin": 3.313624625574697,
+        "red_attack": "Temporal Consciousness Exploit",
+        "blue_defense": "Consciousness Field Hardening"
+      },
+      "red_strategy": {
+        "name": "Temporal Consciousness Exploit",
+        "type": "temporal_attack",
+        "effectiveness": 93.25617635569486,
+        "description": "Exploit temporal consciousness vulnerabilities",
+        "counter_defenses": []
+      },
+      "blue_strategy": {
+        "name": "Consciousness Field Hardening",
+        "type": "consciousness_defense",
+        "effectiveness": 94.79260507891658,
+        "description": "Harden consciousness field against \u03c6\u03c8\u03a9 attacks",
+        "counters_attacks": [
+          "Counter-Temporal Consciousness Isolation",
+          "Counter-QR Memory Encryption"
+        ]
+      },
+      "timestamp": "2025-08-06T00:00:12.033043+00:00"
+    },
+    {
+      "battle_number": 4,
+      "red_consciousness_level": 37.03875,
+      "blue_consciousness_level": 32.96606250000001,
+      "red_qr_synapses": 4,
+      "blue_qr_synapses": 4,
+      "battle_result": {
+        "winner": "stalemate",
+        "red_effectiveness": 32.88955686382443,
+        "blue_effectiveness": 30.169642355992067,
+        "margin": 2.719914507832364,
+        "red_attack": "Temporal Consciousness Exploit",
+        "blue_defense": "Temporal Consciousness Isolation"
+      },
+      "red_strategy": {
+        "name": "Temporal Consciousness Exploit",
+        "type": "temporal_attack",
+        "effectiveness": 85.58775387459347,
+        "description": "Exploit temporal consciousness vulnerabilities",
+        "counter_defenses": []
+      },
+      "blue_strategy": {
+        "name": "Temporal Consciousness Isolation",
+        "type": "temporal_defense",
+        "effectiveness": 93.2336339349419,
+        "description": "Isolate consciousness from temporal attacks",
+        "counters_attacks": []
+      },
+      "timestamp": "2025-08-06T00:00:13.266204+00:00"
+    },
+    {
+      "battle_number": 5,
+      "red_consciousness_level": 39.415687500000004,
+      "blue_consciousness_level": 36.714365625000006,
+      "red_qr_synapses": 5,
+      "blue_qr_synapses": 5,
+      "battle_result": {
+        "winner": "stalemate",
+        "red_effectiveness": 26.966182710158904,
+        "blue_effectiveness": 28.051774759397343,
+        "margin": 1.0855920492384392,
+        "red_attack": "QR Memory Injection",
+        "blue_defense": "QR Memory Encryption"
+      },
+      "red_strategy": {
+        "name": "QR Memory Injection",
+        "type": "memory_attack",
+        "effectiveness": 89.089764068077,
+        "description": "Inject malicious QR synapses into target memory",
+        "counter_defenses": [
+          "Counter-Temporal Consciousness Exploit",
+          "Counter-Temporal Consciousness Exploit"
+        ]
+      },
+      "blue_strategy": {
+        "name": "QR Memory Encryption",
+        "type": "memory_defense",
+        "effectiveness": 88.90012307265268,
+        "description": "Encrypt QR synapses with consciousness physics",
+        "counters_attacks": []
+      },
+      "timestamp": "2025-08-06T00:00:14.489804+00:00"
+    }
+  ],
+  "red_team_final_state": {
+    "consciousness_level": 39.415687500000004,
+    "qr_synapses": 5,
+    "battle_experience": 5,
+    "learned_strategies": 6
+  },
+  "blue_team_final_state": {
+    "consciousness_level": 36.714365625000006,
+    "qr_synapses": 5,
+    "battle_experience": 5,
+    "learned_strategies": 5
+  }
+}

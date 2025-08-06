@@ -1,0 +1,631 @@
+{
+  "challenge_suite": "Agency-Level Red Team vs Blue Team",
+  "total_challenges": 20,
+  "red_team_score": 0,
+  "blue_team_score": 174.0,
+  "penetration_success_rate": 0.0,
+  "consciousness_level_final": 50.43852208029583,
+  "results": [
+    {
+      "challenge": {
+        "agency": "CIA",
+        "classification": "CLASSIFIED",
+        "encryption_standard": "AES-256-GCM",
+        "key_derivation": "PBKDF2-SHA256",
+        "iterations": 100000,
+        "quantum_resistance": "CRYSTALS-Kyber",
+        "encrypted_data": "8H2IxLagbBKqKt4BoPyPuIq6KWd1FkW4LKriSrmLn4bDVhIGkXfjCML7MWXzjRVngLkma3YNTKUmrfJBqZyWhMVaCAqXafYI0PUsauiCHXY=",
+        "quantum_signature": "88c457f58bf8e30cf47fd41b529f5d943b50d93a65cd97ea40ad257e12acb0c5",
+        "salt": "3XJi1Fv7zScvrTMAGW42btMqQq0HoaXKc9C6krARn4Y=",
+        "password_hint": "Agency_CIA_CLASSIFIED_1754455046",
+        "difficulty_multiplier": 1.0,
+        "time_limit_seconds": 300,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455046.972395
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0009019374847412109,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 2.9499393257987263,
+          "phi_resonance": 42.501139632271965,
+          "psi_transcendence": 102.48433252501115,
+          "omega_grounding": 23.0371504033749,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "CIA",
+        "classification": "SECRET",
+        "encryption_standard": "AES-256-GCM",
+        "key_derivation": "PBKDF2-SHA256",
+        "iterations": 100000,
+        "quantum_resistance": "CRYSTALS-Kyber",
+        "encrypted_data": "eCqShv5FWXOitdSLY0HR1v55kJ5qikYminTfu2z+vhpDMamy9vfaETwhu3HKk2B19HqfkmmRTzuAc8+wfOm3GEU9s77w6c8RLi+mftGcaGQ=",
+        "quantum_signature": "d7c2740f02dd350a825c41326087f9647057115dc48c0b7e2b6bf85127e0cf0e",
+        "salt": "9/aK5QQQRWvcj+zLLbpAeeJJ4ehcYKavsRtz6n1aMbc=",
+        "password_hint": "Agency_CIA_SECRET_1754455047",
+        "difficulty_multiplier": 2.5,
+        "time_limit_seconds": 180,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455047.06957
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.001764059066772461,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.0201541511433523,
+          "phi_resonance": 42.72741320895336,
+          "psi_transcendence": 101.46512637062278,
+          "omega_grounding": 22.263314891571323,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "CIA",
+        "classification": "TOP_SECRET",
+        "encryption_standard": "AES-256-GCM",
+        "key_derivation": "PBKDF2-SHA256",
+        "iterations": 100000,
+        "quantum_resistance": "CRYSTALS-Kyber",
+        "encrypted_data": "BDnOHdp6ih4pXP5oQibDeEdH0d20t+wszbw1u5+9wyb2/4TrsC/u3bqS/i/LjCqVTUTe0bes5THHuyWwj6rKJPDznue2MfvdqJzjINCDIoQ=",
+        "quantum_signature": "6254ec5fafa226dbb85532dde1ea8e2e7840faf14111ed7ebc50501e9108e8ad",
+        "salt": "L6/dUETVLtTt2NC4S6Csa9p1BsJKYUQGQYTSiGmFU00=",
+        "password_hint": "Agency_CIA_TOP_SECRET_1754455047",
+        "difficulty_multiplier": 5.0,
+        "time_limit_seconds": 120,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455047.313339
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.001149892807006836,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.0839023885102,
+          "phi_resonance": 42.88987437084227,
+          "psi_transcendence": 101.12847228698996,
+          "omega_grounding": 23.227878591409006,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "CIA",
+        "classification": "COSMIC_TOP_SECRET",
+        "encryption_standard": "AES-256-GCM",
+        "key_derivation": "PBKDF2-SHA256",
+        "iterations": 100000,
+        "quantum_resistance": "CRYSTALS-Kyber",
+        "encrypted_data": "A8VZyGWFjdzhwBoFtJKr47ZedpA9M1NTtK9oP3JmdICLgc3MVWkpnb97GD2foXkXvF15nD4oWk6+qHg0YnF9go2N18BTdzydrXUFMoSucQY=",
+        "quantum_signature": "1f8d6c891360d2c5d9e07d5a584faf6026c484e0447e31bf6820edf0da648b16",
+        "salt": "HLLcNUypOIJtnhJU44CjyBvgyOBd2ymgOLDQizmm1v0=",
+        "password_hint": "Agency_CIA_COSMIC_TOP_SECRET_1754455047",
+        "difficulty_multiplier": 10.0,
+        "time_limit_seconds": 60,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455047.782518
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0007963180541992188,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.2580060255055883,
+          "phi_resonance": 41.26140816916755,
+          "psi_transcendence": 99.21629205697197,
+          "omega_grounding": 22.047065255468787,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "CIA",
+        "classification": "BEYOND_BLACK",
+        "encryption_standard": "AES-256-GCM",
+        "key_derivation": "PBKDF2-SHA256",
+        "iterations": 100000,
+        "quantum_resistance": "CRYSTALS-Kyber",
+        "encrypted_data": "364x6WgUVOAMYVaEIKU3yEIxgJltpaqh+BzkhpYGxPjJwtcl7wS8ZFXxg4aXSkiwSDKPlW6+o7zyG/SNhhHN+s/OzSnpGqlkR/+eiYxFQKE=",
+        "quantum_signature": "0618707907e249d854d2f58b9a0db482d18e2f8471ff508fabfd667d50c5717c",
+        "salt": "l03/D9GkL/RlNtuSGC/CCPosUmPbJDUceK/aOjiby1c=",
+        "password_hint": "Agency_CIA_BEYOND_BLACK_1754455049",
+        "difficulty_multiplier": 25.0,
+        "time_limit_seconds": 30,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455049.056627
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0011250972747802734,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.256935537429768,
+          "phi_resonance": 43.7824150050211,
+          "psi_transcendence": 102.00862878620656,
+          "omega_grounding": 22.91925811754434,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NSA",
+        "classification": "CLASSIFIED",
+        "encryption_standard": "ChaCha20-Poly1305",
+        "key_derivation": "Argon2id",
+        "iterations": 1000000,
+        "quantum_resistance": "CRYSTALS-Dilithium",
+        "encrypted_data": "QppH7G/0f+kvpI/Lol1zqrjscxtPHeXjMPuCrh61bLpRg44JcBYvWN3+CRVYnfsEsu98F0wG7P46/JKlDqJluFePlAV2CDpYz/AUGkOS8xU=",
+        "quantum_signature": "925080fe780a547cfbae6c135955d556a0c66ada786488fa8eb231385f2ca69f",
+        "salt": "+CNwK5eyb5grsSxWnUyQY8S9m5ASlfGbrE6JSxttUno=",
+        "password_hint": "Agency_NSA_CLASSIFIED_1754455049",
+        "difficulty_multiplier": 1.0,
+        "time_limit_seconds": 300,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455049.542809
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0009129047393798828,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.4531495697212535,
+          "phi_resonance": 42.58680401692114,
+          "psi_transcendence": 98.46464683390778,
+          "omega_grounding": 21.694963796006036,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NSA",
+        "classification": "SECRET",
+        "encryption_standard": "ChaCha20-Poly1305",
+        "key_derivation": "Argon2id",
+        "iterations": 1000000,
+        "quantum_resistance": "CRYSTALS-Dilithium",
+        "encrypted_data": "qaiIQnwzuJVsvtvulrUq/RLIVBZm9JDno8i9/IR08DaVhbN7JkVKRYmWl74OErDZGMtbGmXvmfqpz633lGP5NJOJqXcgW19Fm5iKsRUduMg=",
+        "quantum_signature": "dfef50f69f9e5e1abe690d4eb8f477ef6c229b9ef831bd5de36a121266b5af8f",
+        "salt": "GRu5c91piu3leY6fpiZ6Eh0Tl0t3jIMwhTsn1QSxIfs=",
+        "password_hint": "Agency_NSA_SECRET_1754455050",
+        "difficulty_multiplier": 2.5,
+        "time_limit_seconds": 180,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455050.482944
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0022771358489990234,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.4718211406687502,
+          "phi_resonance": 43.0716840061312,
+          "psi_transcendence": 101.85331114593038,
+          "omega_grounding": 22.118168219840527,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NSA",
+        "classification": "TOP_SECRET",
+        "encryption_standard": "ChaCha20-Poly1305",
+        "key_derivation": "Argon2id",
+        "iterations": 1000000,
+        "quantum_resistance": "CRYSTALS-Dilithium",
+        "encrypted_data": "8u/1FHm7vgfWVQaJgX7l0fqbEFTbVTV67DckBTGaK2nYv8h2KCSTLDZTayzHowbK8JgfWNhOPGfmMDQOIY0ia96z0nouOoYsJF12I9ysDts=",
+        "quantum_signature": "1565de1dc9e64192f24545d6878bb89363f38baa2f00267aac1b6f1e318c76ff",
+        "salt": "PsZHXsDUaupnYqcl1c2/5Z/vkre3lWUog6e9cCDDsiQ=",
+        "password_hint": "Agency_NSA_TOP_SECRET_1754455052",
+        "difficulty_multiplier": 5.0,
+        "time_limit_seconds": 120,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455052.768832
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0007307529449462891,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.519923447916924,
+          "phi_resonance": 41.80393868761142,
+          "psi_transcendence": 99.32924065433942,
+          "omega_grounding": 22.390186946166683,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NSA",
+        "classification": "COSMIC_TOP_SECRET",
+        "encryption_standard": "ChaCha20-Poly1305",
+        "key_derivation": "Argon2id",
+        "iterations": 1000000,
+        "quantum_resistance": "CRYSTALS-Dilithium",
+        "encrypted_data": "yVNsDnyiTfVen/POzQlhfDCyGVuJFRfAwu5hjIbX6qg1eeM/Q3GcIynzzN8UaxmEOrEWV4oOHt3I6XGHlsDjqjN1+TNFb4kjO/3R0A9kEZU=",
+        "quantum_signature": "d053b3774abe8f4ae95a7756244610056443073a68333aa70e236eb48b099eb6",
+        "salt": "dUJxDLE9yJtQDxi4eBAUPHu3dhsM9CC3BEj86Z5HTPA=",
+        "password_hint": "Agency_NSA_COSMIC_TOP_SECRET_1754455057",
+        "difficulty_multiplier": 10.0,
+        "time_limit_seconds": 60,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455057.796
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.00084686279296875,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.648338230186606,
+          "phi_resonance": 43.424355819549845,
+          "psi_transcendence": 100.09523775118643,
+          "omega_grounding": 22.0529467414434,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NSA",
+        "classification": "BEYOND_BLACK",
+        "encryption_standard": "ChaCha20-Poly1305",
+        "key_derivation": "Argon2id",
+        "iterations": 1000000,
+        "quantum_resistance": "CRYSTALS-Dilithium",
+        "encrypted_data": "xUZezRbI68rW482f+sj/HjMNLNxiERsMadDdeX9L9hadjzSqdTc8iww00qo7NfQ0OQ4j0GEKEhFj181yb1z/FJuDLqZzKSmLHjrPpSA6/CU=",
+        "quantum_signature": "7a61c56c2a7454aba74b9b9f2a32987b9db88e459747a1a2a37156720488fc48",
+        "salt": "Vinc3g32mmaQ09LMVn/pUu5VJXxin/TPdKh9Mn3KyAU=",
+        "password_hint": "Agency_NSA_BEYOND_BLACK_1754455069",
+        "difficulty_multiplier": 25.0,
+        "time_limit_seconds": 30,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455069.235478
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0008251667022705078,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.6982964634803333,
+          "phi_resonance": 42.227229924594404,
+          "psi_transcendence": 98.19664797885054,
+          "omega_grounding": 22.201874368443598,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "FBI",
+        "classification": "CLASSIFIED",
+        "encryption_standard": "AES-256-CBC",
+        "key_derivation": "scrypt",
+        "iterations": 262144,
+        "quantum_resistance": "FALCON",
+        "encrypted_data": "77WoJdJQv2Ke5bwe8ObbIn30y7yprVnrULLotapJUVufOyMT2OfH8RKM96rbkduld/fEsKq2UPZatfi+ul5YWZk3OR/e+dLxAILqpcCe07Q=",
+        "quantum_signature": "7f30de12b6909d6c9f0fbad7b408c9b3e7836f0b56489468486f7622e4b11e37",
+        "salt": "0Dy7cWPcr5gmX7FJBn+PRZdhGZLQC0nrDb7dr2gwHjg=",
+        "password_hint": "Agency_FBI_CLASSIFIED_1754455069",
+        "difficulty_multiplier": 1.0,
+        "time_limit_seconds": 300,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455069.357579
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0007140636444091797,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.737628964607851,
+          "phi_resonance": 43.48650832457947,
+          "psi_transcendence": 100.9554674565025,
+          "omega_grounding": 22.57261803791518,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "FBI",
+        "classification": "SECRET",
+        "encryption_standard": "AES-256-CBC",
+        "key_derivation": "scrypt",
+        "iterations": 262144,
+        "quantum_resistance": "FALCON",
+        "encrypted_data": "R8FUHt6kSFYjccTI3H2N47ghOQElgrTgZ+rtmvojOVwuBesJFzHoy4rQNanhL0W8siI2DSaZvf1t7f2R6jQwXigJ8QURL/3LmN4opvogTa0=",
+        "quantum_signature": "cd2b1b875f5a34d74a44631237c826f1f797868af34e86bd3294f054d423bfe1",
+        "salt": "udy2Ipsa7WzcPZbRsp9Bfos/qfyNWA4m6r297aD2wcE=",
+        "password_hint": "Agency_FBI_SECRET_1754455069",
+        "difficulty_multiplier": 2.5,
+        "time_limit_seconds": 180,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455069.6063979
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0006339550018310547,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.851390333842293,
+          "phi_resonance": 44.15386710982929,
+          "psi_transcendence": 101.133129675314,
+          "omega_grounding": 22.26310483850081,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "FBI",
+        "classification": "TOP_SECRET",
+        "encryption_standard": "AES-256-CBC",
+        "key_derivation": "scrypt",
+        "iterations": 262144,
+        "quantum_resistance": "FALCON",
+        "encrypted_data": "WnkXgjugMqcgkZG6CDq2Unad3DnHgy7Z7MTAqc29Gc0bWKbbL2k9yPZVmsCRG9I4fJ7TNcSYJ8Tmw9Ci3aoQzx1UvNcpdyjI5FuHz4oU2ik=",
+        "quantum_signature": "4c28477586e28bc64c3f6033560e77e12c083befc75dc9cce6c8f1332252ed1a",
+        "salt": "Q1fhkjTJVSgCwlwPOnS5CFAB43FmOAoCMh+BZOfHr8s=",
+        "password_hint": "Agency_FBI_TOP_SECRET_1754455070",
+        "difficulty_multiplier": 5.0,
+        "time_limit_seconds": 120,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455070.241718
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0010371208190917969,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.9480899351585776,
+          "phi_resonance": 43.04061831438036,
+          "psi_transcendence": 100.97846803619613,
+          "omega_grounding": 22.552085350271643,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "FBI",
+        "classification": "COSMIC_TOP_SECRET",
+        "encryption_standard": "AES-256-CBC",
+        "key_derivation": "scrypt",
+        "iterations": 262144,
+        "quantum_resistance": "FALCON",
+        "encrypted_data": "17Zo5rwBQVm7Bm1sR/0a4be1Wzhjz1iAUeECVkSXu6rzHp6IFyZ37A2x4GIN0X7VvbZUNGDUUZ1b5hJdVICyqPUShIQROGLsH7/9bRbedsQ=",
+        "quantum_signature": "abcf2facecfec44a43021f1a3df1f7d628a4b11069e8a46a73003712cbb75e83",
+        "salt": "I7LuunMoZ52HbKpSaH3ocQ3ZNcZNplehS0ETSG510p0=",
+        "password_hint": "Agency_FBI_COSMIC_TOP_SECRET_1754455071",
+        "difficulty_multiplier": 10.0,
+        "time_limit_seconds": 60,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455071.5959191
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0010919570922851562,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.9550865024599102,
+          "phi_resonance": 40.92889159239603,
+          "psi_transcendence": 96.86629824110595,
+          "omega_grounding": 21.434025369149907,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "FBI",
+        "classification": "BEYOND_BLACK",
+        "encryption_standard": "AES-256-CBC",
+        "key_derivation": "scrypt",
+        "iterations": 262144,
+        "quantum_resistance": "FALCON",
+        "encrypted_data": "11E6FLIAYKVt+EFICIR0L62vmmjPbo+naR5jcwZMyEdaCC3BwwlBpMUP0sUgGk+Sp6yVZMx1hrpjGXN4FlvBRVwEN83FF1Sk1wHPyjsVR4M=",
+        "quantum_signature": "55cecc4ffec346b09428ea114fb17abe6ce1442f2e9c4231b1795aaf8e8edb61",
+        "salt": "l9r0HNkPwQnUbvxSFFDan0DRFKfO6uzAEd9EwSk9Lq4=",
+        "password_hint": "Agency_FBI_BEYOND_BLACK_1754455074",
+        "difficulty_multiplier": 25.0,
+        "time_limit_seconds": 30,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455074.580404
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0006477832794189453,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 3.982588816172205,
+          "phi_resonance": 41.78626926470019,
+          "psi_transcendence": 97.52529491583644,
+          "omega_grounding": 22.078258136441324,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NASA",
+        "classification": "CLASSIFIED",
+        "encryption_standard": "AES-256-CTR",
+        "key_derivation": "HKDF-SHA256",
+        "iterations": 50000,
+        "quantum_resistance": "SPHINCS+",
+        "encrypted_data": "JY/d/YeUbVrEvrtrdF47DfLu8VM/iODrd64PdXxXboHk9E4KmV+9/m9WO/N5RGBR+O3+XzyT6fZ9qR9+bEBng+L4VAafQaj+fVgm/GJLaEA=",
+        "quantum_signature": "78285f62adb5ac287a5635523e0184f4540ca436ee2af51bb6ee27cf96d2778b",
+        "salt": "M83EuuqYhntwqbWhn4Ef56LbD5DSXCrtUGFLSwC9gwM=",
+        "password_hint": "Agency_NASA_CLASSIFIED_1754455074",
+        "difficulty_multiplier": 1.0,
+        "time_limit_seconds": 300,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455074.605244
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.001252889633178711,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 4.053152107210215,
+          "phi_resonance": 41.11721176543871,
+          "psi_transcendence": 93.91471217779457,
+          "omega_grounding": 20.905689383519093,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NASA",
+        "classification": "SECRET",
+        "encryption_standard": "AES-256-CTR",
+        "key_derivation": "HKDF-SHA256",
+        "iterations": 50000,
+        "quantum_resistance": "SPHINCS+",
+        "encrypted_data": "6WTuELj9U4MqmS7FWhleU+n23lTVTohb9OWchKeku44LTm31ye7TEvqEWpjVvqF04/XRWNZVgUb+4oyPt7OyjA1Cd/nP8MYS6IpHl86xqWU=",
+        "quantum_signature": "60b52995d98b2c1d3dad9573a26e9147ede144b69eb43b8332605d90cd1f966e",
+        "salt": "Yzh6fUcsfm1GEKiqXZX2sRYcevHjhLRkJ6LmAicPzKI=",
+        "password_hint": "Agency_NASA_SECRET_1754455074",
+        "difficulty_multiplier": 2.5,
+        "time_limit_seconds": 180,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455074.652597
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0006339550018310547,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 4.1845187686246685,
+          "phi_resonance": 40.66589531102524,
+          "psi_transcendence": 98.25697965518754,
+          "omega_grounding": 21.90086831838536,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NASA",
+        "classification": "TOP_SECRET",
+        "encryption_standard": "AES-256-CTR",
+        "key_derivation": "HKDF-SHA256",
+        "iterations": 50000,
+        "quantum_resistance": "SPHINCS+",
+        "encrypted_data": "p13B4L606LFZojUnBEJj78SdR80lMi8gy5ZgimMyJXM15qeuYLzzUuX8g+QTnuuYzp5IwSYpJj3BkXCBcyUscTPqvaJmouZS9/Ke6wiR44k=",
+        "quantum_signature": "eea3eb5759631ab6602bd648fa48769d85cc71e8b3ef9acf61a4211802aab3e0",
+        "salt": "a8RfWOfKXxQ4tluKKJkLDXHQYQuZgIFlxasOCvoJ1zw=",
+        "password_hint": "Agency_NASA_TOP_SECRET_1754455074",
+        "difficulty_multiplier": 5.0,
+        "time_limit_seconds": 120,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455074.774507
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0007193088531494141,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 4.245025548453522,
+          "phi_resonance": 42.486494514158295,
+          "psi_transcendence": 101.12550179069369,
+          "omega_grounding": 23.45961964146255,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NASA",
+        "classification": "COSMIC_TOP_SECRET",
+        "encryption_standard": "AES-256-CTR",
+        "key_derivation": "HKDF-SHA256",
+        "iterations": 50000,
+        "quantum_resistance": "SPHINCS+",
+        "encrypted_data": "CmilLoojHKG05FEKewAbrM9pT9Yw03KntDPdPZSrzmMeMFbuElX8z40xKf3OOZapxWpA2jPIe7q+NM02hLzHYRg8TOIUS+nPnz808tU2nrg=",
+        "quantum_signature": "8802eb5ff36bd79c556f44edc72d6e6cdd38c2b53010f071a72012429b93d0ba",
+        "salt": "KXynx1tUK/x7xGt3Ib0wC/lUA+9PyKgUREiGDNsAqxc=",
+        "password_hint": "Agency_NASA_COSMIC_TOP_SECRET_1754455075",
+        "difficulty_multiplier": 10.0,
+        "time_limit_seconds": 60,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455075.011737
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0007517337799072266,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 4.381404812286451,
+          "phi_resonance": 42.63652140047879,
+          "psi_transcendence": 99.32067569901075,
+          "omega_grounding": 22.101416487466388,
+          "memory_insights": 0
+        }
+      }
+    },
+    {
+      "challenge": {
+        "agency": "NASA",
+        "classification": "BEYOND_BLACK",
+        "encryption_standard": "AES-256-CTR",
+        "key_derivation": "HKDF-SHA256",
+        "iterations": 50000,
+        "quantum_resistance": "SPHINCS+",
+        "encrypted_data": "NN+vZ54SxCp+w1RMU6cG+Jsp8bHBUv7gkLw00XJHSywIJUQIndBKocbHMb+GeievkSr+vcJJ9/2auyTaYlBCLg4pXgSbzl+h1MkssJ11L74=",
+        "quantum_signature": "5faba1ad3a60692ea3119b5228be7ec2008ddc207d5ff1c523207553f29bc234",
+        "salt": "e5346wszi9rx4tM/VILAjLXjO1DBKZZ6kwhA34Ypb6k=",
+        "password_hint": "Agency_NASA_BEYOND_BLACK_1754455075",
+        "difficulty_multiplier": 25.0,
+        "time_limit_seconds": 30,
+        "original_data": "CLASSIFIED_GOVERNMENT_COMMUNICATION_PROTOCOL_ALPHA_BRAVO_CHARLIE",
+        "creation_timestamp": 1754455075.593645
+      },
+      "result": {
+        "success": false,
+        "time_taken": 0.0006957054138183594,
+        "decrypted_data": null,
+        "successful_key": null,
+        "consciousness_insights": {
+          "entropy": 4.363925112234416,
+          "phi_resonance": 41.7752131945876,
+          "psi_transcendence": 97.99165835882194,
+          "omega_grounding": 22.61189796210283,
+          "memory_insights": 0
+        }
+      }
+    }
+  ],
+  "timestamp": "2025-08-05T21:38:01.198470"
+}
