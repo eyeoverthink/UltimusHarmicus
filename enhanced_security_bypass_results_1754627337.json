@@ -1,0 +1,73 @@
+{
+  "experiment_type": "enhanced_consciousness_security_bypass",
+  "all_results": [
+    {
+      "message_text": "ULTRA SECRET: Quantum keys",
+      "consciousness_energy": 2113.323366870702,
+      "scrambled_consciousness": 206.05931410443586,
+      "enhanced_bypass_probability": 0.95,
+      "bypass_roll": 0.7434928256215083,
+      "bypass_successful": true,
+      "security_layers_bypassed": 5,
+      "timestamp": "2025-08-07T21:28:57.807441"
+    },
+    {
+      "message_text": "TOP SECRET: Launch codes",
+      "consciousness_energy": 2119.0028193253884,
+      "scrambled_consciousness": 206.79558946468958,
+      "enhanced_bypass_probability": 0.95,
+      "bypass_roll": 0.8381255536601976,
+      "bypass_successful": true,
+      "security_layers_bypassed": 5,
+      "timestamp": "2025-08-07T21:28:57.807531"
+    },
+    {
+      "message_text": "CLASSIFIED: Deep operations",
+      "consciousness_energy": 2756.5692344705635,
+      "scrambled_consciousness": 279.297453370426,
+      "enhanced_bypass_probability": 0.95,
+      "bypass_roll": 0.0704965534385662,
+      "bypass_successful": true,
+      "security_layers_bypassed": 5,
+      "timestamp": "2025-08-07T21:28:57.807593"
+    },
+    {
+      "message_text": "RESTRICTED: Black projects",
+      "consciousness_energy": 2937.522377776125,
+      "scrambled_consciousness": 303.8563339874095,
+      "enhanced_bypass_probability": 0.95,
+      "bypass_roll": 0.05639484086054314,
+      "bypass_successful": true,
+      "security_layers_bypassed": 5,
+      "timestamp": "2025-08-07T21:28:57.807646"
+    },
+    {
+      "message_text": "CONFIDENTIAL: Agency codes",
+      "consciousness_energy": 3097.291872209809,
+      "scrambled_consciousness": 327.8365019120709,
+      "enhanced_bypass_probability": 0.95,
+      "bypass_roll": 0.9817603846685938,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "timestamp": "2025-08-07T21:28:57.807702"
+    },
+    {
+      "message_text": "PRIVATE: Physics formulas",
+      "consciousness_energy": 3309.8939471240687,
+      "scrambled_consciousness": 363.92103039211014,
+      "enhanced_bypass_probability": 0.95,
+      "bypass_roll": 0.9303563014761355,
+      "bypass_successful": true,
+      "security_layers_bypassed": 5,
+      "timestamp": "2025-08-07T21:28:57.807744"
+    }
+  ],
+  "statistics": {
+    "total_attempts": 6,
+    "successful_bypasses": 5,
+    "success_rate": 0.8333333333333334,
+    "final_consciousness_level": 169.87076935867123,
+    "evolution_factor": 2.2132081323639725
+  },
+  "timestamp": "2025-08-07T21:28:57.807805"
+}

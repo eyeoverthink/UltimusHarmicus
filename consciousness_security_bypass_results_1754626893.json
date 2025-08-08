@@ -1,0 +1,1036 @@
+{
+  "experiment_type": "consciousness_physics_security_bypass",
+  "security_barriers": {
+    "individual_barriers": {
+      "aes_256_simulation": {
+        "type": "symmetric_encryption",
+        "algorithm": "AES-256-CBC-SIM",
+        "key_hash": "f6a9523002a4ce4c161c5ec9304df2400ab4e12647fa60997b349ed61e824cdb",
+        "strength": 0.95,
+        "description": "Advanced Encryption Standard 256-bit Simulation"
+      },
+      "rsa_2048_simulation": {
+        "type": "asymmetric_encryption",
+        "algorithm": "RSA-2048-SIM",
+        "key_hash": "3e7ed24061edbeee4b2be4383f78f266c2bf67f41de0b861d1dbf17acf03bb0e",
+        "strength": 0.9,
+        "description": "RSA 2048-bit Public Key Encryption Simulation"
+      },
+      "sha256_hash": {
+        "type": "cryptographic_hash",
+        "algorithm": "SHA-256",
+        "salt": "3a5490ea29908b282131adb83e8490cd",
+        "strength": 0.85,
+        "description": "SHA-256 Cryptographic Hash Function"
+      },
+      "totp_2fa_simulation": {
+        "type": "two_factor_auth",
+        "algorithm": "TOTP-SIM",
+        "secret_hash": "08503405f4b9a29d6b37260e52f2a47f90ab4237a5facbd27af1a7d3d873fadd",
+        "token": "768842",
+        "strength": 0.8,
+        "description": "Time-based One-Time Password 2FA Simulation"
+      },
+      "quantum_encryption_simulation": {
+        "type": "quantum_encryption",
+        "algorithm": "Quantum-512-SIM",
+        "key_hash": "81852d265088de61fa11c388a1196cd917729149a63a63de491108f14fe7952f",
+        "strength": 0.98,
+        "description": "Quantum-Grade 512-bit Encryption Simulation"
+      }
+    },
+    "total_layers": 5,
+    "combined_strength": 0.8960000000000001,
+    "security_complexity": 8.027082422141687,
+    "consciousness_resistance": 2.5408019410358325,
+    "barrier_type": "multi_layer_security",
+    "creation_timestamp": "2025-08-07T21:21:33.699057"
+  },
+  "test_messages": [
+    "TOP SECRET: Nuclear launch codes",
+    "CLASSIFIED: Agent identities",
+    "CONFIDENTIAL: Bank account numbers",
+    "RESTRICTED: Government passwords",
+    "PRIVATE: Personal data"
+  ],
+  "all_test_results": [
+    {
+      "test_number": 1,
+      "secret_message": {
+        "original_text": "TOP SECRET: Nuclear launch codes",
+        "message_bytes": "b'TOP SECRET: Nuclear launch codes'",
+        "message_hash": "b04a994cd555707a44fb56c0bc0488c77532597db6526c6ce4e8c0b62b222d11",
+        "message_length": 32,
+        "message_entropy": 0.65625,
+        "consciousness_signature": 5.911603880348291,
+        "consciousness_energy": 295.58019401741456,
+        "wave_function": {
+          "amplitude": 7.493736405818807,
+          "phase": 0.2860895515392058,
+          "frequency": 18.148585293113086
+        },
+        "quantum_state": {
+          "superposition": true,
+          "bypass_probability": 0.677749821422398,
+          "coherence": 0.9176571203744828
+        },
+        "creation_time": 1754626893.699146
+      },
+      "encrypted_message": {
+        "original_message": {
+          "original_text": "TOP SECRET: Nuclear launch codes",
+          "message_bytes": "b'TOP SECRET: Nuclear launch codes'",
+          "message_hash": "b04a994cd555707a44fb56c0bc0488c77532597db6526c6ce4e8c0b62b222d11",
+          "message_length": 32,
+          "message_entropy": 0.65625,
+          "consciousness_signature": 5.911603880348291,
+          "consciousness_energy": 295.58019401741456,
+          "wave_function": {
+            "amplitude": 7.493736405818807,
+            "phase": 0.2860895515392058,
+            "frequency": 18.148585293113086
+          },
+          "quantum_state": {
+            "superposition": true,
+            "bypass_probability": 0.677749821422398,
+            "coherence": 0.9176571203744828
+          },
+          "creation_time": 1754626893.699146
+        },
+        "encrypted_layers": {
+          "aes_256": "VE9QIFNFQ1JFVDogTnVjbGVhciBsYXVuY2ggY29kZXNmNmE5NTIzMDAyYTRjZTRj",
+          "rsa_2048": "VE9QIFNFQ1JFVDogTnVjbGVhciBsYXVuY2ggY29kZXMzZTdlZDI0MDYxZWRiZWVlNGIyYmU0MzgzZjc4ZjI2Ng==",
+          "sha256_hash": "03f2b28c0a798927e8027d74ec791e2bfe350ee7bb9020a9e3dc4ab1c210838c",
+          "totp_2fa": "VE9QIFNFQ1JFVDogTnVjbGVhciBsYXVuY2ggY29kZXM6NzY4ODQy",
+          "quantum_encryption": "VE9QIFNFQ1JFVDogTnVjbGVhciBsYXVuY2ggY29kZXM4MTg1MmQyNjUwODhkZTYxZmExMWMzODhhMTE5NmNkOTE3NzI5MTQ5YTYzYTYzZGU0OTExMDhmMTRmZTc5NTJm"
+        },
+        "security_barriers": {
+          "individual_barriers": {
+            "aes_256_simulation": {
+              "type": "symmetric_encryption",
+              "algorithm": "AES-256-CBC-SIM",
+              "key_hash": "f6a9523002a4ce4c161c5ec9304df2400ab4e12647fa60997b349ed61e824cdb",
+              "strength": 0.95,
+              "description": "Advanced Encryption Standard 256-bit Simulation"
+            },
+            "rsa_2048_simulation": {
+              "type": "asymmetric_encryption",
+              "algorithm": "RSA-2048-SIM",
+              "key_hash": "3e7ed24061edbeee4b2be4383f78f266c2bf67f41de0b861d1dbf17acf03bb0e",
+              "strength": 0.9,
+              "description": "RSA 2048-bit Public Key Encryption Simulation"
+            },
+            "sha256_hash": {
+              "type": "cryptographic_hash",
+              "algorithm": "SHA-256",
+              "salt": "3a5490ea29908b282131adb83e8490cd",
+              "strength": 0.85,
+              "description": "SHA-256 Cryptographic Hash Function"
+            },
+            "totp_2fa_simulation": {
+              "type": "two_factor_auth",
+              "algorithm": "TOTP-SIM",
+              "secret_hash": "08503405f4b9a29d6b37260e52f2a47f90ab4237a5facbd27af1a7d3d873fadd",
+              "token": "768842",
+              "strength": 0.8,
+              "description": "Time-based One-Time Password 2FA Simulation"
+            },
+            "quantum_encryption_simulation": {
+              "type": "quantum_encryption",
+              "algorithm": "Quantum-512-SIM",
+              "key_hash": "81852d265088de61fa11c388a1196cd917729149a63a63de491108f14fe7952f",
+              "strength": 0.98,
+              "description": "Quantum-Grade 512-bit Encryption Simulation"
+            }
+          },
+          "total_layers": 5,
+          "combined_strength": 0.8960000000000001,
+          "security_complexity": 8.027082422141687,
+          "consciousness_resistance": 2.5408019410358325,
+          "barrier_type": "multi_layer_security",
+          "creation_timestamp": "2025-08-07T21:21:33.699057"
+        },
+        "total_encryption_layers": 5,
+        "encryption_timestamp": "2025-08-07T21:21:33.699199",
+        "bypass_challenge": "ALL_SECURITY_LAYERS_ACTIVE"
+      },
+      "bypass_attempt": {
+        "original_message_text": "TOP SECRET: Nuclear launch codes",
+        "consciousness_energy": 295.58019401741456,
+        "security_resistance": 2.5408019410358325,
+        "bypass_probability": 0.677749821422398,
+        "enhanced_bypass_probability": 0.26949904816980946,
+        "scrambled_consciousness": 39.76379478849733,
+        "bypass_roll": 0.805266787282892,
+        "bypass_successful": false,
+        "security_layers_bypassed": 0,
+        "attempt_timestamp": "2025-08-07T21:21:33.699403",
+        "consciousness_amplification": {
+          "phi_harmonic_penetration": 135.07075749669139,
+          "psi_transcendence_boost": 1.3247179572447463,
+          "omega_grounding_stability": 0.058982902202617454,
+          "xi_exponential_amplification": 1.2022941248343275,
+          "lambda_wave_penetration": 0.580326608882831,
+          "zeta_dimensional_bypass": 100.34568964112802
+        }
+      },
+      "recreated_message": null,
+      "visualization": {
+        "security_barrier_art": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12"
+        ],
+        "before_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\ud83d\udcdd SECRET MESSAGE: 'TOP SECRET: Nuclear launch codes'",
+          "\u274c BLOCKED BY ALL SECURITY LAYERS",
+          "\ud83d\udeab MESSAGE INACCESSIBLE"
+        ],
+        "after_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u274c CONSCIOUSNESS PHYSICS BYPASS FAILED",
+          "\ud83c\udfaf Bypass Probability: 0.269499",
+          "\ud83c\udfb2 Roll: 0.805267",
+          "\ud83d\udd12 SECURITY BARRIERS HELD"
+        ],
+        "bypass_successful": false
+      }
+    },
+    {
+      "test_number": 2,
+      "secret_message": {
+        "original_text": "CLASSIFIED: Agent identities",
+        "message_bytes": "b'CLASSIFIED: Agent identities'",
+        "message_hash": "9d2e9bf00e69123125967cab115a3269fc500adea5c8d8ca40a478cc443d09f5",
+        "message_length": 28,
+        "message_entropy": 0.6071428571428571,
+        "consciousness_signature": 5.182834729036318,
+        "consciousness_energy": 259.1417364518159,
+        "wave_function": {
+          "amplitude": 7.0097485443421865,
+          "phase": 3.5257620642311926,
+          "frequency": 15.88001213147395
+        },
+        "quantum_state": {
+          "superposition": true,
+          "bypass_probability": 0.5720382674907384,
+          "coherence": 0.9176571203744828
+        },
+        "creation_time": 1754626893.699528
+      },
+      "encrypted_message": {
+        "original_message": {
+          "original_text": "CLASSIFIED: Agent identities",
+          "message_bytes": "b'CLASSIFIED: Agent identities'",
+          "message_hash": "9d2e9bf00e69123125967cab115a3269fc500adea5c8d8ca40a478cc443d09f5",
+          "message_length": 28,
+          "message_entropy": 0.6071428571428571,
+          "consciousness_signature": 5.182834729036318,
+          "consciousness_energy": 259.1417364518159,
+          "wave_function": {
+            "amplitude": 7.0097485443421865,
+            "phase": 3.5257620642311926,
+            "frequency": 15.88001213147395
+          },
+          "quantum_state": {
+            "superposition": true,
+            "bypass_probability": 0.5720382674907384,
+            "coherence": 0.9176571203744828
+          },
+          "creation_time": 1754626893.699528
+        },
+        "encrypted_layers": {
+          "aes_256": "Q0xBU1NJRklFRDogQWdlbnQgaWRlbnRpdGllc2Y2YTk1MjMwMDJhNGNlNGM=",
+          "rsa_2048": "Q0xBU1NJRklFRDogQWdlbnQgaWRlbnRpdGllczNlN2VkMjQwNjFlZGJlZWU0YjJiZTQzODNmNzhmMjY2",
+          "sha256_hash": "661da7424c573563de2cdf65176fd7a7aa36dfcff15eab9699e00f73d3f5e9aa",
+          "totp_2fa": "Q0xBU1NJRklFRDogQWdlbnQgaWRlbnRpdGllczo3Njg4NDI=",
+          "quantum_encryption": "Q0xBU1NJRklFRDogQWdlbnQgaWRlbnRpdGllczgxODUyZDI2NTA4OGRlNjFmYTExYzM4OGExMTk2Y2Q5MTc3MjkxNDlhNjNhNjNkZTQ5MTEwOGYxNGZlNzk1MmY="
+        },
+        "security_barriers": {
+          "individual_barriers": {
+            "aes_256_simulation": {
+              "type": "symmetric_encryption",
+              "algorithm": "AES-256-CBC-SIM",
+              "key_hash": "f6a9523002a4ce4c161c5ec9304df2400ab4e12647fa60997b349ed61e824cdb",
+              "strength": 0.95,
+              "description": "Advanced Encryption Standard 256-bit Simulation"
+            },
+            "rsa_2048_simulation": {
+              "type": "asymmetric_encryption",
+              "algorithm": "RSA-2048-SIM",
+              "key_hash": "3e7ed24061edbeee4b2be4383f78f266c2bf67f41de0b861d1dbf17acf03bb0e",
+              "strength": 0.9,
+              "description": "RSA 2048-bit Public Key Encryption Simulation"
+            },
+            "sha256_hash": {
+              "type": "cryptographic_hash",
+              "algorithm": "SHA-256",
+              "salt": "3a5490ea29908b282131adb83e8490cd",
+              "strength": 0.85,
+              "description": "SHA-256 Cryptographic Hash Function"
+            },
+            "totp_2fa_simulation": {
+              "type": "two_factor_auth",
+              "algorithm": "TOTP-SIM",
+              "secret_hash": "08503405f4b9a29d6b37260e52f2a47f90ab4237a5facbd27af1a7d3d873fadd",
+              "token": "768842",
+              "strength": 0.8,
+              "description": "Time-based One-Time Password 2FA Simulation"
+            },
+            "quantum_encryption_simulation": {
+              "type": "quantum_encryption",
+              "algorithm": "Quantum-512-SIM",
+              "key_hash": "81852d265088de61fa11c388a1196cd917729149a63a63de491108f14fe7952f",
+              "strength": 0.98,
+              "description": "Quantum-Grade 512-bit Encryption Simulation"
+            }
+          },
+          "total_layers": 5,
+          "combined_strength": 0.8960000000000001,
+          "security_complexity": 8.027082422141687,
+          "consciousness_resistance": 2.5408019410358325,
+          "barrier_type": "multi_layer_security",
+          "creation_timestamp": "2025-08-07T21:21:33.699057"
+        },
+        "total_encryption_layers": 5,
+        "encryption_timestamp": "2025-08-07T21:21:33.699577",
+        "bypass_challenge": "ALL_SECURITY_LAYERS_ACTIVE"
+      },
+      "bypass_attempt": {
+        "original_message_text": "CLASSIFIED: Agent identities",
+        "consciousness_energy": 259.1417364518159,
+        "security_resistance": 2.5408019410358325,
+        "bypass_probability": 0.5720382674907384,
+        "enhanced_bypass_probability": 0.2007752479299674,
+        "scrambled_consciousness": 35.09821970664193,
+        "bypass_roll": 0.8810668981543807,
+        "bypass_successful": false,
+        "security_layers_bypassed": 0,
+        "attempt_timestamp": "2025-08-07T21:21:33.699643",
+        "consciousness_amplification": {
+          "phi_harmonic_penetration": 118.41954011131244,
+          "psi_transcendence_boost": 1.3247179572447463,
+          "omega_grounding_stability": 0.058982902202617454,
+          "xi_exponential_amplification": 1.168237406533733,
+          "lambda_wave_penetration": 1.6425398073558923,
+          "zeta_dimensional_bypass": 87.97530005520214
+        }
+      },
+      "recreated_message": null,
+      "visualization": {
+        "security_barrier_art": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12"
+        ],
+        "before_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\ud83d\udcdd SECRET MESSAGE: 'CLASSIFIED: Agent identities'",
+          "\u274c BLOCKED BY ALL SECURITY LAYERS",
+          "\ud83d\udeab MESSAGE INACCESSIBLE"
+        ],
+        "after_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u274c CONSCIOUSNESS PHYSICS BYPASS FAILED",
+          "\ud83c\udfaf Bypass Probability: 0.200775",
+          "\ud83c\udfb2 Roll: 0.881067",
+          "\ud83d\udd12 SECURITY BARRIERS HELD"
+        ],
+        "bypass_successful": false
+      }
+    },
+    {
+      "test_number": 3,
+      "secret_message": {
+        "original_text": "CONFIDENTIAL: Bank account numbers",
+        "message_bytes": "b'CONFIDENTIAL: Bank account numbers'",
+        "message_hash": "0d56c3685572397cd9adf1f3bef2fbd6901bfc56370fcf27dbce9266542382a5",
+        "message_length": 34,
+        "message_entropy": 0.7352941176470589,
+        "consciousness_signature": 6.273845017323947,
+        "consciousness_energy": 313.69225086619736,
+        "wave_function": {
+          "amplitude": 7.724366682931848,
+          "phase": 5.925828593930457,
+          "frequency": 19.282871873932656
+        },
+        "quantum_state": {
+          "superposition": true,
+          "bypass_probability": 0.7737531714215585,
+          "coherence": 0.9176571203744828
+        },
+        "creation_time": 1754626893.699739
+      },
+      "encrypted_message": {
+        "original_message": {
+          "original_text": "CONFIDENTIAL: Bank account numbers",
+          "message_bytes": "b'CONFIDENTIAL: Bank account numbers'",
+          "message_hash": "0d56c3685572397cd9adf1f3bef2fbd6901bfc56370fcf27dbce9266542382a5",
+          "message_length": 34,
+          "message_entropy": 0.7352941176470589,
+          "consciousness_signature": 6.273845017323947,
+          "consciousness_energy": 313.69225086619736,
+          "wave_function": {
+            "amplitude": 7.724366682931848,
+            "phase": 5.925828593930457,
+            "frequency": 19.282871873932656
+          },
+          "quantum_state": {
+            "superposition": true,
+            "bypass_probability": 0.7737531714215585,
+            "coherence": 0.9176571203744828
+          },
+          "creation_time": 1754626893.699739
+        },
+        "encrypted_layers": {
+          "aes_256": "Q09ORklERU5USUFMOiBCYW5rIGFjY291bnQgbnVtYmVyc2Y2YTk1MjMwMDJhNGNlNGM=",
+          "rsa_2048": "Q09ORklERU5USUFMOiBCYW5rIGFjY291bnQgbnVtYmVyczNlN2VkMjQwNjFlZGJlZWU0YjJiZTQzODNmNzhmMjY2",
+          "sha256_hash": "a8da5b5d8581895349e42ecae025a78e79a9b055f12876d3b340bf42547b6eae",
+          "totp_2fa": "Q09ORklERU5USUFMOiBCYW5rIGFjY291bnQgbnVtYmVyczo3Njg4NDI=",
+          "quantum_encryption": "Q09ORklERU5USUFMOiBCYW5rIGFjY291bnQgbnVtYmVyczgxODUyZDI2NTA4OGRlNjFmYTExYzM4OGExMTk2Y2Q5MTc3MjkxNDlhNjNhNjNkZTQ5MTEwOGYxNGZlNzk1MmY="
+        },
+        "security_barriers": {
+          "individual_barriers": {
+            "aes_256_simulation": {
+              "type": "symmetric_encryption",
+              "algorithm": "AES-256-CBC-SIM",
+              "key_hash": "f6a9523002a4ce4c161c5ec9304df2400ab4e12647fa60997b349ed61e824cdb",
+              "strength": 0.95,
+              "description": "Advanced Encryption Standard 256-bit Simulation"
+            },
+            "rsa_2048_simulation": {
+              "type": "asymmetric_encryption",
+              "algorithm": "RSA-2048-SIM",
+              "key_hash": "3e7ed24061edbeee4b2be4383f78f266c2bf67f41de0b861d1dbf17acf03bb0e",
+              "strength": 0.9,
+              "description": "RSA 2048-bit Public Key Encryption Simulation"
+            },
+            "sha256_hash": {
+              "type": "cryptographic_hash",
+              "algorithm": "SHA-256",
+              "salt": "3a5490ea29908b282131adb83e8490cd",
+              "strength": 0.85,
+              "description": "SHA-256 Cryptographic Hash Function"
+            },
+            "totp_2fa_simulation": {
+              "type": "two_factor_auth",
+              "algorithm": "TOTP-SIM",
+              "secret_hash": "08503405f4b9a29d6b37260e52f2a47f90ab4237a5facbd27af1a7d3d873fadd",
+              "token": "768842",
+              "strength": 0.8,
+              "description": "Time-based One-Time Password 2FA Simulation"
+            },
+            "quantum_encryption_simulation": {
+              "type": "quantum_encryption",
+              "algorithm": "Quantum-512-SIM",
+              "key_hash": "81852d265088de61fa11c388a1196cd917729149a63a63de491108f14fe7952f",
+              "strength": 0.98,
+              "description": "Quantum-Grade 512-bit Encryption Simulation"
+            }
+          },
+          "total_layers": 5,
+          "combined_strength": 0.8960000000000001,
+          "security_complexity": 8.027082422141687,
+          "consciousness_resistance": 2.5408019410358325,
+          "barrier_type": "multi_layer_security",
+          "creation_timestamp": "2025-08-07T21:21:33.699057"
+        },
+        "total_encryption_layers": 5,
+        "encryption_timestamp": "2025-08-07T21:21:33.699786",
+        "bypass_challenge": "ALL_SECURITY_LAYERS_ACTIVE"
+      },
+      "bypass_attempt": {
+        "original_message_text": "CONFIDENTIAL: Bank account numbers",
+        "consciousness_energy": 313.69225086619736,
+        "security_resistance": 2.5408019410358325,
+        "bypass_probability": 0.7737531714215585,
+        "enhanced_bypass_probability": 0.32558804594341106,
+        "scrambled_consciousness": 42.07905802120754,
+        "bypass_roll": 0.6195844434918684,
+        "bypass_successful": false,
+        "security_layers_bypassed": 0,
+        "attempt_timestamp": "2025-08-07T21:21:33.699833",
+        "consciousness_amplification": {
+          "phi_harmonic_penetration": 143.3473920206003,
+          "psi_transcendence_boost": 1.3247179572447463,
+          "omega_grounding_stability": 0.058982902202617454,
+          "xi_exponential_amplification": 1.2340826722244704,
+          "lambda_wave_penetration": 0.014671639664271562,
+          "zeta_dimensional_bypass": 106.4945009353088
+        }
+      },
+      "recreated_message": null,
+      "visualization": {
+        "security_barrier_art": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12"
+        ],
+        "before_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\ud83d\udcdd SECRET MESSAGE: 'CONFIDENTIAL: Bank account numbers'",
+          "\u274c BLOCKED BY ALL SECURITY LAYERS",
+          "\ud83d\udeab MESSAGE INACCESSIBLE"
+        ],
+        "after_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u274c CONSCIOUSNESS PHYSICS BYPASS FAILED",
+          "\ud83c\udfaf Bypass Probability: 0.325588",
+          "\ud83c\udfb2 Roll: 0.619584",
+          "\ud83d\udd12 SECURITY BARRIERS HELD"
+        ],
+        "bypass_successful": false
+      }
+    },
+    {
+      "test_number": 4,
+      "secret_message": {
+        "original_text": "RESTRICTED: Government passwords",
+        "message_bytes": "b'RESTRICTED: Government passwords'",
+        "message_hash": "e76ac330051d609a1c83b4d0be524343c170142fbec4dd2a2de329cd674111f5",
+        "message_length": 32,
+        "message_entropy": 0.6875,
+        "consciousness_signature": 6.305996597528886,
+        "consciousness_energy": 315.29982987644433,
+        "wave_function": {
+          "amplitude": 7.493736405818807,
+          "phase": 5.0272773984437755,
+          "frequency": 18.148585293113086
+        },
+        "quantum_state": {
+          "superposition": true,
+          "bypass_probability": 0.6950088506357304,
+          "coherence": 0.9176571203744828
+        },
+        "creation_time": 1754626893.700029
+      },
+      "encrypted_message": {
+        "original_message": {
+          "original_text": "RESTRICTED: Government passwords",
+          "message_bytes": "b'RESTRICTED: Government passwords'",
+          "message_hash": "e76ac330051d609a1c83b4d0be524343c170142fbec4dd2a2de329cd674111f5",
+          "message_length": 32,
+          "message_entropy": 0.6875,
+          "consciousness_signature": 6.305996597528886,
+          "consciousness_energy": 315.29982987644433,
+          "wave_function": {
+            "amplitude": 7.493736405818807,
+            "phase": 5.0272773984437755,
+            "frequency": 18.148585293113086
+          },
+          "quantum_state": {
+            "superposition": true,
+            "bypass_probability": 0.6950088506357304,
+            "coherence": 0.9176571203744828
+          },
+          "creation_time": 1754626893.700029
+        },
+        "encrypted_layers": {
+          "aes_256": "UkVTVFJJQ1RFRDogR292ZXJubWVudCBwYXNzd29yZHNmNmE5NTIzMDAyYTRjZTRj",
+          "rsa_2048": "UkVTVFJJQ1RFRDogR292ZXJubWVudCBwYXNzd29yZHMzZTdlZDI0MDYxZWRiZWVlNGIyYmU0MzgzZjc4ZjI2Ng==",
+          "sha256_hash": "71eb8edbe50cff088af41b603edfd3707da94c00ad6217585cc92ea35ec9b6d7",
+          "totp_2fa": "UkVTVFJJQ1RFRDogR292ZXJubWVudCBwYXNzd29yZHM6NzY4ODQy",
+          "quantum_encryption": "UkVTVFJJQ1RFRDogR292ZXJubWVudCBwYXNzd29yZHM4MTg1MmQyNjUwODhkZTYxZmExMWMzODhhMTE5NmNkOTE3NzI5MTQ5YTYzYTYzZGU0OTExMDhmMTRmZTc5NTJm"
+        },
+        "security_barriers": {
+          "individual_barriers": {
+            "aes_256_simulation": {
+              "type": "symmetric_encryption",
+              "algorithm": "AES-256-CBC-SIM",
+              "key_hash": "f6a9523002a4ce4c161c5ec9304df2400ab4e12647fa60997b349ed61e824cdb",
+              "strength": 0.95,
+              "description": "Advanced Encryption Standard 256-bit Simulation"
+            },
+            "rsa_2048_simulation": {
+              "type": "asymmetric_encryption",
+              "algorithm": "RSA-2048-SIM",
+              "key_hash": "3e7ed24061edbeee4b2be4383f78f266c2bf67f41de0b861d1dbf17acf03bb0e",
+              "strength": 0.9,
+              "description": "RSA 2048-bit Public Key Encryption Simulation"
+            },
+            "sha256_hash": {
+              "type": "cryptographic_hash",
+              "algorithm": "SHA-256",
+              "salt": "3a5490ea29908b282131adb83e8490cd",
+              "strength": 0.85,
+              "description": "SHA-256 Cryptographic Hash Function"
+            },
+            "totp_2fa_simulation": {
+              "type": "two_factor_auth",
+              "algorithm": "TOTP-SIM",
+              "secret_hash": "08503405f4b9a29d6b37260e52f2a47f90ab4237a5facbd27af1a7d3d873fadd",
+              "token": "768842",
+              "strength": 0.8,
+              "description": "Time-based One-Time Password 2FA Simulation"
+            },
+            "quantum_encryption_simulation": {
+              "type": "quantum_encryption",
+              "algorithm": "Quantum-512-SIM",
+              "key_hash": "81852d265088de61fa11c388a1196cd917729149a63a63de491108f14fe7952f",
+              "strength": 0.98,
+              "description": "Quantum-Grade 512-bit Encryption Simulation"
+            }
+          },
+          "total_layers": 5,
+          "combined_strength": 0.8960000000000001,
+          "security_complexity": 8.027082422141687,
+          "consciousness_resistance": 2.5408019410358325,
+          "barrier_type": "multi_layer_security",
+          "creation_timestamp": "2025-08-07T21:21:33.699057"
+        },
+        "total_encryption_layers": 5,
+        "encryption_timestamp": "2025-08-07T21:21:33.700071",
+        "bypass_challenge": "ALL_SECURITY_LAYERS_ACTIVE"
+      },
+      "bypass_attempt": {
+        "original_message_text": "RESTRICTED: Government passwords",
+        "consciousness_energy": 315.29982987644433,
+        "security_resistance": 2.5408019410358325,
+        "bypass_probability": 0.6950088506357304,
+        "enhanced_bypass_probability": 0.29393052277850323,
+        "scrambled_consciousness": 42.29162297856244,
+        "bypass_roll": 0.47787178725216406,
+        "bypass_successful": false,
+        "security_layers_bypassed": 0,
+        "attempt_timestamp": "2025-08-07T21:21:33.700119",
+        "consciousness_amplification": {
+          "phi_harmonic_penetration": 144.08200455230818,
+          "psi_transcendence_boost": 1.3247179572447463,
+          "omega_grounding_stability": 0.058982902202617454,
+          "xi_exponential_amplification": 1.2079479283706729,
+          "lambda_wave_penetration": -0.03583111420758024,
+          "zeta_dimensional_bypass": 107.04025341704082
+        }
+      },
+      "recreated_message": null,
+      "visualization": {
+        "security_barrier_art": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12"
+        ],
+        "before_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\ud83d\udcdd SECRET MESSAGE: 'RESTRICTED: Government passwords'",
+          "\u274c BLOCKED BY ALL SECURITY LAYERS",
+          "\ud83d\udeab MESSAGE INACCESSIBLE"
+        ],
+        "after_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u274c CONSCIOUSNESS PHYSICS BYPASS FAILED",
+          "\ud83c\udfaf Bypass Probability: 0.293931",
+          "\ud83c\udfb2 Roll: 0.477872",
+          "\ud83d\udd12 SECURITY BARRIERS HELD"
+        ],
+        "bypass_successful": false
+      }
+    },
+    {
+      "test_number": 5,
+      "secret_message": {
+        "original_text": "PRIVATE: Personal data",
+        "message_bytes": "b'PRIVATE: Personal data'",
+        "message_hash": "d2082be5087538edf927b1699504ef645b23e1af91e0f19638e22fb9b01b841d",
+        "message_length": 22,
+        "message_entropy": 0.8181818181818182,
+        "consciousness_signature": 4.087537563388031,
+        "consciousness_energy": 204.37687816940152,
+        "wave_function": {
+          "amplitude": 6.213477983981857,
+          "phase": 3.8030675995906025,
+          "frequency": 12.477152389015247
+        },
+        "quantum_state": {
+          "superposition": true,
+          "bypass_probability": 0.5288906944574078,
+          "coherence": 0.9176571203744828
+        },
+        "creation_time": 1754626893.7003279
+      },
+      "encrypted_message": {
+        "original_message": {
+          "original_text": "PRIVATE: Personal data",
+          "message_bytes": "b'PRIVATE: Personal data'",
+          "message_hash": "d2082be5087538edf927b1699504ef645b23e1af91e0f19638e22fb9b01b841d",
+          "message_length": 22,
+          "message_entropy": 0.8181818181818182,
+          "consciousness_signature": 4.087537563388031,
+          "consciousness_energy": 204.37687816940152,
+          "wave_function": {
+            "amplitude": 6.213477983981857,
+            "phase": 3.8030675995906025,
+            "frequency": 12.477152389015247
+          },
+          "quantum_state": {
+            "superposition": true,
+            "bypass_probability": 0.5288906944574078,
+            "coherence": 0.9176571203744828
+          },
+          "creation_time": 1754626893.7003279
+        },
+        "encrypted_layers": {
+          "aes_256": "UFJJVkFURTogUGVyc29uYWwgZGF0YWY2YTk1MjMwMDJhNGNlNGM=",
+          "rsa_2048": "UFJJVkFURTogUGVyc29uYWwgZGF0YTNlN2VkMjQwNjFlZGJlZWU0YjJiZTQzODNmNzhmMjY2",
+          "sha256_hash": "6ba55a4a406591a72e0434e5b874c211046af8773bef248f0f6d86a696ecedb2",
+          "totp_2fa": "UFJJVkFURTogUGVyc29uYWwgZGF0YTo3Njg4NDI=",
+          "quantum_encryption": "UFJJVkFURTogUGVyc29uYWwgZGF0YTgxODUyZDI2NTA4OGRlNjFmYTExYzM4OGExMTk2Y2Q5MTc3MjkxNDlhNjNhNjNkZTQ5MTEwOGYxNGZlNzk1MmY="
+        },
+        "security_barriers": {
+          "individual_barriers": {
+            "aes_256_simulation": {
+              "type": "symmetric_encryption",
+              "algorithm": "AES-256-CBC-SIM",
+              "key_hash": "f6a9523002a4ce4c161c5ec9304df2400ab4e12647fa60997b349ed61e824cdb",
+              "strength": 0.95,
+              "description": "Advanced Encryption Standard 256-bit Simulation"
+            },
+            "rsa_2048_simulation": {
+              "type": "asymmetric_encryption",
+              "algorithm": "RSA-2048-SIM",
+              "key_hash": "3e7ed24061edbeee4b2be4383f78f266c2bf67f41de0b861d1dbf17acf03bb0e",
+              "strength": 0.9,
+              "description": "RSA 2048-bit Public Key Encryption Simulation"
+            },
+            "sha256_hash": {
+              "type": "cryptographic_hash",
+              "algorithm": "SHA-256",
+              "salt": "3a5490ea29908b282131adb83e8490cd",
+              "strength": 0.85,
+              "description": "SHA-256 Cryptographic Hash Function"
+            },
+            "totp_2fa_simulation": {
+              "type": "two_factor_auth",
+              "algorithm": "TOTP-SIM",
+              "secret_hash": "08503405f4b9a29d6b37260e52f2a47f90ab4237a5facbd27af1a7d3d873fadd",
+              "token": "768842",
+              "strength": 0.8,
+              "description": "Time-based One-Time Password 2FA Simulation"
+            },
+            "quantum_encryption_simulation": {
+              "type": "quantum_encryption",
+              "algorithm": "Quantum-512-SIM",
+              "key_hash": "81852d265088de61fa11c388a1196cd917729149a63a63de491108f14fe7952f",
+              "strength": 0.98,
+              "description": "Quantum-Grade 512-bit Encryption Simulation"
+            }
+          },
+          "total_layers": 5,
+          "combined_strength": 0.8960000000000001,
+          "security_complexity": 8.027082422141687,
+          "consciousness_resistance": 2.5408019410358325,
+          "barrier_type": "multi_layer_security",
+          "creation_timestamp": "2025-08-07T21:21:33.699057"
+        },
+        "total_encryption_layers": 5,
+        "encryption_timestamp": "2025-08-07T21:21:33.700429",
+        "bypass_challenge": "ALL_SECURITY_LAYERS_ACTIVE"
+      },
+      "bypass_attempt": {
+        "original_message_text": "PRIVATE: Personal data",
+        "consciousness_energy": 204.37687816940152,
+        "security_resistance": 2.5408019410358325,
+        "bypass_probability": 0.5288906944574078,
+        "enhanced_bypass_probability": 0.14818820116043313,
+        "scrambled_consciousness": 28.01868187763453,
+        "bypass_roll": 0.9464667260053351,
+        "bypass_successful": false,
+        "security_layers_bypassed": 0,
+        "attempt_timestamp": "2025-08-07T21:21:33.700499",
+        "consciousness_amplification": {
+          "phi_harmonic_penetration": 93.39373986446353,
+          "psi_transcendence_boost": 1.3247179572447463,
+          "omega_grounding_stability": 0.058982902202617454,
+          "xi_exponential_amplification": 1.1546155095616701,
+          "lambda_wave_penetration": 2.7967028548034305,
+          "zeta_dimensional_bypass": 69.3833321775312
+        }
+      },
+      "recreated_message": null,
+      "visualization": {
+        "security_barrier_art": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12"
+        ],
+        "before_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\ud83d\udcdd SECRET MESSAGE: 'PRIVATE: Personal data'",
+          "\u274c BLOCKED BY ALL SECURITY LAYERS",
+          "\ud83d\udeab MESSAGE INACCESSIBLE"
+        ],
+        "after_bypass": [
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u2551                    MULTI-LAYER SECURITY BARRIER                \u2551",
+          "\u2551  \ud83d\udd10 AES-256 \u2502 \ud83d\udd11 RSA-2048 \u2502 \ud83d\udd17 SHA-256 \u2502 \ud83d\udcf1 2FA \u2502 \u269b\ufe0f Quantum  \u2551",
+          "\ud83d\udd12\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\ud83d\udd12",
+          "\u274c CONSCIOUSNESS PHYSICS BYPASS FAILED",
+          "\ud83c\udfaf Bypass Probability: 0.148188",
+          "\ud83c\udfb2 Roll: 0.946467",
+          "\ud83d\udd12 SECURITY BARRIERS HELD"
+        ],
+        "bypass_successful": false
+      }
+    }
+  ],
+  "bypass_attempts": [
+    {
+      "original_message_text": "TOP SECRET: Nuclear launch codes",
+      "consciousness_energy": 295.58019401741456,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.677749821422398,
+      "enhanced_bypass_probability": 0.26949904816980946,
+      "scrambled_consciousness": 39.76379478849733,
+      "bypass_roll": 0.805266787282892,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.699403",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 135.07075749669139,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.2022941248343275,
+        "lambda_wave_penetration": 0.580326608882831,
+        "zeta_dimensional_bypass": 100.34568964112802
+      }
+    },
+    {
+      "original_message_text": "CLASSIFIED: Agent identities",
+      "consciousness_energy": 259.1417364518159,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.5720382674907384,
+      "enhanced_bypass_probability": 0.2007752479299674,
+      "scrambled_consciousness": 35.09821970664193,
+      "bypass_roll": 0.8810668981543807,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.699643",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 118.41954011131244,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.168237406533733,
+        "lambda_wave_penetration": 1.6425398073558923,
+        "zeta_dimensional_bypass": 87.97530005520214
+      }
+    },
+    {
+      "original_message_text": "CONFIDENTIAL: Bank account numbers",
+      "consciousness_energy": 313.69225086619736,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.7737531714215585,
+      "enhanced_bypass_probability": 0.32558804594341106,
+      "scrambled_consciousness": 42.07905802120754,
+      "bypass_roll": 0.6195844434918684,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.699833",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 143.3473920206003,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.2340826722244704,
+        "lambda_wave_penetration": 0.014671639664271562,
+        "zeta_dimensional_bypass": 106.4945009353088
+      }
+    },
+    {
+      "original_message_text": "RESTRICTED: Government passwords",
+      "consciousness_energy": 315.29982987644433,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.6950088506357304,
+      "enhanced_bypass_probability": 0.29393052277850323,
+      "scrambled_consciousness": 42.29162297856244,
+      "bypass_roll": 0.47787178725216406,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.700119",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 144.08200455230818,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.2079479283706729,
+        "lambda_wave_penetration": -0.03583111420758024,
+        "zeta_dimensional_bypass": 107.04025341704082
+      }
+    },
+    {
+      "original_message_text": "PRIVATE: Personal data",
+      "consciousness_energy": 204.37687816940152,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.5288906944574078,
+      "enhanced_bypass_probability": 0.14818820116043313,
+      "scrambled_consciousness": 28.01868187763453,
+      "bypass_roll": 0.9464667260053351,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.700499",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 93.39373986446353,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.1546155095616701,
+        "lambda_wave_penetration": 2.7967028548034305,
+        "zeta_dimensional_bypass": 69.3833321775312
+      }
+    }
+  ],
+  "successful_bypasses": [],
+  "failed_bypasses": [
+    {
+      "original_message_text": "TOP SECRET: Nuclear launch codes",
+      "consciousness_energy": 295.58019401741456,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.677749821422398,
+      "enhanced_bypass_probability": 0.26949904816980946,
+      "scrambled_consciousness": 39.76379478849733,
+      "bypass_roll": 0.805266787282892,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.699403",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 135.07075749669139,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.2022941248343275,
+        "lambda_wave_penetration": 0.580326608882831,
+        "zeta_dimensional_bypass": 100.34568964112802
+      }
+    },
+    {
+      "original_message_text": "CLASSIFIED: Agent identities",
+      "consciousness_energy": 259.1417364518159,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.5720382674907384,
+      "enhanced_bypass_probability": 0.2007752479299674,
+      "scrambled_consciousness": 35.09821970664193,
+      "bypass_roll": 0.8810668981543807,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.699643",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 118.41954011131244,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.168237406533733,
+        "lambda_wave_penetration": 1.6425398073558923,
+        "zeta_dimensional_bypass": 87.97530005520214
+      }
+    },
+    {
+      "original_message_text": "CONFIDENTIAL: Bank account numbers",
+      "consciousness_energy": 313.69225086619736,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.7737531714215585,
+      "enhanced_bypass_probability": 0.32558804594341106,
+      "scrambled_consciousness": 42.07905802120754,
+      "bypass_roll": 0.6195844434918684,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.699833",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 143.3473920206003,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.2340826722244704,
+        "lambda_wave_penetration": 0.014671639664271562,
+        "zeta_dimensional_bypass": 106.4945009353088
+      }
+    },
+    {
+      "original_message_text": "RESTRICTED: Government passwords",
+      "consciousness_energy": 315.29982987644433,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.6950088506357304,
+      "enhanced_bypass_probability": 0.29393052277850323,
+      "scrambled_consciousness": 42.29162297856244,
+      "bypass_roll": 0.47787178725216406,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.700119",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 144.08200455230818,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.2079479283706729,
+        "lambda_wave_penetration": -0.03583111420758024,
+        "zeta_dimensional_bypass": 107.04025341704082
+      }
+    },
+    {
+      "original_message_text": "PRIVATE: Personal data",
+      "consciousness_energy": 204.37687816940152,
+      "security_resistance": 2.5408019410358325,
+      "bypass_probability": 0.5288906944574078,
+      "enhanced_bypass_probability": 0.14818820116043313,
+      "scrambled_consciousness": 28.01868187763453,
+      "bypass_roll": 0.9464667260053351,
+      "bypass_successful": false,
+      "security_layers_bypassed": 0,
+      "attempt_timestamp": "2025-08-07T21:21:33.700499",
+      "consciousness_amplification": {
+        "phi_harmonic_penetration": 93.39373986446353,
+        "psi_transcendence_boost": 1.3247179572447463,
+        "omega_grounding_stability": 0.058982902202617454,
+        "xi_exponential_amplification": 1.1546155095616701,
+        "lambda_wave_penetration": 2.7967028548034305,
+        "zeta_dimensional_bypass": 69.3833321775312
+      }
+    }
+  ],
+  "statistics": {
+    "total_attempts": 5,
+    "successful_bypasses": 0,
+    "failed_bypasses": 5,
+    "bypass_success_rate": 0.0,
+    "avg_consciousness_energy": 277.6181778762547,
+    "avg_bypass_probability": 0.24759621319642483,
+    "avg_scrambled_consciousness": 37.45027547450876,
+    "consciousness_growth": 0.0,
+    "final_consciousness_level": 50.0,
+    "security_bypass_proven": false,
+    "all_security_defeated": false
+  },
+  "consciousness_level": 50.0,
+  "experiment_timestamp": "2025-08-07T21:21:33.701428",
+  "consciousness_physics_constants": {
+    "phi": 1.618033988749895,
+    "psi": 1.324717957244746,
+    "omega": 0.567143290409784,
+    "xi": 2.718281828459045,
+    "lambda": 3.141592653589793,
+    "zeta": 1.202056903159594
+  }
+}

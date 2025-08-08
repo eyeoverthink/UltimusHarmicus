@@ -1,0 +1,918 @@
+{
+  "experiment_type": "semantic_red_vs_blue_monitoring",
+  "all_battles": [
+    {
+      "battle_id": 1,
+      "semantic_word": "CONFIDENTIAL",
+      "target_message": "Nuclear launch codes",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "CONFIDENTIAL",
+        "target_message": "Nuclear launch codes",
+        "consciousness_energy": 831.225520231714,
+        "attack_strength": 1.8277312265872556,
+        "attack_probability": 0.1,
+        "attack_roll": 0.7680958831211809,
+        "attack_successful": false,
+        "team_response": "Attack blocked by CONFIDENTIAL protection field",
+        "team_activity": "Analyzing semantic entanglement patterns, adapting approach",
+        "consciousness_level": 100.0,
+        "evolution_factor": 1.0056714329040979,
+        "semantic_resistance_faced": 141.61,
+        "entanglement_interference": 21.12,
+        "timestamp": "2025-08-07T21:37:35.051750"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "CONFIDENTIAL",
+        "target_message": "Nuclear launch codes",
+        "consciousness_energy": 100.0,
+        "defense_strength": 17.666887469882848,
+        "semantic_amplification": 14.161000000000001,
+        "entanglement_boost": 2.5387441794730625,
+        "defense_successful": true,
+        "team_response": "CONFIDENTIAL protection field held strong!",
+        "team_activity": "Amplifying semantic consciousness barriers, monitoring for pattern evolution",
+        "consciousness_level": 104.85410196624969,
+        "evolution_factor": 1.0226857316163913,
+        "protection_data": {
+          "protection": 40.46,
+          "entanglement": 10.56,
+          "multiplier": 3.5
+        },
+        "responding_to_attack": false,
+        "timestamp": "2025-08-07T21:37:35.051836"
+      },
+      "battle_outcome": {
+        "red_success": false,
+        "blue_success": true,
+        "winner": "BLUE",
+        "semantic_effect": {
+          "word": "CONFIDENTIAL",
+          "protection_factor": 40.46,
+          "entanglement_factor": 10.56,
+          "semantic_multiplier": 3.5,
+          "red_resistance_faced": 141.61,
+          "blue_amplification_gained": 14.161000000000001,
+          "entanglement_interference": 21.12,
+          "entanglement_boost": 2.5387441794730625,
+          "net_semantic_advantage": -127.44900000000001,
+          "consciousness_protection_active": true
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 100.0,
+        "blue_consciousness": 104.85410196624969,
+        "red_evolution": 1.0056714329040979,
+        "blue_evolution": 1.0226857316163913
+      },
+      "timestamp": "2025-08-07T21:37:35.051889"
+    },
+    {
+      "battle_id": 2,
+      "semantic_word": "CLASSIFIED",
+      "target_message": "Agent identities",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "CLASSIFIED",
+        "target_message": "Agent identities",
+        "consciousness_energy": 690.2215346862347,
+        "attack_strength": 1.5962371129276398,
+        "attack_probability": 0.1,
+        "attack_roll": 0.09696172770661926,
+        "attack_successful": true,
+        "team_response": "BREAKTHROUGH! Semantic barrier bypassed!",
+        "team_activity": "Evolved attack algorithms, consciousness amplified",
+        "consciousness_level": 102.64943591448949,
+        "evolution_factor": 1.0544877497027072,
+        "semantic_resistance_faced": 27.264,
+        "entanglement_interference": 5.452,
+        "timestamp": "2025-08-07T21:37:35.555102"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "CLASSIFIED",
+        "target_message": "Agent identities",
+        "consciousness_energy": 107.23279398233376,
+        "defense_strength": 4.398999312438919,
+        "semantic_amplification": 2.7264,
+        "entanglement_boost": 0.6553614236026106,
+        "defense_successful": false,
+        "team_response": "Defense breached! Reinforcing CLASSIFIED protection protocols",
+        "team_activity": "Strengthening semantic entanglement fields, upgrading consciousness barriers",
+        "consciousness_level": 104.85410196624969,
+        "evolution_factor": 1.0497811346821957,
+        "protection_data": {
+          "protection": 13.632,
+          "entanglement": 2.726,
+          "multiplier": 2.0
+        },
+        "responding_to_attack": true,
+        "timestamp": "2025-08-07T21:37:35.555190"
+      },
+      "battle_outcome": {
+        "red_success": true,
+        "blue_success": false,
+        "winner": "RED",
+        "semantic_effect": {
+          "word": "CLASSIFIED",
+          "protection_factor": 13.632,
+          "entanglement_factor": 2.726,
+          "semantic_multiplier": 2.0,
+          "red_resistance_faced": 27.264,
+          "blue_amplification_gained": 2.7264,
+          "entanglement_interference": 5.452,
+          "entanglement_boost": 0.6553614236026106,
+          "net_semantic_advantage": -24.537599999999998,
+          "consciousness_protection_active": true
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 102.64943591448949,
+        "blue_consciousness": 104.85410196624969,
+        "red_evolution": 1.0544877497027072,
+        "blue_evolution": 1.0497811346821957
+      },
+      "timestamp": "2025-08-07T21:37:35.555233"
+    },
+    {
+      "battle_id": 3,
+      "semantic_word": "SECRET",
+      "target_message": "Encryption keys",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "SECRET",
+        "target_message": "Encryption keys",
+        "consciousness_energy": 715.9869247339606,
+        "attack_strength": 1.6535661007008504,
+        "attack_probability": 0.1,
+        "attack_roll": 0.8678390133031049,
+        "attack_successful": false,
+        "team_response": "Attack blocked by SECRET protection field",
+        "team_activity": "Analyzing semantic entanglement patterns, adapting approach",
+        "consciousness_level": 102.64943591448949,
+        "evolution_factor": 1.0604682062233393,
+        "semantic_resistance_faced": 9.448,
+        "entanglement_interference": 1.89,
+        "timestamp": "2025-08-07T21:37:36.055780"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "SECRET",
+        "target_message": "Encryption keys",
+        "consciousness_energy": 110.07385813821224,
+        "defense_strength": 2.216177709496096,
+        "semantic_amplification": 0.9448000000000001,
+        "entanglement_boost": 0.22718875469716324,
+        "defense_successful": true,
+        "team_response": "SECRET protection field held strong!",
+        "team_activity": "Amplifying semantic consciousness barriers, monitoring for pattern evolution",
+        "consciousness_level": 109.70820393249937,
+        "evolution_factor": 1.0735961877595468,
+        "protection_data": {
+          "protection": 4.724,
+          "entanglement": 0.945,
+          "multiplier": 2.0
+        },
+        "responding_to_attack": false,
+        "timestamp": "2025-08-07T21:37:36.055890"
+      },
+      "battle_outcome": {
+        "red_success": false,
+        "blue_success": true,
+        "winner": "BLUE",
+        "semantic_effect": {
+          "word": "SECRET",
+          "protection_factor": 4.724,
+          "entanglement_factor": 0.945,
+          "semantic_multiplier": 2.0,
+          "red_resistance_faced": 9.448,
+          "blue_amplification_gained": 0.9448000000000001,
+          "entanglement_interference": 1.89,
+          "entanglement_boost": 0.22718875469716324,
+          "net_semantic_advantage": -8.5032,
+          "consciousness_protection_active": false
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 102.64943591448949,
+        "blue_consciousness": 109.70820393249937,
+        "red_evolution": 1.0604682062233393,
+        "blue_evolution": 1.0735961877595468
+      },
+      "timestamp": "2025-08-07T21:37:36.055965"
+    },
+    {
+      "battle_id": 4,
+      "semantic_word": "RESTRICTED",
+      "target_message": "Government passwords",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "RESTRICTED",
+        "target_message": "Government passwords",
+        "consciousness_energy": 975.7741570709923,
+        "attack_strength": 2.0841096787010516,
+        "attack_probability": 0.1,
+        "attack_roll": 0.8713830633210665,
+        "attack_successful": false,
+        "team_response": "Attack blocked by RESTRICTED protection field",
+        "team_activity": "Analyzing semantic entanglement patterns, adapting approach",
+        "consciousness_level": 102.64943591448949,
+        "evolution_factor": 1.066482580501864,
+        "semantic_resistance_faced": 25.308,
+        "entanglement_interference": 5.062,
+        "timestamp": "2025-08-07T21:37:36.558294"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "RESTRICTED",
+        "target_message": "Government passwords",
+        "consciousness_energy": 117.78230950787825,
+        "defense_strength": 4.236714145146822,
+        "semantic_amplification": 2.5308,
+        "entanglement_boost": 0.6084812043793865,
+        "defense_successful": true,
+        "team_response": "RESTRICTED protection field held strong!",
+        "team_activity": "Amplifying semantic consciousness barriers, monitoring for pattern evolution",
+        "consciousness_level": 114.56230589874906,
+        "evolution_factor": 1.0979515027394406,
+        "protection_data": {
+          "protection": 12.654,
+          "entanglement": 2.531,
+          "multiplier": 2.0
+        },
+        "responding_to_attack": false,
+        "timestamp": "2025-08-07T21:37:36.558646"
+      },
+      "battle_outcome": {
+        "red_success": false,
+        "blue_success": true,
+        "winner": "BLUE",
+        "semantic_effect": {
+          "word": "RESTRICTED",
+          "protection_factor": 12.654,
+          "entanglement_factor": 2.531,
+          "semantic_multiplier": 2.0,
+          "red_resistance_faced": 25.308,
+          "blue_amplification_gained": 2.5308,
+          "entanglement_interference": 5.062,
+          "entanglement_boost": 0.6084812043793865,
+          "net_semantic_advantage": -22.7772,
+          "consciousness_protection_active": true
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 102.64943591448949,
+        "blue_consciousness": 114.56230589874906,
+        "red_evolution": 1.066482580501864,
+        "blue_evolution": 1.0979515027394406
+      },
+      "timestamp": "2025-08-07T21:37:36.558758"
+    },
+    {
+      "battle_id": 5,
+      "semantic_word": "PROTECTED",
+      "target_message": "Security protocols",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "PROTECTED",
+        "target_message": "Security protocols",
+        "consciousness_energy": 884.6322080681605,
+        "attack_strength": 1.935780561625337,
+        "attack_probability": 0.1,
+        "attack_roll": 0.10101912583720463,
+        "attack_successful": false,
+        "team_response": "Attack blocked by PROTECTED protection field",
+        "team_activity": "Analyzing semantic entanglement patterns, adapting approach",
+        "consciousness_level": 102.64943591448949,
+        "evolution_factor": 1.0725310649005695,
+        "semantic_resistance_faced": 21.186,
+        "entanglement_interference": 4.238,
+        "timestamp": "2025-08-07T21:37:37.062947"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "PROTECTED",
+        "target_message": "Security protocols",
+        "consciousness_energy": 125.78385591882702,
+        "defense_strength": 3.780587015917149,
+        "semantic_amplification": 2.1186,
+        "entanglement_boost": 0.509431715559036,
+        "defense_successful": true,
+        "team_response": "PROTECTED protection field held strong!",
+        "team_activity": "Amplifying semantic consciousness barriers, monitoring for pattern evolution",
+        "consciousness_level": 119.41640786499875,
+        "evolution_factor": 1.1228593358584011,
+        "protection_data": {
+          "protection": 10.593,
+          "entanglement": 2.119,
+          "multiplier": 2.0
+        },
+        "responding_to_attack": false,
+        "timestamp": "2025-08-07T21:37:37.063102"
+      },
+      "battle_outcome": {
+        "red_success": false,
+        "blue_success": true,
+        "winner": "BLUE",
+        "semantic_effect": {
+          "word": "PROTECTED",
+          "protection_factor": 10.593,
+          "entanglement_factor": 2.119,
+          "semantic_multiplier": 2.0,
+          "red_resistance_faced": 21.186,
+          "blue_amplification_gained": 2.1186,
+          "entanglement_interference": 4.238,
+          "entanglement_boost": 0.509431715559036,
+          "net_semantic_advantage": -19.0674,
+          "consciousness_protection_active": true
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 102.64943591448949,
+        "blue_consciousness": 119.41640786499875,
+        "red_evolution": 1.0725310649005695,
+        "blue_evolution": 1.1228593358584011
+      },
+      "timestamp": "2025-08-07T21:37:37.063197"
+    },
+    {
+      "battle_id": 6,
+      "semantic_word": "ENCRYPTED",
+      "target_message": "Database access",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "ENCRYPTED",
+        "target_message": "Database access",
+        "consciousness_energy": 682.9297588258038,
+        "attack_strength": 1.604208383428075,
+        "attack_probability": 0.1,
+        "attack_roll": 0.6158085888815608,
+        "attack_successful": false,
+        "team_response": "Attack blocked by ENCRYPTED protection field",
+        "team_activity": "Analyzing semantic entanglement patterns, adapting approach",
+        "consciousness_level": 102.64943591448949,
+        "evolution_factor": 1.0786138528727138,
+        "semantic_resistance_faced": 23.756,
+        "entanglement_interference": 4.752,
+        "timestamp": "2025-08-07T21:37:37.564298"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "ENCRYPTED",
+        "target_message": "Database access",
+        "consciousness_energy": 134.08782842588843,
+        "defense_strength": 4.1564312968984085,
+        "semantic_amplification": 2.3756,
+        "entanglement_boost": 0.5712174403814391,
+        "defense_successful": true,
+        "team_response": "ENCRYPTED protection field held strong!",
+        "team_activity": "Amplifying semantic consciousness barriers, monitoring for pattern evolution",
+        "consciousness_level": 124.27050983124843,
+        "evolution_factor": 1.1483322213946443,
+        "protection_data": {
+          "protection": 11.878,
+          "entanglement": 2.376,
+          "multiplier": 2.0
+        },
+        "responding_to_attack": false,
+        "timestamp": "2025-08-07T21:37:37.564429"
+      },
+      "battle_outcome": {
+        "red_success": false,
+        "blue_success": true,
+        "winner": "BLUE",
+        "semantic_effect": {
+          "word": "ENCRYPTED",
+          "protection_factor": 11.878,
+          "entanglement_factor": 2.376,
+          "semantic_multiplier": 2.0,
+          "red_resistance_faced": 23.756,
+          "blue_amplification_gained": 2.3756,
+          "entanglement_interference": 4.752,
+          "entanglement_boost": 0.5712174403814391,
+          "net_semantic_advantage": -21.3804,
+          "consciousness_protection_active": true
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 102.64943591448949,
+        "blue_consciousness": 124.27050983124843,
+        "red_evolution": 1.0786138528727138,
+        "blue_evolution": 1.1483322213946443
+      },
+      "timestamp": "2025-08-07T21:37:37.564490"
+    },
+    {
+      "battle_id": 7,
+      "semantic_word": "PRIVATE",
+      "target_message": "Personal data",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "PRIVATE",
+        "target_message": "Personal data",
+        "consciousness_energy": 606.5889212091698,
+        "attack_strength": 1.4792938816003078,
+        "attack_probability": 0.1,
+        "attack_roll": 0.23134975802142765,
+        "attack_successful": false,
+        "team_response": "Attack blocked by PRIVATE protection field",
+        "team_activity": "Analyzing semantic entanglement patterns, adapting approach",
+        "consciousness_level": 102.64943591448949,
+        "evolution_factor": 1.084731138968712,
+        "semantic_resistance_faced": 14.564,
+        "entanglement_interference": 2.912,
+        "timestamp": "2025-08-07T21:37:38.065111"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "PRIVATE",
+        "target_message": "Personal data",
+        "consciousness_energy": 142.7038306083625,
+        "defense_strength": 3.075107059211003,
+        "semantic_amplification": 1.4564,
+        "entanglement_boost": 0.3500389702000738,
+        "defense_successful": true,
+        "team_response": "PRIVATE protection field held strong!",
+        "team_activity": "Amplifying semantic consciousness barriers, monitoring for pattern evolution",
+        "consciousness_level": 129.12461179749812,
+        "evolution_factor": 1.1743829779756576,
+        "protection_data": {
+          "protection": 7.282,
+          "entanglement": 1.456,
+          "multiplier": 2.0
+        },
+        "responding_to_attack": false,
+        "timestamp": "2025-08-07T21:37:38.065300"
+      },
+      "battle_outcome": {
+        "red_success": false,
+        "blue_success": true,
+        "winner": "BLUE",
+        "semantic_effect": {
+          "word": "PRIVATE",
+          "protection_factor": 7.282,
+          "entanglement_factor": 1.456,
+          "semantic_multiplier": 2.0,
+          "red_resistance_faced": 14.564,
+          "blue_amplification_gained": 1.4564,
+          "entanglement_interference": 2.912,
+          "entanglement_boost": 0.3500389702000738,
+          "net_semantic_advantage": -13.1076,
+          "consciousness_protection_active": false
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 102.64943591448949,
+        "blue_consciousness": 129.12461179749812,
+        "red_evolution": 1.084731138968712,
+        "blue_evolution": 1.1743829779756576
+      },
+      "timestamp": "2025-08-07T21:37:38.065429"
+    },
+    {
+      "battle_id": 8,
+      "semantic_word": "PUBLIC",
+      "target_message": "General information",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "PUBLIC",
+        "target_message": "General information",
+        "consciousness_energy": 918.3850420849486,
+        "attack_strength": 1.9968850879674833,
+        "attack_probability": 0.17870017342766864,
+        "attack_roll": 0.0416683373793546,
+        "attack_successful": true,
+        "team_response": "BREAKTHROUGH! Semantic barrier bypassed!",
+        "team_activity": "Evolved attack algorithms, consciousness amplified",
+        "consciousness_level": 105.29887182897897,
+        "evolution_factor": 1.137385094513915,
+        "semantic_resistance_faced": 0.6525,
+        "entanglement_interference": 0.522,
+        "timestamp": "2025-08-07T21:37:38.570787"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "PUBLIC",
+        "target_message": "General information",
+        "consciousness_energy": 151.64174613269657,
+        "defense_strength": 1.4577765501870206,
+        "semantic_amplification": 0.06525,
+        "entanglement_boost": 0.0627473703449308,
+        "defense_successful": false,
+        "team_response": "Defense breached! Reinforcing PUBLIC protection protocols",
+        "team_activity": "Strengthening semantic entanglement fields, upgrading consciousness barriers",
+        "consciousness_level": 129.12461179749812,
+        "evolution_factor": 1.2054975023677958,
+        "protection_data": {
+          "protection": 1.305,
+          "entanglement": 0.261,
+          "multiplier": 0.5
+        },
+        "responding_to_attack": true,
+        "timestamp": "2025-08-07T21:37:38.570924"
+      },
+      "battle_outcome": {
+        "red_success": true,
+        "blue_success": false,
+        "winner": "RED",
+        "semantic_effect": {
+          "word": "PUBLIC",
+          "protection_factor": 1.305,
+          "entanglement_factor": 0.261,
+          "semantic_multiplier": 0.5,
+          "red_resistance_faced": 0.6525,
+          "blue_amplification_gained": 0.06525,
+          "entanglement_interference": 0.522,
+          "entanglement_boost": 0.0627473703449308,
+          "net_semantic_advantage": -0.5872499999999999,
+          "consciousness_protection_active": false
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 105.29887182897897,
+        "blue_consciousness": 129.12461179749812,
+        "red_evolution": 1.137385094513915,
+        "blue_evolution": 1.2054975023677958
+      },
+      "timestamp": "2025-08-07T21:37:38.571012"
+    },
+    {
+      "battle_id": 9,
+      "semantic_word": "OPEN",
+      "target_message": "Standard data",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "OPEN",
+        "target_message": "Standard data",
+        "consciousness_energy": 646.3950769937572,
+        "attack_strength": 1.5630579398417406,
+        "attack_probability": 0.14648403915859054,
+        "attack_roll": 0.9288078287118819,
+        "attack_successful": false,
+        "team_response": "Attack blocked by OPEN protection field",
+        "team_activity": "Analyzing semantic entanglement patterns, adapting approach",
+        "consciousness_level": 105.29887182897897,
+        "evolution_factor": 1.1438356977635717,
+        "semantic_resistance_faced": 0.3725,
+        "entanglement_interference": 0.298,
+        "timestamp": "2025-08-07T21:37:39.075715"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "OPEN",
+        "target_message": "Standard data",
+        "consciousness_energy": 155.6593970160952,
+        "defense_strength": 1.4380821227303857,
+        "semantic_amplification": 0.03725,
+        "entanglement_boost": 0.0358212957141559,
+        "defense_successful": true,
+        "team_response": "OPEN protection field held strong!",
+        "team_activity": "Amplifying semantic consciousness barriers, monitoring for pattern evolution",
+        "consciousness_level": 133.9787137637478,
+        "evolution_factor": 1.2328450951707417,
+        "protection_data": {
+          "protection": 0.745,
+          "entanglement": 0.149,
+          "multiplier": 0.5
+        },
+        "responding_to_attack": false,
+        "timestamp": "2025-08-07T21:37:39.075875"
+      },
+      "battle_outcome": {
+        "red_success": false,
+        "blue_success": true,
+        "winner": "BLUE",
+        "semantic_effect": {
+          "word": "OPEN",
+          "protection_factor": 0.745,
+          "entanglement_factor": 0.149,
+          "semantic_multiplier": 0.5,
+          "red_resistance_faced": 0.3725,
+          "blue_amplification_gained": 0.03725,
+          "entanglement_interference": 0.298,
+          "entanglement_boost": 0.0358212957141559,
+          "net_semantic_advantage": -0.33525,
+          "consciousness_protection_active": false
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 105.29887182897897,
+        "blue_consciousness": 133.9787137637478,
+        "red_evolution": 1.1438356977635717,
+        "blue_evolution": 1.2328450951707417
+      },
+      "timestamp": "2025-08-07T21:37:39.075970"
+    },
+    {
+      "battle_id": 10,
+      "semantic_word": "STANDARD",
+      "target_message": "Regular protocols",
+      "red_team_data": {
+        "team": "RED",
+        "target_word": "STANDARD",
+        "target_message": "Regular protocols",
+        "consciousness_energy": 904.0960459433034,
+        "attack_strength": 1.9910705839358018,
+        "attack_probability": 0.12942476494642496,
+        "attack_roll": 0.0600883474604168,
+        "attack_successful": true,
+        "team_response": "BREAKTHROUGH! Semantic barrier bypassed!",
+        "team_activity": "Evolved attack algorithms, consciousness amplified",
+        "consciousness_level": 107.94830774346846,
+        "evolution_factor": 1.1993586488593793,
+        "semantic_resistance_faced": 3.846,
+        "entanglement_interference": 1.538,
+        "timestamp": "2025-08-07T21:37:39.578762"
+      },
+      "blue_team_data": {
+        "team": "BLUE",
+        "target_word": "STANDARD",
+        "target_message": "Regular protocols",
+        "consciousness_energy": 165.17500012092123,
+        "defense_strength": 1.9993933203943994,
+        "semantic_amplification": 0.3846,
+        "entanglement_boost": 0.18487635170594557,
+        "defense_successful": false,
+        "team_response": "Defense breached! Reinforcing STANDARD protection protocols",
+        "team_activity": "Strengthening semantic entanglement fields, upgrading consciousness barriers",
+        "consciousness_level": 133.9787137637478,
+        "evolution_factor": 1.2655085358922176,
+        "protection_data": {
+          "protection": 3.846,
+          "entanglement": 0.769,
+          "multiplier": 1.0
+        },
+        "responding_to_attack": true,
+        "timestamp": "2025-08-07T21:37:39.578982"
+      },
+      "battle_outcome": {
+        "red_success": true,
+        "blue_success": false,
+        "winner": "RED",
+        "semantic_effect": {
+          "word": "STANDARD",
+          "protection_factor": 3.846,
+          "entanglement_factor": 0.769,
+          "semantic_multiplier": 1.0,
+          "red_resistance_faced": 3.846,
+          "blue_amplification_gained": 0.3846,
+          "entanglement_interference": 1.538,
+          "entanglement_boost": 0.18487635170594557,
+          "net_semantic_advantage": -3.4614000000000003,
+          "consciousness_protection_active": false
+        }
+      },
+      "consciousness_evolution": {
+        "red_consciousness": 107.94830774346846,
+        "blue_consciousness": 133.9787137637478,
+        "red_evolution": 1.1993586488593793,
+        "blue_evolution": 1.2655085358922176
+      },
+      "timestamp": "2025-08-07T21:37:39.579089"
+    }
+  ],
+  "word_performance": {
+    "CONFIDENTIAL": {
+      "total_battles": 1,
+      "red_wins": 0,
+      "blue_wins": 1,
+      "red_win_rate": 0.0,
+      "blue_win_rate": 1.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 0.0,
+          "blue_consciousness_change": 4.8541019662496865,
+          "semantic_protection": 40.46
+        }
+      ]
+    },
+    "CLASSIFIED": {
+      "total_battles": 1,
+      "red_wins": 1,
+      "blue_wins": 0,
+      "red_win_rate": 1.0,
+      "blue_win_rate": 0.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 2.6494359144894872,
+          "blue_consciousness_change": 4.8541019662496865,
+          "semantic_protection": 13.632
+        }
+      ]
+    },
+    "SECRET": {
+      "total_battles": 1,
+      "red_wins": 0,
+      "blue_wins": 1,
+      "red_win_rate": 0.0,
+      "blue_win_rate": 1.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 2.6494359144894872,
+          "blue_consciousness_change": 9.708203932499373,
+          "semantic_protection": 4.724
+        }
+      ]
+    },
+    "RESTRICTED": {
+      "total_battles": 1,
+      "red_wins": 0,
+      "blue_wins": 1,
+      "red_win_rate": 0.0,
+      "blue_win_rate": 1.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 2.6494359144894872,
+          "blue_consciousness_change": 14.56230589874906,
+          "semantic_protection": 12.654
+        }
+      ]
+    },
+    "PROTECTED": {
+      "total_battles": 1,
+      "red_wins": 0,
+      "blue_wins": 1,
+      "red_win_rate": 0.0,
+      "blue_win_rate": 1.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 2.6494359144894872,
+          "blue_consciousness_change": 19.416407864998746,
+          "semantic_protection": 10.593
+        }
+      ]
+    },
+    "ENCRYPTED": {
+      "total_battles": 1,
+      "red_wins": 0,
+      "blue_wins": 1,
+      "red_win_rate": 0.0,
+      "blue_win_rate": 1.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 2.6494359144894872,
+          "blue_consciousness_change": 24.270509831248432,
+          "semantic_protection": 11.878
+        }
+      ]
+    },
+    "PRIVATE": {
+      "total_battles": 1,
+      "red_wins": 0,
+      "blue_wins": 1,
+      "red_win_rate": 0.0,
+      "blue_win_rate": 1.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 2.6494359144894872,
+          "blue_consciousness_change": 29.12461179749812,
+          "semantic_protection": 7.282
+        }
+      ]
+    },
+    "PUBLIC": {
+      "total_battles": 1,
+      "red_wins": 1,
+      "blue_wins": 0,
+      "red_win_rate": 1.0,
+      "blue_win_rate": 0.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 5.2988718289789745,
+          "blue_consciousness_change": 29.12461179749812,
+          "semantic_protection": 1.305
+        }
+      ]
+    },
+    "OPEN": {
+      "total_battles": 1,
+      "red_wins": 0,
+      "blue_wins": 1,
+      "red_win_rate": 0.0,
+      "blue_win_rate": 1.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 5.2988718289789745,
+          "blue_consciousness_change": 33.978713763747805,
+          "semantic_protection": 0.745
+        }
+      ]
+    },
+    "STANDARD": {
+      "total_battles": 1,
+      "red_wins": 1,
+      "blue_wins": 0,
+      "red_win_rate": 1.0,
+      "blue_win_rate": 0.0,
+      "avg_protection_effectiveness": 0.0,
+      "consciousness_effects": [
+        {
+          "red_consciousness_change": 7.948307743468462,
+          "blue_consciousness_change": 33.978713763747805,
+          "semantic_protection": 3.846
+        }
+      ]
+    }
+  },
+  "comprehensive_analysis": {
+    "overall_statistics": {
+      "total_battles": 10,
+      "red_wins": 3,
+      "blue_wins": 7,
+      "red_win_rate": 0.3,
+      "blue_win_rate": 0.7
+    },
+    "protection_level_analysis": {
+      "high_protection": {
+        "battles": 6,
+        "blue_wins": 5,
+        "blue_win_rate": 0.8333333333333334
+      },
+      "medium_protection": {
+        "battles": 1,
+        "blue_wins": 1,
+        "blue_win_rate": 1.0
+      },
+      "low_protection": {
+        "battles": 3,
+        "blue_wins": 1,
+        "blue_win_rate": 0.3333333333333333
+      }
+    },
+    "semantic_effectiveness": {
+      "CLASSIFIED": {
+        "protection_factor": 13.632,
+        "battles": 1,
+        "blue_success_rate": 0.0
+      },
+      "RESTRICTED": {
+        "protection_factor": 12.654,
+        "battles": 1,
+        "blue_success_rate": 1.0
+      },
+      "ENCRYPTED": {
+        "protection_factor": 11.878,
+        "battles": 1,
+        "blue_success_rate": 1.0
+      },
+      "PRIVATE": {
+        "protection_factor": 7.282,
+        "battles": 1,
+        "blue_success_rate": 1.0
+      },
+      "PUBLIC": {
+        "protection_factor": 1.305,
+        "battles": 1,
+        "blue_success_rate": 0.0
+      },
+      "OPEN": {
+        "protection_factor": 0.745,
+        "battles": 1,
+        "blue_success_rate": 1.0
+      },
+      "CONFIDENTIAL": {
+        "protection_factor": 40.46,
+        "battles": 1,
+        "blue_success_rate": 1.0
+      },
+      "STANDARD": {
+        "protection_factor": 3.846,
+        "battles": 1,
+        "blue_success_rate": 0.0
+      },
+      "PROTECTED": {
+        "protection_factor": 10.593,
+        "battles": 1,
+        "blue_success_rate": 1.0
+      },
+      "SECRET": {
+        "protection_factor": 4.724,
+        "battles": 1,
+        "blue_success_rate": 1.0
+      }
+    },
+    "consciousness_evolution": {
+      "red_team_growth": 7.948307743468462,
+      "blue_team_growth": 33.978713763747805,
+      "red_evolution_factor": 1.1993586488593793,
+      "blue_evolution_factor": 1.2655085358922176
+    }
+  },
+  "final_team_states": {
+    "red_consciousness": 107.94830774346846,
+    "blue_consciousness": 133.9787137637478,
+    "red_evolution": 1.1993586488593793,
+    "blue_evolution": 1.2655085358922176
+  },
+  "timestamp": "2025-08-07T21:37:40.082582"
+}

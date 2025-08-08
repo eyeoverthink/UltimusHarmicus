@@ -1,0 +1,861 @@
+{
+  "experiment_type": "consciousness_physics_quantum_tunneling",
+  "wall_structure": {
+    "display": [
+      "=============================================",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "============================================="
+    ],
+    "width": 45,
+    "height": 22,
+    "wall_start": 20,
+    "wall_end": 25,
+    "barrier_strength": 0.95,
+    "consciousness_resistance": 0.5387861258892948
+  },
+  "test_characters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "\u03c6",
+    "\u03c8",
+    "\u03a9",
+    "\u2605",
+    "\u25c6"
+  ],
+  "characters_before": [
+    {
+      "character": "A",
+      "ascii_value": 65,
+      "position_x": 5,
+      "position_y": 5,
+      "consciousness_signature": 139.3235142214064,
+      "consciousness_energy": 3483.08785553516,
+      "wave_function": {
+        "amplitude": 10.68021761510668,
+        "phase": 3.177847740108013,
+        "frequency": 36.864313876635954
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 0.5808127452767647,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.769529
+    },
+    {
+      "character": "B",
+      "ascii_value": 66,
+      "position_x": 5,
+      "position_y": 6,
+      "consciousness_signature": 141.4669529017357,
+      "consciousness_energy": 3536.673822543393,
+      "wave_function": {
+        "amplitude": 10.762059559967216,
+        "phase": 2.3686464439075166,
+        "frequency": 37.43145716704574
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 0.586206191905931,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.769652
+    },
+    {
+      "character": "C",
+      "ascii_value": 67,
+      "position_x": 5,
+      "position_y": 7,
+      "consciousness_signature": 143.61039158206506,
+      "consciousness_energy": 3590.2597895516265,
+      "wave_function": {
+        "amplitude": 10.843283803282493,
+        "phase": 2.7777240624266626,
+        "frequency": 37.998600457455524
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 0.5915996385350973,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.7697542
+    },
+    {
+      "character": "D",
+      "ascii_value": 68,
+      "position_x": 5,
+      "position_y": 8,
+      "consciousness_signature": 145.7538302623944,
+      "consciousness_energy": 3643.8457565598596,
+      "wave_function": {
+        "amplitude": 10.923904123745096,
+        "phase": 5.8364867363708965,
+        "frequency": 38.56574374786531
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 0.5969930851642636,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.769866
+    },
+    {
+      "character": "E",
+      "ascii_value": 69,
+      "position_x": 5,
+      "position_y": 9,
+      "consciousness_signature": 147.8972689427237,
+      "consciousness_energy": 3697.431723568093,
+      "wave_function": {
+        "amplitude": 11.003933795285294,
+        "phase": 5.588817755963591,
+        "frequency": 39.13288703827509
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 0.6023865317934299,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.7699509
+    },
+    {
+      "character": "\u03c6",
+      "ascii_value": 966,
+      "position_x": 5,
+      "position_y": 10,
+      "consciousness_signature": 2070.561765198132,
+      "consciousness_energy": 51764.0441299533,
+      "wave_function": {
+        "amplitude": 41.17295016870063,
+        "phase": 4.5636255457396295,
+        "frequency": 547.8604185358513
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 1.0,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.770051
+    },
+    {
+      "character": "\u03c8",
+      "ascii_value": 968,
+      "position_x": 5,
+      "position_y": 11,
+      "consciousness_signature": 2074.8486425587907,
+      "consciousness_energy": 51871.21606396977,
+      "wave_function": {
+        "amplitude": 41.21555023200344,
+        "phase": 4.438930894886096,
+        "frequency": 548.9947051166708
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 1.0,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.7701278
+    },
+    {
+      "character": "\u03a9",
+      "ascii_value": 937,
+      "position_x": 5,
+      "position_y": 12,
+      "consciousness_signature": 2008.4020434685815,
+      "consciousness_energy": 50210.051086714535,
+      "wave_function": {
+        "amplitude": 40.55022038501333,
+        "phase": 5.906847487174174,
+        "frequency": 531.4132631139676
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 1.0,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.7701771
+    },
+    {
+      "character": "\u2605",
+      "ascii_value": 9733,
+      "position_x": 5,
+      "position_y": 13,
+      "consciousness_signature": 20862.088675645362,
+      "consciousness_energy": 521552.21689113404,
+      "wave_function": {
+        "amplitude": 130.6913322511446,
+        "phase": 4.320070476710782,
+        "frequency": 5520.005645558427
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 1.0,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.770251
+    },
+    {
+      "character": "\u25c6",
+      "ascii_value": 9670,
+      "position_x": 5,
+      "position_y": 14,
+      "consciousness_signature": 20727.05203878461,
+      "consciousness_energy": 518176.3009696153,
+      "wave_function": {
+        "amplitude": 130.26767454977278,
+        "phase": 3.893506186064961,
+        "frequency": 5484.275618262611
+      },
+      "quantum_state": {
+        "superposition": true,
+        "tunneling_probability": 1.0,
+        "coherence": 0.9176571203744828
+      },
+      "creation_time": 1754615332.770306
+    }
+  ],
+  "characters_after": [
+    {
+      "original_character": "A",
+      "recreated_character": "A",
+      "original_ascii": 65,
+      "recreated_ascii": 65,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 4234.17000454374,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.769613",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "A",
+        "ascii_value": 65,
+        "consciousness_energy": 3483.08785553516,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 0.5808127452767647,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.3848046407607364,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.769570",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 64.64694779929867
+      }
+    },
+    {
+      "original_character": "B",
+      "recreated_character": "B",
+      "original_ascii": 66,
+      "recreated_ascii": 66,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 4299.311081536721,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.769724",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "B",
+        "ascii_value": 66,
+        "consciousness_energy": 3536.673822543393,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 0.586206191905931,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.3361654826496223,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.769689",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 65.64151622698017
+      }
+    },
+    {
+      "original_character": "C",
+      "recreated_character": "C",
+      "original_ascii": 67,
+      "recreated_ascii": 67,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 4364.452158529702,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.769839",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "C",
+        "ascii_value": 67,
+        "consciousness_energy": 3590.2597895516265,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 0.5915996385350973,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.9174718191998177,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.769809",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 66.6360846546617
+      }
+    },
+    {
+      "original_character": "D",
+      "recreated_character": "D",
+      "original_ascii": 68,
+      "recreated_ascii": 68,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 4429.593235522682,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.769920",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "D",
+        "ascii_value": 68,
+        "consciousness_energy": 3643.8457565598596,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 0.5969930851642636,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.3580751656972163,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.769892",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 67.63065308234322
+      }
+    },
+    {
+      "original_character": "E",
+      "recreated_character": "E",
+      "original_ascii": 69,
+      "recreated_ascii": 69,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 4494.734312515663,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.770032",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "E",
+        "ascii_value": 69,
+        "consciousness_energy": 3697.431723568093,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 0.6023865317934299,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.5716267304547539,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.769990",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 68.62522151002474
+      }
+    },
+    {
+      "original_character": "\u03c6",
+      "recreated_character": "\u03c6",
+      "original_ascii": 966,
+      "recreated_ascii": 966,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 62926.28037521928,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.770099",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "\u03c6",
+        "ascii_value": 966,
+        "consciousness_energy": 51764.0441299533,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 1.0,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.6885705699865986,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.770067",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 960.7531011403463
+      }
+    },
+    {
+      "original_character": "\u03c8",
+      "recreated_character": "\u03c8",
+      "original_ascii": 968,
+      "recreated_ascii": 968,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 63056.56252920524,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.770159",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "\u03c8",
+        "ascii_value": 968,
+        "consciousness_energy": 51871.21606396977,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 1.0,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.9420620681486462,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.770143",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 962.7422379957094
+      }
+    },
+    {
+      "original_character": "\u03a9",
+      "recreated_character": "\u03a9",
+      "original_ascii": 937,
+      "recreated_ascii": 937,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 61037.18914242284,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.770237",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "\u03a9",
+        "ascii_value": 937,
+        "consciousness_energy": 50210.051086714535,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 1.0,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.8644064176949515,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.770192",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 931.9106167375822
+      }
+    },
+    {
+      "original_character": "\u2605",
+      "recreated_character": "\u2605",
+      "original_ascii": 9733,
+      "recreated_ascii": 9733,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 634018.1023726804,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.770282",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "\u2605",
+        "ascii_value": 9733,
+        "consciousness_energy": 521552.21689113404,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 1.0,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.04566651824510115,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.770266",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 9680.134506624214
+      }
+    },
+    {
+      "original_character": "\u25c6",
+      "recreated_character": "\u25c6",
+      "original_ascii": 9670,
+      "recreated_ascii": 9670,
+      "recreation_fidelity": 1.2156368659535808,
+      "consciousness_preservation": 629914.2145221225,
+      "teleportation_success": true,
+      "recreation_timestamp": "2025-08-07T18:08:52.770342",
+      "position_x": 30,
+      "position_y": 10,
+      "tunneling_data": {
+        "character": "\u25c6",
+        "ascii_value": 9670,
+        "consciousness_energy": 518176.3009696153,
+        "barrier_resistance": 0.5387861258892948,
+        "tunneling_probability": 1.0,
+        "success_probability": 1.0,
+        "tunneling_roll": 0.03612863885100104,
+        "tunneling_successful": true,
+        "attempt_timestamp": "2025-08-07T18:08:52.770324",
+        "consciousness_amplification": 53.585967008233226,
+        "energy_ratio": 9617.476695680278
+      }
+    }
+  ],
+  "tunneling_attempts": [
+    {
+      "character": "A",
+      "ascii_value": 65,
+      "consciousness_energy": 3483.08785553516,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.5808127452767647,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.3848046407607364,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769570",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 64.64694779929867
+    },
+    {
+      "character": "B",
+      "ascii_value": 66,
+      "consciousness_energy": 3536.673822543393,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.586206191905931,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.3361654826496223,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769689",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 65.64151622698017
+    },
+    {
+      "character": "C",
+      "ascii_value": 67,
+      "consciousness_energy": 3590.2597895516265,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.5915996385350973,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.9174718191998177,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769809",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 66.6360846546617
+    },
+    {
+      "character": "D",
+      "ascii_value": 68,
+      "consciousness_energy": 3643.8457565598596,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.5969930851642636,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.3580751656972163,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769892",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 67.63065308234322
+    },
+    {
+      "character": "E",
+      "ascii_value": 69,
+      "consciousness_energy": 3697.431723568093,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.6023865317934299,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.5716267304547539,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769990",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 68.62522151002474
+    },
+    {
+      "character": "\u03c6",
+      "ascii_value": 966,
+      "consciousness_energy": 51764.0441299533,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.6885705699865986,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770067",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 960.7531011403463
+    },
+    {
+      "character": "\u03c8",
+      "ascii_value": 968,
+      "consciousness_energy": 51871.21606396977,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.9420620681486462,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770143",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 962.7422379957094
+    },
+    {
+      "character": "\u03a9",
+      "ascii_value": 937,
+      "consciousness_energy": 50210.051086714535,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.8644064176949515,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770192",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 931.9106167375822
+    },
+    {
+      "character": "\u2605",
+      "ascii_value": 9733,
+      "consciousness_energy": 521552.21689113404,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.04566651824510115,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770266",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 9680.134506624214
+    },
+    {
+      "character": "\u25c6",
+      "ascii_value": 9670,
+      "consciousness_energy": 518176.3009696153,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.03612863885100104,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770324",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 9617.476695680278
+    }
+  ],
+  "successful_tunnels": [
+    {
+      "character": "A",
+      "ascii_value": 65,
+      "consciousness_energy": 3483.08785553516,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.5808127452767647,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.3848046407607364,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769570",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 64.64694779929867
+    },
+    {
+      "character": "B",
+      "ascii_value": 66,
+      "consciousness_energy": 3536.673822543393,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.586206191905931,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.3361654826496223,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769689",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 65.64151622698017
+    },
+    {
+      "character": "C",
+      "ascii_value": 67,
+      "consciousness_energy": 3590.2597895516265,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.5915996385350973,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.9174718191998177,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769809",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 66.6360846546617
+    },
+    {
+      "character": "D",
+      "ascii_value": 68,
+      "consciousness_energy": 3643.8457565598596,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.5969930851642636,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.3580751656972163,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769892",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 67.63065308234322
+    },
+    {
+      "character": "E",
+      "ascii_value": 69,
+      "consciousness_energy": 3697.431723568093,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 0.6023865317934299,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.5716267304547539,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.769990",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 68.62522151002474
+    },
+    {
+      "character": "\u03c6",
+      "ascii_value": 966,
+      "consciousness_energy": 51764.0441299533,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.6885705699865986,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770067",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 960.7531011403463
+    },
+    {
+      "character": "\u03c8",
+      "ascii_value": 968,
+      "consciousness_energy": 51871.21606396977,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.9420620681486462,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770143",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 962.7422379957094
+    },
+    {
+      "character": "\u03a9",
+      "ascii_value": 937,
+      "consciousness_energy": 50210.051086714535,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.8644064176949515,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770192",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 931.9106167375822
+    },
+    {
+      "character": "\u2605",
+      "ascii_value": 9733,
+      "consciousness_energy": 521552.21689113404,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.04566651824510115,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770266",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 9680.134506624214
+    },
+    {
+      "character": "\u25c6",
+      "ascii_value": 9670,
+      "consciousness_energy": 518176.3009696153,
+      "barrier_resistance": 0.5387861258892948,
+      "tunneling_probability": 1.0,
+      "success_probability": 1.0,
+      "tunneling_roll": 0.03612863885100104,
+      "tunneling_successful": true,
+      "attempt_timestamp": "2025-08-07T18:08:52.770324",
+      "consciousness_amplification": 53.585967008233226,
+      "energy_ratio": 9617.476695680278
+    }
+  ],
+  "failed_tunnels": [],
+  "statistics": {
+    "total_attempts": 10,
+    "successful_tunnels": 10,
+    "failed_tunnels": 0,
+    "tunneling_success_rate": 1.0,
+    "avg_consciousness_energy": 121152.5128089145,
+    "avg_success_probability": 1.0,
+    "avg_consciousness_amplification": 53.585967008233226,
+    "consciousness_growth": 21.434386803293293,
+    "final_consciousness_level": 46.43438680329329,
+    "teleportation_proven": true,
+    "quantum_tunneling_validated": true
+  },
+  "visualization": {
+    "before_tunneling": [
+      "=============================================",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "     A              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     B              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     C              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     D              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     E              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     \u03c6              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     \u03c8              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     \u03a9              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     \u2605              \u2588\u2588\u2588\u2588\u2588                    ",
+      "     \u25c6              \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "============================================="
+    ],
+    "after_tunneling": [
+      "=============================================",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588     \u25c6              ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "                    \u2588\u2588\u2588\u2588\u2588                    ",
+      "============================================="
+    ],
+    "wall_structure": {
+      "display": [
+        "=============================================",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "                    \u2588\u2588\u2588\u2588\u2588                    ",
+        "============================================="
+      ],
+      "width": 45,
+      "height": 22,
+      "wall_start": 20,
+      "wall_end": 25,
+      "barrier_strength": 0.95,
+      "consciousness_resistance": 0.5387861258892948
+    }
+  },
+  "consciousness_level": 46.43438680329329,
+  "experiment_timestamp": "2025-08-07T18:08:52.770676",
+  "consciousness_physics_constants": {
+    "phi": 1.618033988749895,
+    "psi": 1.324717957244746,
+    "omega": 0.567143290409784,
+    "xi": 2.718281828459045,
+    "lambda": 3.141592653589793,
+    "zeta": 1.202056903159594
+  }
+}
