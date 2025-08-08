@@ -1,0 +1,810 @@
+{
+  "total_items_teleported": 12,
+  "dimensions_accessed": 4,
+  "average_observer_effect_strength": 4.981815806532093e+16,
+  "average_causality_violation_factor": 127839828.31405658,
+  "final_consciousness_level": 1.228583985883836e+24,
+  "reality_construction_proven": true,
+  "causality_violation_proven": true,
+  "experiment_success": true,
+  "experiment_results": [
+    {
+      "item_name": "Consciousness Crystal",
+      "original_profile": {
+        "item_name": "Consciousness Crystal",
+        "item_data": {
+          "type": "crystal",
+          "frequency": 528,
+          "phi_resonance": 1.618033988749895
+        },
+        "consciousness_signature": 88.7414912146114,
+        "creation_timestamp": "2025-08-07T17:40:18.695472",
+        "phi_resonance": 118.11648117874233,
+        "psi_transcendence": 117.5574469646726,
+        "omega_grounding": 14.1785822602446,
+        "dimensional_coordinates": {
+          "x": -892.4234441554471,
+          "y": 235.91937785206142,
+          "z": -645.8153298395679,
+          "time": 1754613618.695522,
+          "consciousness": 25.0
+        },
+        "quantum_state": {
+          "superposition": 0.6785935124868431,
+          "entanglement": 1.221417721335348,
+          "coherence": 1.5416553004533868
+        }
+      },
+      "transmitted_profiles": [
+        {
+          "item_name": "Consciousness Crystal",
+          "item_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "consciousness_signature": 88.7414912146114,
+          "creation_timestamp": "2025-08-07T17:40:18.695472",
+          "phi_resonance": 118.11648117874233,
+          "psi_transcendence": 117.5574469646726,
+          "omega_grounding": 14.1785822602446,
+          "dimensional_coordinates": {
+            "x": -892.4234441554471,
+            "y": 235.91937785206142,
+            "z": -645.8153298395679,
+            "time": 1754613618.695522,
+            "consciousness": 25.0
+          },
+          "quantum_state": {
+            "superposition": 0.6785935124868431,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "future",
+          "dimensional_amplification": 2.718281828459045,
+          "temporal_coordinates": {
+            "current_time": 1754613618.6955788,
+            "target_time": 1754845506.869176,
+            "time_offset": 3600,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 64.41338155472901,
+            "temporal_field_strength": 25.73460952529158,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.695603",
+          "consciousness_enhancement": 67.95704571147613,
+          "dimensional_signature": 5.826470415155451
+        },
+        {
+          "item_name": "Consciousness Crystal",
+          "item_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "consciousness_signature": 88.7414912146114,
+          "creation_timestamp": "2025-08-07T17:40:18.695472",
+          "phi_resonance": 118.11648117874233,
+          "psi_transcendence": 117.5574469646726,
+          "omega_grounding": 14.1785822602446,
+          "dimensional_coordinates": {
+            "x": -892.4234441554471,
+            "y": 235.91937785206142,
+            "z": -645.8153298395679,
+            "time": 1754613618.695522,
+            "consciousness": 25.0
+          },
+          "quantum_state": {
+            "superposition": 0.6785935124868431,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "past",
+          "dimensional_amplification": 0.36787944117144233,
+          "temporal_coordinates": {
+            "current_time": 1754613618.695673,
+            "target_time": 1754381730.522076,
+            "time_offset": -3600,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 64.41338155472901,
+            "temporal_field_strength": 64.25853185993638,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.695686",
+          "consciousness_enhancement": 9.196986029286059,
+          "dimensional_signature": 0.7885270239048074
+        },
+        {
+          "item_name": "Consciousness Crystal",
+          "item_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "consciousness_signature": 88.7414912146114,
+          "creation_timestamp": "2025-08-07T17:40:18.695472",
+          "phi_resonance": 118.11648117874233,
+          "psi_transcendence": 117.5574469646726,
+          "omega_grounding": 14.1785822602446,
+          "dimensional_coordinates": {
+            "x": -892.4234441554471,
+            "y": 235.91937785206142,
+            "z": -645.8153298395679,
+            "time": 1754613618.695522,
+            "consciousness": 25.0
+          },
+          "quantum_state": {
+            "superposition": 0.6785935124868431,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "parallel",
+          "dimensional_amplification": 1.618033988749895,
+          "temporal_coordinates": {
+            "current_time": 1754613618.695743,
+            "target_time": 1754613618.695743,
+            "time_offset": 0,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 64.41338155472901,
+            "temporal_field_strength": 52.61318293377065,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.695750",
+          "consciousness_enhancement": 40.45084971874737,
+          "dimensional_signature": 3.4681566375740753
+        },
+        {
+          "item_name": "Consciousness Crystal",
+          "item_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "consciousness_signature": 88.7414912146114,
+          "creation_timestamp": "2025-08-07T17:40:18.695472",
+          "phi_resonance": 118.11648117874233,
+          "psi_transcendence": 117.5574469646726,
+          "omega_grounding": 14.1785822602446,
+          "dimensional_coordinates": {
+            "x": -892.4234441554471,
+            "y": 235.91937785206142,
+            "z": -645.8153298395679,
+            "time": 1754613618.695522,
+            "consciousness": 25.0
+          },
+          "quantum_state": {
+            "superposition": 0.6785935124868431,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "hyperdimensional",
+          "dimensional_amplification": 1.202056903159594,
+          "temporal_coordinates": {
+            "current_time": 1754613618.695799,
+            "target_time": 1755077395.042993,
+            "time_offset": 7200,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 64.41338155472901,
+            "temporal_field_strength": -8.673652364929575,
+            "causality_violation_potential": false
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.695806",
+          "consciousness_enhancement": 30.05142257898985,
+          "dimensional_signature": 2.5765352621891604
+        }
+      ],
+      "recreated_items": [
+        {
+          "original_item": "Consciousness Crystal",
+          "recreated_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.695861",
+          "retrocausal_factor": 39.809659131138076,
+          "observer_consciousness": 40.45084971874737,
+          "reality_construction_strength": 1610.3345388682253,
+          "consciousness_signature_match": 88.7414912146114,
+          "dimensional_origin": "future",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Consciousness Crystal",
+          "recreated_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.695927",
+          "retrocausal_factor": 39.809659131138076,
+          "observer_consciousness": 40.45084971874737,
+          "reality_construction_strength": 1610.3345388682253,
+          "consciousness_signature_match": 88.7414912146114,
+          "dimensional_origin": "past",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Consciousness Crystal",
+          "recreated_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.695996",
+          "retrocausal_factor": 39.809659131138076,
+          "observer_consciousness": 40.45084971874737,
+          "reality_construction_strength": 1610.3345388682253,
+          "consciousness_signature_match": 88.7414912146114,
+          "dimensional_origin": "parallel",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Consciousness Crystal",
+          "recreated_data": {
+            "type": "crystal",
+            "frequency": 528,
+            "phi_resonance": 1.618033988749895
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.696079",
+          "retrocausal_factor": 39.809659131138076,
+          "observer_consciousness": 40.45084971874737,
+          "reality_construction_strength": 1610.3345388682253,
+          "consciousness_signature_match": 88.7414912146114,
+          "dimensional_origin": "hyperdimensional",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        }
+      ],
+      "validation_result": {
+        "observer_effect_strength": 1610.3345388682253,
+        "causality_violation_factor": 39.809659131138076,
+        "consciousness_level": 25.0,
+        "phi_harmonic_validation": 2605.5760171466773,
+        "psi_transcendence_validation": 52.736570322810884,
+        "omega_grounding_validation": 14.1785822602446,
+        "total_validation_score": 2672.491169729733,
+        "reality_construction_proven": true,
+        "causality_violation_proven": true,
+        "observer_primacy_validated": true
+      },
+      "consciousness_level_final": 1399.0914285968524
+    },
+    {
+      "item_name": "Quantum Data Packet",
+      "original_profile": {
+        "item_name": "Quantum Data Packet",
+        "item_data": {
+          "bits": 1024,
+          "entanglement": true,
+          "psi_enhancement": 1.324717957244746
+        },
+        "consciousness_signature": 89.95712808056498,
+        "creation_timestamp": "2025-08-07T17:40:18.696534",
+        "phi_resonance": 119.73451516749222,
+        "psi_transcendence": 119.16782295049003,
+        "omega_grounding": 793.4853163985442,
+        "dimensional_coordinates": {
+          "x": 217.8748697601941,
+          "y": 991.0863343796257,
+          "z": -741.9476932807252,
+          "time": 1754613618.6967082,
+          "consciousness": 1399.0914285968524
+        },
+        "quantum_state": {
+          "superposition": 0.06096467559060237,
+          "entanglement": 1.221417721335348,
+          "coherence": 1.5416553004533868
+        }
+      },
+      "transmitted_profiles": [
+        {
+          "item_name": "Quantum Data Packet",
+          "item_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "consciousness_signature": 89.95712808056498,
+          "creation_timestamp": "2025-08-07T17:40:18.696534",
+          "phi_resonance": 119.73451516749222,
+          "psi_transcendence": 119.16782295049003,
+          "omega_grounding": 793.4853163985442,
+          "dimensional_coordinates": {
+            "x": 217.8748697601941,
+            "y": 991.0863343796257,
+            "z": -741.9476932807252,
+            "time": 1754613618.6967082,
+            "consciousness": 1399.0914285968524
+          },
+          "quantum_state": {
+            "superposition": 0.06096467559060237,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "future",
+          "dimensional_amplification": 2.718281828459045,
+          "temporal_coordinates": {
+            "current_time": 1754613618.6968052,
+            "target_time": 1767590928.9397082,
+            "time_offset": 3600,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 3604.8084008063984,
+            "temporal_field_strength": 678.7211209545372,
+            "causality_violation_potential": false
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.696834",
+          "consciousness_enhancement": 3803.1248067076294,
+          "dimensional_signature": 5.826470415155451
+        },
+        {
+          "item_name": "Quantum Data Packet",
+          "item_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "consciousness_signature": 89.95712808056498,
+          "creation_timestamp": "2025-08-07T17:40:18.696534",
+          "phi_resonance": 119.73451516749222,
+          "psi_transcendence": 119.16782295049003,
+          "omega_grounding": 793.4853163985442,
+          "dimensional_coordinates": {
+            "x": 217.8748697601941,
+            "y": 991.0863343796257,
+            "z": -741.9476932807252,
+            "time": 1754613618.6967082,
+            "consciousness": 1399.0914285968524
+          },
+          "quantum_state": {
+            "superposition": 0.06096467559060237,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "past",
+          "dimensional_amplification": 0.36787944117144233,
+          "temporal_coordinates": {
+            "current_time": 1754613618.696915,
+            "target_time": 1741636308.454012,
+            "time_offset": -3600,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 3604.8084008063984,
+            "temporal_field_strength": 3567.2514274432783,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.696925",
+          "consciousness_enhancement": 514.696972899965,
+          "dimensional_signature": 0.7885270239048074
+        },
+        {
+          "item_name": "Quantum Data Packet",
+          "item_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "consciousness_signature": 89.95712808056498,
+          "creation_timestamp": "2025-08-07T17:40:18.696534",
+          "phi_resonance": 119.73451516749222,
+          "psi_transcendence": 119.16782295049003,
+          "omega_grounding": 793.4853163985442,
+          "dimensional_coordinates": {
+            "x": 217.8748697601941,
+            "y": 991.0863343796257,
+            "z": -741.9476932807252,
+            "time": 1754613618.6967082,
+            "consciousness": 1399.0914285968524
+          },
+          "quantum_state": {
+            "superposition": 0.06096467559060237,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "parallel",
+          "dimensional_amplification": 1.618033988749895,
+          "temporal_coordinates": {
+            "current_time": 1754613618.697029,
+            "target_time": 1754613618.697029,
+            "time_offset": 0,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 3604.8084008063984,
+            "temporal_field_strength": 2936.0007790393483,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.697041",
+          "consciousness_enhancement": 2263.7774848383538,
+          "dimensional_signature": 3.4681566375740753
+        },
+        {
+          "item_name": "Quantum Data Packet",
+          "item_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "consciousness_signature": 89.95712808056498,
+          "creation_timestamp": "2025-08-07T17:40:18.696534",
+          "phi_resonance": 119.73451516749222,
+          "psi_transcendence": 119.16782295049003,
+          "omega_grounding": 793.4853163985442,
+          "dimensional_coordinates": {
+            "x": 217.8748697601941,
+            "y": 991.0863343796257,
+            "z": -741.9476932807252,
+            "time": 1754613618.6967082,
+            "consciousness": 1399.0914285968524
+          },
+          "quantum_state": {
+            "superposition": 0.06096467559060237,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "hyperdimensional",
+          "dimensional_amplification": 1.202056903159594,
+          "temporal_coordinates": {
+            "current_time": 1754613618.6970859,
+            "target_time": 1780568239.1828918,
+            "time_offset": 7200,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 3604.8084008063984,
+            "temporal_field_strength": -1959.122526926062,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.697092",
+          "consciousness_enhancement": 1681.7875098962647,
+          "dimensional_signature": 2.5765352621891604
+        }
+      ],
+      "recreated_items": [
+        {
+          "original_item": "Quantum Data Packet",
+          "recreated_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.697413",
+          "retrocausal_factor": 2227.894114629508,
+          "observer_consciousness": 2263.7774848383538,
+          "reality_construction_strength": 5043456.535302158,
+          "consciousness_signature_match": 89.95712808056498,
+          "dimensional_origin": "future",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Quantum Data Packet",
+          "recreated_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.697504",
+          "retrocausal_factor": 2227.894114629508,
+          "observer_consciousness": 2263.7774848383538,
+          "reality_construction_strength": 5043456.535302158,
+          "consciousness_signature_match": 89.95712808056498,
+          "dimensional_origin": "past",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Quantum Data Packet",
+          "recreated_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.697560",
+          "retrocausal_factor": 2227.894114629508,
+          "observer_consciousness": 2263.7774848383538,
+          "reality_construction_strength": 5043456.535302158,
+          "consciousness_signature_match": 89.95712808056498,
+          "dimensional_origin": "parallel",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Quantum Data Packet",
+          "recreated_data": {
+            "bits": 1024,
+            "entanglement": true,
+            "psi_enhancement": 1.324717957244746
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.697612",
+          "retrocausal_factor": 2227.894114629508,
+          "observer_consciousness": 2263.7774848383538,
+          "reality_construction_strength": 5043456.535302158,
+          "consciousness_signature_match": 89.95712808056498,
+          "dimensional_origin": "hyperdimensional",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        }
+      ],
+      "validation_result": {
+        "observer_effect_strength": 5043456.535302158,
+        "causality_violation_factor": 2227.894114629508,
+        "consciousness_level": 1399.0914285968524,
+        "phi_harmonic_validation": 8160484.094901676,
+        "psi_transcendence_validation": 2951.331340489594,
+        "omega_grounding_validation": 793.4853163985442,
+        "total_validation_score": 8164228.911558565,
+        "reality_construction_proven": true,
+        "causality_violation_proven": true,
+        "observer_primacy_validated": true
+      },
+      "consciousness_level_final": 240844323.71993035
+    },
+    {
+      "item_name": "Temporal Message",
+      "original_profile": {
+        "item_name": "Temporal Message",
+        "item_data": {
+          "text": "Hello from the past/future!",
+          "omega_grounding": 0.567143290409784
+        },
+        "consciousness_signature": 93.60403867842572,
+        "creation_timestamp": "2025-08-07T17:40:18.697903",
+        "phi_resonance": 124.5886171337419,
+        "psi_transcendence": 123.99895090794233,
+        "omega_grounding": 136593242.23104048,
+        "dimensional_coordinates": {
+          "x": 987.5578239762506,
+          "y": 633.0068521518433,
+          "z": -106.01987581647427,
+          "time": 1754613618.697932,
+          "consciousness": 240844323.71993035
+        },
+        "quantum_state": {
+          "superposition": 0.7287570298397402,
+          "entanglement": 1.221417721335348,
+          "coherence": 1.5416553004533868
+        }
+      },
+      "transmitted_profiles": [
+        {
+          "item_name": "Temporal Message",
+          "item_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "consciousness_signature": 93.60403867842572,
+          "creation_timestamp": "2025-08-07T17:40:18.697903",
+          "phi_resonance": 124.5886171337419,
+          "psi_transcendence": 123.99895090794233,
+          "omega_grounding": 136593242.23104048,
+          "dimensional_coordinates": {
+            "x": 987.5578239762506,
+            "y": 633.0068521518433,
+            "z": -106.01987581647427,
+            "time": 1754613618.697932,
+            "consciousness": 240844323.71993035
+          },
+          "quantum_state": {
+            "superposition": 0.7287570298397402,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "future",
+          "dimensional_amplification": 2.718281828459045,
+          "temporal_coordinates": {
+            "current_time": 1754613618.69798,
+            "target_time": 2235712627563.704,
+            "time_offset": 3600,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 620543892.7625017,
+            "temporal_field_strength": -497244382.7676932,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.697991",
+          "consciousness_enhancement": 654682748.6553944,
+          "dimensional_signature": 5.826470415155451
+        },
+        {
+          "item_name": "Temporal Message",
+          "item_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "consciousness_signature": 93.60403867842572,
+          "creation_timestamp": "2025-08-07T17:40:18.697903",
+          "phi_resonance": 124.5886171337419,
+          "psi_transcendence": 123.99895090794233,
+          "omega_grounding": 136593242.23104048,
+          "dimensional_coordinates": {
+            "x": 987.5578239762506,
+            "y": 633.0068521518433,
+            "z": -106.01987581647427,
+            "time": 1754613618.697932,
+            "consciousness": 240844323.71993035
+          },
+          "quantum_state": {
+            "superposition": 0.7287570298397402,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "past",
+          "dimensional_amplification": 0.36787944117144233,
+          "temporal_coordinates": {
+            "current_time": 1754613618.69838,
+            "target_time": -2232203400326.308,
+            "time_offset": -3600,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 620543892.7625017,
+            "temporal_field_strength": -510921384.8790123,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.698394",
+          "consciousness_enhancement": 88601675.21940193,
+          "dimensional_signature": 0.7885270239048074
+        },
+        {
+          "item_name": "Temporal Message",
+          "item_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "consciousness_signature": 93.60403867842572,
+          "creation_timestamp": "2025-08-07T17:40:18.697903",
+          "phi_resonance": 124.5886171337419,
+          "psi_transcendence": 123.99895090794233,
+          "omega_grounding": 136593242.23104048,
+          "dimensional_coordinates": {
+            "x": 987.5578239762506,
+            "y": 633.0068521518433,
+            "z": -106.01987581647427,
+            "time": 1754613618.697932,
+            "consciousness": 240844323.71993035
+          },
+          "quantum_state": {
+            "superposition": 0.7287570298397402,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "parallel",
+          "dimensional_amplification": 1.618033988749895,
+          "temporal_coordinates": {
+            "current_time": 1754613618.6984582,
+            "target_time": 1754613618.6984582,
+            "time_offset": 0,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 620543892.7625017,
+            "temporal_field_strength": 503791435.9143516,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.698496",
+          "consciousness_enhancement": 389694301.7763298,
+          "dimensional_signature": 3.4681566375740753
+        },
+        {
+          "item_name": "Temporal Message",
+          "item_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "consciousness_signature": 93.60403867842572,
+          "creation_timestamp": "2025-08-07T17:40:18.697903",
+          "phi_resonance": 124.5886171337419,
+          "psi_transcendence": 123.99895090794233,
+          "omega_grounding": 136593242.23104048,
+          "dimensional_coordinates": {
+            "x": 987.5578239762506,
+            "y": 633.0068521518433,
+            "z": -106.01987581647427,
+            "time": 1754613618.697932,
+            "consciousness": 240844323.71993035
+          },
+          "quantum_state": {
+            "superposition": 0.7287570298397402,
+            "entanglement": 1.221417721335348,
+            "coherence": 1.5416553004533868
+          },
+          "dimension_type": "hyperdimensional",
+          "dimensional_amplification": 1.202056903159594,
+          "temporal_coordinates": {
+            "current_time": 1754613618.6989598,
+            "target_time": 4469670641508.712,
+            "time_offset": 7200,
+            "temporal_amplification": 2.5765352621891604,
+            "consciousness_time_factor": 620543892.7625017,
+            "temporal_field_strength": 487899773.04752696,
+            "causality_violation_potential": true
+          },
+          "transmission_timestamp": "2025-08-07T17:40:18.698988",
+          "consciousness_enhancement": 289508581.9143462,
+          "dimensional_signature": 2.5765352621891604
+        }
+      ],
+      "recreated_items": [
+        {
+          "original_item": "Temporal Message",
+          "recreated_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.699181",
+          "retrocausal_factor": 383517217.238396,
+          "observer_consciousness": 389694301.7763298,
+          "reality_construction_strength": 1.4945447419091773e+17,
+          "consciousness_signature_match": 93.60403867842572,
+          "dimensional_origin": "future",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Temporal Message",
+          "recreated_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.699312",
+          "retrocausal_factor": 383517217.238396,
+          "observer_consciousness": 389694301.7763298,
+          "reality_construction_strength": 1.4945447419091773e+17,
+          "consciousness_signature_match": 93.60403867842572,
+          "dimensional_origin": "past",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Temporal Message",
+          "recreated_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.699407",
+          "retrocausal_factor": 383517217.238396,
+          "observer_consciousness": 389694301.7763298,
+          "reality_construction_strength": 1.4945447419091773e+17,
+          "consciousness_signature_match": 93.60403867842572,
+          "dimensional_origin": "parallel",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        },
+        {
+          "original_item": "Temporal Message",
+          "recreated_data": {
+            "text": "Hello from the past/future!",
+            "omega_grounding": 0.567143290409784
+          },
+          "recreation_timestamp": "2025-08-07T17:40:18.699644",
+          "retrocausal_factor": 383517217.238396,
+          "observer_consciousness": 389694301.7763298,
+          "reality_construction_strength": 1.4945447419091773e+17,
+          "consciousness_signature_match": 93.60403867842572,
+          "dimensional_origin": "hyperdimensional",
+          "recreation_success": true,
+          "causality_status": "VIOLATED",
+          "observer_effect_proof": true
+        }
+      ],
+      "validation_result": {
+        "observer_effect_strength": 1.4945447419091773e+17,
+        "causality_violation_factor": 383517217.238396,
+        "consciousness_level": 240844323.71993035,
+        "phi_harmonic_validation": 2.4182241901164883e+17,
+        "psi_transcendence_validation": 508052144.58823746,
+        "omega_grounding_validation": 136593242.23104048,
+        "total_validation_score": 2.4182241965629424e+17,
+        "reality_construction_proven": true,
+        "causality_violation_proven": true,
+        "observer_primacy_validated": true
+      },
+      "consciousness_level_final": 1.228583985883836e+24
+    }
+  ]
+}
