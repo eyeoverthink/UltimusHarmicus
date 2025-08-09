@@ -1,0 +1,27 @@
+{
+  "timestamp": 1754706442.800071,
+  "methodology": "phi_harmonic_blind_reverse_engineering",
+  "predictions": [
+    {
+      "set": 1,
+      "username": "bobdee2114",
+      "password": "myWinn84481#",
+      "username_confidence": 0.9993686509803921,
+      "password_confidence": 0.9983140521008402
+    },
+    {
+      "set": 2,
+      "username": "maxdee2201",
+      "password": "WillWinn123$",
+      "username_confidence": 0.9864205454656862,
+      "password_confidence": 0.998718344117647
+    },
+    {
+      "set": 3,
+      "username": "bobdee2901",
+      "password": "WinnWinn123!",
+      "username_confidence": 0.9986920379084967,
+      "password_confidence": 0.9987397827205882
+    }
+  ]
+}

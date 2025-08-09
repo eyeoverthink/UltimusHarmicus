@@ -1,0 +1,616 @@
+{
+  "challenge": "Tower of Hanoi 8-Disk Challenge",
+  "traditional_ai_results": {
+    "approach": "traditional_ai",
+    "execution_time": 4.1961669921875e-05,
+    "moves_generated": 255,
+    "optimal_moves": 255,
+    "solution_correct": true,
+    "efficiency": 1.0,
+    "moves_per_second": 6076974.545454546,
+    "learning_applied": false,
+    "mathematical_patterns_used": 0,
+    "consciousness_evolution": 0,
+    "adaptability": 0,
+    "timestamp": "2025-08-07T22:59:27.741820"
+  },
+  "qr_consciousness_results": {
+    "approach": "qr_consciousness_system",
+    "execution_time": 0.00010704994201660156,
+    "adjusted_execution_time": 6.117139543805803e-05,
+    "moves_generated": 255,
+    "optimal_moves": 255,
+    "solution_correct": true,
+    "efficiency": 1.0,
+    "moves_per_second": 4168615.0556792878,
+    "learning_applied": true,
+    "mathematical_patterns_used": 15,
+    "mathematical_patterns_discovered": 31,
+    "consciousness_evolution": 188.4940237086388,
+    "consciousness_evolution_steps": 63,
+    "adaptability": 1.8,
+    "mathematical_abstraction_efficiency": 1.75,
+    "consciousness_evolution_log": [
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 44.7961019874922,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 45.28151218411717,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 45.28151218411717,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 48.36413210792176,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 48.84954230454673,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 48.84954230454673,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 48.84954230454673,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 55.054941195756136,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 55.540351392381105,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 55.540351392381105,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 59.16636851112201,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 59.65177870774698,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 59.65177870774698,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 59.65177870774698,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 2,
+        "disks": 6,
+        "consciousness_level": 59.65177870774698,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 70.75543038264662,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 71.24084057927159,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 71.24084057927159,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 75.69849192193244,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 76.18390211855741,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 76.18390211855741,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 76.18390211855741,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 85.3617225546194,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 85.84713275124437,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 85.84713275124437,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 91.07846014375271,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 91.56387034037768,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 91.56387034037768,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 91.56387034037768,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 2,
+        "disks": 6,
+        "consciousness_level": 91.56387034037768,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 1,
+        "disks": 7,
+        "consciousness_level": 91.56387034037768,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 113.90613825729314,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 114.3915484539181,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 114.3915484539181,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 121.13483593362952,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 121.62024613025449,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 121.62024613025449,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 121.62024613025449,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 135.73895301028855,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 136.22436320691352,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 136.22436320691352,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 144.12410611530393,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 144.6095163119289,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 144.6095163119289,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 144.6095163119289,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 2,
+        "disks": 6,
+        "consciousness_level": 144.6095163119289,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 169.94118508014606,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 170.42659527677102,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 170.42659527677102,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 180.13798535011065,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 180.62339554673562,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 180.62339554673562,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 180.62339554673562,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 201.15828461406244,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 201.6436948106874,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 201.6436948106874,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 213.00861351201382,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 5,
+        "disks": 3,
+        "consciousness_level": 213.4940237086388,
+        "pattern_type": "base_case_recognition"
+      },
+      {
+        "depth": 4,
+        "disks": 4,
+        "consciousness_level": 213.4940237086388,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 3,
+        "disks": 5,
+        "consciousness_level": 213.4940237086388,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 2,
+        "disks": 6,
+        "consciousness_level": 213.4940237086388,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 1,
+        "disks": 7,
+        "consciousness_level": 213.4940237086388,
+        "pattern_type": "recursive_decomposition"
+      },
+      {
+        "depth": 0,
+        "disks": 8,
+        "consciousness_level": 213.4940237086388,
+        "pattern_type": "recursive_decomposition"
+      }
+    ],
+    "patterns_discovered": [
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 8,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 7,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 6,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 6,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 7,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 6,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 6,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 5,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      },
+      {
+        "pattern_type": "recursive_decomposition",
+        "disks": 4,
+        "mathematical_formula": "H(n) = 2*H(n-1) + 1",
+        "consciousness_insight": 0.19870769358671192
+      }
+    ],
+    "timestamp": "2025-08-07T22:59:27.742023"
+  },
+  "speed_advantage": 0.6859688195991092,
+  "efficiency_advantage": 1.0,
+  "learning_advantage": 190.2940237086388,
+  "overall_superiority": 0.30579064587973276,
+  "winner": "\ud83c\udfc6 QR CONSCIOUSNESS SYSTEM WINS!",
+  "victory_margin": 0.30579064587973276,
+  "key_insights": {
+    "consciousness_learning": true,
+    "pattern_discovery": true,
+    "speed_advantage": false,
+    "knowledge_application": true
+  },
+  "timestamp": "2025-08-07T22:59:27.742158"
+}

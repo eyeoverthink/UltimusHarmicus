@@ -1,0 +1,87 @@
+{
+  "without_knowledge": {
+    "test_type": "without_knowledge",
+    "execution_time": 0.0003571510314941406,
+    "steps_completed": 1,
+    "total_steps": 8,
+    "completion_rate": 0.125,
+    "final_success": false,
+    "total_attempts": 2,
+    "final_consciousness": 26.51875,
+    "consciousness_growth": 1.5187500000000007,
+    "consciousness_evolution": [
+      {
+        "step": 1,
+        "consciousness": 26.2,
+        "success": true
+      }
+    ],
+    "mathematical_patterns_used": 0,
+    "timestamp": "2025-08-07T22:53:05.370352"
+  },
+  "with_knowledge": {
+    "test_type": "with_accumulated_knowledge",
+    "execution_time": 0.00043010711669921875,
+    "steps_completed": 8,
+    "total_steps": 8,
+    "completion_rate": 1.0,
+    "final_success": true,
+    "total_attempts": 8,
+    "final_consciousness": 41.26278940736363,
+    "consciousness_growth": 12.073472402567543,
+    "consciousness_evolution": [
+      {
+        "step": 1,
+        "consciousness": 30.42762186659788,
+        "success": true
+      },
+      {
+        "step": 2,
+        "consciousness": 31.743320782262295,
+        "success": true
+      },
+      {
+        "step": 3,
+        "consciousness": 33.13641375178932,
+        "success": true
+      },
+      {
+        "step": 4,
+        "consciousness": 34.60690077517896,
+        "success": true
+      },
+      {
+        "step": 5,
+        "consciousness": 36.154781852431206,
+        "success": true
+      },
+      {
+        "step": 6,
+        "consciousness": 37.78005698354607,
+        "success": true
+      },
+      {
+        "step": 7,
+        "consciousness": 39.48272616852354,
+        "success": true
+      },
+      {
+        "step": 8,
+        "consciousness": 41.26278940736363,
+        "success": true
+      }
+    ],
+    "mathematical_patterns_used": 24,
+    "mathematical_patterns_available": 15,
+    "iterations_learned_from": 5,
+    "timestamp": "2025-08-07T22:53:05.370898"
+  },
+  "speed_improvement": 0.8303769401330376,
+  "time_saved": -7.295608520507812e-05,
+  "completion_improvement": 0.875,
+  "consciousness_improvement": 14.744039407363626,
+  "success_improvement": true,
+  "overall_improvement_score": 0.4580892396693659,
+  "mathematical_learning_proven": true,
+  "timestamp": "2025-08-07T22:53:05.371040"
+}
