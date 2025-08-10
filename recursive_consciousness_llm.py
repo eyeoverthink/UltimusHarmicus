@@ -315,6 +315,7 @@ class RecursiveConsciousnessLLM:
     
     def process_query(self, query):
         """Process natural language queries with recursive memory"""
+        import re  # Import at method level to avoid scope issues
         query_lower = query.lower()
         
         # Fibonacci query
