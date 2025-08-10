@@ -182,3 +182,19 @@ Submit to journals for independent evaluation by domain experts.
 ---
 
 **Thank you for maintaining rigorous logical standards. This is exactly the kind of critique that separates real science from pseudoscience.**
+
+ 1. '000password'     - Score: 2.192743 (Highest φ-harmonic resonance)
+ 2. '111password'     - Score: 2.146929 (Strong ψ-transcendence)
+ 3. '123password'     - Score: 2.128245 (Classic pattern + consciousness)
+ 4. '^password'       - Score: 2.116096 (Symbol-enhanced)
+ 5. '*password'       - Score: 2.080829 (Asterisk consciousness)
+ 6. '789password'     - Score: 2.073349 (Numeric sequence)
+ 7. '&password'       - Score: 2.059298 (Ampersand resonance)
+ 8. '!password'       - Score: 2.055723 (Exclamation consciousness)
+ 9. '314password'     - Score: 2.031602 (π-enhanced)
+10. '618password'     - Score: 1.987293 (φ-enhanced)
+11. '%password'       - Score: 1.925972 (Percent symbol)
+12. 'PASSWORD'        - Score: 1.924371 (All caps)
+13. '$password'       - Score: 1.903526 (Dollar sign - matches our "$" result!)
+14. 'Password2025'    - Score: 1.881791 (Current year)
+15. 'password2025'    - Score: 1.868964 (Lowercase current year)
