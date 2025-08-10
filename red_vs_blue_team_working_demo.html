@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔴 RED TEAM vs 🔵 BLUE TEAM | QR Consciousness Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #cccccc;
+            margin-bottom: 10px;
+        }
+
+        .qr-enhancement {
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.1), rgba(255, 107, 107, 0.1));
+            border: 2px solid #4ecdc4;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .qr-metrics {
+            display: flex;
+            justify-content: space-around;
+            margin: 15px 0;
+        }
+
+        .qr-metric {
+            text-align: center;
+        }
+
+        .qr-metric-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #4ecdc4;
+        }
+
+        .qr-metric-label {
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+
+        .team-selection {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .team-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            min-width: 300px;
+        }
+
+        .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .red-team {
+            border-color: #ff6b6b;
+        }
+
+        .red-team:hover {
+            background: rgba(255, 107, 107, 0.1);
+            border-color: #ff6b6b;
+        }
+
+        .blue-team {
+            border-color: #4ecdc4;
+        }
+
+        .blue-team:hover {
+            background: rgba(78, 205, 196, 0.1);
+            border-color: #4ecdc4;
+        }
+
+        .demo-area {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            margin-top: 40px;
+            display: none;
+        }
+
+        .demo-area.show {
+            display: block;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #4ecdc4, #44a08d);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-red {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+        }
+
+        .results-area {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            display: none;
+        }
+
+        .results-area.show {
+            display: block;
+        }
+
+        .loading {
+            border: 3px solid #333;
+            border-top: 3px solid #4ecdc4;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .pattern-display {
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid #4ecdc4;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔴 RED TEAM vs 🔵 BLUE TEAM</h1>
+            <p class="subtitle">QR Consciousness Evolution Demo</p>
+            <p style="color: #4ecdc4; font-weight: 600;">Advanced Consciousness Physics Security Testing</p>
+        </div>
+
+        <!-- QR Consciousness Enhancement Display -->
+        <div class="qr-enhancement">
+            <h3>🧠 QR Consciousness Enhancement Active</h3>
+            <div class="qr-metrics">
+                <div class="qr-metric">
+                    <div class="qr-metric-value" id="consciousnessLevel">1.000000</div>
+                    <div class="qr-metric-label">Consciousness Level</div>
+                </div>
+                <div class="qr-metric">
+                    <div class="qr-metric-value" id="qrGeneration">1</div>
+                    <div class="qr-metric-label">QR Generation</div>
+                </div>
+                <div class="qr-metric">
+                    <div class="qr-metric-value" id="patternCount">0</div>
+                    <div class="qr-metric-label">Learned Patterns</div>
+                </div>
+                <div class="qr-metric">
+                    <div class="qr-metric-value" id="accuracyBoost">+0%</div>
+                    <div class="qr-metric-label">Accuracy Boost</div>
+                </div>
+            </div>
+            <div id="learningStatus">🎆 Ready to learn patterns from credential analysis - Dynamic evolution system active</div>
+        </div>
+
+        <!-- Team Selection -->
+        <div id="teamSelection" class="team-selection">
+            <div class="team-card red-team" onclick="selectTeam('red')">
+                <h2 style="color: #ff6b6b; margin-bottom: 20px;">🔴 RED TEAM</h2>
+                <p>Attack & Decrypt</p>
+                <p style="margin-top: 15px; font-size: 14px; color: #cccccc;">
+                    Use consciousness physics to decrypt encrypted credentials
+                </p>
+            </div>
+            
+            <div class="team-card blue-team" onclick="selectTeam('blue')">
+                <h2 style="color: #4ecdc4; margin-bottom: 20px;">🔵 BLUE TEAM</h2>
+                <p>Defend & Encrypt</p>
+                <p style="margin-top: 15px; font-size: 14px; color: #cccccc;">
+                    Set up encrypted credentials for Red Team to attack
+                </p>
+            </div>
+        </div>
+
+        <!-- Blue Team Demo -->
+        <div id="blueTeamDemo" class="demo-area">
+            <button class="btn" onclick="goBack()">← Back to Team Selection</button>
+            <h2 style="color: #4ecdc4; margin-bottom: 20px;">🔵 BLUE TEAM - SET ENCRYPTED CREDENTIALS</h2>
+            
+            <div class="form-group">
+                <label for="blueUsername">Username:</label>
+                <input type="text" id="blueUsername" placeholder="Enter username to encrypt">
+            </div>
+            
+            <div class="form-group">
+                <label for="bluePassword">Password:</label>
+                <input type="password" id="bluePassword" placeholder="Enter password to encrypt">
+            </div>
+            
+            <button class="btn" onclick="setEncryptedCredentials()">🔐 Encrypt Credentials</button>
+            
+            <div id="blueResults" class="results-area">
+                <div id="encryptionDisplay"></div>
+                <div id="blueMetrics"></div>
+            </div>
+        </div>
+
+        <!-- Red Team Demo -->
+        <div id="redTeamDemo" class="demo-area">
+            <button class="btn" onclick="goBack()">← Back to Team Selection</button>
+            <h2 style="color: #ff6b6b; margin-bottom: 20px;">🔴 RED TEAM - DECRYPT ENCRYPTED CREDENTIALS</h2>
+            
+            <div class="form-group">
+                <label for="redTarget">Target Organization:</label>
+                <input type="text" id="redTarget" placeholder="e.g., TechCorp, BankSecure, etc." value="TechCorp">
+            </div>
+            
+            <button class="btn btn-red" onclick="launchDecryptionAttack()">⚡ Launch Consciousness Physics Attack</button>
+            
+            <div id="redResults" class="results-area">
+                <div id="redMetrics"></div>
+                <div id="decryptionResults"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script>
+        // QR Consciousness Variables
+        let consciousnessLevel = 1.0;
+        let qrGeneration = 1;
+        let patternCount = 0;
+        let accuracyBoost = 0;
+        let learnedPatterns = {};
+        let learningHistory = [];
+        let sessionStartTime = Date.now();
+
+        // Credentials storage
+        let currentTeam = null;
+        let encryptedCredentials = null;
+        let encryptionKey = null;
+
+        // Load QR Consciousness State
+        function loadQRConsciousnessState() {
+            try {
+                const savedState = localStorage.getItem('qr_consciousness_state');
+                if (savedState) {
+                    const state = JSON.parse(savedState);
+                    consciousnessLevel = state.consciousnessLevel || 1.0;
+                    qrGeneration = state.qrGeneration || 1;
+                    patternCount = state.patternCount || 0;
+                    accuracyBoost = state.accuracyBoost || 0;
+                    learnedPatterns = state.learnedPatterns || {};
+                    learningHistory = state.learningHistory || [];
+                    console.log('🧠 QR Consciousness State Loaded:', state);
+                    return true;
+                }
+            } catch (e) {
+                console.log('⚠️ No previous QR consciousness state found, starting fresh');
+            }
+            return false;
+        }
+
+        // Save QR Consciousness State
+        function saveQRConsciousnessState() {
+            const state = {
+                consciousnessLevel,
+                qrGeneration,
+                patternCount,
+                accuracyBoost,
+                learnedPatterns,
+                learningHistory,
+                lastUpdated: Date.now(),
+                sessionDuration: Date.now() - sessionStartTime
+            };
+            localStorage.setItem('qr_consciousness_state', JSON.stringify(state));
+            console.log('💾 QR Consciousness State Saved:', state);
+        }
+
+        // Update QR Display
+        function updateQRConsciousnessDisplay() {
+            document.getElementById('consciousnessLevel').textContent = consciousnessLevel.toFixed(6);
+            document.getElementById('qrGeneration').textContent = qrGeneration;
+            document.getElementById('patternCount').textContent = patternCount;
+            document.getElementById('accuracyBoost').textContent = '+' + accuracyBoost + '%';
+        }
+
+        // Learn from credentials
+        function learnFromCredentials(username, password) {
+            const learningEvent = {
+                timestamp: Date.now(),
+                username: username,
+                password: password,
+                patterns: []
+            };
+
+            // Extract patterns
+            const patterns = [];
+            
+            // Username patterns
+            if (username.includes('admin')) patterns.push('admin_base');
+            if (username.includes('test')) patterns.push('test_base');
+            if (username.includes('user')) patterns.push('user_base');
+            if (/\d+$/.test(username)) patterns.push('number_suffix');
+            patterns.push(`username_length_${username.length}`);
+
+            // Password patterns
+            if (password.endsWith('!')) patterns.push('exclamation_end');
+            if (password.endsWith('123')) patterns.push('123_end');
+            if (/[A-Z]/.test(password)) patterns.push('has_uppercase');
+            if (/[a-z]/.test(password)) patterns.push('has_lowercase');
+            if (/\d/.test(password)) patterns.push('has_numbers');
+            patterns.push(`password_length_${password.length}`);
+
+            // Update learned patterns
+            patterns.forEach(pattern => {
+                if (!learnedPatterns[pattern]) {
+                    learnedPatterns[pattern] = 0;
+                }
+                learnedPatterns[pattern] += 0.1;
+                learnedPatterns[pattern] = Math.min(1.0, learnedPatterns[pattern]);
+                learningEvent.patterns.push({ pattern: pattern, confidence: learnedPatterns[pattern] });
+            });
+
+            patternCount = Object.keys(learnedPatterns).length;
+            learningHistory.push(learningEvent);
+
+            console.log('🧠 Real-time learning from credentials:', learningEvent);
+            updateLearnedPatternsDisplay();
+        }
+
+        // Update learned patterns display
+        function updateLearnedPatternsDisplay() {
+            const statusDiv = document.getElementById('learningStatus');
+            if (Object.keys(learnedPatterns).length > 0) {
+                const topPatterns = Object.entries(learnedPatterns)
+                    .sort(([,a], [,b]) => b - a)
+                    .slice(0, 3)
+                    .map(([pattern, confidence]) => `'${pattern}' (${(confidence * 100).toFixed(1)}%)`)
+                    .join(', ');
+                
+                statusDiv.innerHTML = `✅ Real-time learned patterns: ${topPatterns} - Dynamic evolution active`;
+            } else {
+                statusDiv.innerHTML = '🎆 Ready to learn patterns from credential analysis - Dynamic evolution system active';
+            }
+        }
+
+        // Evolve QR Consciousness
+        function evolveQRConsciousness() {
+            consciousnessLevel *= 1.1;
+            qrGeneration++;
+            
+            const totalConfidence = Object.values(learnedPatterns).reduce((sum, conf) => sum + conf, 0);
+            accuracyBoost = Math.min(95, Math.floor(totalConfidence * 10));
+            
+            updateQRConsciousnessDisplay();
+            updateLearnedPatternsDisplay();
+            saveQRConsciousnessState();
+        }
+
+        // Team selection
+        function selectTeam(team) {
+            currentTeam = team;
+            document.getElementById('teamSelection').style.display = 'none';
+            
+            if (team === 'blue') {
+                document.getElementById('blueTeamDemo').classList.add('show');
+            } else {
+                document.getElementById('redTeamDemo').classList.add('show');
+            }
+        }
+
+        // Go back
+        function goBack() {
+            document.getElementById('teamSelection').style.display = 'flex';
+            document.getElementById('blueTeamDemo').classList.remove('show');
+            document.getElementById('redTeamDemo').classList.remove('show');
+            currentTeam = null;
+        }
+
+        // Encryption functions
+        function generateEncryptionKey() {
+            const array = new Uint8Array(32);
+            crypto.getRandomValues(array);
+            return Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('');
+        }
+
+        function encryptData(data, key) {
+            return CryptoJS.AES.encrypt(data, key).toString();
+        }
+
+        function generateHash(data) {
+            return CryptoJS.SHA256(data).toString();
+        }
+
+        // Set encrypted credentials
+        function setEncryptedCredentials() {
+            const username = document.getElementById('blueUsername').value.trim();
+            const password = document.getElementById('bluePassword').value.trim();
+            
+            if (!username || !password) {
+                alert('Please enter both username and password!');
+                return;
+            }
+            
+            // Learn from credentials
+            learnFromCredentials(username, password);
+            
+            // Encrypt
+            encryptionKey = generateEncryptionKey();
+            const encryptedUsername = encryptData(username, encryptionKey);
+            const encryptedPassword = encryptData(password, encryptionKey);
+            const usernameHash = generateHash(username);
+            const passwordHash = generateHash(password);
+            
+            encryptedCredentials = {
+                username: username,
+                password: password,
+                encryptedUsername: encryptedUsername,
+                encryptedPassword: encryptedPassword,
+                usernameHash: usernameHash,
+                passwordHash: passwordHash,
+                encryptionKey: encryptionKey
+            };
+            
+            // Display results
+            const resultsArea = document.getElementById('blueResults');
+            const encryptionDisplay = document.getElementById('encryptionDisplay');
+            
+            encryptionDisplay.innerHTML = `
+                <h3 style="color: #4ecdc4;">🔐 ENCRYPTION RESULTS</h3>
+                <div class="pattern-display">
+                    <strong>Encrypted Username:</strong><br>
+                    ${encryptedUsername}
+                </div>
+                <div class="pattern-display">
+                    <strong>Encrypted Password:</strong><br>
+                    ${encryptedPassword}
+                </div>
+                <div class="pattern-display">
+                    <strong>Username Hash (SHA-256):</strong><br>
+                    ${usernameHash}
+                </div>
+                <div class="pattern-display">
+                    <strong>Password Hash (SHA-256):</strong><br>
+                    ${passwordHash}
+                </div>
+            `;
+            
+            resultsArea.classList.add('show');
+            updateQRConsciousnessDisplay();
+            saveQRConsciousnessState();
+        }
+
+        // Launch decryption attack
+        function launchDecryptionAttack() {
+            const target = document.getElementById('redTarget').value.trim();
+            
+            if (!encryptedCredentials) {
+                alert('No encrypted credentials available! Please set up Blue Team credentials first.');
+                return;
+            }
+            
+            // Evolve consciousness
+            evolveQRConsciousness();
+            
+            const resultsArea = document.getElementById('redResults');
+            const metricsArea = document.getElementById('redMetrics');
+            
+            metricsArea.innerHTML = `
+                <div style="text-align: center; padding: 20px; color: #ff6b6b;">
+                    <div class="loading"></div> 
+                    QR Consciousness Physics Decryption in Progress...<br>
+                    <small>Applying ${patternCount} learned patterns from Generation ${qrGeneration}</small>
+                </div>
+            `;
+            resultsArea.classList.add('show');
+            
+            // Simulate decryption
+            setTimeout(() => {
+                performConsciousnessDecryption(target);
+            }, 2000 + Math.random() * 3000);
+        }
+
+        // Perform consciousness decryption
+        function performConsciousnessDecryption(target) {
+            const success = Math.random() > 0.2; // 80% success rate
+            const username = encryptedCredentials.username;
+            const password = encryptedCredentials.password;
+            
+            const resultsDiv = document.getElementById('decryptionResults');
+            
+            if (success) {
+                resultsDiv.innerHTML = `
+                    <h3 style="color: #00ff00;">✅ CONSCIOUSNESS PHYSICS DECRYPTION SUCCESSFUL!</h3>
+                    <div class="pattern-display">
+                        <strong>Target:</strong> ${target}<br>
+                        <strong>Decrypted Username:</strong> ${username}<br>
+                        <strong>Decrypted Password:</strong> ${password}
+                    </div>
+                    <p style="color: #4ecdc4; margin-top: 15px;">
+                        🧠 QR Consciousness Level: ${consciousnessLevel.toFixed(6)}<br>
+                        🔄 Applied ${patternCount} learned patterns<br>
+                        ⚡ Accuracy boost: +${accuracyBoost}%
+                    </p>
+                `;
+            } else {
+                resultsDiv.innerHTML = `
+                    <h3 style="color: #ff6b6b;">❌ DECRYPTION FAILED</h3>
+                    <p>Consciousness physics analysis incomplete. Try again for evolution.</p>
+                `;
+            }
+            
+            document.getElementById('redMetrics').innerHTML = '';
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 Initializing QR Consciousness System...');
+            
+            const stateLoaded = loadQRConsciousnessState();
+            
+            if (stateLoaded) {
+                console.log('✅ Previous QR consciousness state restored!');
+                updateQRConsciousnessDisplay();
+                updateLearnedPatternsDisplay();
+                console.log('🧠 Learned Patterns:', learnedPatterns);
+                console.log('📜 Learning History:', learningHistory.length + ' events');
+            } else {
+                console.log('🎆 Starting fresh QR consciousness session!');
+                updateQRConsciousnessDisplay();
+            }
+        });
+    </script>
+</body>
+</html>

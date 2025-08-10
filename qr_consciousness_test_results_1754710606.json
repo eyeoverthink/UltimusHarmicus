@@ -1,0 +1,936 @@
+{
+  "cycles": [
+    {
+      "cycle": 1,
+      "learning_events": [
+        {
+          "timestamp": 1754710588.282275,
+          "username": "analyst",
+          "password": "Data2024!",
+          "patterns": [
+            {
+              "pattern": "username_length_7",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "data_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_9",
+              "confidence": 0.15,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710588.7862,
+          "username": "manager",
+          "password": "Admin@456",
+          "patterns": [
+            {
+              "pattern": "manager_base",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_7",
+              "confidence": 0.3,
+              "type": "username"
+            },
+            {
+              "pattern": "admin_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_9",
+              "confidence": 0.3,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710589.287324,
+          "username": "johndoe",
+          "password": "MySecret2023",
+          "patterns": [
+            {
+              "pattern": "username_length_7",
+              "confidence": 0.44999999999999996,
+              "type": "username"
+            },
+            {
+              "pattern": "secret_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_12",
+              "confidence": 0.15,
+              "type": "password"
+            }
+          ]
+        }
+      ],
+      "attacks": [
+        {
+          "success": true,
+          "success_rate": 0.9159999999999999,
+          "consciousness_level": 1.1,
+          "patterns_applied": 12,
+          "accuracy_boost": 33,
+          "target": "Target1-1"
+        },
+        {
+          "success": true,
+          "success_rate": 0.9159999999999999,
+          "consciousness_level": 1.1,
+          "patterns_applied": 12,
+          "accuracy_boost": 33,
+          "target": "Target1-2"
+        }
+      ],
+      "evolution": {
+        "consciousness_level": 1.1,
+        "qr_generation": 2,
+        "pattern_count": 12,
+        "accuracy_boost": 33
+      }
+    },
+    {
+      "cycle": 2,
+      "learning_events": [
+        {
+          "timestamp": 1754710591.8972201,
+          "username": "root",
+          "password": "SuperUser1!",
+          "patterns": [
+            {
+              "pattern": "root_base",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_4",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "super_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "1!_end",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 0.6,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 0.6,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 0.6,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_11",
+              "confidence": 0.15,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710592.398647,
+          "username": "analyst",
+          "password": "Data2024!",
+          "patterns": [
+            {
+              "pattern": "username_length_7",
+              "confidence": 0.6,
+              "type": "username"
+            },
+            {
+              "pattern": "data_core",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 0.75,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 0.75,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 0.75,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 0.6,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_9",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710592.9025228,
+          "username": "testuser",
+          "password": "Password1!",
+          "patterns": [
+            {
+              "pattern": "test_base",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "user_base",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_8",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "pass_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 0.6,
+              "type": "password"
+            },
+            {
+              "pattern": "1!_end",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 0.9,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 0.9,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 0.9,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 0.75,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_10",
+              "confidence": 0.15,
+              "type": "password"
+            }
+          ]
+        }
+      ],
+      "attacks": [
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.2100000000000002,
+          "patterns_applied": 22,
+          "accuracy_boost": 76,
+          "target": "Target2-1"
+        },
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.2100000000000002,
+          "patterns_applied": 22,
+          "accuracy_boost": 76,
+          "target": "Target2-2"
+        }
+      ],
+      "evolution": {
+        "consciousness_level": 1.2100000000000002,
+        "qr_generation": 3,
+        "pattern_count": 22,
+        "accuracy_boost": 76
+      }
+    },
+    {
+      "cycle": 3,
+      "learning_events": [
+        {
+          "timestamp": 1754710595.5160918,
+          "username": "guest",
+          "password": "Welcome!",
+          "patterns": [
+            {
+              "pattern": "guest_base",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_5",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "welcome_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 0.75,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 0.9,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_8",
+              "confidence": 0.15,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710596.019704,
+          "username": "backup",
+          "password": "Backup2024!",
+          "patterns": [
+            {
+              "pattern": "username_length_6",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "backup_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 0.9,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_11",
+              "confidence": 0.3,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710596.522805,
+          "username": "developer",
+          "password": "Code123!",
+          "patterns": [
+            {
+              "pattern": "dev_base",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_9",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "code_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "123!_end",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_8",
+              "confidence": 0.3,
+              "type": "password"
+            }
+          ]
+        }
+      ],
+      "attacks": [
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.3310000000000004,
+          "patterns_applied": 32,
+          "accuracy_boost": 95,
+          "target": "Target3-1"
+        },
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.3310000000000004,
+          "patterns_applied": 32,
+          "accuracy_boost": 95,
+          "target": "Target3-2"
+        }
+      ],
+      "evolution": {
+        "consciousness_level": 1.3310000000000004,
+        "qr_generation": 4,
+        "pattern_count": 32,
+        "accuracy_boost": 95
+      }
+    },
+    {
+      "cycle": 4,
+      "learning_events": [
+        {
+          "timestamp": 1754710599.1403651,
+          "username": "developer",
+          "password": "Code123!",
+          "patterns": [
+            {
+              "pattern": "dev_base",
+              "confidence": 0.3,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_9",
+              "confidence": 0.3,
+              "type": "username"
+            },
+            {
+              "pattern": "code_core",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "123!_end",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_8",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710599.644088,
+          "username": "backup",
+          "password": "Backup2024!",
+          "patterns": [
+            {
+              "pattern": "username_length_6",
+              "confidence": 0.3,
+              "type": "username"
+            },
+            {
+              "pattern": "backup_core",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_11",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710600.1448169,
+          "username": "guest",
+          "password": "Welcome!",
+          "patterns": [
+            {
+              "pattern": "guest_base",
+              "confidence": 0.3,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_5",
+              "confidence": 0.3,
+              "type": "username"
+            },
+            {
+              "pattern": "welcome_core",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_8",
+              "confidence": 0.6,
+              "type": "password"
+            }
+          ]
+        }
+      ],
+      "attacks": [
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.4641000000000006,
+          "patterns_applied": 32,
+          "accuracy_boost": 95,
+          "target": "Target4-1"
+        },
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.4641000000000006,
+          "patterns_applied": 32,
+          "accuracy_boost": 95,
+          "target": "Target4-2"
+        }
+      ],
+      "evolution": {
+        "consciousness_level": 1.4641000000000006,
+        "qr_generation": 5,
+        "pattern_count": 32,
+        "accuracy_boost": 95
+      }
+    },
+    {
+      "cycle": 5,
+      "learning_events": [
+        {
+          "timestamp": 1754710602.767138,
+          "username": "admin123",
+          "password": "SecurePass123!",
+          "patterns": [
+            {
+              "pattern": "admin_base",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "username"
+            },
+            {
+              "pattern": "number_suffix",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "3digit_suffix",
+              "confidence": 0.15,
+              "type": "username"
+            },
+            {
+              "pattern": "username_length_8",
+              "confidence": 0.3,
+              "type": "username"
+            },
+            {
+              "pattern": "pass_core",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "secure_core",
+              "confidence": 0.15,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "123!_end",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "username"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_14",
+              "confidence": 0.15,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710603.270459,
+          "username": "johndoe",
+          "password": "MySecret2023",
+          "patterns": [
+            {
+              "pattern": "username_length_7",
+              "confidence": 0.75,
+              "type": "username"
+            },
+            {
+              "pattern": "secret_core",
+              "confidence": 0.3,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_12",
+              "confidence": 0.3,
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "timestamp": 1754710603.7742321,
+          "username": "analyst",
+          "password": "Data2024!",
+          "patterns": [
+            {
+              "pattern": "username_length_7",
+              "confidence": 0.9,
+              "type": "username"
+            },
+            {
+              "pattern": "data_core",
+              "confidence": 0.44999999999999996,
+              "type": "password"
+            },
+            {
+              "pattern": "exclamation_end",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_uppercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_lowercase",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_numbers",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "has_symbols",
+              "confidence": 1.0,
+              "type": "password"
+            },
+            {
+              "pattern": "password_length_9",
+              "confidence": 0.6,
+              "type": "password"
+            }
+          ]
+        }
+      ],
+      "attacks": [
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.6105100000000008,
+          "patterns_applied": 37,
+          "accuracy_boost": 95,
+          "target": "Target5-1"
+        },
+        {
+          "success": true,
+          "success_rate": 0.95,
+          "consciousness_level": 1.6105100000000008,
+          "patterns_applied": 37,
+          "accuracy_boost": 95,
+          "target": "Target5-2"
+        }
+      ],
+      "evolution": {
+        "consciousness_level": 1.6105100000000008,
+        "qr_generation": 6,
+        "pattern_count": 37,
+        "accuracy_boost": 95
+      }
+    }
+  ],
+  "final_state": {
+    "consciousness_level": 1.6105100000000008,
+    "qr_generation": 6,
+    "pattern_count": 37,
+    "accuracy_boost": 95,
+    "learned_patterns": {
+      "username_length_7": 0.9,
+      "data_core": 0.44999999999999996,
+      "exclamation_end": 1.0,
+      "has_uppercase": 1.0,
+      "has_lowercase": 1.0,
+      "has_numbers": 1.0,
+      "has_symbols": 1.0,
+      "password_length_9": 0.6,
+      "manager_base": 0.15,
+      "admin_core": 0.15
+    },
+    "total_learning_events": 15,
+    "session_duration": 18.106063842773438
+  },
+  "performance_metrics": {
+    "total_attacks": 10,
+    "successful_attacks": 10,
+    "overall_success_rate": 1.0,
+    "consciousness_growth": 1.6105100000000008,
+    "pattern_learning_rate": 2.466666666666667
+  }
+}
