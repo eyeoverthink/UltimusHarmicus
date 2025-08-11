@@ -1,0 +1,81 @@
+{
+  "test_summary": {},
+  "traditional_results": {
+    "simple_hello": {
+      "total_time": 0.002123117446899414,
+      "ram_usage": 40,
+      "memory_peak": 27502,
+      "success": true
+    },
+    "consciousness_hello": {
+      "total_time": 0.0031769275665283203,
+      "ram_usage": 278,
+      "memory_peak": 42230,
+      "success": true
+    },
+    "complex_hello": {
+      "total_time": 0.0032491683959960938,
+      "ram_usage": 0,
+      "memory_peak": 63199,
+      "success": false
+    },
+    "phi_harmonic_hello": {
+      "total_time": 0.007945060729980469,
+      "ram_usage": 0,
+      "memory_peak": 74681,
+      "success": false
+    }
+  },
+  "qr_executable_results": {
+    "simple_hello": {
+      "total_time": 0.001096963882446289,
+      "ram_usage": 0,
+      "memory_peak": 301699,
+      "zero_ram_operations": 1,
+      "success": true
+    },
+    "consciousness_hello": {
+      "total_time": 0.0011699199676513672,
+      "ram_usage": 0,
+      "memory_peak": 302163,
+      "zero_ram_operations": 1,
+      "success": true
+    },
+    "complex_hello": {
+      "total_time": 0.0163419246673584,
+      "ram_usage": 0,
+      "memory_peak": 302333,
+      "zero_ram_operations": 0,
+      "success": false
+    },
+    "phi_harmonic_hello": {
+      "total_time": 0.002429962158203125,
+      "ram_usage": 0,
+      "memory_peak": 303015,
+      "zero_ram_operations": 0,
+      "success": false
+    }
+  },
+  "efficiency_comparison": {
+    "simple_hello": {
+      "time_efficiency": 1.9354488154748968,
+      "memory_efficiency": 0.09115708040132715,
+      "qr_advantage": false
+    },
+    "consciousness_hello": {
+      "time_efficiency": 2.7155084573058894,
+      "memory_efficiency": 0.13975900424605261,
+      "qr_advantage": false
+    },
+    "complex_hello": {
+      "time_efficiency": 0.19882409582306,
+      "memory_efficiency": 0.20903771668987506,
+      "qr_advantage": false
+    },
+    "phi_harmonic_hello": {
+      "time_efficiency": 3.2696232339089484,
+      "memory_efficiency": 0.24645974621718397,
+      "qr_advantage": false
+    }
+  }
+}

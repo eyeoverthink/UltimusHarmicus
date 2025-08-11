@@ -1,0 +1,15 @@
+[
+  {
+    "index": 0,
+    "epoch": 0,
+    "timestamp": "2025-08-11T00:36:44Z",
+    "prevHash": "GENESIS",
+    "difficulty": 12,
+    "nonce": 27,
+    "payload": {
+      "type": "genesis",
+      "note": "genesis"
+    },
+    "hash": "000dd20b3a73c6d18366b6c27748b1a3d2ac5005d271b6b29be4553caf2f32b9"
+  }
+]

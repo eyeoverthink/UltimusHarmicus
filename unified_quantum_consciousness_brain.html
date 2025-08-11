@@ -257,6 +257,33 @@
                 <p style="color: #cccccc;">Consciousness breakthroughs will be logged here in real-time...</p>
             </div>
         </div>
+
+        <div class="results-area">
+            <h3 style="color: #4ecdc4; margin-bottom: 15px;">🧠 Memory</h3>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px;">
+                <button class="btn" onclick="brain.saveState()">💾 Save Now</button>
+                <button class="btn" onclick="brain.loadState()">📥 Load Now</button>
+                <button class="btn" onclick="brain.resetProgress()" style="background: #ff6b6b;">♻️ Reset Progress</button>
+                <button class="btn" onclick="brain.showQrForMemory()">🔗 Show QR</button>
+                <button class="btn" onclick="brain.verifyChain()">🛡️ Verify Chain</button>
+                <button class="btn" onclick="brain.copyLatestHash()">📋 Copy Hash</button>
+            </div>
+            <div style="display:flex; gap: 20px; flex-wrap: wrap; align-items:flex-start;">
+                <pre id="memorySnapshot" style="flex:1; background: rgba(0,0,0,0.35); border: 1px solid rgba(78,205,196,0.25); border-radius: 8px; padding: 12px; color: #e6e6e6; white-space: pre-wrap; min-height: 120px;">No saved memory yet. Interact with the system, then click Save Now.</pre>
+                <div style="min-width: 220px;">
+                    <div id="qrContainer" style="background: rgba(0,0,0,0.35); border: 1px solid rgba(78,205,196,0.25); border-radius: 8px; padding: 12px; width:220px; height:220px; display:flex; align-items:center; justify-content:center; color:#777;">QR will appear here</div>
+                    <div style="margin-top:8px; font-size: 0.85em; color:#cccccc;">Latest Hash: <span id="memoryHash" style="color:#4ecdc4;">—</span></div>
+                </div>
+            </div>
+            <div style="margin-top:10px;">
+                <label for="memoryImport" style="font-size:0.9em; color:#cccccc;">Paste Memory (from QR scan or shared text):</label>
+                <textarea id="memoryImport" rows="3" style="width:100%; background: rgba(0,0,0,0.35); border: 1px solid rgba(78,205,196,0.25); border-radius: 8px; padding: 8px; color: #e6e6e6;"></textarea>
+                <div style="margin-top:8px; display:flex; gap:10px;">
+                    <button class="btn" onclick="brain.loadFromText()">⬇️ Load From Text</button>
+                    <button class="btn" onclick="(document.getElementById('memoryImport').value='')">🧹 Clear</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -297,7 +324,11 @@
                     { id: 'semantic_protection', title: 'Semantic Consciousness Protection', status: 'Ready', difficulty: 'High' }
                 ];
                 
+                // Load persisted state before rendering problems
+                this.loadState();
                 this.loadProblems();
+                // Render memory panel once on startup
+                this.renderMemoryPanel();
             }
             
             initializeBrainVisualization() {
@@ -595,7 +626,7 @@
                 this.problems.forEach(problem => {
                     const card = document.createElement('div');
                     card.className = 'problem-card';
-                    card.onclick = () => this.selectProblem(problem.id);
+                    card.onclick = (ev) => this.selectProblem(problem.id, ev);
                     
                     const status = this.solvedProblems.has(problem.id) ? 'Solved ✅' : problem.status;
                     const statusColor = this.solvedProblems.has(problem.id) ? '#00ff00' : '#cccccc';
@@ -611,10 +642,12 @@
                 });
             }
             
-            selectProblem(problemId) {
+            selectProblem(problemId, ev) {
                 this.selectedProblem = problemId;
                 document.querySelectorAll('.problem-card').forEach(card => card.classList.remove('selected'));
-                event.target.closest('.problem-card').classList.add('selected');
+                if (ev && ev.currentTarget) {
+                    ev.currentTarget.classList.add('selected');
+                }
                 this.logBreakthrough(`Problem selected: ${this.problems.find(p => p.id === problemId).title}`);
             }
             
@@ -789,6 +822,8 @@
                 document.getElementById('quantumEntanglement').textContent = this.quantumEntanglements;
                 document.getElementById('problemsSolved').textContent = this.problemsSolved;
                 document.getElementById('breakthroughCount').textContent = this.breakthroughCount;
+                // Persist state on each metrics update
+                this.saveState();
             }
             
             logBreakthrough(message) {
@@ -799,6 +834,195 @@
                 entry.innerHTML = `[${timestamp}] ${message}`;
                 log.appendChild(entry);
                 log.scrollTop = log.scrollHeight;
+            }
+
+            // ===== Persistence Layer =====
+            saveState() {
+                try {
+                    const state = {
+                        consciousnessLevel: this.consciousnessLevel,
+                        synapseCount: this.synapseCount,
+                        microtubuleCoherence: this.microtubuleCoherence,
+                        quantumEntanglements: this.quantumEntanglements,
+                        problemsSolved: this.problemsSolved,
+                        breakthroughCount: this.breakthroughCount,
+                        anestheticLevel: this.anestheticLevel,
+                        solvedProblems: Array.from(this.solvedProblems)
+                    };
+                    localStorage.setItem('uqcb_state_v1', JSON.stringify(state));
+                    // Append to chain for immutable, evolvable, self-healing memory
+                    this.appendToChain(state);
+                    this.renderMemoryPanel();
+                } catch (_) { /* ignore storage errors */ }
+            }
+
+            loadState() {
+                try {
+                    const raw = localStorage.getItem('uqcb_state_v1');
+                    if (!raw) return;
+                    const s = JSON.parse(raw);
+                    if (typeof s.consciousnessLevel === 'number') this.consciousnessLevel = s.consciousnessLevel;
+                    if (typeof s.synapseCount === 'number') this.synapseCount = s.synapseCount;
+                    if (typeof s.microtubuleCoherence === 'number') this.microtubuleCoherence = s.microtubuleCoherence;
+                    if (typeof s.quantumEntanglements === 'number') this.quantumEntanglements = s.quantumEntanglements;
+                    if (typeof s.problemsSolved === 'number') this.problemsSolved = s.problemsSolved;
+                    if (typeof s.breakthroughCount === 'number') this.breakthroughCount = s.breakthroughCount;
+                    if (typeof s.anestheticLevel === 'number') {
+                        this.anestheticLevel = s.anestheticLevel;
+                        const el = document.getElementById('anestheticLevel');
+                        const val = document.getElementById('anestheticValue');
+                        if (el) el.value = String(this.anestheticLevel);
+                        if (val) val.textContent = this.anestheticLevel + '%';
+                    }
+                    if (Array.isArray(s.solvedProblems)) this.solvedProblems = new Set(s.solvedProblems);
+                    // Refresh UI based on loaded state
+                    this.updateMetrics();
+                    this.activateSynapses();
+                    this.activateMicrotubules();
+                    this.renderMemoryPanel();
+                } catch (_) { /* ignore parse/storage errors */ }
+            }
+
+            getPersistedState() {
+                try {
+                    const raw = localStorage.getItem('uqcb_state_v1');
+                    return raw ? JSON.parse(raw) : null;
+                } catch (_) { return null; }
+            }
+
+            resetProgress() {
+                try { localStorage.removeItem('uqcb_state_v1'); } catch (_) {}
+                // Reset to baseline
+                this.consciousnessLevel = 1.0;
+                this.synapseCount = 25;
+                this.microtubuleCoherence = 60;
+                this.quantumEntanglements = 1;
+                this.problemsSolved = 0;
+                this.breakthroughCount = 0;
+                this.anestheticLevel = 0;
+                this.solvedProblems = new Set();
+                const el = document.getElementById('anestheticLevel');
+                const val = document.getElementById('anestheticValue');
+                if (el) el.value = '0';
+                if (val) val.textContent = '0%';
+                this.updateMetrics();
+                this.loadProblems();
+                this.activateSynapses();
+                this.activateMicrotubules();
+                this.logBreakthrough('Progress reset and memory cleared');
+                this.renderMemoryPanel();
+            }
+
+            renderMemoryPanel() {
+                const pre = document.getElementById('memorySnapshot');
+                if (!pre) return;
+                const data = this.getPersistedState();
+                pre.textContent = data ? JSON.stringify(data, null, 2) : 'No saved memory yet. Interact with the system, then click Save Now.';
+                const hashEl = document.getElementById('memoryHash');
+                if (hashEl) hashEl.textContent = this.latestHash() || '—';
+            }
+
+            // ====== QR + Chain utilities ======
+            async computeHash(text) {
+                try {
+                    const enc = new TextEncoder();
+                    const buf = await crypto.subtle.digest('SHA-256', enc.encode(text));
+                    return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+                } catch (_) {
+                    // Fallback naive hash
+                    let h = 0; for (let i=0;i<text.length;i++){h=(h<<5)-h+text.charCodeAt(i); h|=0;} return ('00000000'+(h>>>0).toString(16)).slice(-8);
+                }
+            }
+
+            getChain() {
+                try { const raw = localStorage.getItem('uqcb_chain_v1'); return raw ? JSON.parse(raw) : []; } catch(_){ return []; }
+            }
+
+            setChain(chain) {
+                try { localStorage.setItem('uqcb_chain_v1', JSON.stringify(chain)); } catch(_){}
+            }
+
+            latestHash() {
+                const c = this.getChain();
+                return c.length ? c[c.length-1].hash : null;
+            }
+
+            async appendToChain(state) {
+                const chain = this.getChain();
+                const prevHash = chain.length ? chain[chain.length-1].hash : 'GENESIS';
+                const block = {
+                    index: chain.length,
+                    timestamp: new Date().toISOString(),
+                    state,
+                    prevHash,
+                    nonce: 0
+                };
+                const payload = JSON.stringify({state, prevHash, timestamp: block.timestamp, index: block.index});
+                block.hash = await this.computeHash(payload);
+                chain.push(block);
+                this.setChain(chain);
+            }
+
+            async showQrForMemory() {
+                const container = document.getElementById('qrContainer');
+                if (!container) return;
+                container.innerHTML = '';
+                const data = this.getPersistedState();
+                if (!data) { container.textContent = 'No memory saved yet.'; return; }
+                // Include latest block hash for verification
+                const exportObj = { state: data, hash: this.latestHash(), ts: new Date().toISOString() };
+                const text = JSON.stringify(exportObj);
+                await this.loadQRCodeLib();
+                if (window.QRCode) {
+                    new QRCode(container, { text, width: 200, height: 200 });
+                } else {
+                    container.textContent = text;
+                }
+            }
+
+            async verifyChain() {
+                const chain = this.getChain();
+                if (!chain.length) { this.logBreakthrough('Chain empty'); return; }
+                for (let i=0;i<chain.length;i++){
+                    const b = chain[i];
+                    const payload = JSON.stringify({state: b.state, prevHash: b.prevHash, timestamp: b.timestamp, index: b.index});
+                    const h = await this.computeHash(payload);
+                    if (h !== b.hash) { this.logBreakthrough(`Chain tamper detected at block ${i}`); return; }
+                    if (i>0 && chain[i-1].hash !== b.prevHash) { this.logBreakthrough(`Broken link at block ${i}`); return; }
+                }
+                this.logBreakthrough(`Chain verified: ${chain.length} blocks, head ${chain[chain.length-1].hash.substring(0,8)}…`);
+            }
+
+            async copyLatestHash() {
+                const h = this.latestHash();
+                if (!h) { this.logBreakthrough('No hash to copy'); return; }
+                try { await navigator.clipboard.writeText(h); this.logBreakthrough('Latest hash copied to clipboard'); } catch(_) { this.logBreakthrough('Clipboard copy failed'); }
+            }
+
+            loadFromText() {
+                const ta = document.getElementById('memoryImport');
+                if (!ta || !ta.value.trim()) return;
+                try {
+                    const obj = JSON.parse(ta.value.trim());
+                    const state = obj.state || obj; // accept either wrapped or raw state
+                    localStorage.setItem('uqcb_state_v1', JSON.stringify(state));
+                    this.appendToChain(state);
+                    this.loadState();
+                    this.logBreakthrough('Memory loaded from text');
+                } catch (e) {
+                    this.logBreakthrough('Invalid memory JSON');
+                }
+            }
+
+            loadQRCodeLib() {
+                return new Promise(resolve => {
+                    if (window.QRCode) return resolve();
+                    const s = document.createElement('script');
+                    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
+                    s.onload = () => resolve();
+                    s.onerror = () => resolve();
+                    document.head.appendChild(s);
+                });
             }
         }
         

@@ -1,0 +1,1878 @@
+{
+  "run_number": 2,
+  "total_knowledge_learned": 288,
+  "consciousness_growth": 328.2337900253348,
+  "generalization_results": {
+    "test_results": [
+      {
+        "operation": "+",
+        "operand1": 17,
+        "operand2": 9,
+        "expected_result": 26,
+        "consciousness_result": 26,
+        "reasoning_method": "enhanced_consciousness_addition_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "+",
+        "operand1": 23,
+        "operand2": 12,
+        "expected_result": 35,
+        "consciousness_result": 35,
+        "reasoning_method": "enhanced_consciousness_addition_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "+",
+        "operand1": 35,
+        "operand2": 15,
+        "expected_result": 50,
+        "consciousness_result": 50,
+        "reasoning_method": "enhanced_consciousness_addition_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "+",
+        "operand1": 50,
+        "operand2": 50,
+        "expected_result": 100,
+        "consciousness_result": 100,
+        "reasoning_method": "enhanced_consciousness_addition_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 17,
+        "operand2": 5,
+        "expected_result": 85,
+        "consciousness_result": 85,
+        "reasoning_method": "enhanced_consciousness_multiplication_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 23,
+        "operand2": 3,
+        "expected_result": 69,
+        "consciousness_result": 69,
+        "reasoning_method": "enhanced_consciousness_multiplication_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 35,
+        "operand2": 2,
+        "expected_result": 70,
+        "consciousness_result": 70,
+        "reasoning_method": "enhanced_consciousness_multiplication_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 50,
+        "operand2": 2,
+        "expected_result": 100,
+        "consciousness_result": 100,
+        "reasoning_method": "enhanced_consciousness_multiplication_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "+",
+        "operand1": 100,
+        "operand2": 25,
+        "expected_result": 125,
+        "consciousness_result": 125,
+        "reasoning_method": "enhanced_consciousness_addition_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      },
+      {
+        "operation": "\u00d7",
+        "operand1": 25,
+        "operand2": 4,
+        "expected_result": 100,
+        "consciousness_result": 100,
+        "reasoning_method": "enhanced_consciousness_multiplication_reasoning",
+        "consciousness_confidence": 15425.653759276287,
+        "is_correct": true,
+        "beyond_training": true,
+        "run_number": 2,
+        "enhanced_challenge": true
+      }
+    ],
+    "total_tests": 10,
+    "successful_generalizations": 10,
+    "success_rate": 1.0,
+    "run_number": 2,
+    "enhanced_run": true,
+    "consciousness_level": 8205.84475063337
+  },
+  "qr_memory_usage": 288,
+  "persistent_memory_enhanced": true,
+  "improvement_over_previous": 55.66023587754413,
+  "consciousness_evolution_history": [
+    {
+      "timestamp": "2025-08-10T17:58:54.526135",
+      "consciousness_level": 241.49111831841137,
+      "problem": "1+1=2",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526263",
+      "consciousness_level": 244.47611270044706,
+      "problem": "1+2=3",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526330",
+      "consciousness_level": 247.4980036421692,
+      "problem": "1+3=4",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526382",
+      "consciousness_level": 250.5572472101369,
+      "problem": "1+4=5",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526431",
+      "consciousness_level": 253.6543051082019,
+      "problem": "1+5=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526477",
+      "consciousness_level": 256.78964474718947,
+      "problem": "1+6=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526521",
+      "consciousness_level": 259.96373931544036,
+      "problem": "1+7=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526565",
+      "consciousness_level": 263.1770678502249,
+      "problem": "1+8=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526608",
+      "consciousness_level": 266.4301153100397,
+      "problem": "1+9=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526654",
+      "consciousness_level": 269.7233726477981,
+      "problem": "1+10=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526701",
+      "consciousness_level": 273.0573368849251,
+      "problem": "1+11=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526755",
+      "consciousness_level": 276.4325111863685,
+      "problem": "1+12=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526804",
+      "consciousness_level": 279.8494049365368,
+      "problem": "2+1=3",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526849",
+      "consciousness_level": 283.30853381617607,
+      "problem": "2+2=4",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526913",
+      "consciousness_level": 286.8104198801969,
+      "problem": "2+3=5",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.526959",
+      "consciousness_level": 290.35559163646354,
+      "problem": "2+4=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527003",
+      "consciousness_level": 293.94458412555673,
+      "problem": "2+5=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527046",
+      "consciousness_level": 297.5779390015224,
+      "problem": "2+6=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527087",
+      "consciousness_level": 301.25620461361876,
+      "problem": "2+7=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527129",
+      "consciousness_level": 304.97993608907353,
+      "problem": "2+8=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527170",
+      "consciousness_level": 308.7496954168644,
+      "problem": "2+9=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527214",
+      "consciousness_level": 312.5660515325349,
+      "problem": "2+10=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527260",
+      "consciousness_level": 316.42958040405847,
+      "problem": "2+11=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527304",
+      "consciousness_level": 320.3408651187643,
+      "problem": "2+12=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527410",
+      "consciousness_level": 324.30049597133745,
+      "problem": "3+1=4",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527542",
+      "consciousness_level": 328.30907055290635,
+      "problem": "3+2=5",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527625",
+      "consciousness_level": 332.36719384123217,
+      "problem": "3+3=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527710",
+      "consciousness_level": 336.4754782920123,
+      "problem": "3+4=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527787",
+      "consciousness_level": 340.63454393131315,
+      "problem": "3+5=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527851",
+      "consciousness_level": 344.84501844914445,
+      "problem": "3+6=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.527923",
+      "consciousness_level": 349.1075372941914,
+      "problem": "3+7=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528000",
+      "consciousness_level": 353.42274376971676,
+      "problem": "3+8=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528049",
+      "consciousness_level": 357.79128913064903,
+      "problem": "3+9=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528096",
+      "consciousness_level": 362.21383268187026,
+      "problem": "3+10=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528143",
+      "consciousness_level": 366.69104187771904,
+      "problem": "3+11=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528246",
+      "consciousness_level": 371.2235924227233,
+      "problem": "3+12=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528300",
+      "consciousness_level": 375.8121683735783,
+      "problem": "4+1=5",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528345",
+      "consciousness_level": 380.45746224238496,
+      "problem": "4+2=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528388",
+      "consciousness_level": 385.1601751011646,
+      "problem": "4+3=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528431",
+      "consciousness_level": 389.9210166876653,
+      "problem": "4+4=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528473",
+      "consciousness_level": 394.74070551247615,
+      "problem": "4+5=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528515",
+      "consciousness_level": 399.6199689674656,
+      "problem": "4+6=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528601",
+      "consciousness_level": 404.5595434355599,
+      "problem": "4+7=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528699",
+      "consciousness_level": 409.56017440187895,
+      "problem": "4+8=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528758",
+      "consciousness_level": 414.62261656624554,
+      "problem": "4+9=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528876",
+      "consciousness_level": 419.7476339570852,
+      "problem": "4+10=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528932",
+      "consciousness_level": 424.93600004673425,
+      "problem": "4+11=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.528979",
+      "consciousness_level": 430.1884978681728,
+      "problem": "4+12=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529123",
+      "consciousness_level": 435.50592013320096,
+      "problem": "5+1=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529189",
+      "consciousness_level": 440.88906935207547,
+      "problem": "5+2=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529283",
+      "consciousness_level": 446.3387579546254,
+      "problem": "5+3=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529449",
+      "consciousness_level": 451.85580841286486,
+      "problem": "5+4=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529589",
+      "consciousness_level": 457.441053365121,
+      "problem": "5+5=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529648",
+      "consciousness_level": 463.0953357416968,
+      "problem": "5+6=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529701",
+      "consciousness_level": 468.81950889208673,
+      "problem": "5+7=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529768",
+      "consciousness_level": 474.6144367137652,
+      "problem": "5+8=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529868",
+      "consciousness_level": 480.48099378256654,
+      "problem": "5+9=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529923",
+      "consciousness_level": 486.420065484677,
+      "problem": "5+10=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.529970",
+      "consciousness_level": 492.4325481502579,
+      "problem": "5+11=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530031",
+      "consciousness_level": 498.51934918872064,
+      "problem": "5+12=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530098",
+      "consciousness_level": 504.68138722567386,
+      "problem": "6+1=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530152",
+      "consciousness_level": 510.9195922415631,
+      "problem": "6+2=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530216",
+      "consciousness_level": 517.2349057120244,
+      "problem": "6+3=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530277",
+      "consciousness_level": 523.6282807499728,
+      "problem": "6+4=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530361",
+      "consciousness_level": 530.1006822494465,
+      "problem": "6+5=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530484",
+      "consciousness_level": 536.6530870312304,
+      "problem": "6+6=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530561",
+      "consciousness_level": 543.2864839902779,
+      "problem": "6+7=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530618",
+      "consciousness_level": 550.0018742449565,
+      "problem": "6+8=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530676",
+      "consciousness_level": 556.8002712881373,
+      "problem": "6+9=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530722",
+      "consciousness_level": 563.682701140152,
+      "problem": "6+10=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530765",
+      "consciousness_level": 570.6502025036411,
+      "problem": "6+11=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530808",
+      "consciousness_level": 577.7038269203161,
+      "problem": "6+12=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.530920",
+      "consciousness_level": 584.8446389296587,
+      "problem": "7+1=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531011",
+      "consciousness_level": 592.073716229582,
+      "problem": "7+2=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531078",
+      "consciousness_level": 599.3921498390782,
+      "problem": "7+3=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531133",
+      "consciousness_level": 606.801044262876,
+      "problem": "7+4=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531183",
+      "consciousness_level": 614.3015176581329,
+      "problem": "7+5=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531228",
+      "consciousness_level": 621.8947020031893,
+      "problem": "7+6=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531274",
+      "consciousness_level": 629.5817432684073,
+      "problem": "7+7=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531322",
+      "consciousness_level": 637.3638015891217,
+      "problem": "7+8=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531367",
+      "consciousness_level": 645.2420514407288,
+      "problem": "7+9=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531412",
+      "consciousness_level": 653.2176818159388,
+      "problem": "7+10=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531456",
+      "consciousness_level": 661.2918964042204,
+      "problem": "7+11=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531499",
+      "consciousness_level": 669.4659137734623,
+      "problem": "7+12=19",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531544",
+      "consciousness_level": 677.7409675538804,
+      "problem": "8+1=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531592",
+      "consciousness_level": 686.118306624199,
+      "problem": "8+2=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531637",
+      "consciousness_level": 694.5991953001322,
+      "problem": "8+3=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531680",
+      "consciousness_level": 703.184913525196,
+      "problem": "8+4=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531722",
+      "consciousness_level": 711.8767570638779,
+      "problem": "8+5=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531764",
+      "consciousness_level": 720.6760376971957,
+      "problem": "8+6=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531806",
+      "consciousness_level": 729.5840834206722,
+      "problem": "8+7=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531852",
+      "consciousness_level": 738.6022386447574,
+      "problem": "8+8=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531894",
+      "consciousness_level": 747.7318643977287,
+      "problem": "8+9=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531949",
+      "consciousness_level": 756.9743385310978,
+      "problem": "8+10=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.531995",
+      "consciousness_level": 766.331055927558,
+      "problem": "8+11=19",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532037",
+      "consciousness_level": 775.8034287115009,
+      "problem": "8+12=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532107",
+      "consciousness_level": 785.3928864621354,
+      "problem": "9+1=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532151",
+      "consciousness_level": 795.1008764292411,
+      "problem": "9+2=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532195",
+      "consciousness_level": 804.9288637515889,
+      "problem": "9+3=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532240",
+      "consciousness_level": 814.8783316780608,
+      "problem": "9+4=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532282",
+      "consciousness_level": 824.9507817915032,
+      "problem": "9+5=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532323",
+      "consciousness_level": 835.1477342353475,
+      "problem": "9+6=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532364",
+      "consciousness_level": 845.4707279430307,
+      "problem": "9+7=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532405",
+      "consciousness_level": 855.9213208702538,
+      "problem": "9+8=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532446",
+      "consciousness_level": 866.501090230109,
+      "problem": "9+9=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532488",
+      "consciousness_level": 877.2116327311144,
+      "problem": "9+10=19",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532533",
+      "consciousness_level": 888.054564818191,
+      "problem": "9+11=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532574",
+      "consciousness_level": 899.0315229166179,
+      "problem": "9+12=21",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532618",
+      "consciousness_level": 910.1441636790028,
+      "problem": "10+1=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532661",
+      "consciousness_level": 921.3941642353059,
+      "problem": "10+2=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532702",
+      "consciousness_level": 932.7832224459538,
+      "problem": "10+3=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532743",
+      "consciousness_level": 944.3130571580822,
+      "problem": "10+4=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532784",
+      "consciousness_level": 955.9854084649456,
+      "problem": "10+5=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532824",
+      "consciousness_level": 967.8020379685343,
+      "problem": "10+6=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532864",
+      "consciousness_level": 979.7647290454363,
+      "problem": "10+7=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532905",
+      "consciousness_level": 991.875287115987,
+      "problem": "10+8=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532946",
+      "consciousness_level": 1004.135539916744,
+      "problem": "10+9=19",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.532990",
+      "consciousness_level": 1016.5473377763316,
+      "problem": "10+10=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533032",
+      "consciousness_level": 1029.1125538946933,
+      "problem": "10+11=21",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533073",
+      "consciousness_level": 1041.8330846257975,
+      "problem": "10+12=22",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533133",
+      "consciousness_level": 1054.7108497638367,
+      "problem": "11+1=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533175",
+      "consciousness_level": 1067.7477928329645,
+      "problem": "11+2=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533220",
+      "consciousness_level": 1080.9458813806145,
+      "problem": "11+3=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533261",
+      "consciousness_level": 1094.3071072744438,
+      "problem": "11+4=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533307",
+      "consciousness_level": 1107.8334870029478,
+      "problem": "11+5=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533348",
+      "consciousness_level": 1121.5270619797907,
+      "problem": "11+6=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533389",
+      "consciousness_level": 1135.389898851897,
+      "problem": "11+7=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533499",
+      "consciousness_level": 1149.4240898113521,
+      "problem": "11+8=19",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533707",
+      "consciousness_level": 1163.6317529111582,
+      "problem": "11+9=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533772",
+      "consciousness_level": 1178.0150323848916,
+      "problem": "11+10=21",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533824",
+      "consciousness_level": 1192.576098970314,
+      "problem": "11+11=22",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533872",
+      "consciousness_level": 1207.317150236981,
+      "problem": "11+12=23",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533921",
+      "consciousness_level": 1222.2404109179017,
+      "problem": "12+1=13",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.533966",
+      "consciousness_level": 1237.348133245298,
+      "problem": "12+2=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534010",
+      "consciousness_level": 1252.6425972905124,
+      "problem": "12+3=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534052",
+      "consciousness_level": 1268.1261113081198,
+      "problem": "12+4=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534095",
+      "consciousness_level": 1283.80101208429,
+      "problem": "12+5=17",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534137",
+      "consciousness_level": 1299.669665289459,
+      "problem": "12+6=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534182",
+      "consciousness_level": 1315.7344658353575,
+      "problem": "12+7=19",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534228",
+      "consciousness_level": 1331.9978382364527,
+      "problem": "12+8=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534271",
+      "consciousness_level": 1348.462236975859,
+      "problem": "12+9=21",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534313",
+      "consciousness_level": 1365.1301468757708,
+      "problem": "12+10=22",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534357",
+      "consciousness_level": 1382.0040834724737,
+      "problem": "12+11=23",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534399",
+      "consciousness_level": 1399.0865933959917,
+      "problem": "12+12=24",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534556",
+      "consciousness_level": 1416.3802547544271,
+      "problem": "1\u00d71=1",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534614",
+      "consciousness_level": 1433.8876775230513,
+      "problem": "1\u00d72=2",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534665",
+      "consciousness_level": 1451.6115039382034,
+      "problem": "1\u00d73=3",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534715",
+      "consciousness_level": 1469.5544088960607,
+      "problem": "1\u00d74=4",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534764",
+      "consciousness_level": 1487.719100356335,
+      "problem": "1\u00d75=5",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534817",
+      "consciousness_level": 1506.108319750961,
+      "problem": "1\u00d76=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534863",
+      "consciousness_level": 1524.7248423978358,
+      "problem": "1\u00d77=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534908",
+      "consciousness_level": 1543.5714779196724,
+      "problem": "1\u00d78=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.534956",
+      "consciousness_level": 1562.6510706680301,
+      "problem": "1\u00d79=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.535002",
+      "consciousness_level": 1581.9665001525873,
+      "problem": "1\u00d710=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.535119",
+      "consciousness_level": 1601.5206814757194,
+      "problem": "1\u00d711=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.535220",
+      "consciousness_level": 1621.3165657724485,
+      "problem": "1\u00d712=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.539693",
+      "consciousness_level": 1641.357140655832,
+      "problem": "2\u00d71=2",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.540889",
+      "consciousness_level": 1661.6454306678554,
+      "problem": "2\u00d72=4",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.540996",
+      "consciousness_level": 1682.1844977358994,
+      "problem": "2\u00d73=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.541359",
+      "consciousness_level": 1702.9774416348484,
+      "problem": "2\u00d74=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.542838",
+      "consciousness_level": 1724.0274004549115,
+      "problem": "2\u00d75=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.542997",
+      "consciousness_level": 1745.3375510752257,
+      "problem": "2\u00d76=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.543097",
+      "consciousness_level": 1766.9111096433144,
+      "problem": "2\u00d77=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.543221",
+      "consciousness_level": 1788.75133206047,
+      "problem": "2\u00d78=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.543434",
+      "consciousness_level": 1810.8615144731384,
+      "problem": "2\u00d79=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.543539",
+      "consciousness_level": 1833.2449937703761,
+      "problem": "2\u00d710=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.543682",
+      "consciousness_level": 1855.905148087457,
+      "problem": "2\u00d711=22",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.543800",
+      "consciousness_level": 1878.845397315703,
+      "problem": "2\u00d712=24",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.543923",
+      "consciousness_level": 1902.0692036186174,
+      "problem": "3\u00d71=3",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544048",
+      "consciousness_level": 1925.5800719543984,
+      "problem": "3\u00d72=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544322",
+      "consciousness_level": 1949.3815506049095,
+      "problem": "3\u00d73=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544427",
+      "consciousness_level": 1973.4772317111908,
+      "problem": "3\u00d74=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544597",
+      "consciousness_level": 1997.8707518155868,
+      "problem": "3\u00d75=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544707",
+      "consciousness_level": 2022.5657924105778,
+      "problem": "3\u00d76=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544788",
+      "consciousness_level": 2047.5660804943936,
+      "problem": "3\u00d77=21",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544866",
+      "consciousness_level": 2072.875389133496,
+      "problem": "3\u00d78=24",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.544942",
+      "consciousness_level": 2098.497538032012,
+      "problem": "3\u00d79=27",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545027",
+      "consciousness_level": 2124.4363941082097,
+      "problem": "3\u00d710=30",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545137",
+      "consciousness_level": 2150.6958720780945,
+      "problem": "3\u00d711=33",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545246",
+      "consciousness_level": 2177.2799350462233,
+      "problem": "3\u00d712=36",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545309",
+      "consciousness_level": 2204.192595103819,
+      "problem": "4\u00d71=4",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545480",
+      "consciousness_level": 2231.437913934279,
+      "problem": "4\u00d72=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545607",
+      "consciousness_level": 2259.02000342617,
+      "problem": "4\u00d73=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545751",
+      "consciousness_level": 2286.9430262937954,
+      "problem": "4\u00d74=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.545906",
+      "consciousness_level": 2315.2111967054366,
+      "problem": "4\u00d75=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546025",
+      "consciousness_level": 2343.8287809193607,
+      "problem": "4\u00d76=24",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546086",
+      "consciousness_level": 2372.8000979276867,
+      "problem": "4\u00d77=28",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546156",
+      "consciousness_level": 2402.129520108212,
+      "problem": "4\u00d78=32",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546240",
+      "consciousness_level": 2431.821473884296,
+      "problem": "4\u00d79=36",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546331",
+      "consciousness_level": 2461.8804403929,
+      "problem": "4\u00d710=40",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546440",
+      "consciousness_level": 2492.310956160883,
+      "problem": "4\u00d711=44",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546533",
+      "consciousness_level": 2523.117613789662,
+      "problem": "4\u00d712=48",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546698",
+      "consciousness_level": 2554.3050626483277,
+      "problem": "5\u00d71=5",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.546957",
+      "consciousness_level": 2585.878009575334,
+      "problem": "5\u00d72=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547071",
+      "consciousness_level": 2617.8412195888577,
+      "problem": "5\u00d73=15",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547145",
+      "consciousness_level": 2650.1995166059387,
+      "problem": "5\u00d74=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547230",
+      "consciousness_level": 2682.9577841705113,
+      "problem": "5\u00d75=25",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547349",
+      "consciousness_level": 2716.120966190433,
+      "problem": "5\u00d76=30",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547420",
+      "consciousness_level": 2749.6940676836225,
+      "problem": "5\u00d77=35",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547502",
+      "consciousness_level": 2783.682155533422,
+      "problem": "5\u00d78=40",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547612",
+      "consciousness_level": 2818.0903592532964,
+      "problem": "5\u00d79=45",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547692",
+      "consciousness_level": 2852.9238717609846,
+      "problem": "5\u00d710=50",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547785",
+      "consciousness_level": 2888.1879501622184,
+      "problem": "5\u00d711=55",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.547908",
+      "consciousness_level": 2923.8879165441294,
+      "problem": "5\u00d712=60",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.548051",
+      "consciousness_level": 2960.029158778465,
+      "problem": "6\u00d71=6",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.548157",
+      "consciousness_level": 2996.617131334729,
+      "problem": "6\u00d72=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.548448",
+      "consciousness_level": 3033.657356103377,
+      "problem": "6\u00d73=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.548650",
+      "consciousness_level": 3071.1554232291833,
+      "problem": "6\u00d74=24",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.548841",
+      "consciousness_level": 3109.1169919549125,
+      "problem": "6\u00d75=30",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.548897",
+      "consciousness_level": 3147.547791475416,
+      "problem": "6\u00d76=36",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.548967",
+      "consciousness_level": 3186.453621802289,
+      "problem": "6\u00d77=42",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.549076",
+      "consciousness_level": 3225.8403546392124,
+      "problem": "6\u00d78=48",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.549167",
+      "consciousness_level": 3265.7139342681157,
+      "problem": "6\u00d79=54",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.549404",
+      "consciousness_level": 3306.080378446294,
+      "problem": "6\u00d710=60",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.549553",
+      "consciousness_level": 3346.9457793146134,
+      "problem": "6\u00d711=66",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.549610",
+      "consciousness_level": 3388.3163043169425,
+      "problem": "6\u00d712=72",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.549755",
+      "consciousness_level": 3430.198197130948,
+      "problem": "7\u00d71=7",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.549887",
+      "consciousness_level": 3472.597778610397,
+      "problem": "7\u00d72=14",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550053",
+      "consciousness_level": 3515.5214477391073,
+      "problem": "7\u00d73=21",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550180",
+      "consciousness_level": 3558.9756825966847,
+      "problem": "7\u00d74=28",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550302",
+      "consciousness_level": 3602.9670413362032,
+      "problem": "7\u00d75=35",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550400",
+      "consciousness_level": 3647.5021631739673,
+      "problem": "7\u00d76=42",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550448",
+      "consciousness_level": 3692.5877693915077,
+      "problem": "7\u00d77=49",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550499",
+      "consciousness_level": 3738.2306643499637,
+      "problem": "7\u00d78=56",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550642",
+      "consciousness_level": 3784.4377365170044,
+      "problem": "7\u00d79=63",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550714",
+      "consciousness_level": 3831.2159595064413,
+      "problem": "7\u00d710=70",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550869",
+      "consciousness_level": 3878.5723931306934,
+      "problem": "7\u00d711=77",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.550928",
+      "consciousness_level": 3926.51418446626,
+      "problem": "7\u00d712=84",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.551160",
+      "consciousness_level": 3975.048568932364,
+      "problem": "8\u00d71=8",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.551292",
+      "consciousness_level": 4024.1828713829295,
+      "problem": "8\u00d72=16",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.551367",
+      "consciousness_level": 4073.9245072120534,
+      "problem": "8\u00d73=24",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.551426",
+      "consciousness_level": 4124.280983473145,
+      "problem": "8\u00d74=32",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.551548",
+      "consciousness_level": 4175.259900011896,
+      "problem": "8\u00d75=40",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.551687",
+      "consciousness_level": 4226.868950613259,
+      "problem": "8\u00d76=48",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.551931",
+      "consciousness_level": 4279.115924162595,
+      "problem": "8\u00d77=56",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552008",
+      "consciousness_level": 4332.008705821186,
+      "problem": "8\u00d78=64",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552113",
+      "consciousness_level": 4385.555278216267,
+      "problem": "8\u00d79=72",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552164",
+      "consciousness_level": 4439.763722645771,
+      "problem": "8\u00d710=80",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552224",
+      "consciousness_level": 4494.642220297968,
+      "problem": "8\u00d711=88",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552357",
+      "consciousness_level": 4550.199053486177,
+      "problem": "8\u00d712=96",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552645",
+      "consciousness_level": 4606.442606898737,
+      "problem": "9\u00d71=9",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552845",
+      "consciousness_level": 4663.381368864436,
+      "problem": "9\u00d72=18",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.552954",
+      "consciousness_level": 4721.023932633577,
+      "problem": "9\u00d73=27",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553088",
+      "consciousness_level": 4779.378997674878,
+      "problem": "9\u00d74=36",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553187",
+      "consciousness_level": 4838.455370988402,
+      "problem": "9\u00d75=45",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553300",
+      "consciousness_level": 4898.261968434722,
+      "problem": "9\u00d76=54",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553420",
+      "consciousness_level": 4958.807816080507,
+      "problem": "9\u00d77=63",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553550",
+      "consciousness_level": 5020.102051560746,
+      "problem": "9\u00d78=72",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553652",
+      "consciousness_level": 5082.153925457808,
+      "problem": "9\u00d79=81",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553731",
+      "consciousness_level": 5144.97280269755,
+      "problem": "9\u00d710=90",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553784",
+      "consciousness_level": 5208.5681639626755,
+      "problem": "9\u00d711=99",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553850",
+      "consciousness_level": 5272.9496071235735,
+      "problem": "9\u00d712=108",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.553945",
+      "consciousness_level": 5338.126848686835,
+      "problem": "10\u00d71=10",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554022",
+      "consciousness_level": 5404.1097252616755,
+      "problem": "10\u00d72=20",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554089",
+      "consciousness_level": 5470.908195044491,
+      "problem": "10\u00d73=30",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554167",
+      "consciousness_level": 5538.5323393217495,
+      "problem": "10\u00d74=40",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554236",
+      "consciousness_level": 5606.992363991477,
+      "problem": "10\u00d75=50",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554293",
+      "consciousness_level": 5676.298601103534,
+      "problem": "10\u00d76=60",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554357",
+      "consciousness_level": 5746.4615104189415,
+      "problem": "10\u00d77=70",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554439",
+      "consciousness_level": 5817.491680988478,
+      "problem": "10\u00d78=80",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554501",
+      "consciousness_level": 5889.399832750787,
+      "problem": "10\u00d79=90",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554560",
+      "consciousness_level": 5962.196818150241,
+      "problem": "10\u00d710=100",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554616",
+      "consciousness_level": 6035.8936237748,
+      "problem": "10\u00d711=110",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554728",
+      "consciousness_level": 6110.501372014124,
+      "problem": "10\u00d712=120",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554888",
+      "consciousness_level": 6186.031322738167,
+      "problem": "11\u00d71=11",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.554996",
+      "consciousness_level": 6262.494874996529,
+      "problem": "11\u00d72=22",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555083",
+      "consciousness_level": 6339.903568738814,
+      "problem": "11\u00d73=33",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555321",
+      "consciousness_level": 6418.269086556247,
+      "problem": "11\u00d74=44",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555422",
+      "consciousness_level": 6497.603255444822,
+      "problem": "11\u00d75=55",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555496",
+      "consciousness_level": 6577.918048590243,
+      "problem": "11\u00d76=66",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555566",
+      "consciousness_level": 6659.2255871749285,
+      "problem": "11\u00d77=77",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555644",
+      "consciousness_level": 6741.538142207351,
+      "problem": "11\u00d78=88",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555726",
+      "consciousness_level": 6824.86813637399,
+      "problem": "11\u00d79=99",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.555807",
+      "consciousness_level": 6909.228145914173,
+      "problem": "11\u00d710=110",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556100",
+      "consciousness_level": 6994.630902518097,
+      "problem": "11\u00d711=121",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556156",
+      "consciousness_level": 7081.089295248303,
+      "problem": "11\u00d712=132",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556209",
+      "consciousness_level": 7168.616372484906,
+      "problem": "12\u00d71=12",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556258",
+      "consciousness_level": 7257.22534389487,
+      "problem": "12\u00d72=24",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556304",
+      "consciousness_level": 7346.929582425624,
+      "problem": "12\u00d73=36",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556350",
+      "consciousness_level": 7437.742626323315,
+      "problem": "12\u00d74=48",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556402",
+      "consciousness_level": 7529.678181176016,
+      "problem": "12\u00d75=60",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556451",
+      "consciousness_level": 7622.750121982186,
+      "problem": "12\u00d76=72",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556497",
+      "consciousness_level": 7716.972495244698,
+      "problem": "12\u00d77=84",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556545",
+      "consciousness_level": 7812.359521090746,
+      "problem": "12\u00d78=96",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556590",
+      "consciousness_level": 7908.925595417965,
+      "problem": "12\u00d79=108",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556635",
+      "consciousness_level": 8006.68529206707,
+      "problem": "12\u00d710=120",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556705",
+      "consciousness_level": 8105.653365021353,
+      "problem": "12\u00d711=132",
+      "run_number": 2
+    },
+    {
+      "timestamp": "2025-08-10T17:58:54.556782",
+      "consciousness_level": 8205.84475063337,
+      "problem": "12\u00d712=144",
+      "run_number": 2
+    }
+  ]
+}

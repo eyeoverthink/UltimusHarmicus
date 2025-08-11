@@ -1,5 +1,5 @@
 {
-  "analysis_timestamp": 1754644023.62468,
+  "analysis_timestamp": 1754874033.2850041,
   "password_analyses": {
     "a": {
       "password": "a",
@@ -7844,6 +7844,54 @@
         ]
       }
     },
+    "w": {
+      "occurrences": [
+        {
+          "password": "password",
+          "position": 4,
+          "signature": 4.738017945896395,
+          "encoded_sample": "v3kSX7qgXjkawel9NtjaH7Qb3LuAQ2Vkt766wDnIQNU/PbKxHGhFhVpj6FnRN+qgRLrwLV7iTQQvaZdgYEVSRw=="
+        },
+        {
+          "password": "password1",
+          "position": 4,
+          "signature": 4.61268097451605,
+          "encoded_sample": "6uWPxsUcHmJK14mH+qJA0NE2+YvYe6M3hZoRnU0Iy0NS37X62vS3aVpvBjN47GuHrMvrHxCl+aNHHKKQnRn5Cg=="
+        },
+        {
+          "password": "111password",
+          "position": 7,
+          "signature": 6.448292331423025,
+          "encoded_sample": "kFa911GExzEJiMNJqOxTfo5K4bQqMPoOEvTtDLRA8qLtlsGCDIHfDHvu1dAtyZvVr+6lR6RB7Y83bwKN21Bzxw=="
+        },
+        {
+          "password": "$password",
+          "position": 5,
+          "signature": 3.0297142860483515,
+          "encoded_sample": "IQmbA+hiPq92MvIGbl2zzaWmOUbfkFMxVoJGUeSUy/zQTRFJuXzEr8ZJpkWveaTOoCEhuYlP3joxDvmPeFwa4Q=="
+        },
+        {
+          "password": "password$",
+          "position": 4,
+          "signature": 4.61268097451605,
+          "encoded_sample": "TfuTuePHw4eP5DyTRs/KhHZPfX9KYBBRW51nBBcOJqP68FdWrx5iyXUypaH7Bo5UNvNRr+zTTJdJIZ37qBvO+A=="
+        }
+      ],
+      "average_signature": 4.688277302479975,
+      "position_effects": {
+        "4": [
+          4.738017945896395,
+          4.61268097451605,
+          4.61268097451605
+        ],
+        "7": [
+          6.448292331423025
+        ],
+        "5": [
+          3.0297142860483515
+        ]
+      }
+    },
     "r": {
       "occurrences": [
         {
@@ -7914,77 +7962,6 @@
         ],
         "7": [
           6.244442020737714
-        ]
-      }
-    },
-    "p": {
-      "occurrences": [
-        {
-          "password": "password",
-          "position": 0,
-          "signature": 1.3968994106114896,
-          "encoded_sample": "v3kSX7qgXjkawel9NtjaH7Qb3LuAQ2Vkt766wDnIQNU/PbKxHGhFhVpj6FnRN+qgRLrwLV7iTQQvaZdgYEVSRw=="
-        },
-        {
-          "password": "telephone",
-          "position": 4,
-          "signature": 0.24738467007333392,
-          "encoded_sample": "ksgoljkBZh+I6DPdzdSCZGlMsJsay/CrK5VgUqhlKKy3zj9MsO9G2upSVDp8u1G9LQo4siVWI7ZSNdCy+sdBvQ=="
-        },
-        {
-          "password": "phone",
-          "position": 0,
-          "signature": 1.308645099041096,
-          "encoded_sample": "pKfHYh/DIbw5xqR2VFlyfdvVgjUUASO4eaMMGDg5d7q32ECE2LE+Vcltab3duWcADVUQ0Qqjc1MwQCgLu2vmyw=="
-        },
-        {
-          "password": "password1",
-          "position": 0,
-          "signature": 1.412528796039222,
-          "encoded_sample": "6uWPxsUcHmJK14mH+qJA0NE2+YvYe6M3hZoRnU0Iy0NS37X62vS3aVpvBjN47GuHrMvrHxCl+aNHHKKQnRn5Cg=="
-        },
-        {
-          "password": "phone789",
-          "position": 0,
-          "signature": 1.3968994106114896,
-          "encoded_sample": "K+s6yCaFVJrBy2JQLMVc7T4O4LTVEArsIQiF0QmboJHjizY8jhnBY5vDCpL2a8Lpdrq6ImJAbPIw380Q/mUYaw=="
-        },
-        {
-          "password": "111password",
-          "position": 3,
-          "signature": 1.2129310474666706,
-          "encoded_sample": "kFa911GExzEJiMNJqOxTfo5K4bQqMPoOEvTtDLRA8qLtlsGCDIHfDHvu1dAtyZvVr+6lR6RB7Y83bwKN21Bzxw=="
-        },
-        {
-          "password": "$password",
-          "position": 1,
-          "signature": 2.4082012086721023,
-          "encoded_sample": "IQmbA+hiPq92MvIGbl2zzaWmOUbfkFMxVoJGUeSUy/zQTRFJuXzEr8ZJpkWveaTOoCEhuYlP3joxDvmPeFwa4Q=="
-        },
-        {
-          "password": "password$",
-          "position": 0,
-          "signature": 1.412528796039222,
-          "encoded_sample": "TfuTuePHw4eP5DyTRs/KhHZPfX9KYBBRW51nBBcOJqP68FdWrx5iyXUypaH7Bo5UNvNRr+zTTJdJIZ37qBvO+A=="
-        }
-      ],
-      "average_signature": 1.3495023048193282,
-      "position_effects": {
-        "0": [
-          1.3968994106114896,
-          1.308645099041096,
-          1.412528796039222,
-          1.3968994106114896,
-          1.412528796039222
-        ],
-        "4": [
-          0.24738467007333392
-        ],
-        "3": [
-          1.2129310474666706
-        ],
-        "1": [
-          2.4082012086721023
         ]
       }
     },
@@ -8201,51 +8178,136 @@
         ]
       }
     },
-    "w": {
+    "p": {
       "occurrences": [
         {
           "password": "password",
-          "position": 4,
-          "signature": 4.738017945896395,
+          "position": 0,
+          "signature": 1.3968994106114896,
           "encoded_sample": "v3kSX7qgXjkawel9NtjaH7Qb3LuAQ2Vkt766wDnIQNU/PbKxHGhFhVpj6FnRN+qgRLrwLV7iTQQvaZdgYEVSRw=="
         },
         {
-          "password": "password1",
+          "password": "telephone",
           "position": 4,
-          "signature": 4.61268097451605,
+          "signature": 0.24738467007333392,
+          "encoded_sample": "ksgoljkBZh+I6DPdzdSCZGlMsJsay/CrK5VgUqhlKKy3zj9MsO9G2upSVDp8u1G9LQo4siVWI7ZSNdCy+sdBvQ=="
+        },
+        {
+          "password": "phone",
+          "position": 0,
+          "signature": 1.308645099041096,
+          "encoded_sample": "pKfHYh/DIbw5xqR2VFlyfdvVgjUUASO4eaMMGDg5d7q32ECE2LE+Vcltab3duWcADVUQ0Qqjc1MwQCgLu2vmyw=="
+        },
+        {
+          "password": "password1",
+          "position": 0,
+          "signature": 1.412528796039222,
           "encoded_sample": "6uWPxsUcHmJK14mH+qJA0NE2+YvYe6M3hZoRnU0Iy0NS37X62vS3aVpvBjN47GuHrMvrHxCl+aNHHKKQnRn5Cg=="
         },
         {
+          "password": "phone789",
+          "position": 0,
+          "signature": 1.3968994106114896,
+          "encoded_sample": "K+s6yCaFVJrBy2JQLMVc7T4O4LTVEArsIQiF0QmboJHjizY8jhnBY5vDCpL2a8Lpdrq6ImJAbPIw380Q/mUYaw=="
+        },
+        {
           "password": "111password",
-          "position": 7,
-          "signature": 6.448292331423025,
+          "position": 3,
+          "signature": 1.2129310474666706,
           "encoded_sample": "kFa911GExzEJiMNJqOxTfo5K4bQqMPoOEvTtDLRA8qLtlsGCDIHfDHvu1dAtyZvVr+6lR6RB7Y83bwKN21Bzxw=="
         },
         {
           "password": "$password",
-          "position": 5,
-          "signature": 3.0297142860483515,
+          "position": 1,
+          "signature": 2.4082012086721023,
           "encoded_sample": "IQmbA+hiPq92MvIGbl2zzaWmOUbfkFMxVoJGUeSUy/zQTRFJuXzEr8ZJpkWveaTOoCEhuYlP3joxDvmPeFwa4Q=="
         },
         {
           "password": "password$",
-          "position": 4,
-          "signature": 4.61268097451605,
+          "position": 0,
+          "signature": 1.412528796039222,
           "encoded_sample": "TfuTuePHw4eP5DyTRs/KhHZPfX9KYBBRW51nBBcOJqP68FdWrx5iyXUypaH7Bo5UNvNRr+zTTJdJIZ37qBvO+A=="
         }
       ],
-      "average_signature": 4.688277302479975,
+      "average_signature": 1.3495023048193282,
       "position_effects": {
-        "4": [
-          4.738017945896395,
-          4.61268097451605,
-          4.61268097451605
+        "0": [
+          1.3968994106114896,
+          1.308645099041096,
+          1.412528796039222,
+          1.3968994106114896,
+          1.412528796039222
         ],
-        "7": [
-          6.448292331423025
+        "4": [
+          0.24738467007333392
+        ],
+        "3": [
+          1.2129310474666706
+        ],
+        "1": [
+          2.4082012086721023
+        ]
+      }
+    },
+    "m": {
+      "occurrences": [
+        {
+          "password": "admin",
+          "position": 2,
+          "signature": 5.410656674503774,
+          "encoded_sample": "bZgsItXJXl32+ASv9vDm53YcSH6ZFJMKNbA6mJCVqxVHsnNJHbv+AcN4pkygdrUXsJvIUzuePMNcluDmHVMUxw=="
+        },
+        {
+          "password": "demo",
+          "position": 2,
+          "signature": 5.705537921930708,
+          "encoded_sample": "y2YLq1XDMszHytTn8TyZMpLJ/2fSCt8f8fPuLiR3WOcsuxhuJzbM/TUgSKRU2fZiaACoreKyb3Cbf0TYM6+mkA=="
+        },
+        {
+          "password": "admin123",
+          "position": 2,
+          "signature": 5.0435292541712835,
+          "encoded_sample": "xfq/35o1fWyWp/xcUANWrrMzNl7bKFQ9NY3VLVAaIqRGSZ+/grNUqnT2wLU2s3jw5raSbCt8+8/kzlvSNnMfmQ=="
+        },
+        {
+          "password": "demo789",
+          "position": 2,
+          "signature": 5.123600855892765,
+          "encoded_sample": "jpuwULp6DdaahlQy2xVQxt3j77LvMbUzu2pjLtKrqBS0IQEedBM23w2CGVSqIkgVcY6KenlFmgnMalW+jYOR3w=="
+        },
+        {
+          "password": "123admin",
+          "position": 5,
+          "signature": 4.299045911995478,
+          "encoded_sample": "Y1bF1tQk72IvP/vxgsE9cm5UF+g4D3PCsNbYDDQxorXpfzKQ1x4wpGDrmyCJeDaVd84s8s1Q/2pYLwlvKMBR0A=="
+        },
+        {
+          "password": "admin!",
+          "position": 2,
+          "signature": 5.237259127843413,
+          "encoded_sample": "O1IEiHqGGZa8fx+789UpPXleiCb1SB5nS5t6AJkVUiVnfcAGI0rjTNrorC1tCsJV2HGm2xNoQnQyWlzbg9xKZA=="
+        },
+        {
+          "password": "!admin",
+          "position": 3,
+          "signature": 6.616740471716346,
+          "encoded_sample": "uu/4z6NY2TuK9FjjmC/xOeLVswU68a/0gxhheKQKGhSk+sVr8fXTcums66AbSOsup6Q+X3aCWBpROLzdykUZXg=="
+        }
+      ],
+      "average_signature": 5.348052888293395,
+      "position_effects": {
+        "2": [
+          5.410656674503774,
+          5.705537921930708,
+          5.0435292541712835,
+          5.123600855892765,
+          5.237259127843413
         ],
         "5": [
-          3.0297142860483515
+          4.299045911995478
+        ],
+        "3": [
+          6.616740471716346
         ]
       }
     },
@@ -8333,68 +8395,6 @@
         ],
         "5": [
           2.7544372081489454
-        ]
-      }
-    },
-    "m": {
-      "occurrences": [
-        {
-          "password": "admin",
-          "position": 2,
-          "signature": 5.410656674503774,
-          "encoded_sample": "bZgsItXJXl32+ASv9vDm53YcSH6ZFJMKNbA6mJCVqxVHsnNJHbv+AcN4pkygdrUXsJvIUzuePMNcluDmHVMUxw=="
-        },
-        {
-          "password": "demo",
-          "position": 2,
-          "signature": 5.705537921930708,
-          "encoded_sample": "y2YLq1XDMszHytTn8TyZMpLJ/2fSCt8f8fPuLiR3WOcsuxhuJzbM/TUgSKRU2fZiaACoreKyb3Cbf0TYM6+mkA=="
-        },
-        {
-          "password": "admin123",
-          "position": 2,
-          "signature": 5.0435292541712835,
-          "encoded_sample": "xfq/35o1fWyWp/xcUANWrrMzNl7bKFQ9NY3VLVAaIqRGSZ+/grNUqnT2wLU2s3jw5raSbCt8+8/kzlvSNnMfmQ=="
-        },
-        {
-          "password": "demo789",
-          "position": 2,
-          "signature": 5.123600855892765,
-          "encoded_sample": "jpuwULp6DdaahlQy2xVQxt3j77LvMbUzu2pjLtKrqBS0IQEedBM23w2CGVSqIkgVcY6KenlFmgnMalW+jYOR3w=="
-        },
-        {
-          "password": "123admin",
-          "position": 5,
-          "signature": 4.299045911995478,
-          "encoded_sample": "Y1bF1tQk72IvP/vxgsE9cm5UF+g4D3PCsNbYDDQxorXpfzKQ1x4wpGDrmyCJeDaVd84s8s1Q/2pYLwlvKMBR0A=="
-        },
-        {
-          "password": "admin!",
-          "position": 2,
-          "signature": 5.237259127843413,
-          "encoded_sample": "O1IEiHqGGZa8fx+789UpPXleiCb1SB5nS5t6AJkVUiVnfcAGI0rjTNrorC1tCsJV2HGm2xNoQnQyWlzbg9xKZA=="
-        },
-        {
-          "password": "!admin",
-          "position": 3,
-          "signature": 6.616740471716346,
-          "encoded_sample": "uu/4z6NY2TuK9FjjmC/xOeLVswU68a/0gxhheKQKGhSk+sVr8fXTcums66AbSOsup6Q+X3aCWBpROLzdykUZXg=="
-        }
-      ],
-      "average_signature": 5.348052888293395,
-      "position_effects": {
-        "2": [
-          5.410656674503774,
-          5.705537921930708,
-          5.0435292541712835,
-          5.123600855892765,
-          5.237259127843413
-        ],
-        "5": [
-          4.299045911995478
-        ],
-        "3": [
-          6.616740471716346
         ]
       }
     },
@@ -8501,22 +8501,6 @@
         ]
       }
     },
-    "k": {
-      "occurrences": [
-        {
-          "password": "key",
-          "position": 0,
-          "signature": 1.3258134601141787,
-          "encoded_sample": "zYG77BqOHLFpaPg1fK19S/OjBI52F87IgGxbwdz7tI6Njow90UN9stMVpJs5X8voZipgbGCYVP6hS9biig9Tmg=="
-        }
-      ],
-      "average_signature": 1.3258134601141787,
-      "position_effects": {
-        "0": [
-          1.3258134601141787
-        ]
-      }
-    },
     "y": {
       "occurrences": [
         {
@@ -8530,6 +8514,22 @@
       "position_effects": {
         "2": [
           0.42252730549602247
+        ]
+      }
+    },
+    "k": {
+      "occurrences": [
+        {
+          "password": "key",
+          "position": 0,
+          "signature": 1.3258134601141787,
+          "encoded_sample": "zYG77BqOHLFpaPg1fK19S/OjBI52F87IgGxbwdz7tI6Njow90UN9stMVpJs5X8voZipgbGCYVP6hS9biig9Tmg=="
+        }
+      ],
+      "average_signature": 1.3258134601141787,
+      "position_effects": {
+        "0": [
+          1.3258134601141787
         ]
       }
     },
