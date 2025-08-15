@@ -1,0 +1,15 @@
+{
+    "mission_type": "threat_hunt",
+    "target": {
+        "id": "intruder-A51",
+        "ip": "10.0.0.5",
+        "team": "red"
+    },
+    "status": "active_pursuit",
+    "actions_taken": [
+        "Network scan initiated",
+        "Attack pattern analysis completed",
+        "Defensive perimeter established"
+    ],
+    "timestamp": 1755231839.633027
+}

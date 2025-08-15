@@ -1,0 +1,101 @@
+{
+  "test_suite": "Biometric System Integration Test",
+  "version": "1.0",
+  "timestamp": "2025-08-15T14:43:04.419923",
+  "total_tests": 7,
+  "passed_tests": 6,
+  "failed_tests": 1,
+  "success_rate": 85.71428571428571,
+  "total_duration_seconds": 1.6124229431152344,
+  "test_results": [
+    {
+      "test_name": "Biometric Key Generation",
+      "success": true,
+      "timestamp": "2025-08-15T14:43:02.939682",
+      "duration_seconds": 0.05091595649719238,
+      "details": {
+        "key_size_bytes": 71,
+        "encryption_key_length": 44
+      },
+      "status": "PASS"
+    },
+    {
+      "test_name": "Document Encryption/Decryption",
+      "success": false,
+      "timestamp": "2025-08-15T14:43:02.979875",
+      "duration_seconds": 0.04013991355895996,
+      "details": {
+        "error": "name 'base64' is not defined"
+      },
+      "status": "FAIL"
+    },
+    {
+      "test_name": "Cryptographic Protocols",
+      "success": true,
+      "timestamp": "2025-08-15T14:43:03.057431",
+      "duration_seconds": 0.07748103141784668,
+      "details": {
+        "message_length": 444,
+        "token_length": 616,
+        "session_key_length": 44,
+        "multi_sig_count": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "test_name": "Multi-User Sharing",
+      "success": true,
+      "timestamp": "2025-08-15T14:43:03.280395",
+      "duration_seconds": 0.22293400764465332,
+      "details": {
+        "group_signatures": 4,
+        "delegation_length": 732,
+        "escrow_parties": 3,
+        "voting_tokens": 4
+      },
+      "status": "PASS"
+    },
+    {
+      "test_name": "QR Code System",
+      "success": true,
+      "timestamp": "2025-08-15T14:43:03.619465",
+      "duration_seconds": 0.3390371799468994,
+      "details": {
+        "qr_files_created": 5,
+        "readable_qr_count": 5,
+        "chunks_generated": 5,
+        "large_data_size": 5000
+      },
+      "status": "PASS"
+    },
+    {
+      "test_name": "Security Features",
+      "success": true,
+      "timestamp": "2025-08-15T14:43:03.748018",
+      "duration_seconds": 0.12849116325378418,
+      "details": {
+        "alice_hash": "36a7f488e86f938d",
+        "bob_hash": "ae5da7f4f60d3563",
+        "key_consistency": true,
+        "key_uniqueness": true,
+        "signature_valid": true,
+        "signature_invalid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "test_name": "Performance Metrics",
+      "success": true,
+      "timestamp": "2025-08-15T14:43:04.419801",
+      "duration_seconds": 0.6717548370361328,
+      "details": {
+        "key_generation_ms": 44.16,
+        "qr_generation_ms": 185.93,
+        "encryption_ms": 43.9,
+        "decryption_ms": 0.09,
+        "content_size_bytes": 2500
+      },
+      "status": "PASS"
+    }
+  ]
+}

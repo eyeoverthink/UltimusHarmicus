@@ -1,0 +1,17 @@
+{
+    "corrupted_state": {
+        "id": "system-001",
+        "password": "kcvZCp5qRcYZjhR5",
+        "data": "corrupted_by_scanner",
+        "last_intrusion_attempt": {
+            "id": "scanner-C4",
+            "ip": "192.168.1.1",
+            "team": "blue"
+        }
+    },
+    "captured_signature": {
+        "id": "scanner-C4",
+        "ip": "192.168.1.1",
+        "team": "blue"
+    }
+}

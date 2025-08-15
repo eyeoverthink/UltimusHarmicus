@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Device Control Builder - Professional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.1rem;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 320px 1fr 400px;
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+            height: calc(100vh - 140px);
+        }
+
+        .panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .panel h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .device-actions {
+            overflow-y: auto;
+            max-height: calc(100vh - 240px);
+        }
+
+        .action-category {
+            margin-bottom: 2rem;
+        }
+
+        .category-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 0.5rem;
+        }
+
+        .action-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 1.2rem;
+            margin-bottom: 0.8rem;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 0.95rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .action-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .action-item .icon {
+            font-size: 1.2rem;
+        }
+
+        .workflow-builder {
+            background: #f8f9fa;
+            border-radius: 16px;
+            padding: 2rem;
+            min-height: 500px;
+            border: 3px dashed #dee2e6;
+            position: relative;
+            overflow-y: auto;
+            max-height: calc(100vh - 240px);
+        }
+
+        .workflow-step {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border-left: 5px solid #667eea;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        .workflow-step:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .workflow-step .step-number {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+        }
+
+        .workflow-step h4 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #34495e;
+            font-size: 0.9rem;
+        }
+
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.9rem;
+            transition: border-color 0.2s ease;
+        }
+
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .remove-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 700;
+            transition: all 0.2s ease;
+        }
+
+        .remove-btn:hover {
+            background: #c0392b;
+            transform: scale(1.1);
+        }
+
+        .qr-preview {
+            text-align: center;
+        }
+
+        .generate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 1.2rem 2rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .qr-item {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e9ecef;
+        }
+
+        .qr-item h4 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            font-size: 1rem;
+        }
+
+        .qr-display {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.8rem;
+            word-break: break-all;
+            border: 1px solid #dee2e6;
+        }
+
+        .download-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 0.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .download-btn:hover {
+            background: #229954;
+            transform: translateY(-1px);
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #7f8c8d;
+            padding: 3rem 2rem;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+
+        .url-preview {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 0.8rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.8rem;
+            color: #495057;
+            word-break: break-all;
+            margin-top: 0.5rem;
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border: 1px solid #f5c6cb;
+        }
+
+        @media (max-width: 1400px) {
+            .container {
+                grid-template-columns: 280px 1fr 350px;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌊⚡ QR Device Control Builder ⚡🌊</h1>
+        <p>Create powerful QR sequences that control your iPhone - Revolutionary device programming</p>
+    </div>
+
+    <div class="container">
+        <!-- Device Actions Panel -->
+        <div class="panel">
+            <h3>📱 Device Actions</h3>
+            <div class="device-actions">
+                <div class="action-category">
+                    <div class="category-title">Communication</div>
+                    <button class="action-item" onclick="addAction('sms')">
+                        <span class="icon">📱</span>
+                        <span>Send SMS Message</span>
+                    </button>
+                    <button class="action-item" onclick="addAction('call')">
+                        <span class="icon">📞</span>
+                        <span>Make Phone Call</span>
+                    </button>
+                    <button class="action-item" onclick="addAction('email')">
+                        <span class="icon">📧</span>
+                        <span>Send Email</span>
+                    </button>
+                </div>
+
+                <div class="action-category">
+                    <div class="category-title">Apps & Media</div>
+                    <button class="action-item" onclick="addAction('camera')">
+                        <span class="icon">📷</span>
+                        <span>Open Camera</span>
+                    </button>
+                    <button class="action-item" onclick="addAction('calendar')">
+                        <span class="icon">📅</span>
+                        <span>Open Calendar</span>
+                    </button>
+                    <button class="action-item" onclick="addAction('maps')">
+                        <span class="icon">🗺️</span>
+                        <span>Navigate with Maps</span>
+                    </button>
+                    <button class="action-item" onclick="addAction('music')">
+                        <span class="icon">🎵</span>
+                        <span>Open Music</span>
+                    </button>
+                </div>
+
+                <div class="action-category">
+                    <div class="category-title">Web & Social</div>
+                    <button class="action-item" onclick="addAction('website')">
+                        <span class="icon">🌐</span>
+                        <span>Open Website</span>
+                    </button>
+                    <button class="action-item" onclick="addAction('twitter')">
+                        <span class="icon">🐦</span>
+                        <span>Post Tweet</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Workflow Builder -->
+        <div class="panel">
+            <h3>🔄 Control Sequence Builder</h3>
+            <div class="workflow-builder" id="workflowBuilder">
+                <div class="empty-state">
+                    Click device actions to add them to your control sequence.<br>
+                    Build powerful QR workflows that execute in order!
+                </div>
+            </div>
+        </div>
+
+        <!-- QR Preview & Generation -->
+        <div class="panel">
+            <h3>🎯 QR Code Generation</h3>
+            <div class="qr-preview">
+                <button class="generate-btn" onclick="generateQRCodes()">
+                    🚀 Generate QR Control Sequence
+                </button>
+                <div id="qrContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let workflowSteps = [];
+        let stepCounter = 0;
+
+        const actionTemplates = {
+            sms: {
+                name: 'Send SMS Message',
+                icon: '📱',
+                fields: [
+                    { key: 'phone', label: 'Phone Number', type: 'tel', placeholder: '+1-555-123-4567', required: true },
+                    { key: 'message', label: 'Message Text', type: 'textarea', placeholder: 'Your message here...', required: true }
+                ],
+                buildUrl: (values) => `sms:${values.phone}&body=${encodeURIComponent(values.message)}`
+            },
+            call: {
+                name: 'Make Phone Call',
+                icon: '📞',
+                fields: [
+                    { key: 'phone', label: 'Phone Number', type: 'tel', placeholder: '+1-555-123-4567', required: true }
+                ],
+                buildUrl: (values) => `tel:${values.phone}`
+            },
+            email: {
+                name: 'Send Email',
+                icon: '📧',
+                fields: [
+                    { key: 'email', label: 'Email Address', type: 'email', placeholder: 'recipient@example.com', required: true },
+                    { key: 'subject', label: 'Subject', type: 'text', placeholder: 'Email subject', required: true },
+                    { key: 'body', label: 'Message Body', type: 'textarea', placeholder: 'Email content...', required: true }
+                ],
+                buildUrl: (values) => `mailto:${values.email}?subject=${encodeURIComponent(values.subject)}&body=${encodeURIComponent(values.body)}`
+            },
+            camera: {
+                name: 'Open Camera',
+                icon: '📷',
+                fields: [],
+                buildUrl: () => 'camera://'
+            },
+            calendar: {
+                name: 'Open Calendar',
+                icon: '📅',
+                fields: [],
+                buildUrl: () => 'calshow://'
+            },
+            maps: {
+                name: 'Navigate with Maps',
+                icon: '🗺️',
+                fields: [
+                    { key: 'location', label: 'Destination', type: 'text', placeholder: 'Apple Park, Cupertino, CA', required: true }
+                ],
+                buildUrl: (values) => `maps://?q=${encodeURIComponent(values.location)}`
+            },
+            music: {
+                name: 'Open Music',
+                icon: '🎵',
+                fields: [],
+                buildUrl: () => 'music://'
+            },
+            website: {
+                name: 'Open Website',
+                icon: '🌐',
+                fields: [
+                    { key: 'url', label: 'Website URL', type: 'url', placeholder: 'https://example.com', required: true }
+                ],
+                buildUrl: (values) => values.url
+            },
+            twitter: {
+                name: 'Post Tweet',
+                icon: '🐦',
+                fields: [
+                    { key: 'message', label: 'Tweet Text', type: 'textarea', placeholder: 'What\'s happening?', required: true }
+                ],
+                buildUrl: (values) => `twitter://post?message=${encodeURIComponent(values.message)}`
+            }
+        };
+
+        function addAction(actionType) {
+            stepCounter++;
+            const template = actionTemplates[actionType];
+            
+            const step = {
+                id: stepCounter,
+                type: actionType,
+                name: template.name,
+                icon: template.icon,
+                fields: template.fields,
+                values: {}
+            };
+
+            workflowSteps.push(step);
+            renderWorkflowSteps();
+        }
+
+        function renderWorkflowSteps() {
+            const container = document.getElementById('workflowBuilder');
+            
+            if (workflowSteps.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        Click device actions to add them to your control sequence.<br>
+                        Build powerful QR workflows that execute in order!
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = workflowSteps.map((step, index) => {
+                const fieldsHtml = step.fields.map(field => {
+                    const value = step.values[field.key] || '';
+                    if (field.type === 'textarea') {
+                        return `
+                            <div class="form-group">
+                                <label>${field.label}${field.required ? ' *' : ''}</label>
+                                <textarea 
+                                    placeholder="${field.placeholder}" 
+                                    onchange="updateStepValue(${step.id}, '${field.key}', this.value)"
+                                    rows="3"
+                                >${value}</textarea>
+                            </div>
+                        `;
+                    } else {
+                        return `
+                            <div class="form-group">
+                                <label>${field.label}${field.required ? ' *' : ''}</label>
+                                <input 
+                                    type="${field.type}" 
+                                    placeholder="${field.placeholder}" 
+                                    value="${value}"
+                                    onchange="updateStepValue(${step.id}, '${field.key}', this.value)"
+                                />
+                            </div>
+                        `;
+                    }
+                }).join('');
+
+                const url = buildStepUrl(step);
+                const urlPreview = url ? `<div class="url-preview">URL: ${url}</div>` : '';
+
+                return `
+                    <div class="workflow-step">
+                        <div class="step-number">${index + 1}</div>
+                        <button class="remove-btn" onclick="removeStep(${step.id})">&times;</button>
+                        <h4>${step.icon} ${step.name}</h4>
+                        ${fieldsHtml}
+                        ${urlPreview}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function updateStepValue(stepId, key, value) {
+            const step = workflowSteps.find(s => s.id === stepId);
+            if (step) {
+                step.values[key] = value;
+                renderWorkflowSteps(); // Re-render to update URL preview
+            }
+        }
+
+        function removeStep(stepId) {
+            workflowSteps = workflowSteps.filter(s => s.id !== stepId);
+            renderWorkflowSteps();
+        }
+
+        function buildStepUrl(step) {
+            const template = actionTemplates[step.type];
+            if (!template) return '';
+
+            // Check if all required fields are filled
+            const hasAllRequired = template.fields
+                .filter(f => f.required)
+                .every(f => step.values[f.key] && step.values[f.key].trim());
+
+            if (!hasAllRequired && template.fields.some(f => f.required)) {
+                return ''; // Don't show URL if required fields are missing
+            }
+
+            try {
+                let url = template.buildUrl(step.values);
+                
+                // Add nonce and timestamp for uniqueness
+                const nonce = Math.random().toString(36).substring(2, 15);
+                const timestamp = Math.floor(Date.now() / 1000);
+                const separator = url.includes('?') ? '&' : '?';
+                url += `${separator}nonce=${nonce}&ts=${timestamp}`;
+                
+                return url;
+            } catch (e) {
+                return '';
+            }
+        }
+
+        // Simple QR Code generator using HTML5 Canvas
+        function generateQRCode(text, size = 200) {
+            // This is a simplified QR code representation
+            // In production, you'd use a proper QR library
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            const ctx = canvas.getContext('2d');
+            
+            // Fill background
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, size, size);
+            
+            // Create a simple pattern based on the text
+            ctx.fillStyle = '#000000';
+            const gridSize = 20;
+            const cellSize = size / gridSize;
+            
+            // Generate a pseudo-QR pattern based on text hash
+            let hash = 0;
+            for (let i = 0; i < text.length; i++) {
+                hash = ((hash << 5) - hash + text.charCodeAt(i)) & 0xffffffff;
+            }
+            
+            for (let x = 0; x < gridSize; x++) {
+                for (let y = 0; y < gridSize; y++) {
+                    const seed = (x * gridSize + y + hash) % 1000;
+                    if (seed % 3 === 0) {
+                        ctx.fillRect(x * cellSize, y * cellSize, cellSize, cellSize);
+                    }
+                }
+            }
+            
+            // Add corner markers (like real QR codes)
+            const markerSize = cellSize * 3;
+            // Top-left
+            ctx.fillRect(0, 0, markerSize, markerSize);
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(cellSize, cellSize, cellSize, cellSize);
+            
+            // Top-right
+            ctx.fillStyle = '#000000';
+            ctx.fillRect(size - markerSize, 0, markerSize, markerSize);
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(size - markerSize + cellSize, cellSize, cellSize, cellSize);
+            
+            // Bottom-left
+            ctx.fillStyle = '#000000';
+            ctx.fillRect(0, size - markerSize, markerSize, markerSize);
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(cellSize, size - markerSize + cellSize, cellSize, cellSize);
+            
+            return canvas;
+        }
+
+        function generateQRCodes() {
+            const container = document.getElementById('qrContainer');
+            
+            if (workflowSteps.length === 0) {
+                container.innerHTML = '<div class="error-message">Please add some actions to your workflow first!</div>';
+                return;
+            }
+
+            // Validate all steps have required fields
+            const invalidSteps = workflowSteps.filter(step => {
+                const template = actionTemplates[step.type];
+                return template.fields
+                    .filter(f => f.required)
+                    .some(f => !step.values[f.key] || !step.values[f.key].trim());
+            });
+
+            if (invalidSteps.length > 0) {
+                container.innerHTML = '<div class="error-message">Please fill in all required fields (marked with *) before generating QR codes.</div>';
+                return;
+            }
+
+            container.innerHTML = '';
+
+            workflowSteps.forEach((step, index) => {
+                const url = buildStepUrl(step);
+                if (!url) return;
+
+                const qrDiv = document.createElement('div');
+                qrDiv.className = 'qr-item';
+                
+                const title = document.createElement('h4');
+                title.textContent = `Step ${index + 1}: ${step.icon} ${step.name}`;
+                
+                const qrDisplay = document.createElement('div');
+                qrDisplay.className = 'qr-display';
+                qrDisplay.innerHTML = `
+                    <strong>QR Code for:</strong><br>
+                    ${url}<br><br>
+                    <em>Scan this URL with your iPhone camera to execute the action</em>
+                `;
+                
+                // Generate visual QR code
+                const canvas = generateQRCode(url, 200);
+                canvas.style.border = '2px solid #dee2e6';
+                canvas.style.borderRadius = '8px';
+                canvas.style.margin = '10px 0';
+                
+                const downloadBtn = document.createElement('button');
+                downloadBtn.className = 'download-btn';
+                downloadBtn.textContent = `📥 Download Step ${index + 1}`;
+                downloadBtn.onclick = () => downloadQR(canvas, `qr-step-${index + 1}-${step.type}.png`);
+                
+                qrDiv.appendChild(title);
+                qrDiv.appendChild(canvas);
+                qrDiv.appendChild(qrDisplay);
+                qrDiv.appendChild(downloadBtn);
+                container.appendChild(qrDiv);
+            });
+        }
+
+        function downloadQR(canvas, filename) {
+            try {
+                const link = document.createElement('a');
+                link.download = filename;
+                link.href = canvas.toDataURL('image/png');
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            } catch (e) {
+                console.error('Download error:', e);
+                alert('Error downloading QR code. Please try again.');
+            }
+        }
+    </script>
+</body>
+</html>

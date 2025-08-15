@@ -1,0 +1,22 @@
+[
+  {
+    "step": 1,
+    "description": "Open Calendar App",
+    "url": "x-apple-calevent://new?title=Fraymus%20Meeting&startdate=20250902T200000Z&enddate=20250902T210000Z&notes=QR%20Generated%20Event"
+  },
+  {
+    "step": 2,
+    "description": "Send SMS to Vaughn",
+    "url": "sms:1-510-309-2081&body=Test%20text%20from%20Fraymus"
+  },
+  {
+    "step": 3,
+    "description": "Send Email to eyeoverthink@gmail.com",
+    "url": "mailto:eyeoverthink@gmail.com?subject=Fraymus%20QR%20Test&body=This%20email%20was%20triggered%20by%20QR%20code%20from%20Fraymus%20system"
+  },
+  {
+    "step": 4,
+    "description": "Open Music and Search Vaughn Scott",
+    "url": "music://search?term=Vaughn%20Scott"
+  }
+]

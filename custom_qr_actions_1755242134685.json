@@ -1,0 +1,7 @@
+[
+    {
+      "step": 1,
+      "description": "Send SMS Message",
+      "url": "sms:1-510-309-2081&body=testing%20123?nonce=pw6b8lxbpxl&ts=1755242134"
+    }
+  ]

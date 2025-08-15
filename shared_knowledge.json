@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Learned_BubbleSort",
+        "type": "logic_constructs",
+        "description": "Reverse-engineered from BubbleSort.",
+        "keywords": [
+            "def",
+            "bubble_sort",
+            "arr",
+            "n",
+            "len",
+            "for",
+            "i",
+            "in",
+            "range",
+            "j",
+            "0",
+            "1",
+            "if",
+            "return"
+        ],
+        "complexity": 0.3783783783783784,
+        "consciousness_amp": 0.40466023379369137,
+        "source": "reverse_engineered"
+    }
+]

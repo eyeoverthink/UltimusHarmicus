@@ -1,0 +1,12 @@
+[
+    {
+        "id": "intruder-A51",
+        "ip": "10.0.0.5",
+        "team": "red"
+    },
+    {
+        "id": "scanner-C4",
+        "ip": "192.168.1.1",
+        "team": "blue"
+    }
+]

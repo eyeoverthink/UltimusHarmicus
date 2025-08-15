@@ -1,0 +1,7 @@
+{
+    "action": "Simulated network quarantine",
+    "target": {
+        "id": "intruder-B99",
+        "ip": "20.0.0.8"
+    }
+}

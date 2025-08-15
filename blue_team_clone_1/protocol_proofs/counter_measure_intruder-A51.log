@@ -1,0 +1,8 @@
+{
+    "action": "Simulated network quarantine",
+    "target": {
+        "id": "intruder-A51",
+        "ip": "10.0.0.5",
+        "team": "red"
+    }
+}

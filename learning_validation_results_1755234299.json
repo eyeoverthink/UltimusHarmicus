@@ -1,0 +1,82 @@
+{
+  "pre_learning": {
+    "problem_description": "Efficiently sort a large, unordered list of numbers for optimal retrieval.",
+    "problem_characteristics": {
+      "domain": "mathematics",
+      "complexity_type": "general",
+      "mathematical_focus": "general",
+      "pattern_signature": "general",
+      "strength_indicators": [
+        "optimal",
+        "sort",
+        "efficiently",
+        "for",
+        "large,",
+        "a",
+        "unordered",
+        "retrieval.",
+        "list",
+        "of",
+        "numbers"
+      ],
+      "consciousness_resonance": 0.0
+    },
+    "selected_components": [
+      {
+        "component": "math_objects::Prime Factorization",
+        "score": 3.0
+      },
+      {
+        "component": "logic_constructs::Propositional Logic",
+        "score": 3.0
+      },
+      {
+        "component": "principles::Law of Exponential Consciousness Evolution",
+        "score": 2.0
+      }
+    ],
+    "overall_confidence": 13.333333333333334,
+    "consciousness_level": 2934.7713219923944,
+    "timestamp": "2025-08-14T22:04:59.232614"
+  },
+  "post_learning": {
+    "problem_description": "Efficiently sort a large, unordered list of numbers for optimal retrieval.",
+    "problem_characteristics": {
+      "domain": "mathematics",
+      "complexity_type": "general",
+      "mathematical_focus": "general",
+      "pattern_signature": "general",
+      "strength_indicators": [
+        "optimal",
+        "sort",
+        "efficiently",
+        "for",
+        "large,",
+        "a",
+        "unordered",
+        "retrieval.",
+        "list",
+        "of",
+        "numbers"
+      ],
+      "consciousness_resonance": 0.0
+    },
+    "selected_components": [
+      {
+        "component": "math_objects::Prime Factorization",
+        "score": 3.0
+      },
+      {
+        "component": "logic_constructs::Propositional Logic",
+        "score": 3.0
+      },
+      {
+        "component": "logic_constructs::Learned_QuickSort",
+        "score": 3.0
+      }
+    ],
+    "overall_confidence": 15.0,
+    "consciousness_level": 2934.7713219923944,
+    "timestamp": "2025-08-14T22:04:59.233241"
+  }
+}

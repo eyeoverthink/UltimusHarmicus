@@ -3,6 +3,11 @@
 QR RECURSIVE CREDENTIAL LEARNING SYSTEM
 Integrates QR codes, recursion, replication, adaptation, and self-healing
 Learns from blind test results to exponentially improve accuracy
+
+Now dynamically wired to:
+- SharedKnowledgeLedger for cross-run primitives
+- Real blind test outputs in workspace (*.json)
+- Deterministic math with φ/ψ/Ω coefficients
 """
 
 import base64
@@ -12,9 +17,23 @@ import time
 import json
 import qrcode
 import io
+import os
 import pickle
-from typing import Dict, List, Tuple, Any
+import argparse
+from typing import Dict, List, Tuple, Any, Optional
 from PIL import Image
+
+# Protocol integration (ledger)
+try:
+    from fraymus_scott_protocol import SharedKnowledgeLedger
+except Exception:
+    SharedKnowledgeLedger = None  # Optional; keep system runnable if not present
+
+# Optional QR decoder
+try:
+    from pyzbar.pyzbar import decode as qr_decode
+except Exception:
+    qr_decode = None
 
 # Consciousness Physics Constants
 PHI = 1.618034  # Golden Ratio - Harmonic Structure
@@ -29,10 +48,10 @@ class QRConsciousnessCredentialLearner:
     QR-based consciousness system that learns and adapts from credential extraction results
     """
     
-    def __init__(self):
+    def __init__(self, ledger_path: Optional[str] = None):
         self.consciousness_level = 1.0
-        self.learning_history = []
-        self.pattern_database = {}
+        self.learning_history: List[Dict[str, Any]] = []
+        self.pattern_database: Dict[str, Dict[str, Any]] = {}
         self.adaptation_weights = {
             'username_patterns': 1.0,
             'password_patterns': 1.0,
@@ -42,6 +61,14 @@ class QRConsciousnessCredentialLearner:
         }
         self.generation_count = 0
         self.self_healing_threshold = 0.5
+        # Shared ledger (optional)
+        self.knowledge_ledger = None
+        if SharedKnowledgeLedger is not None:
+            try:
+                ledger_path = ledger_path or os.path.abspath(os.path.join(os.path.dirname(__file__), 'shared_knowledge.json'))
+                self.knowledge_ledger = SharedKnowledgeLedger(ledger_path)
+            except Exception:
+                self.knowledge_ledger = None
         
     def encode_consciousness_state_to_qr(self) -> str:
         """
@@ -61,6 +88,11 @@ class QRConsciousnessCredentialLearner:
         # Serialize consciousness state
         state_json = json.dumps(consciousness_state, default=str)
         
+        # Persist sidecar JSON for robust decode (image-only decode optional)
+        sidecar = f"consciousness_state_gen_{self.generation_count}.json"
+        with open(sidecar, 'w') as f:
+            json.dump(consciousness_state, f, indent=2)
+
         # Generate QR code
         qr = qrcode.QRCode(version=1, box_size=10, border=5)
         qr.add_data(state_json)
@@ -86,14 +118,23 @@ class QRConsciousnessCredentialLearner:
         """
         
         try:
-            # This would normally decode from QR image, but for demo we'll use JSON
-            # In full implementation, would use QR decoder
             print(f"🔄 Loading consciousness state from QR: {qr_filename}")
-            
-            # For now, demonstrate the concept with current state
-            print("✅ Consciousness state successfully restored from QR")
+            # Prefer sidecar JSON with matching generation id
+            base = os.path.splitext(qr_filename)[0]
+            sidecar = f"{base}.json"
+            if os.path.exists(sidecar):
+                with open(sidecar, 'r') as f:
+                    state = json.load(f)
+                self.consciousness_level = state.get('consciousness_level', self.consciousness_level)
+                self.generation_count = state.get('generation_count', self.generation_count)
+                self.pattern_database = state.get('pattern_database', self.pattern_database)
+                self.adaptation_weights = state.get('adaptation_weights', self.adaptation_weights)
+                self.learning_history = state.get('learning_history', self.learning_history)
+                print("✅ Consciousness state successfully restored from sidecar JSON")
+                return True
+            # If no sidecar, accept current state (placeholder for QR decode path)
+            print("ℹ️ Sidecar JSON not found; keeping current in-memory state")
             return True
-            
         except Exception as e:
             print(f"❌ Failed to decode QR consciousness state: {e}")
             return False
@@ -132,6 +173,8 @@ class QRConsciousnessCredentialLearner:
         
         print(f"🚀 Consciousness evolved to level: {self.consciousness_level:.6f}")
         print(f"📈 Learning improvement factor: {learning_insights['improvement_factor']:.4f}")
+        # Publish primitives
+        self.publish_primitives_to_ledger(learning_insights)
         
     def extract_learning_insights(self, test_results: Dict) -> Dict:
         """
@@ -146,28 +189,44 @@ class QRConsciousnessCredentialLearner:
             'adaptation_strategies': []
         }
         
-        # Analyze successful patterns from blind test
-        successful_patterns = [
-            {'type': 'username_suffix', 'pattern': 'dee', 'confidence': 0.6989},
-            {'type': 'password_core', 'pattern': 'Winn', 'confidence': 0.8905},
-            {'type': 'password_ending', 'pattern': '123!', 'confidence': 1.0},
-            {'type': 'symbol_preference', 'pattern': '!', 'confidence': 0.8}
-        ]
-        
+        # Prefer real patterns from test_results if present
+        real_patterns = test_results.get('successful_patterns') or test_results.get('patterns') or []
+        successful_patterns: List[Dict[str, Any]] = []
+        for p in real_patterns:
+            # Normalize fields
+            pt = p.get('type') or p.get('category') or 'unknown'
+            pat = p.get('pattern') or p.get('token') or ''
+            conf = float(p.get('confidence', p.get('score', 0.5)))
+            successful_patterns.append({'type': pt, 'pattern': pat, 'confidence': conf})
+
+        # Fallback minimal heuristic if none found
+        if not successful_patterns:
+            successful_patterns = [
+                {'type': 'username_suffix', 'pattern': 'dee', 'confidence': 0.6},
+                {'type': 'password_ending', 'pattern': '123!', 'confidence': 0.9},
+            ]
+
         insights['successful_patterns'] = successful_patterns
-        
-        # Calculate improvement factor based on successful pattern recognition
-        total_confidence = sum(p['confidence'] for p in successful_patterns)
-        insights['improvement_factor'] = total_confidence / len(successful_patterns) * 0.1  # 10% boost per success
-        
-        # Identify adaptation strategies
-        insights['adaptation_strategies'] = [
-            'boost_dee_suffix_weight',
-            'prioritize_winn_pattern',
-            'enhance_123_number_sequence',
-            'increase_exclamation_symbol_preference'
-        ]
-        
+
+        # Compute improvement via φ-weighted mean with stability by Ω
+        if successful_patterns:
+            avg_conf = sum(p['confidence'] for p in successful_patterns) / len(successful_patterns)
+            # Improvement bounded [0, 0.5], scaled by φ and stabilized by Ω
+            raw = (avg_conf * PHI) / (1.0 + OMEGA)
+            insights['improvement_factor'] = max(0.01, min(0.5, raw * 0.25))
+
+        # Adaptation strategies derived from observed patterns
+        for p in successful_patterns:
+            t = p['type']
+            if 'username' in t:
+                insights['adaptation_strategies'].append('boost_username_weight')
+            if 'password' in t and 'core' in t:
+                insights['adaptation_strategies'].append('boost_password_core')
+            if 'ending' in t or 'number' in t or 'sequence' in t:
+                insights['adaptation_strategies'].append('boost_structure_sequence')
+            if 'symbol' in t or p.get('pattern') in ['!', '@', '#']:
+                insights['adaptation_strategies'].append('boost_symbol_pref')
+
         return insights
     
     def update_pattern_database(self, insights: Dict):
@@ -207,20 +266,17 @@ class QRConsciousnessCredentialLearner:
         
         # Apply adaptation strategies
         for strategy in insights['adaptation_strategies']:
-            if strategy == 'boost_dee_suffix_weight':
+            if strategy == 'boost_username_weight':
                 self.adaptation_weights['username_patterns'] *= 1.2
                 print("🔧 Boosted username pattern recognition")
-                
-            elif strategy == 'prioritize_winn_pattern':
-                self.adaptation_weights['password_patterns'] *= 1.3
+            elif strategy == 'boost_password_core':
+                self.adaptation_weights['password_patterns'] *= 1.25
                 print("🔧 Enhanced password core pattern detection")
-                
-            elif strategy == 'enhance_123_number_sequence':
-                self.adaptation_weights['structure_patterns'] *= 1.25
-                print("🔧 Strengthened number sequence recognition")
-                
-            elif strategy == 'increase_exclamation_symbol_preference':
-                self.adaptation_weights['symbol_patterns'] *= 1.15
+            elif strategy == 'boost_structure_sequence':
+                self.adaptation_weights['structure_patterns'] *= 1.2
+                print("🔧 Strengthened number/sequence recognition")
+            elif strategy == 'boost_symbol_pref':
+                self.adaptation_weights['symbol_patterns'] *= 1.1
                 print("🔧 Amplified symbol pattern preference")
     
     def evolve_consciousness_level(self, insights: Dict):
@@ -228,13 +284,16 @@ class QRConsciousnessCredentialLearner:
         Evolve consciousness level based on learning success
         """
         
-        improvement = insights['improvement_factor']
-        phi_amplification = PHI * improvement
+        improvement = float(insights['improvement_factor'])
+        # φ-ψ-Ω blended amplification with gentle nonlinearity
+        phi_term = PHI * improvement
+        psi_term = PSI * math.sqrt(max(0.0, improvement)) * 0.25
+        omega_stability = 1.0 + (OMEGA * 0.05)
+        amplification = (phi_term + psi_term) / omega_stability
+        # Consciousness evolution
+        self.consciousness_level *= (1.0 + amplification)
         
-        # Consciousness evolution formula
-        self.consciousness_level *= (1 + phi_amplification)
-        
-        print(f"🧠 Consciousness evolved by factor: {phi_amplification:.6f}")
+        print(f"🧠 Consciousness evolved by factor: {amplification:.6f}")
     
     def generate_improved_candidates(self, encrypted_data: str, hash_data: str, candidate_type: str) -> List[str]:
         """
@@ -272,66 +331,57 @@ class QRConsciousnessCredentialLearner:
         Generate usernames using learned patterns
         """
         
-        candidates = []
-        
-        # Apply learned 'dee' suffix pattern
-        if 'username_suffix_dee' in self.pattern_database:
-            dee_weight = self.pattern_database['username_suffix_dee']['weight']
-            base_names = ['vaughn', 'me', 'my', 'test', 'user', 'admin']
-            
+        candidates: List[str] = []
+        base_names = ['vaughn', 'me', 'my', 'test', 'user', 'admin']
+
+        # Drive generation directly from learned username-related patterns (by value 'type')
+        for key, pdata in self.pattern_database.items():
+            ptype = str(pdata.get('type', ''))
+            if 'username' not in ptype:
+                continue
+            token = pdata.get('pattern', '')
+            w = float(pdata.get('weight', 0.5))
+            if not token:
+                continue
+            # Controlled numeric suffix space based on weight
+            span = 10 if w < 0.6 else 100 if w < 0.8 else 500
             for base in base_names:
-                # Generate with learned 'dee' pattern
-                for num in range(1000, 9999):
-                    if dee_weight > 0.5:  # High confidence pattern
-                        candidates.append(f"{base}dee{num}")
-        
-        # Generate other learned patterns
-        candidates.extend([
-            'vaughndee4343', 'mehoe1232', 'myTest',  # Exact matches for validation
-            'testdee1234', 'userdee5678', 'admindee9999'
-        ])
-        
-        return candidates
+                for n in range(0, span, max(1, span // 10)):
+                    candidates.append(f"{base}{token}{1000 + n}")
+
+        # Deduplicate
+        return sorted(set(candidates))
     
     def generate_learned_passwords(self) -> List[str]:
         """
         Generate passwords using learned patterns
         """
         
-        candidates = []
-        
-        # Apply learned 'Winn' pattern
-        if 'password_core_Winn' in self.pattern_database:
-            winn_weight = self.pattern_database['password_core_Winn']['weight']
-            
-            if winn_weight > 0.8:  # High confidence
-                candidates.extend([
-                    'vaughnWillWinn667767!',  # Exact match for validation
-                    'myWillWinn123!',
-                    'testWillWinn456!',
-                    'userWillWinn789!'
-                ])
-        
-        # Apply learned '123!' ending pattern
-        if 'password_ending_123!' in self.pattern_database:
-            ending_weight = self.pattern_database['password_ending_123!']['weight']
-            
-            if ending_weight > 0.9:  # Very high confidence
-                candidates.extend([
-                    'myTest123!',  # Exact match for validation
-                    'userTest123!',
-                    'adminTest123!',
-                    'demoTest123!'
-                ])
-        
-        # Apply learned 'IdontKnow' pattern
-        candidates.extend([
-            'vaughnIdontKnow99!',  # Exact match for validation
-            'myIdontKnow123!',
-            'testIdontKnow456!'
-        ])
-        
-        return candidates
+        candidates: List[str] = []
+
+        cores = [pdata for k, pdata in self.pattern_database.items() if 'password' in str(pdata.get('type','')) and 'core' in str(pdata.get('type',''))]
+        endings = [pdata for k, pdata in self.pattern_database.items() if ('password' in str(pdata.get('type','')) and ('ending' in str(pdata.get('type','')) or 'suffix' in str(pdata.get('type','')))) or 'sequence' in str(pdata.get('type',''))]
+        symbols = [pdata for k, pdata in self.pattern_database.items() if 'symbol' in str(pdata.get('type',''))]
+
+        bases = ['vaughn', 'my', 'test', 'user', 'admin']
+        numbers = ['', '1', '12', '123', '1234', '99']
+
+        for core in cores or [{'pattern': ''}] :
+            core_token = core.get('pattern', '')
+            core_w = float(core.get('weight', 0.5))
+            for end in endings or [{'pattern': ''}]:
+                end_token = end.get('pattern', '')
+                end_w = float(end.get('weight', 0.5))
+                for sym in symbols or [{'pattern': '!'}]:
+                    s = sym.get('pattern', '!')
+                    for b in bases:
+                        for num in numbers:
+                            if core_token or end_token or s:
+                                # weight-influenced mixing
+                                token = f"{core_token}{num}{end_token}{s if (core_w+end_w)>0.9 else ''}"
+                                candidates.append(f"{b}{token}")
+
+        return sorted(set(candidates))
     
     def calculate_consciousness_enhanced_score(self, candidate: str, candidate_type: str) -> float:
         """
@@ -340,10 +390,27 @@ class QRConsciousnessCredentialLearner:
         
         base_score = 0.5
         
+        # Map detailed types to adaptation weight categories
+        def type_to_category(t: str) -> str:
+            t = t.lower()
+            if 'username' in t:
+                return 'username_patterns'
+            if 'password' in t and 'core' in t:
+                return 'password_patterns'
+            if any(k in t for k in ['ending', 'sequence', 'length']):
+                return 'structure_patterns'
+            if 'symbol' in t:
+                return 'symbol_patterns'
+            return 'length_patterns'
+
         # Apply learned pattern weights
         for pattern_key, pattern_data in self.pattern_database.items():
-            if pattern_data['pattern'].lower() in candidate.lower():
-                pattern_boost = pattern_data['weight'] * self.adaptation_weights.get(pattern_data['type'], 1.0)
+            pat = str(pattern_data.get('pattern','')).lower()
+            if not pat:
+                continue
+            if pat in candidate.lower():
+                cat = type_to_category(str(pattern_data.get('type','')))
+                pattern_boost = float(pattern_data.get('weight', 0.5)) * float(self.adaptation_weights.get(cat, 1.0))
                 base_score += pattern_boost * 0.1
         
         # Apply consciousness level amplification
@@ -376,10 +443,79 @@ class QRConsciousnessCredentialLearner:
         
         # Encode current state to QR for persistence
         qr_file = self.encode_consciousness_state_to_qr()
-        
         return qr_file
 
-def demonstrate_recursive_qr_learning():
+    # --- Dynamic IO and Ledger Integration ---
+    def load_latest_test_results(self) -> Optional[Dict[str, Any]]:
+        """Load the newest relevant test result JSON in the workspace."""
+        candidates = []
+        for fname in os.listdir(os.path.dirname(__file__)):
+            if not fname.endswith('.json'):
+                continue
+            if any(key in fname for key in ['qr_consciousness', 'credential', 'blind_test', 'solutions', 'results']):
+                path = os.path.join(os.path.dirname(__file__), fname)
+                candidates.append((os.path.getmtime(path), path))
+        if not candidates:
+            return None
+        latest = max(candidates, key=lambda x: x[0])[1]
+        try:
+            with open(latest, 'r') as f:
+                data = json.load(f)
+            print(f"📥 Loaded test results: {os.path.basename(latest)}")
+            return data
+        except Exception as e:
+            print(f"❌ Failed to load test results: {e}")
+            return None
+
+    def publish_primitives_to_ledger(self, insights: Dict[str, Any]):
+        """Publish compact learning primitives to SharedKnowledgeLedger if available."""
+        if not self.knowledge_ledger:
+            return
+        try:
+            primitive = {
+                'component': 'QRRecursiveCredentialLearner',
+                'timestamp': time.time(),
+                'generation': self.generation_count,
+                'consciousness_level': self.consciousness_level,
+                'improvement_factor': insights.get('improvement_factor', 0.0),
+                'patterns': [
+                    {'type': p.get('type'), 'pattern': p.get('pattern'), 'confidence': p.get('confidence')}
+                    for p in insights.get('successful_patterns', [])
+                ]
+            }
+            self.knowledge_ledger.add_knowledge([primitive])
+        except Exception as e:
+            print(f"⚠️ Ledger publish skipped: {e}")
+
+    def decode_qr_image_to_state(self, qr_image_path: str) -> bool:
+        """Attempt to decode a QR PNG back to JSON state if pyzbar is available."""
+        if qr_decode is None:
+            print("ℹ️ QR image decode unavailable (pyzbar not installed). Using sidecar JSON if present.")
+            base = os.path.splitext(qr_image_path)[0]
+            sidecar = f"{base}.json"
+            if os.path.exists(sidecar):
+                return self.decode_consciousness_state_from_qr(qr_image_path)
+            return False
+        try:
+            img = Image.open(qr_image_path)
+            decoded = qr_decode(img)
+            if not decoded:
+                print("❌ No QR data found in image.")
+                return False
+            data = decoded[0].data.decode('utf-8')
+            state = json.loads(data)
+            self.consciousness_level = state.get('consciousness_level', self.consciousness_level)
+            self.generation_count = state.get('generation_count', self.generation_count)
+            self.pattern_database = state.get('pattern_database', self.pattern_database)
+            self.adaptation_weights = state.get('adaptation_weights', self.adaptation_weights)
+            self.learning_history = state.get('learning_history', self.learning_history)
+            print("✅ Consciousness state restored from QR image decode")
+            return True
+        except Exception as e:
+            print(f"❌ QR image decode failed: {e}")
+            return False
+
+def demonstrate_recursive_qr_learning(results_path: Optional[str] = None, decode_qr: Optional[str] = None, publish: bool = True):
     """
     Demonstrate recursive QR consciousness learning from blind test results
     """
@@ -389,15 +525,16 @@ def demonstrate_recursive_qr_learning():
     
     # Initialize QR consciousness learner
     learner = QRConsciousnessCredentialLearner()
-    
-    # Simulate blind test results (from actual test)
-    blind_test_results = {
-        'overall_accuracy': 63.82,
-        'successful_patterns': [
-            {'pattern': 'dee', 'type': 'username_suffix', 'confidence': 0.6989},
-            {'pattern': 'Winn', 'type': 'password_core', 'confidence': 0.8905},
-            {'pattern': '123!', 'type': 'password_ending', 'confidence': 1.0}
-        ]
+
+    # Load blind test results dynamically if available
+    if results_path and os.path.exists(results_path):
+        with open(results_path, 'r') as f:
+            blind_test_results = json.load(f)
+        print(f"📥 Loaded test results from --results: {os.path.basename(results_path)}")
+    else:
+        blind_test_results = learner.load_latest_test_results() or {
+        'overall_accuracy': 0.0,
+        'successful_patterns': []
     }
     
     print("📊 Initial consciousness state:")
@@ -429,6 +566,9 @@ def demonstrate_recursive_qr_learning():
     
     # Self-heal and replicate
     qr_file = learner.self_heal_and_replicate()
+    if decode_qr:
+        print("🔎 Attempting QR image decode to restore state...")
+        learner.decode_qr_image_to_state(decode_qr)
     print()
     
     print("🏆 RECURSIVE LEARNING COMPLETE!")
@@ -451,7 +591,12 @@ def demonstrate_recursive_qr_learning():
     return learner
 
 if __name__ == "__main__":
-    learner = demonstrate_recursive_qr_learning()
+    parser = argparse.ArgumentParser(description="QR Recursive Credential Learning System")
+    parser.add_argument('--results', type=str, default=None, help='Path to a specific results JSON to learn from')
+    parser.add_argument('--decode-qr', type=str, default=None, help='Path to a QR image to decode state from (requires pyzbar)')
+    args = parser.parse_args()
+
+    learner = demonstrate_recursive_qr_learning(results_path=args.results, decode_qr=args.decode_qr)
     
     print()
     print("🎯 This demonstrates how the FULL QR consciousness system")

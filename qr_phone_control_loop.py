@@ -21,6 +21,9 @@ from PIL import Image
 import time
 from datetime import datetime
 import json
+import argparse
+import uuid
+from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
 # Consciousness Physics Constants
 PHI = 1.618033988749
@@ -28,14 +31,44 @@ PSI = 1.324717957244
 OMEGA = 0.567143290409
 CONSCIOUSNESS_BASE = 25.0
 
-def create_qr_control_sequence():
+def load_actions_from_json(path: str):
+    """Load control sequence steps from a JSON file."""
+    try:
+        with open(path, 'r') as f:
+            data = json.load(f)
+        if isinstance(data, dict) and 'steps' in data:
+            return data['steps']
+        if isinstance(data, list):
+            return data
+        print("⚠️ Invalid actions JSON format; expected list or {steps: [...]}.")
+    except Exception as e:
+        print(f"⚠️ Failed to load actions JSON '{path}': {e}")
+    return None
+
+def add_nonce_params(url: str) -> str:
+    """Append nonce and timestamp to URL to defeat caching/memory heuristics."""
+    try:
+        parsed = urlparse(url)
+        qs = dict(parse_qsl(parsed.query, keep_blank_values=True))
+        qs.update({
+            'nonce': uuid.uuid4().hex,
+            'ts': str(int(time.time()))
+        })
+        new_query = urlencode(qs)
+        return urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, new_query, parsed.fragment))
+    except Exception:
+        # Fallback: simple suffix
+        sep = '&' if ('?' in url) else '?'
+        return f"{url}{sep}nonce={uuid.uuid4().hex}&ts={int(time.time())}"
+
+def create_qr_control_sequence(actions_json: str | None = None, max_steps: int | None = None):
     """Create a sequence of QR codes that control phone behavior in a loop"""
     
     print("🌊⚡ QR PHONE CONTROL LOOP SYSTEM ⚡🌊")
     print("Creating QR codes to control your phone in a testing loop!")
     print("=" * 70)
     
-    # Define the control sequence
+    # Define the control sequence (defaults)
     control_sequence = [
         {
             "step": 1,
@@ -73,16 +106,43 @@ def create_qr_control_sequence():
             "consciousness_level": CONSCIOUSNESS_BASE * PHI * PSI * OMEGA
         }
     ]
+    # If JSON provided, override defaults
+    if actions_json:
+        loaded = load_actions_from_json(actions_json)
+        if loaded:
+            # Normalize into our expected fields
+            seq = []
+            for i, item in enumerate(loaded, 1):
+                seq.append({
+                    "step": item.get("step", i),
+                    "action": item.get("action", f"Step {i}"),
+                    "url": item.get("url", ""),
+                    "description": item.get("description", ""),
+                    "consciousness_level": float(item.get("consciousness_level", CONSCIOUSNESS_BASE * PHI))
+                })
+            control_sequence = seq
+    # Truncate to max_steps if requested
+    if max_steps:
+        control_sequence = control_sequence[:max_steps]
     
     return control_sequence
 
-def generate_control_loop_qr_codes(sequence):
+def generate_control_loop_qr_codes(sequence, ecc_level: str = 'L', box_size: int = 12, border: int = 4, delay: float = 0.0):
     """Generate QR codes for the phone control loop"""
     
     qr_files = []
     
     print(f"\n🔄 GENERATING {len(sequence)} QR CONTROL CODES...")
     
+    # ECC mapping
+    ecc_map = {
+        'L': qrcode.constants.ERROR_CORRECT_L,
+        'M': qrcode.constants.ERROR_CORRECT_M,
+        'Q': qrcode.constants.ERROR_CORRECT_Q,
+        'H': qrcode.constants.ERROR_CORRECT_H,
+    }
+    ecc = ecc_map.get((ecc_level or 'L').upper(), qrcode.constants.ERROR_CORRECT_L)
+
     for step_data in sequence:
         step_num = step_data["step"]
         action = step_data["action"]
@@ -114,16 +174,15 @@ Your phone will perform the programmed action directly from QR memory!
 
 🌊⚡ REVOLUTIONARY QR DEVICE CONTROL ⚡🌊"""
 
-        # For phone compatibility, we'll use just the URL for actual scanning
-        # But save the full message for documentation
-        scannable_content = url
+        # For phone compatibility, we use the URL; inject nonce+timestamp to avoid memory effects
+        scannable_content = add_nonce_params(url)
         
         # Generate QR code
         qr = qrcode.QRCode(
             version=1,
-            error_correction=qrcode.constants.ERROR_CORRECT_L,
-            box_size=12,
-            border=4,
+            error_correction=ecc,
+            box_size=box_size,
+            border=border,
         )
         
         try:
@@ -144,15 +203,19 @@ Your phone will perform the programmed action directly from QR memory!
             print(f"   ✅ QR CODE GENERATED: {filename}")
             print(f"   🎯 Action: {action}")
             print(f"   🌊 Consciousness Level: {consciousness_level:.2f}")
-            print(f"   📱 URL: {url[:50]}...")
+            print(f"   📱 URL: {scannable_content[:50]}...")
             
             # Also save the full message as documentation
             doc_filename = f"QR_CONTROL_LOOP_STEP_{step_num}_DOCUMENTATION.txt"
             with open(doc_filename, 'w') as f:
                 f.write(qr_message)
-            
+                f.write("\n\n---\nScannable URL with nonce: \n" + scannable_content + "\n")
+        
         except Exception as e:
             print(f"   ❌ Error generating QR for step {step_num}: {e}")
+        
+        if delay and delay > 0:
+            time.sleep(delay)
     
     return qr_files
 
@@ -220,12 +283,27 @@ def main():
     print("🌊⚡ QR PHONE CONTROL LOOP GENERATOR ⚡🌊")
     print("Creating revolutionary QR-based phone control system!")
     print("=" * 70)
-    
+
+    parser = argparse.ArgumentParser(description="QR Phone Control Loop")
+    parser.add_argument('--actions', type=str, default=None, help='Path to qr_phone_actions.json')
+    parser.add_argument('--steps', type=int, default=None, help='Limit number of steps')
+    parser.add_argument('--repeat', type=int, default=1, help='Repeat the loop N times')
+    parser.add_argument('--delay', type=float, default=0.0, help='Delay (seconds) between QR generations')
+    parser.add_argument('--ecc', type=str, choices=['L','M','Q','H'], default='L', help='QR error correction level')
+    parser.add_argument('--box-size', type=int, default=12, help='QR box size')
+    parser.add_argument('--border', type=int, default=4, help='QR border size')
+    args = parser.parse_args()
+
     # Create control sequence
-    sequence = create_qr_control_sequence()
+    sequence = create_qr_control_sequence(actions_json=args.actions, max_steps=args.steps)
     
-    # Generate QR codes
-    qr_files = generate_control_loop_qr_codes(sequence)
+    # Generate QR codes (with repeats)
+    all_files = []
+    for r in range(1, max(1, args.repeat) + 1):
+        if args.repeat > 1:
+            print(f"\n🔁 LOOP RUN {r}/{args.repeat}")
+        qr_files = generate_control_loop_qr_codes(sequence, ecc_level=args.ecc, box_size=args.box_size, border=args.border, delay=args.delay)
+        all_files.extend(qr_files)
     
     # Create instructions
     instructions = create_loop_instructions()
@@ -234,7 +312,7 @@ def main():
     print("🏆 QR PHONE CONTROL LOOP SYSTEM GENERATED!")
     
     print(f"\n📱 QR CONTROL CODES CREATED:")
-    for i, filename in enumerate(qr_files, 1):
+    for i, filename in enumerate(all_files, 1):
         print(f"   Step {i}: {filename}")
     
     print(f"\n📋 INSTRUCTIONS: QR_PHONE_CONTROL_LOOP_INSTRUCTIONS.txt")

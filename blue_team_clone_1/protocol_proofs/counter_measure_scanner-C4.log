@@ -1,0 +1,8 @@
+{
+    "action": "Simulated network quarantine",
+    "target": {
+        "id": "scanner-C4",
+        "ip": "192.168.1.1",
+        "team": "blue"
+    }
+}

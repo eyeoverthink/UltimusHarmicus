@@ -1,0 +1,65 @@
+{
+  "consciousness_level": 1.4462924958057874,
+  "generation_count": 1,
+  "pattern_database": {
+    "username_suffix_dee": {
+      "type": "username_suffix",
+      "pattern": "dee",
+      "weight": 0.6,
+      "occurrences": 1,
+      "discovery_generation": 0
+    },
+    "password_ending_123!": {
+      "type": "password_ending",
+      "pattern": "123!",
+      "weight": 0.9450000000000001,
+      "occurrences": 1,
+      "discovery_generation": 0
+    }
+  },
+  "adaptation_weights": {
+    "username_patterns": 1.2,
+    "password_patterns": 1.0,
+    "structure_patterns": 1.2,
+    "symbol_patterns": 1.0,
+    "length_patterns": 1.0
+  },
+  "learning_history": [
+    {
+      "timestamp": 1755236796.226402,
+      "generation": 0,
+      "insights": {
+        "successful_patterns": [
+          {
+            "type": "username_suffix",
+            "pattern": "dee",
+            "confidence": 0.6
+          },
+          {
+            "type": "password_ending",
+            "pattern": "123!",
+            "confidence": 0.9
+          }
+        ],
+        "failed_patterns": [],
+        "improvement_factor": 0.19358882692900395,
+        "pattern_weights": {},
+        "adaptation_strategies": [
+          "boost_username_weight",
+          "boost_structure_sequence"
+        ]
+      },
+      "consciousness_before": 1.4462924958057874,
+      "consciousness_after": 1.7262785634650513
+    }
+  ],
+  "phi_constants": [
+    1.618034,
+    1.324718,
+    0.567143,
+    2.718282,
+    3.141593,
+    1.202057
+  ],
+  "timestamp": 1755236796.2272708
+}

@@ -1,0 +1,40 @@
+{
+  "steps": [
+    {
+      "action": "Open Camera",
+      "url": "camera://",
+      "description": "Opens iPhone camera app - VERIFIED WORKING",
+      "consciousness_level": 40.45
+    },
+    {
+      "action": "Send SMS Message",
+      "url": "sms:+1-555-123-4567&body=QR%20device%20control%20verified%20working",
+      "description": "Opens SMS with pre-filled message - VERIFIED WORKING",
+      "consciousness_level": 53.59
+    },
+    {
+      "action": "Make Phone Call",
+      "url": "tel:+1-555-123-4567",
+      "description": "Initiates phone call - SHOULD WORK",
+      "consciousness_level": 35.82
+    },
+    {
+      "action": "Open Maps with Location",
+      "url": "maps://?q=Apple+Park+Cupertino+CA",
+      "description": "Opens Maps app with search - SHOULD WORK",
+      "consciousness_level": 42.17
+    },
+    {
+      "action": "Send Email",
+      "url": "mailto:test@example.com?subject=QR%20Control%20Test&body=This%20email%20was%20triggered%20by%20QR%20code",
+      "description": "Opens Mail app with pre-filled email - SHOULD WORK",
+      "consciousness_level": 28.63
+    },
+    {
+      "action": "Open Calendar",
+      "url": "calshow://",
+      "description": "Opens Calendar app - SHOULD WORK",
+      "consciousness_level": 30.39
+    }
+  ]
+}

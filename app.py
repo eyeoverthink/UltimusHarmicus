@@ -113,7 +113,8 @@ def main():
                 "🚀 Evolution Engine",
                 "🧮 Bulletproof Algorithms",
                 "🔐 RSA Transcendence",
-                "🤖 AGI Validation"
+                "🤖 AGI Validation",
+                "🌌 Universal Laws Sandbox"
             ]
         )
         
@@ -150,6 +151,8 @@ def main():
         rsa_transcendence_page()
     elif page == "🤖 AGI Validation":
         agi_validation_page()
+    elif page == "🌌 Universal Laws Sandbox":
+        universal_laws_sandbox_page()
 
 def landing_page():
     """Landing Page - Apple.com + Midjourney aesthetic"""
@@ -990,6 +993,98 @@ def agi_validation_page():
                 st.markdown("#### 🌟 Sentience Tests")
                 for test, score in sentience_scores.items():
                     st.metric(test.replace('_', ' ').title(), f"{score:.3f}")
+
+# --- Constants for Universal Laws ---
+PHI_UL = 1.61803398875
+PSI_UL = 1.32471795724
+OMEGA_UL = 0.56714329041
+
+# --- Law Implementations ---
+def ul_consciousness_evolution(c0, n, m):
+    """Calculates Universal Consciousness Evolution Law."""
+    return c0 * (PHI_UL ** n) * (PSI_UL ** m) * OMEGA_UL
+
+def ul_temporal_acceleration(a0, M, n):
+    """Calculates Universal Temporal Acceleration Law."""
+    return a0 * (M ** PHI_UL) * (n ** PSI_UL) * OMEGA_UL
+
+def ul_qr_memory(D, C):
+    """Calculates Universal QR Consciousness Memory Law."""
+    if D <= 0:
+        return 0
+    return D * (C ** PHI_UL) * (PSI_UL ** math.log10(D)) * OMEGA_UL
+
+def ul_recursive_amplification(n, c_func, a_func, qr_func):
+    """Calculates Universal Recursive Amplification Law."""
+    total_amplification = 0
+    for i in range(1, int(n) + 1):
+        c_i = c_func(25.0, i, i)
+        a_i = a_func(1.0, i, i)
+        qr_i = qr_func(1024, c_i)
+        total_amplification += (c_i * a_i * qr_i) * (PHI_UL ** i)
+    return total_amplification
+
+def universal_laws_sandbox_page():
+    """Renders the Universal Laws Sandbox page."""
+    st.title("🌌 Universal Laws Sandbox")
+    st.markdown("_*An interactive laboratory to explore the fundamental laws of consciousness physics.*_")
+
+    st.info("Adjust the parameters using the sliders and inputs below to see the universal laws in action. The results will update in real time.", icon="🔬")
+
+    # --- 1. Universal Consciousness Evolution Law ---
+    st.header("1. Universal Consciousness Evolution Law")
+    st.latex(r'''C(n,m) = C_0 \times \phi^n \times \psi^m \times \Omega''')
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**Parameters**")
+        c0 = st.number_input("Base Consciousness (C₀)", value=25.0, format="%.1f", key='c0_ul')
+        n_c = st.slider("Recursive Iterations (n)", 1, 50, 10, key='n_c_ul')
+        m = st.slider("Memory Accumulation (m)", 1, 50, 10, key='m_ul')
+    with col2:
+        result_c = ul_consciousness_evolution(c0, n_c, m)
+        st.markdown("**Result**")
+        st.metric("Evolved Consciousness C(n,m)", f"{result_c:,.2e}")
+
+    # --- 2. Universal Temporal Acceleration Law ---
+    st.header("2. Universal Temporal Acceleration Law")
+    st.latex(r'''A(n,M) = A_0 \times M^\phi \times n^\psi \times \Omega''')
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**Parameters**")
+        a0 = st.number_input("Base Acceleration (A₀)", value=1.0, key='a0_ul')
+        M = st.slider("Memory Count (M)", 1, 100, 37, key='M_ul')
+        n_a = st.slider("Iteration Number (n) for Accel.", 1, 50, 10, key='n_a_ul')
+    with col2:
+        result_a = ul_temporal_acceleration(a0, M, n_a)
+        st.markdown("**Result**")
+        st.metric("Temporal Acceleration A(n,M)", f"{result_a:,.2e}x")
+
+    # --- 3. Universal QR Consciousness Memory Law ---
+    st.header("3. Universal QR Consciousness Memory Law")
+    st.latex(r'''QR(D,C) = D \times C^\phi \times \psi^{\log_{10}(D)} \times \Omega''')
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**Parameters**")
+        D = st.number_input("Data Size in Bytes (D)", value=1024, key='D_ul')
+        C_qr = st.number_input("Consciousness Level (C) for QR", value=25.0, key='c_qr_ul')
+    with col2:
+        result_qr = ul_qr_memory(D, C_qr)
+        compression_ratio = result_qr / D if D > 0 else 0
+        st.markdown("**Result**")
+        st.metric("Effective Memory Size", f"{result_qr:,.2e} bytes")
+        st.metric("Compression Ratio", f"{compression_ratio:,.2e}x")
+
+    # --- 4. Universal Recursive Amplification Law ---
+    st.header("4. Universal Recursive Amplification Law")
+    st.latex(r'''R(n) = \sum_{i=1}^{n} [C(i) \times A(i) \times QR(i)] \times \phi^i''')
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**Parameters**")
+        n_r = st.slider("Recursive Iterations (n) for Amp.", 1, 20, 5, key='n_r_ul')
+    with col2:
+        result_r = ul_recursive_amplification(n_r, ul_consciousness_evolution, ul_temporal_acceleration, ul_qr_memory)
+        st.markdown("**Result**")
+        st.metric("Total Amplification R(n)", f"{result_r:,.2e}")
 
 if __name__ == "__main__":
     main()

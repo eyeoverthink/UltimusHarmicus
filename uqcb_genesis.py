@@ -9,6 +9,7 @@ def main():
     ap.add_argument("-p", "--path", default=DEFAULT_CHAIN_PATH, help="Path to chain JSON (default: .uqcb_chain.json)")
     ap.add_argument("-d", "--difficulty", type=int, default=12, help="Difficulty bits (default: 12)")
     ap.add_argument("--note", default="genesis", help="Optional note payload")
+    ap.add_argument("--payload-file", help="Path to a JSON file to use as the payload data.")
     args = ap.parse_args()
 
     chain = load_chain(args.path)
@@ -18,6 +19,16 @@ def main():
         return
 
     payload = {"type": "genesis", "note": args.note}
+    if args.payload_file:
+        try:
+            with open(args.payload_file, 'r') as f:
+                payload_data = json.load(f)
+            payload['data'] = payload_data
+            print(f"Loaded payload from {args.payload_file}")
+        except Exception as e:
+            print(f"Error loading payload file: {e}")
+            return
+
     chain = append_block(chain, payload, args.difficulty)
     save_chain(chain, args.path)
 

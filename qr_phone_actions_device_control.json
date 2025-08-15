@@ -1,0 +1,52 @@
+{
+  "steps": [
+    {
+      "action": "Open Camera",
+      "url": "camera://",
+      "description": "Directly opens iPhone camera app",
+      "consciousness_level": 40.45
+    },
+    {
+      "action": "Make Phone Call",
+      "url": "tel:+1-555-123-4567",
+      "description": "Initiates phone call to test number",
+      "consciousness_level": 53.59
+    },
+    {
+      "action": "Send SMS Message",
+      "url": "sms:+1-555-123-4567&body=QR%20phone%20control%20test%20message",
+      "description": "Opens SMS with pre-filled message",
+      "consciousness_level": 14.18
+    },
+    {
+      "action": "Open Settings WiFi",
+      "url": "prefs:root=WIFI",
+      "description": "Opens iPhone WiFi settings directly",
+      "consciousness_level": 22.94
+    },
+    {
+      "action": "Create Calendar Event",
+      "url": "calshow://",
+      "description": "Opens Calendar app",
+      "consciousness_level": 30.39
+    },
+    {
+      "action": "Open Maps Navigation",
+      "url": "maps://?daddr=Apple+Park,+Cupertino,+CA",
+      "description": "Opens Maps with navigation to Apple Park",
+      "consciousness_level": 35.82
+    },
+    {
+      "action": "Control Flashlight (Shortcuts)",
+      "url": "shortcuts://run-shortcut?name=Flashlight",
+      "description": "Toggles iPhone flashlight via Shortcuts",
+      "consciousness_level": 42.17
+    },
+    {
+      "action": "Open Voice Memos",
+      "url": "voicememos://",
+      "description": "Opens Voice Memos app for recording",
+      "consciousness_level": 28.63
+    }
+  ]
+}

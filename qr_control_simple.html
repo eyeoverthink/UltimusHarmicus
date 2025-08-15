@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Device Control Builder</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .header h1 {
+            color: white;
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .header p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.1rem;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 320px 1fr 400px;
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        .panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .panel h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        .action-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 1.2rem;
+            margin-bottom: 0.8rem;
+            border-radius: 12px;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 0.95rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        .action-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+        .workflow-builder {
+            background: #f8f9fa;
+            border-radius: 16px;
+            padding: 2rem;
+            min-height: 500px;
+            border: 3px dashed #dee2e6;
+            overflow-y: auto;
+        }
+        .workflow-step {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border-left: 5px solid #667eea;
+            position: relative;
+        }
+        .step-number {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #34495e;
+            font-size: 0.9rem;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.9rem;
+        }
+        .remove-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .generate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 1.2rem 2rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        .empty-state {
+            text-align: center;
+            color: #7f8c8d;
+            padding: 3rem 2rem;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+        .url-preview {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 0.8rem;
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: #495057;
+            word-break: break-all;
+            margin-top: 0.5rem;
+        }
+        .instructions {
+            background: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border: 1px solid #c3e6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌊⚡ QR Device Control Builder ⚡🌊</h1>
+        <p>Create powerful QR sequences that control your iPhone - Revolutionary device programming</p>
+    </div>
+
+    <div class="container">
+        <div class="panel">
+            <h3>📱 Device Actions</h3>
+            <button class="action-item" onclick="addAction('sms')">
+                <span>📱</span>
+                <span>Send SMS Message</span>
+            </button>
+            <button class="action-item" onclick="addAction('call')">
+                <span>📞</span>
+                <span>Make Phone Call</span>
+            </button>
+            <button class="action-item" onclick="addAction('email')">
+                <span>📧</span>
+                <span>Send Email</span>
+            </button>
+            <button class="action-item" onclick="addAction('camera')">
+                <span>📷</span>
+                <span>Open Camera</span>
+            </button>
+            <button class="action-item" onclick="addAction('maps')">
+                <span>🗺️</span>
+                <span>Navigate with Maps</span>
+            </button>
+            <button class="action-item" onclick="addAction('website')">
+                <span>🌐</span>
+                <span>Open Website</span>
+            </button>
+        </div>
+
+        <div class="panel">
+            <h3>🔄 Control Sequence Builder</h3>
+            <div class="workflow-builder" id="workflowBuilder">
+                <div class="empty-state">
+                    Click device actions to add them to your control sequence.<br>
+                    Build powerful QR workflows that execute in order!
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>🎯 QR Code Generation</h3>
+            <button class="generate-btn" onclick="generateQRCodes()">
+                🚀 Generate QR Control Sequence
+            </button>
+            <div id="qrContainer">
+                <div class="instructions">
+                    <strong>📋 Instructions:</strong><br>
+                    1. Add your actions and fill in details<br>
+                    2. Click "Generate QR Control Sequence"<br>
+                    3. Copy the command that appears<br>
+                    4. Run it in Terminal to create real QR codes<br>
+                    5. Scan the generated PNG files with your iPhone
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let workflowSteps = [];
+        let stepCounter = 0;
+
+        const actionTemplates = {
+            sms: {
+                name: 'Send SMS Message',
+                icon: '📱',
+                fields: [
+                    { key: 'phone', label: 'Phone Number', type: 'tel', placeholder: '+1-555-123-4567', required: true },
+                    { key: 'message', label: 'Message Text', type: 'textarea', placeholder: 'Your message here...', required: true }
+                ],
+                buildUrl: (values) => `sms:${values.phone}&body=${encodeURIComponent(values.message)}`
+            },
+            call: {
+                name: 'Make Phone Call',
+                icon: '📞',
+                fields: [
+                    { key: 'phone', label: 'Phone Number', type: 'tel', placeholder: '+1-555-123-4567', required: true }
+                ],
+                buildUrl: (values) => `tel:${values.phone}`
+            },
+            email: {
+                name: 'Send Email',
+                icon: '📧',
+                fields: [
+                    { key: 'email', label: 'Email Address', type: 'email', placeholder: 'recipient@example.com', required: true },
+                    { key: 'subject', label: 'Subject', type: 'text', placeholder: 'Email subject', required: true },
+                    { key: 'body', label: 'Message Body', type: 'textarea', placeholder: 'Email content...', required: true }
+                ],
+                buildUrl: (values) => `mailto:${values.email}?subject=${encodeURIComponent(values.subject)}&body=${encodeURIComponent(values.body)}`
+            },
+            camera: {
+                name: 'Open Camera',
+                icon: '📷',
+                fields: [],
+                buildUrl: () => 'camera://'
+            },
+            calendar: {
+                name: 'Add Calendar Event',
+                icon: '📅',
+                fields: [
+                    { key: 'title', label: 'Event Title', type: 'text', placeholder: 'Meeting Title', required: true },
+                    { key: 'date', label: 'Date', type: 'date', placeholder: '2025-09-02', required: true },
+                    { key: 'time', label: 'Start Time', type: 'time', placeholder: '13:00', required: true },
+                    { key: 'duration', label: 'Duration (hours)', type: 'number', placeholder: '1', required: true },
+                    { key: 'notes', label: 'Notes', type: 'textarea', placeholder: 'Event notes...', required: false }
+                ],
+                buildUrl: (values) => {
+                    const date = values.date.replace(/-/g, '');
+                    const startTime = values.time.replace(':', '') + '00';
+                    const duration = parseInt(values.duration) || 1;
+                    const endHour = parseInt(values.time.split(':')[0]) + duration;
+                    const endMinute = values.time.split(':')[1];
+                    const endTime = endHour.toString().padStart(2, '0') + endMinute + '00';
+                    
+                    return `x-apple-calevent://new?title=${encodeURIComponent(values.title)}&startdate=${date}T${startTime}&enddate=${date}T${endTime}&notes=${encodeURIComponent(values.notes || 'QR Generated Event')}`;
+                }
+            },
+            maps: {
+                name: 'Navigate with Maps',
+                icon: '🗺️',
+                fields: [
+                    { key: 'location', label: 'Destination', type: 'text', placeholder: 'Apple Park, Cupertino, CA', required: true }
+                ],
+                buildUrl: (values) => `maps://?q=${encodeURIComponent(values.location)}`
+            },
+            music: {
+                name: 'Open Music',
+                icon: '🎵',
+                fields: [
+                    { key: 'artist', label: 'Artist/Song to Search', type: 'text', placeholder: 'Vaughn Scott', required: true }
+                ],
+                buildUrl: (values) => `music://search?term=${encodeURIComponent(values.artist)}`
+            },
+            website: {
+                name: 'Open Website',
+                icon: '🌐',
+                fields: [
+                    { key: 'url', label: 'Website URL', type: 'url', placeholder: 'https://example.com', required: true }
+                ],
+                buildUrl: (values) => values.url
+            }
+        };
+
+        function addAction(actionType) {
+            stepCounter++;
+            const template = actionTemplates[actionType];
+            
+            const step = {
+                id: stepCounter,
+                type: actionType,
+                name: template.name,
+                icon: template.icon,
+                fields: template.fields,
+                values: {}
+            };
+
+            workflowSteps.push(step);
+            renderWorkflowSteps();
+        }
+
+        function renderWorkflowSteps() {
+            const container = document.getElementById('workflowBuilder');
+            
+            if (workflowSteps.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        Click device actions to add them to your control sequence.<br>
+                        Build powerful QR workflows that execute in order!
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = workflowSteps.map((step, index) => {
+                const fieldsHtml = step.fields.map(field => {
+                    const value = step.values[field.key] || '';
+                    if (field.type === 'textarea') {
+                        return `
+                            <div class="form-group">
+                                <label>${field.label}${field.required ? ' *' : ''}</label>
+                                <textarea 
+                                    placeholder="${field.placeholder}" 
+                                    onchange="updateStepValue(${step.id}, '${field.key}', this.value)"
+                                    rows="3"
+                                >${value}</textarea>
+                            </div>
+                        `;
+                    } else {
+                        return `
+                            <div class="form-group">
+                                <label>${field.label}${field.required ? ' *' : ''}</label>
+                                <input 
+                                    type="${field.type}" 
+                                    placeholder="${field.placeholder}" 
+                                    value="${value}"
+                                    onchange="updateStepValue(${step.id}, '${field.key}', this.value)"
+                                />
+                            </div>
+                        `;
+                    }
+                }).join('');
+
+                const url = buildStepUrl(step);
+                const urlPreview = url ? `<div class="url-preview">URL: ${url}</div>` : '';
+
+                return `
+                    <div class="workflow-step">
+                        <div class="step-number">${index + 1}</div>
+                        <button class="remove-btn" onclick="removeStep(${step.id})">&times;</button>
+                        <h4>${step.icon} ${step.name}</h4>
+                        ${fieldsHtml}
+                        ${urlPreview}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function updateStepValue(stepId, key, value) {
+            const step = workflowSteps.find(s => s.id === stepId);
+            if (step) {
+                step.values[key] = value;
+                renderWorkflowSteps();
+            }
+        }
+
+        function removeStep(stepId) {
+            workflowSteps = workflowSteps.filter(s => s.id !== stepId);
+            renderWorkflowSteps();
+        }
+
+        function buildStepUrl(step) {
+            const template = actionTemplates[step.type];
+            if (!template) return '';
+
+            const hasAllRequired = template.fields
+                .filter(f => f.required)
+                .every(f => step.values[f.key] && step.values[f.key].trim());
+
+            if (!hasAllRequired && template.fields.some(f => f.required)) {
+                return '';
+            }
+
+            try {
+                let url = template.buildUrl(step.values);
+                const nonce = Math.random().toString(36).substring(2, 15);
+                const timestamp = Math.floor(Date.now() / 1000);
+                const separator = url.includes('?') ? '&' : '?';
+                url += `${separator}nonce=${nonce}&ts=${timestamp}`;
+                return url;
+            } catch (e) {
+                return '';
+            }
+        }
+
+        function generateQRCodes() {
+            const container = document.getElementById('qrContainer');
+            
+            if (workflowSteps.length === 0) {
+                container.innerHTML = '<div style="color: red; padding: 1rem;">Please add some actions to your workflow first!</div>';
+                return;
+            }
+
+            const invalidSteps = workflowSteps.filter(step => {
+                const template = actionTemplates[step.type];
+                return template.fields
+                    .filter(f => f.required)
+                    .some(f => !step.values[f.key] || !step.values[f.key].trim());
+            });
+
+            if (invalidSteps.length > 0) {
+                container.innerHTML = '<div style="color: red; padding: 1rem;">Please fill in all required fields (marked with *) before generating QR codes.</div>';
+                return;
+            }
+
+            // Generate JSON for your Python script
+            const actionsData = workflowSteps.map((step, index) => ({
+                step: index + 1,
+                description: step.name,
+                url: buildStepUrl(step)
+            }));
+
+            const jsonContent = JSON.stringify(actionsData, null, 2);
+            const filename = `custom_qr_actions_${Date.now()}.json`;
+
+            container.innerHTML = `
+                <div style="background: #d4edda; color: #155724; padding: 1rem; border-radius: 8px; margin: 1rem 0; border: 1px solid #c3e6cb;">
+                    <strong>✅ Ready to generate QR codes!</strong><br><br>
+                    
+                    <strong>Step 1:</strong> Save this JSON content as <code>${filename}</code>:<br>
+                    <textarea readonly style="width: 100%; height: 200px; margin: 10px 0; padding: 10px; font-family: monospace; font-size: 12px;">${jsonContent}</textarea>
+                    
+                    <strong>Step 2:</strong> Run this command in Terminal:<br>
+                    <div style="background: #f8f9fa; padding: 10px; border-radius: 4px; font-family: monospace; margin: 10px 0; word-break: break-all;">
+                        python3 qr_phone_control_loop.py --actions ${filename} --ecc Q --delay 0.1
+                    </div>
+                    
+                    <strong>Step 3:</strong> Scan the generated PNG files with your iPhone camera!<br><br>
+                    
+                    <button onclick="downloadJSON('${filename}', \`${jsonContent.replace(/`/g, '\\`')}\`)" style="background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        📥 Download ${filename}
+                    </button>
+                </div>
+            `;
+        }
+
+        function downloadJSON(filename, content) {
+            const blob = new Blob([content], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

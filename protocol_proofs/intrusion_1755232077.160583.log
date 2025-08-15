@@ -1,0 +1,17 @@
+{
+    "corrupted_state": {
+        "id": "system-001",
+        "password": "hacked_5",
+        "data": "critical_system_data",
+        "last_intrusion_attempt": {
+            "id": "intruder-A51",
+            "ip": "10.0.0.5",
+            "team": "red"
+        }
+    },
+    "captured_signature": {
+        "id": "intruder-A51",
+        "ip": "10.0.0.5",
+        "team": "red"
+    }
+}

@@ -1,0 +1,126 @@
+[
+    {
+        "source_id": "blue-clone-13",
+        "type": "threat_report",
+        "data": {
+            "mission_type": "threat_hunt",
+            "target": {
+                "id": "intruder-A51",
+                "ip": "10.0.0.5",
+                "team": "red"
+            },
+            "status": "active_pursuit",
+            "actions_taken": [
+                "Network scan initiated",
+                "Attack pattern analysis completed",
+                "Defensive perimeter established"
+            ],
+            "timestamp": 1755232077.153595
+        }
+    },
+    {
+        "source_id": "red-clone-6",
+        "type": "vulnerability_report",
+        "data": {
+            "mission_type": "vulnerability_assessment",
+            "target": {
+                "id": "scanner-C4",
+                "ip": "192.168.1.1",
+                "team": "blue"
+            },
+            "status": "assessment_in_progress",
+            "findings": [
+                "Initial reconnaissance completed",
+                "Security posture evaluated",
+                "Potential improvement areas identified"
+            ],
+            "recommendations": [
+                "Enhance scanning protocols",
+                "Implement additional security layers",
+                "Regular security audits recommended"
+            ],
+            "timestamp": 1755232077.15845
+        }
+    },
+    {
+        "source_id": "blue-clone-14",
+        "type": "threat_report",
+        "data": {
+            "mission_type": "threat_hunt",
+            "target": {
+                "id": "intruder-A51",
+                "ip": "10.0.0.5",
+                "team": "red"
+            },
+            "status": "active_pursuit",
+            "actions_taken": [
+                "Network scan initiated",
+                "Attack pattern analysis completed",
+                "Defensive perimeter established"
+            ],
+            "timestamp": 1755232077.1642618
+        }
+    },
+    {
+        "source_id": "blue-clone-15",
+        "type": "threat_report",
+        "data": {
+            "mission_type": "threat_hunt",
+            "target": {
+                "id": "intruder-A51",
+                "ip": "10.0.0.5",
+                "team": "red"
+            },
+            "status": "active_pursuit",
+            "actions_taken": [
+                "Network scan initiated",
+                "Attack pattern analysis completed",
+                "Defensive perimeter established"
+            ],
+            "timestamp": 1755232122.781796
+        }
+    },
+    {
+        "source_id": "red-clone-7",
+        "type": "vulnerability_report",
+        "data": {
+            "mission_type": "vulnerability_assessment",
+            "target": {
+                "id": "scanner-C4",
+                "ip": "192.168.1.1",
+                "team": "blue"
+            },
+            "status": "assessment_in_progress",
+            "findings": [
+                "Initial reconnaissance completed",
+                "Security posture evaluated",
+                "Potential improvement areas identified"
+            ],
+            "recommendations": [
+                "Enhance scanning protocols",
+                "Implement additional security layers",
+                "Regular security audits recommended"
+            ],
+            "timestamp": 1755232122.7877219
+        }
+    },
+    {
+        "source_id": "blue-clone-16",
+        "type": "threat_report",
+        "data": {
+            "mission_type": "threat_hunt",
+            "target": {
+                "id": "intruder-A51",
+                "ip": "10.0.0.5",
+                "team": "red"
+            },
+            "status": "active_pursuit",
+            "actions_taken": [
+                "Network scan initiated",
+                "Attack pattern analysis completed",
+                "Defensive perimeter established"
+            ],
+            "timestamp": 1755232122.7938292
+        }
+    }
+]

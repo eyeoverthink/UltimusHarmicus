@@ -1,0 +1,22 @@
+[
+  {
+    "step": 1,
+    "description": "Add Calendar Event - Sept 2, 2025 1:00 PM Pacific",
+    "url": "x-apple-calevent://new?title=Fraymus%20Meeting&startdate=20250902T130000&enddate=20250902T140000&notes=QR%20Generated%20Event%20-%20Pacific%20Time"
+  },
+  {
+    "step": 2,
+    "description": "Send SMS to Vaughn",
+    "url": "sms:1-510-309-2081&body=Test%20text%20from%20Fraymus"
+  },
+  {
+    "step": 3,
+    "description": "Send Email to eyeoverthink@gmail.com",
+    "url": "mailto:eyeoverthink@gmail.com?subject=Fraymus%20QR%20Test&body=This%20email%20was%20triggered%20by%20QR%20code%20from%20Fraymus%20system"
+  },
+  {
+    "step": 4,
+    "description": "Open Music and Search Vaughn Scott",
+    "url": "music://search?term=Vaughn%20Scott"
+  }
+]

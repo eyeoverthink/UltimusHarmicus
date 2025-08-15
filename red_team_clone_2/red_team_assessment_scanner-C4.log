@@ -1,0 +1,20 @@
+{
+    "mission_type": "vulnerability_assessment",
+    "target": {
+        "id": "scanner-C4",
+        "ip": "192.168.1.1",
+        "team": "blue"
+    },
+    "status": "assessment_in_progress",
+    "findings": [
+        "Initial reconnaissance completed",
+        "Security posture evaluated",
+        "Potential improvement areas identified"
+    ],
+    "recommendations": [
+        "Enhance scanning protocols",
+        "Implement additional security layers",
+        "Regular security audits recommended"
+    ],
+    "timestamp": 1755231742.710268
+}

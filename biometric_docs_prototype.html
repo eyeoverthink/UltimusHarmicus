@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiometricDocs - Secure Document Collaboration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .logo h1 {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .tagline {
+            color: #666;
+            font-size: 1.1em;
+            margin-left: 60px;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 300px 1fr 300px;
+            gap: 20px;
+            height: calc(100vh - 200px);
+        }
+
+        .sidebar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h3 {
+            color: #333;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .biometric-auth {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .camera-preview {
+            width: 200px;
+            height: 150px;
+            background: #f0f0f0;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .face-guide {
+            width: 120px;
+            height: 150px;
+            border: 3px solid #667eea;
+            border-radius: 60px;
+            position: absolute;
+            opacity: 0.7;
+        }
+
+        .auth-status {
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .auth-status.ready {
+            background: #e8f5e8;
+            color: #2d5a2d;
+            border: 1px solid #4caf50;
+        }
+
+        .auth-status.scanning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffc107;
+        }
+
+        .auth-status.authenticated {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #28a745;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.8);
+            color: #333;
+            border: 1px solid #ddd;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            transform: translateY(-1px);
+        }
+
+        .editor-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .editor-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .document-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .document-title input {
+            border: none;
+            font-size: 1.5em;
+            font-weight: 500;
+            background: transparent;
+            outline: none;
+            min-width: 300px;
+        }
+
+        .security-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 16px;
+            background: #e8f5e8;
+            border-radius: 20px;
+            color: #2d5a2d;
+            font-size: 0.9em;
+        }
+
+        .editor-content {
+            flex: 1;
+            padding: 20px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            resize: none;
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+
+        .collaboration-panel {
+            margin-bottom: 30px;
+        }
+
+        .active-users {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .user-avatar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .user-status {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #28a745;
+        }
+
+        .qr-codes {
+            margin-bottom: 30px;
+        }
+
+        .qr-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .qr-code {
+            width: 100px;
+            height: 100px;
+            background: #f0f0f0;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8em;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .qr-code:hover {
+            border-color: #667eea;
+            transform: scale(1.05);
+        }
+
+        .qr-code.red { border-color: #dc3545; background: #ffeaea; }
+        .qr-code.blue { border-color: #007bff; background: #e3f2fd; }
+        .qr-code.green { border-color: #28a745; background: #e8f5e8; }
+
+        .sharing-options {
+            margin-bottom: 30px;
+        }
+
+        .share-method {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .share-method:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .share-method h4 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .share-method p {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+        }
+
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #999;
+        }
+
+        .permissions-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .permission-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            z-index: 1001;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+        }
+
+        .notification.show {
+            transform: translateX(0);
+        }
+
+        .notification.success { background: #28a745; }
+        .notification.error { background: #dc3545; }
+        .notification.info { background: #17a2b8; }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .scanning {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <span style="font-size: 2.5em;">🔐</span>
+                <h1>BiometricDocs</h1>
+            </div>
+            <p class="tagline">Secure Document Collaboration with Biometric Visual Cryptography</p>
+        </header>
+
+        <main class="main-content">
+            <!-- Left Sidebar - Biometric Authentication -->
+            <aside class="sidebar">
+                <h3>🔐 Biometric Authentication</h3>
+                
+                <div class="biometric-auth">
+                    <div class="camera-preview" id="cameraPreview">
+                        <div class="face-guide"></div>
+                        <span>📸 Position your face</span>
+                    </div>
+                    
+                    <div class="auth-status ready" id="authStatus">
+                        Ready for biometric capture
+                    </div>
+                    
+                    <button class="btn btn-primary" onclick="startBiometricAuth()">
+                        🔐 Authenticate with Face
+                    </button>
+                    
+                    <button class="btn btn-secondary" onclick="scanQRLogin()">
+                        📱 Login with QR Code
+                    </button>
+                </div>
+
+                <h3>👥 Active Collaborators</h3>
+                <div class="collaboration-panel">
+                    <div class="active-users" id="activeUsers">
+                        <div class="user-avatar">
+                            <div class="user-status"></div>
+                            <span>You (Authenticated)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>📱 Document QR Codes</h3>
+                <div class="qr-codes">
+                    <div class="qr-grid" id="qrGrid">
+                        <div class="qr-code red" title="Biometric Key QR">
+                            🔑<br>Key QR
+                        </div>
+                        <div class="qr-code blue" title="Document Data QR">
+                            📄<br>Data QR
+                        </div>
+                        <div class="qr-code green" title="Sharing QR">
+                            👥<br>Share QR
+                        </div>
+                        <div class="qr-code blue" title="Additional Data QR">
+                            📄<br>Data QR 2
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Editor -->
+            <div class="editor-container">
+                <div class="editor-header">
+                    <div class="document-title">
+                        <input type="text" placeholder="Untitled Document" id="docTitle" value="Confidential Business Plan">
+                        <span>🔒</span>
+                    </div>
+                    
+                    <div class="security-indicator">
+                        🛡️ Biometric Encrypted
+                    </div>
+                </div>
+                
+                <textarea class="editor-content" id="editorContent" placeholder="Start typing your secure document...">
+# Confidential Business Plan - Q1 2025
+
+## Executive Summary
+This document contains sensitive business information protected by biometric visual cryptography.
+
+## Market Analysis
+- Target market size: $2.5B
+- Growth rate: 15% annually
+- Key competitors: Traditional solutions lack biometric security
+
+## Product Strategy
+Our biometric document platform provides:
+- Zero-password authentication
+- Visual QR code encryption
+- Real-time collaboration with biometric access control
+- Quantum-resistant security
+
+## Financial Projections
+Year 1: $1M ARR
+Year 2: $5M ARR
+Year 3: $15M ARR
+
+## Next Steps
+1. Complete MVP development
+2. Secure Series A funding
+3. Launch enterprise pilot program
+4. Scale to 1000+ customers
+
+---
+🔐 This document is protected by biometric encryption
+📱 Export to QR codes for secure sharing
+👥 Share with biometric access control
+                </textarea>
+            </div>
+
+            <!-- Right Sidebar - Sharing & Controls -->
+            <aside class="sidebar">
+                <h3>👥 Sharing Options</h3>
+                
+                <div class="sharing-options">
+                    <div class="share-method" onclick="openBiometricSharing()">
+                        <h4>📸 Biometric Sharing</h4>
+                        <p>Capture recipient's biometric for secure access</p>
+                    </div>
+                    
+                    <div class="share-method" onclick="generateSharingQR()">
+                        <h4>📱 QR Code Sharing</h4>
+                        <p>Generate QR codes for mobile sharing</p>
+                    </div>
+                    
+                    <div class="share-method" onclick="createGroupVault()">
+                        <h4>🏦 Group Vault</h4>
+                        <p>Create shared vault with team access</p>
+                    </div>
+                </div>
+
+                <h3>✍️ Signature Requests</h3>
+                <div class="signature-requests">
+                    <div class="share-method">
+                        <h4>CEO Approval Required</h4>
+                        <p>Biometric signature needed for final approval</p>
+                        <button class="btn btn-primary" style="margin-top: 10px;">
+                            ✍️ Request Signature
+                        </button>
+                    </div>
+                </div>
+
+                <h3>🔧 Document Actions</h3>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                    <button class="btn btn-primary" onclick="exportToQR()">
+                        📱 Export to QR Codes
+                    </button>
+                    
+                    <button class="btn btn-secondary" onclick="createBackup()">
+                        💾 Create Biometric Backup
+                    </button>
+                    
+                    <button class="btn btn-secondary" onclick="auditTrail()">
+                        📊 View Audit Trail
+                    </button>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Biometric Sharing Modal -->
+    <div class="modal" id="sharingModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🔐 Biometric Sharing</h2>
+                <button class="close-btn" onclick="closeSharingModal()">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <h3>Capture Recipient's Biometric</h3>
+                <div class="camera-preview" style="margin: 20px auto;">
+                    <div class="face-guide"></div>
+                    <span>📸 Position recipient's face</span>
+                </div>
+                
+                <h3>Access Permissions</h3>
+                <div class="permissions-grid">
+                    <div class="permission-item">
+                        <input type="checkbox" checked> 📖 Read
+                    </div>
+                    <div class="permission-item">
+                        <input type="checkbox"> ✏️ Write
+                    </div>
+                    <div class="permission-item">
+                        <input type="checkbox"> 👥 Share
+                    </div>
+                    <div class="permission-item">
+                        <input type="checkbox"> ✍️ Sign
+                    </div>
+                </div>
+                
+                <h3>Access Duration</h3>
+                <select style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ddd;">
+                    <option>24 Hours</option>
+                    <option>7 Days</option>
+                    <option>30 Days</option>
+                    <option>Permanent</option>
+                </select>
+                
+                <button class="btn btn-primary" style="margin-top: 20px;" onclick="createBiometricShare()">
+                    🔐 Create Secure Share
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div class="notification" id="notification"></div>
+
+    <script>
+        // Biometric Authentication System
+        let isAuthenticated = false;
+        let currentUser = null;
+        let documentContent = '';
+
+        function startBiometricAuth() {
+            const authStatus = document.getElementById('authStatus');
+            const cameraPreview = document.getElementById('cameraPreview');
+            
+            authStatus.className = 'auth-status scanning';
+            authStatus.textContent = 'Scanning biometric signature...';
+            cameraPreview.classList.add('scanning');
+            
+            // Simulate biometric capture
+            setTimeout(() => {
+                authStatus.className = 'auth-status authenticated';
+                authStatus.textContent = '✅ Biometric authenticated';
+                cameraPreview.classList.remove('scanning');
+                cameraPreview.innerHTML = '<span style="color: #28a745;">✅ Authenticated</span>';
+                
+                isAuthenticated = true;
+                currentUser = {
+                    biometricHash: 'a1b2c3d4e5f6',
+                    name: 'Vaughn Scott',
+                    permissions: ['read', 'write', 'share', 'sign']
+                };
+                
+                showNotification('Biometric authentication successful!', 'success');
+                updateUI();
+            }, 3000);
+        }
+
+        function scanQRLogin() {
+            showNotification('QR login feature coming soon!', 'info');
+        }
+
+        function openBiometricSharing() {
+            if (!isAuthenticated) {
+                showNotification('Please authenticate first', 'error');
+                return;
+            }
+            document.getElementById('sharingModal').style.display = 'block';
+        }
+
+        function closeSharingModal() {
+            document.getElementById('sharingModal').style.display = 'none';
+        }
+
+        function createBiometricShare() {
+            showNotification('Biometric share created successfully!', 'success');
+            closeSharingModal();
+            
+            // Add new collaborator to UI
+            const activeUsers = document.getElementById('activeUsers');
+            const newUser = document.createElement('div');
+            newUser.className = 'user-avatar';
+            newUser.innerHTML = `
+                <div class="user-status"></div>
+                <span>New Collaborator (Pending)</span>
+            `;
+            activeUsers.appendChild(newUser);
+        }
+
+        function generateSharingQR() {
+            if (!isAuthenticated) {
+                showNotification('Please authenticate first', 'error');
+                return;
+            }
+            showNotification('Sharing QR codes generated!', 'success');
+            
+            // Add sharing QR to grid
+            const qrGrid = document.getElementById('qrGrid');
+            const shareQR = document.createElement('div');
+            shareQR.className = 'qr-code green';
+            shareQR.innerHTML = '🤝<br>Share QR';
+            shareQR.title = 'Sharing Access QR';
+            qrGrid.appendChild(shareQR);
+        }
+
+        function createGroupVault() {
+            if (!isAuthenticated) {
+                showNotification('Please authenticate first', 'error');
+                return;
+            }
+            showNotification('Group vault created with biometric access!', 'success');
+        }
+
+        function exportToQR() {
+            if (!isAuthenticated) {
+                showNotification('Please authenticate first', 'error');
+                return;
+            }
+            
+            showNotification('Document exported to QR codes!', 'success');
+            
+            // Simulate QR generation
+            const qrGrid = document.getElementById('qrGrid');
+            qrGrid.innerHTML = `
+                <div class="qr-code red" title="Biometric Key QR">🔑<br>Key QR</div>
+                <div class="qr-code blue" title="Document Data QR 1">📄<br>Data 1</div>
+                <div class="qr-code blue" title="Document Data QR 2">📄<br>Data 2</div>
+                <div class="qr-code blue" title="Document Data QR 3">📄<br>Data 3</div>
+                <div class="qr-code green" title="Metadata QR">📋<br>Meta QR</div>
+                <div class="qr-code green" title="Sharing QR">👥<br>Share QR</div>
+            `;
+        }
+
+        function createBackup() {
+            if (!isAuthenticated) {
+                showNotification('Please authenticate first', 'error');
+                return;
+            }
+            showNotification('Biometric backup created successfully!', 'success');
+        }
+
+        function auditTrail() {
+            if (!isAuthenticated) {
+                showNotification('Please authenticate first', 'error');
+                return;
+            }
+            showNotification('Audit trail: 5 access events, 3 modifications, 2 shares', 'info');
+        }
+
+        function showNotification(message, type) {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = `notification ${type}`;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        function updateUI() {
+            if (isAuthenticated) {
+                // Enable all features
+                document.querySelectorAll('.btn').forEach(btn => {
+                    btn.style.opacity = '1';
+                    btn.style.pointerEvents = 'auto';
+                });
+            }
+        }
+
+        // Auto-save functionality
+        document.getElementById('editorContent').addEventListener('input', function() {
+            if (isAuthenticated) {
+                documentContent = this.value;
+                // Simulate auto-save with biometric encryption
+                clearTimeout(window.autoSaveTimer);
+                window.autoSaveTimer = setTimeout(() => {
+                    showNotification('Document auto-saved with biometric encryption', 'success');
+                }, 2000);
+            }
+        });
+
+        // Real-time collaboration simulation
+        setInterval(() => {
+            if (isAuthenticated && Math.random() > 0.95) {
+                showNotification('Collaborator joined the document', 'info');
+            }
+        }, 10000);
+
+        // Initialize UI
+        document.addEventListener('DOMContentLoaded', function() {
+            // Disable features until authenticated
+            document.querySelectorAll('.btn').forEach(btn => {
+                if (!btn.onclick || btn.onclick.toString().includes('startBiometricAuth')) return;
+                btn.style.opacity = '0.6';
+                btn.style.pointerEvents = 'none';
+            });
+        });
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('sharingModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

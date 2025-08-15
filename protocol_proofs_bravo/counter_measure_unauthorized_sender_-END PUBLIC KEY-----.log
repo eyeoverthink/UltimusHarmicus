@@ -1,0 +1,15 @@
+{
+    "action": "Simulated network quarantine",
+    "target": {
+        "id": "unauthorized_sender_-END PUBLIC KEY-----",
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqGRPcZIL8hp6UYUfRuR2\n1uGDG38SHU86zAEzDSHweAMsBxaSZQlupl5OENFnj2X8VT89ejjDudonOXl7oefl\n/StQyAYihmXaV84DTs7nene2HgxkAa459AxU5wMq1C1wbgUdY9qb/thcoW1xH5t0\nENrILJP5lh8tczswH6q6BpsvEcLgP9JwjR+oCL+vmMrZYzU9gvHEx3dkn6i4+lmX\n+/JwNIYJQvAq0mSCqYZBxO89Rm5NClyQBCekq21wwmWjdBORlXChVhO2bBcUX8hm\nuLdfnRFM87XTV7DYDTLS6Cffo6eFaOgGIJTX9x8pfWzcHl0d7Pb/COX3ccMwb010\nmwIDAQAB\n-----END PUBLIC KEY-----",
+        "type": "unauthorized_action",
+        "failed_action": {
+            "payload": {
+                "command": "exfiltrate_data",
+                "target": "all"
+            },
+            "signature": "50e47794abd6dee6013567e2c7073ce8106fbdca409d1fe8310cd1384b40c057d3e87801d26a9ead5188122d46ffc8dcc7ef308c2e3e42d53bc599533a8b617146d52982ab09c533f01494471f52c41a875c51da7a313fa5337ac47a09cbbedcfd5e3b4ebc4c240d08874140006411205d267b15ba58239c3d4f990906079a66ce0ea69ac5686e3bfe8cedb19451a941746b69fe79b6ec2b44c5ce610cbad16534543e05cf42a74817e226dd7c5e03a28d9525116c78dc170b605937b034694a7c86980741d62e697361dff228fcf1dd0bb46b5faf09ea71b73f0adfe345c71a838fef3674b1000a2bee97306274cd1a02b4b61eb7f9726eb7399574773f2817"
+        }
+    }
+}

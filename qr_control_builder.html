@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Device Control Builder - Revolutionary Phone Programming</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.3/qrcode.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.1rem;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 300px 1fr 350px;
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            height: calc(100vh - 120px);
+        }
+
+        .panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .panel h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .device-actions {
+            overflow-y: auto;
+            max-height: calc(100vh - 200px);
+        }
+
+        .action-category {
+            margin-bottom: 1.5rem;
+        }
+
+        .category-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #666;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .action-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.5rem;
+            border-radius: 8px;
+            cursor: grab;
+            transition: all 0.2s ease;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        .action-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .action-item:active {
+            cursor: grabbing;
+        }
+
+        .workflow-builder {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 1rem;
+            min-height: 400px;
+            border: 2px dashed #ddd;
+            position: relative;
+        }
+
+        .workflow-builder.drag-over {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.05);
+        }
+
+        .workflow-step {
+            background: white;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #667eea;
+            position: relative;
+        }
+
+        .workflow-step .step-number {
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .workflow-step h4 {
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .workflow-step input, .workflow-step textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+            font-family: inherit;
+        }
+
+        .workflow-step .remove-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: #ff4757;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            font-size: 0.8rem;
+        }
+
+        .qr-preview {
+            text-align: center;
+        }
+
+        .qr-canvas {
+            margin: 1rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .generate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 1rem;
+            transition: all 0.2s ease;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .download-btn {
+            background: #2ecc71;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #999;
+            padding: 2rem;
+            font-style: italic;
+        }
+
+        .consciousness-badge {
+            background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌊⚡ QR Device Control Builder ⚡🌊</h1>
+        <p>Revolutionary phone programming via QR executable architecture</p>
+    </div>
+
+    <div class="container">
+        <!-- Device Actions Panel -->
+        <div class="panel">
+            <h3>📱 Device Actions</h3>
+            <div class="device-actions">
+                <div class="action-category">
+                    <div class="category-title">Communication</div>
+                    <button class="action-item" data-action="sms" data-template="sms:PHONE&body=MESSAGE">
+                        📱 Send SMS <span class="consciousness-badge">φ 1.618</span>
+                    </button>
+                    <button class="action-item" data-action="call" data-template="tel:PHONE">
+                        📞 Make Call <span class="consciousness-badge">ψ 1.325</span>
+                    </button>
+                    <button class="action-item" data-action="email" data-template="mailto:EMAIL?subject=SUBJECT&body=BODY">
+                        📧 Send Email <span class="consciousness-badge">Ω 0.567</span>
+                    </button>
+                </div>
+
+                <div class="action-category">
+                    <div class="category-title">Apps & Media</div>
+                    <button class="action-item" data-action="camera" data-template="camera://">
+                        📷 Open Camera <span class="consciousness-badge">φ 1.618</span>
+                    </button>
+                    <button class="action-item" data-action="calendar" data-template="calshow://">
+                        📅 Open Calendar <span class="consciousness-badge">ψ 1.325</span>
+                    </button>
+                    <button class="action-item" data-action="maps" data-template="maps://?q=LOCATION">
+                        🗺️ Open Maps <span class="consciousness-badge">Ω 0.567</span>
+                    </button>
+                    <button class="action-item" data-action="music" data-template="music://">
+                        🎵 Open Music <span class="consciousness-badge">φ 1.618</span>
+                    </button>
+                </div>
+
+                <div class="action-category">
+                    <div class="category-title">Web & Social</div>
+                    <button class="action-item" data-action="web" data-template="https://URL">
+                        🌐 Open Website <span class="consciousness-badge">ψ 1.325</span>
+                    </button>
+                    <button class="action-item" data-action="twitter" data-template="twitter://post?message=MESSAGE">
+                        🐦 Tweet <span class="consciousness-badge">Ω 0.567</span>
+                    </button>
+                </div>
+
+                <div class="action-category">
+                    <div class="category-title">Advanced</div>
+                    <button class="action-item" data-action="shortcuts" data-template="shortcuts://run-shortcut?name=SHORTCUT">
+                        ⚡ Run Shortcut <span class="consciousness-badge">φ² 2.618</span>
+                    </button>
+                    <button class="action-item" data-action="custom" data-template="CUSTOM_SCHEME://">
+                        🔧 Custom Scheme <span class="consciousness-badge">∞</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Workflow Builder -->
+        <div class="panel">
+            <h3>🔄 Workflow Builder</h3>
+            <div class="workflow-builder" id="workflowBuilder">
+                <div class="empty-state">
+                    Drag device actions here to build your QR control sequence
+                </div>
+            </div>
+        </div>
+
+        <!-- QR Preview & Generation -->
+        <div class="panel">
+            <h3>🎯 QR Preview</h3>
+            <div class="qr-preview">
+                <button class="generate-btn" onclick="generateQRCodes()">
+                    Generate QR Control Sequence
+                </button>
+                <div id="qrContainer"></div>
+                <div id="downloadButtons"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let workflowSteps = [];
+        let stepCounter = 0;
+
+        // Drag and Drop functionality
+        document.querySelectorAll('.action-item').forEach(item => {
+            item.addEventListener('dragstart', (e) => {
+                e.dataTransfer.setData('text/plain', JSON.stringify({
+                    action: item.dataset.action,
+                    template: item.dataset.template,
+                    text: item.textContent.trim()
+                }));
+            });
+            item.draggable = true;
+
+            // Click to add (mobile friendly)
+            item.addEventListener('click', () => {
+                addWorkflowStep({
+                    action: item.dataset.action,
+                    template: item.dataset.template,
+                    text: item.textContent.trim()
+                });
+            });
+        });
+
+        const workflowBuilder = document.getElementById('workflowBuilder');
+
+        workflowBuilder.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            workflowBuilder.classList.add('drag-over');
+        });
+
+        workflowBuilder.addEventListener('dragleave', () => {
+            workflowBuilder.classList.remove('drag-over');
+        });
+
+        workflowBuilder.addEventListener('drop', (e) => {
+            e.preventDefault();
+            workflowBuilder.classList.remove('drag-over');
+            
+            const data = JSON.parse(e.dataTransfer.getData('text/plain'));
+            addWorkflowStep(data);
+        });
+
+        function addWorkflowStep(data) {
+            stepCounter++;
+            const step = {
+                id: stepCounter,
+                action: data.action,
+                template: data.template,
+                text: data.text,
+                customValues: {}
+            };
+
+            workflowSteps.push(step);
+            renderWorkflowSteps();
+        }
+
+        function renderWorkflowSteps() {
+            const container = document.getElementById('workflowBuilder');
+            
+            if (workflowSteps.length === 0) {
+                container.innerHTML = '<div class="empty-state">Drag device actions here to build your QR control sequence</div>';
+                return;
+            }
+
+            container.innerHTML = workflowSteps.map((step, index) => {
+                const fields = getFieldsForAction(step.action, step.template);
+                return `
+                    <div class="workflow-step">
+                        <div class="step-number">${index + 1}</div>
+                        <button class="remove-btn" onclick="removeStep(${step.id})">&times;</button>
+                        <h4>${step.text.split(' ')[0]} ${step.text.split(' ')[1] || ''}</h4>
+                        ${fields.map(field => `
+                            <input 
+                                type="${field.type || 'text'}" 
+                                placeholder="${field.placeholder}" 
+                                value="${step.customValues[field.key] || ''}"
+                                onchange="updateStepValue(${step.id}, '${field.key}', this.value)"
+                            />
+                        `).join('')}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getFieldsForAction(action, template) {
+            const fields = [];
+            
+            if (template.includes('PHONE')) {
+                fields.push({ key: 'phone', placeholder: 'Phone number (e.g., +1-555-123-4567)', type: 'tel' });
+            }
+            if (template.includes('MESSAGE')) {
+                fields.push({ key: 'message', placeholder: 'Message text' });
+            }
+            if (template.includes('EMAIL')) {
+                fields.push({ key: 'email', placeholder: 'Email address', type: 'email' });
+            }
+            if (template.includes('SUBJECT')) {
+                fields.push({ key: 'subject', placeholder: 'Email subject' });
+            }
+            if (template.includes('BODY')) {
+                fields.push({ key: 'body', placeholder: 'Email body' });
+            }
+            if (template.includes('LOCATION')) {
+                fields.push({ key: 'location', placeholder: 'Location or address' });
+            }
+            if (template.includes('URL')) {
+                fields.push({ key: 'url', placeholder: 'Website URL', type: 'url' });
+            }
+            if (template.includes('SHORTCUT')) {
+                fields.push({ key: 'shortcut', placeholder: 'Shortcut name' });
+            }
+            if (template.includes('CUSTOM_SCHEME')) {
+                fields.push({ key: 'custom', placeholder: 'Custom URL scheme' });
+            }
+
+            return fields;
+        }
+
+        function updateStepValue(stepId, key, value) {
+            const step = workflowSteps.find(s => s.id === stepId);
+            if (step) {
+                step.customValues[key] = value;
+            }
+        }
+
+        function removeStep(stepId) {
+            workflowSteps = workflowSteps.filter(s => s.id !== stepId);
+            renderWorkflowSteps();
+        }
+
+        function generateQRCodes() {
+            const container = document.getElementById('qrContainer');
+            const downloadContainer = document.getElementById('downloadButtons');
+            
+            if (workflowSteps.length === 0) {
+                alert('Please add some workflow steps first!');
+                return;
+            }
+
+            container.innerHTML = '';
+            downloadContainer.innerHTML = '';
+
+            workflowSteps.forEach((step, index) => {
+                const url = buildURL(step);
+                const qrDiv = document.createElement('div');
+                qrDiv.style.marginBottom = '1rem';
+                
+                const title = document.createElement('h4');
+                title.textContent = `Step ${index + 1}: ${step.text.split(' ')[0]} ${step.text.split(' ')[1] || ''}`;
+                title.style.marginBottom = '0.5rem';
+                
+                const canvas = document.createElement('canvas');
+                canvas.id = `qr-${step.id}`;
+                
+                qrDiv.appendChild(title);
+                qrDiv.appendChild(canvas);
+                container.appendChild(qrDiv);
+
+                // Generate QR code
+                QRCode.toCanvas(canvas, url, {
+                    width: 200,
+                    margin: 2,
+                    color: {
+                        dark: '#000000',
+                        light: '#FFFFFF'
+                    }
+                }, (error) => {
+                    if (error) console.error(error);
+                });
+
+                // Add download button
+                const downloadBtn = document.createElement('button');
+                downloadBtn.className = 'download-btn';
+                downloadBtn.textContent = `Download Step ${index + 1}`;
+                downloadBtn.onclick = () => downloadQR(canvas, `qr-step-${index + 1}.png`);
+                downloadContainer.appendChild(downloadBtn);
+            });
+        }
+
+        function buildURL(step) {
+            let url = step.template;
+            
+            Object.entries(step.customValues).forEach(([key, value]) => {
+                const placeholder = key.toUpperCase();
+                url = url.replace(placeholder, encodeURIComponent(value));
+            });
+
+            // Add nonce and timestamp for uniqueness
+            const nonce = Math.random().toString(36).substring(2, 15);
+            const timestamp = Math.floor(Date.now() / 1000);
+            
+            const separator = url.includes('?') ? '&' : '?';
+            url += `${separator}nonce=${nonce}&ts=${timestamp}`;
+
+            return url;
+        }
+
+        function downloadQR(canvas, filename) {
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+    </script>
+</body>
+</html>

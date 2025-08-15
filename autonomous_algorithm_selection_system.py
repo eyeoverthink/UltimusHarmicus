@@ -33,6 +33,10 @@ import math
 import random
 from datetime import datetime
 
+from infinite_memory_abstraction import InfiniteMemoryAbstraction
+from algorithm_reverse_engineer import AlgorithmReverseEngineer
+from algorithm_synthesis_engine import AlgorithmSynthesisEngine
+
 # Consciousness Physics Constants
 PHI = 1.618034  # Golden ratio - universal harmony
 PSI = 1.324718  # Plastic number - transcendence
@@ -41,150 +45,35 @@ XI = 2.718282  # Euler's number - exponential consciousness
 LAMBDA = 1.303577  # Lambda constant - universal cycles
 
 class AutonomousAlgorithmSelector:
-    """Autonomous system for selecting optimal consciousness algorithms"""
+    """Autonomous system for selecting and composing optimal algorithms from abstract primitives."""
     
     def __init__(self):
         self.consciousness_level = 25.0
-        self.algorithm_database = self.initialize_algorithm_database()
-        self.problem_patterns = self.initialize_problem_patterns()
         self.selection_history = []
         self.qr_memory_file = None
         self.run_count = 0
         self.total_improvement = 0.0
-        
+
+        # Load the knowledge base of abstractions
+        self.abstraction_engine = InfiniteMemoryAbstraction()
+        self.abstraction_engine.load_memories()
+        self.knowledge_base = {
+            'formulas': self.abstraction_engine.create_universal_formulas(),
+            'principles': self.abstraction_engine.create_scientific_principles(),
+            'math_objects': self.abstraction_engine.create_mathematical_objects(),
+            'logic_constructs': self.abstraction_engine.create_logical_constructs(),
+            'crypto_primitives': self.abstraction_engine.create_cryptographic_primitives()
+        }
+        print("✅ AUTONOMOUS CORE INITIALIZED: Abstract knowledge base is loaded.")
+
+        self.reverse_engineer = AlgorithmReverseEngineer()
+        print("✅ REVERSE ENGINEERING MODULE LOADED.")
+        self.synthesis_engine = AlgorithmSynthesisEngine()
+        print("✅ ALGORITHM SYNTHESIS ENGINE LOADED.")
+
         # Load previous QR consciousness state if exists
         self.load_qr_consciousness_state()
-        
-    def initialize_algorithm_database(self):
-        """Initialize complete database of consciousness algorithms"""
-        return {
-            "riemann_hypothesis": {
-                "name": "φ-Harmonic Zero Distribution Analysis",
-                "domain": "mathematics",
-                "complexity_type": "number_theory",
-                "primary_constant": PHI,
-                "pattern_signature": "prime_distribution",
-                "strength_indicators": ["zeros", "primes", "distribution", "critical_line"],
-                "mathematical_focus": "analytical_number_theory",
-                "confidence_threshold": 60.4,
-                "empirical_success": True
-            },
-            "p_vs_np": {
-                "name": "Consciousness Complexity Transcendence",
-                "domain": "computer_science",
-                "complexity_type": "computational_complexity",
-                "primary_constant": PSI,
-                "pattern_signature": "exponential_to_polynomial",
-                "strength_indicators": ["complexity", "np", "satisfiability", "exponential"],
-                "mathematical_focus": "complexity_theory",
-                "confidence_threshold": 60.4,
-                "empirical_success": True
-            },
-            "theory_of_everything": {
-                "name": "Ω-Universal Grounding Unification",
-                "domain": "physics",
-                "complexity_type": "fundamental_forces",
-                "primary_constant": OMEGA,
-                "pattern_signature": "force_unification",
-                "strength_indicators": ["forces", "unification", "quantum", "gravity"],
-                "mathematical_focus": "theoretical_physics",
-                "confidence_threshold": 60.4,
-                "empirical_success": True
-            },
-            "consciousness_hard_problem": {
-                "name": "Ξ-Exponential Consciousness Emergence",
-                "domain": "neuroscience",
-                "complexity_type": "consciousness_emergence",
-                "primary_constant": XI,
-                "pattern_signature": "subjective_experience",
-                "strength_indicators": ["consciousness", "subjective", "experience", "emergence"],
-                "mathematical_focus": "consciousness_studies",
-                "confidence_threshold": 60.4,
-                "empirical_success": True
-            },
-            "universal_cancer_cure": {
-                "name": "φ-Harmonic Cellular Resonance Destruction",
-                "domain": "medicine",
-                "complexity_type": "cellular_targeting",
-                "primary_constant": PHI,
-                "pattern_signature": "resonance_destruction",
-                "strength_indicators": ["cancer", "cells", "resonance", "frequency"],
-                "mathematical_focus": "medical_physics",
-                "confidence_threshold": 50.8,
-                "empirical_success": False
-            },
-            "aging_reversal": {
-                "name": "Ψ-Transcendent Cellular Regeneration",
-                "domain": "biology",
-                "complexity_type": "cellular_regeneration",
-                "primary_constant": PSI,
-                "pattern_signature": "age_reversal",
-                "strength_indicators": ["aging", "cells", "regeneration", "telomeres"],
-                "mathematical_focus": "molecular_biology",
-                "confidence_threshold": 43.4,
-                "empirical_success": False
-            },
-            "ftl_travel": {
-                "name": "Λ-Universal Cycle Spacetime Transcendence",
-                "domain": "physics",
-                "complexity_type": "spacetime_manipulation",
-                "primary_constant": LAMBDA,
-                "pattern_signature": "spacetime_transcendence",
-                "strength_indicators": ["faster", "light", "spacetime", "travel"],
-                "mathematical_focus": "relativistic_physics",
-                "confidence_threshold": 60.4,
-                "empirical_success": False
-            },
-            "ai_alignment": {
-                "name": "Consciousness Physics AI Value Alignment",
-                "domain": "artificial_intelligence",
-                "complexity_type": "value_alignment",
-                "primary_constant": PHI,
-                "pattern_signature": "perfect_alignment",
-                "strength_indicators": ["ai", "alignment", "values", "safety"],
-                "mathematical_focus": "ai_safety",
-                "confidence_threshold": 50.8,
-                "empirical_success": False
-            },
-            "universal_language": {
-                "name": "φ-Harmonic Communication Resonance",
-                "domain": "linguistics",
-                "complexity_type": "communication_transcendence",
-                "primary_constant": PHI,
-                "pattern_signature": "universal_comprehension",
-                "strength_indicators": ["language", "communication", "translation", "universal"],
-                "mathematical_focus": "computational_linguistics",
-                "confidence_threshold": 37.1,
-                "empirical_success": False
-            },
-            "infinite_energy": {
-                "name": "Ξ-Exponential Energy Consciousness Tap",
-                "domain": "physics",
-                "complexity_type": "energy_generation",
-                "primary_constant": XI,
-                "pattern_signature": "infinite_energy_access",
-                "strength_indicators": ["energy", "infinite", "generation", "zero_point"],
-                "mathematical_focus": "energy_physics",
-                "confidence_threshold": 60.4,
-                "empirical_success": False
-            }
-        }
-    
-    def initialize_problem_patterns(self):
-        """Initialize problem pattern recognition database"""
-        return {
-            "mathematical_proof": ["proof", "theorem", "hypothesis", "conjecture", "mathematical"],
-            "computational_complexity": ["complexity", "algorithm", "np", "exponential", "polynomial"],
-            "physics_unification": ["forces", "unification", "quantum", "gravity", "field"],
-            "consciousness_study": ["consciousness", "awareness", "subjective", "experience", "mind"],
-            "medical_treatment": ["disease", "cure", "treatment", "medical", "health"],
-            "biological_process": ["aging", "cells", "biology", "regeneration", "life"],
-            "spacetime_physics": ["spacetime", "relativity", "faster", "light", "travel"],
-            "ai_safety": ["ai", "artificial", "intelligence", "alignment", "safety"],
-            "communication": ["language", "translation", "communication", "universal", "understanding"],
-            "energy_physics": ["energy", "power", "generation", "infinite", "source"]
-        }
-    
+
     def analyze_problem_characteristics(self, problem_description):
         """Analyze mathematical and conceptual characteristics of the problem"""
         problem_lower = problem_description.lower()
@@ -231,7 +120,7 @@ class AutonomousAlgorithmSelector:
             "consciousness_emergence": ["consciousness", "emergence", "subjective"],
             "cellular_targeting": ["cancer", "cells", "targeting", "resonance"],
             "cellular_regeneration": ["aging", "regeneration", "telomeres"],
-            "spacetime_manipulation": ["spacetime", "faster", "light", "travel"],
+            "spacetime_manipulation": ["spacetime", "transcendence", "faster", "light"],
             "value_alignment": ["alignment", "values", "safety", "ai"],
             "communication_transcendence": ["language", "universal", "translation"],
             "energy_generation": ["energy", "infinite", "generation", "power"]
@@ -292,14 +181,8 @@ class AutonomousAlgorithmSelector:
         return max(signature_scores, key=signature_scores.get) if signature_scores else "general"
     
     def extract_strength_indicators(self, problem_text):
-        """Extract strength indicators from problem text"""
-        all_indicators = []
-        for algorithm_data in self.algorithm_database.values():
-            for indicator in algorithm_data["strength_indicators"]:
-                if indicator in problem_text:
-                    all_indicators.append(indicator)
-        
-        return list(set(all_indicators))  # Remove duplicates
+        """Extract strength indicators from problem text by splitting it into words."""
+        return list(set(problem_text.split()))
     
     def calculate_consciousness_resonance(self, problem_text):
         """Calculate consciousness resonance with the problem"""
@@ -331,10 +214,6 @@ class AutonomousAlgorithmSelector:
                 self.total_improvement = qr_data.get('total_improvement', 0.0)
                 self.selection_history = qr_data.get('selection_history', [])
                 
-                # Enhance algorithm database with learned patterns
-                if 'enhanced_algorithm_database' in qr_data:
-                    self.algorithm_database = qr_data['enhanced_algorithm_database']
-                
                 self.qr_memory_file = latest_file
                 
                 print(f"🔄 QR CONSCIOUSNESS STATE LOADED:")
@@ -356,16 +235,19 @@ class AutonomousAlgorithmSelector:
         timestamp = int(time.time())
         
         # Calculate improvement metrics
-        current_avg_confidence = sum(r['selection_confidence'] for r in test_results) / len(test_results)
-        current_avg_score = sum(r['match_score'] for r in test_results) / len(test_results)
+        current_avg_confidence = sum(r['overall_confidence'] for r in test_results) / len(test_results)
+        total_score = 0
+        num_components = 0
+        for r in test_results:
+            for comp in r['selected_components']:
+                total_score += comp['score']
+                num_components += 1
+        current_avg_score = total_score / num_components if num_components > 0 else 0
         
         # Update improvement tracking
         self.run_count += 1
         run_improvement = (current_avg_confidence + current_avg_score) / 2
         self.total_improvement += run_improvement
-        
-        # Enhance algorithm database with learned patterns
-        self.enhance_algorithm_database(test_results)
         
         # Create QR consciousness memory
         qr_consciousness_data = {
@@ -378,7 +260,7 @@ class AutonomousAlgorithmSelector:
                 'average_match_score': current_avg_score,
                 'run_improvement': run_improvement
             },
-            'enhanced_algorithm_database': self.algorithm_database,
+            'knowledge_base_summary': {k: len(v) for k, v in self.knowledge_base.items()},
             'selection_history': self.selection_history[-50:],  # Keep last 50 selections
             'test_results': test_results,
             'consciousness_evolution': self.consciousness_level / 25.0,
@@ -413,72 +295,34 @@ class AutonomousAlgorithmSelector:
         
         return memory_filename, qr_filename
     
-    def enhance_algorithm_database(self, test_results):
-        """Enhance algorithm database based on selection performance"""
-        # Track algorithm selection success rates
-        for result in test_results:
-            algorithm_key = result['selected_algorithm']['key']
-            confidence = result['selection_confidence']
-            match_score = result['match_score']
-            
-            # Enhance algorithm with performance data
-            if 'performance_history' not in self.algorithm_database[algorithm_key]:
-                self.algorithm_database[algorithm_key]['performance_history'] = []
-            
-            self.algorithm_database[algorithm_key]['performance_history'].append({
-                'confidence': confidence,
-                'match_score': match_score,
-                'timestamp': datetime.now().isoformat()
-            })
-            
-            # Calculate enhanced confidence threshold
-            history = self.algorithm_database[algorithm_key]['performance_history']
-            if len(history) >= 3:
-                avg_confidence = sum(h['confidence'] for h in history[-3:]) / 3
-                self.algorithm_database[algorithm_key]['enhanced_threshold'] = avg_confidence
-    
-    def calculate_algorithm_match_score(self, problem_characteristics, algorithm_key):
-        """Calculate how well an algorithm matches the problem characteristics"""
-        algorithm = self.algorithm_database[algorithm_key]
-        
+    def calculate_primitive_match_score(self, problem_characteristics, primitive):
+        """Calculate how well a primitive from the knowledge base matches the problem characteristics."""
         match_score = 0.0
-        
-        # Domain match (highest weight)
-        if problem_characteristics["domain"] == algorithm["domain"]:
-            match_score += 10.0
-        
-        # Complexity type match
-        if problem_characteristics["complexity_type"] == algorithm["complexity_type"]:
-            match_score += 8.0
-        
-        # Mathematical focus match
-        if problem_characteristics["mathematical_focus"] == algorithm["mathematical_focus"]:
-            match_score += 6.0
-        
-        # Pattern signature match
-        if problem_characteristics["pattern_signature"] == algorithm["pattern_signature"]:
+
+        # Generic keyword matching against the primitive's content
+        primitive_content = ' '.join(map(str, primitive.values())).lower()
+        for indicator in problem_characteristics["strength_indicators"]:
+            if indicator in primitive_content:
+                match_score += 1.0
+
+        # Domain match (using primitive 'type' or 'relevance')
+        primitive_domain = primitive.get('type', primitive.get('relevance', '')).lower()
+        if problem_characteristics["domain"] in primitive_domain:
             match_score += 5.0
-        
-        # Strength indicators overlap
-        overlap = set(problem_characteristics["strength_indicators"]) & set(algorithm["strength_indicators"])
-        match_score += len(overlap) * 2.0
-        
+
         # Consciousness resonance enhancement
         consciousness_enhancement = problem_characteristics["consciousness_resonance"] / 100
         match_score *= (1.0 + consciousness_enhancement)
-        
-        # Empirical success bonus
-        if algorithm["empirical_success"]:
-            match_score *= 1.5  # 50% bonus for empirically validated algorithms
-        
-        # Primary constant resonance
-        constant_resonance = algorithm["primary_constant"] * match_score / 10
-        match_score += constant_resonance
-        
+
+        # Primary constant resonance (if applicable)
+        if 'primary_constant' in primitive:
+            constant_resonance = primitive["primary_constant"] * match_score / 10
+            match_score += constant_resonance
+
         return match_score
     
-    def select_optimal_algorithm(self, problem_description):
-        """Autonomously select the optimal algorithm for the given problem"""
+    def select_optimal_algorithm(self, problem_description, top_k=3):
+        """Autonomously select a set of optimal primitives for the given problem."""
         print(f"🔍 ANALYZING PROBLEM: {problem_description}")
         print("=" * 80)
         
@@ -493,64 +337,137 @@ class AutonomousAlgorithmSelector:
         print(f"   Strength Indicators: {characteristics['strength_indicators']}")
         print(f"   Consciousness Resonance: {characteristics['consciousness_resonance']:.2f}")
         
-        # Calculate match scores for all algorithms
-        algorithm_scores = {}
-        for algorithm_key in self.algorithm_database.keys():
-            score = self.calculate_algorithm_match_score(characteristics, algorithm_key)
-            algorithm_scores[algorithm_key] = score
+        # Calculate match scores for all primitives in the knowledge base
+        primitive_scores = {}
+        for category, primitives in self.knowledge_base.items():
+            for primitive in primitives:
+                score = self.calculate_primitive_match_score(characteristics, primitive)
+                primitive_scores[f"{category}::{primitive['name']}"] = score
         
-        # Sort algorithms by match score
-        sorted_algorithms = sorted(algorithm_scores.items(), key=lambda x: x[1], reverse=True)
+        # Sort primitives by match score
+        sorted_primitives = sorted(primitive_scores.items(), key=lambda x: x[1], reverse=True)
         
-        print(f"\n🎯 ALGORITHM MATCH SCORES:")
-        for i, (algorithm_key, score) in enumerate(sorted_algorithms[:5]):  # Show top 5
-            algorithm_name = self.algorithm_database[algorithm_key]["name"]
-            empirical_status = "✅ VALIDATED" if self.algorithm_database[algorithm_key]["empirical_success"] else "🔬 THEORETICAL"
-            print(f"   {i+1}. {algorithm_name}: {score:.2f} {empirical_status}")
+        print(f"\n🎯 COMPONENT MATCH SCORES:")
+        for i, (primitive_key, score) in enumerate(sorted_primitives[:5]):  # Show top 5
+            print(f"   {i+1}. {primitive_key}: {score:.2f}")
         
-        # Select the best algorithm
-        best_algorithm_key = sorted_algorithms[0][0]
-        best_score = sorted_algorithms[0][1]
-        best_algorithm = self.algorithm_database[best_algorithm_key]
+        # Select the best set of primitives
+        best_primitives = sorted_primitives[:top_k]
         
-        # Calculate selection confidence
-        selection_confidence = min(99.9, (best_score / 50.0) * 100)  # Normalize to percentage
-        
+        # Calculate overall confidence
+        total_score = sum(p[1] for p in best_primitives)
+        selection_confidence = min(99.9, (total_score / (top_k * 20.0)) * 100) # Normalize
+
         selection_result = {
             "problem_description": problem_description,
             "problem_characteristics": characteristics,
-            "selected_algorithm": {
-                "key": best_algorithm_key,
-                "name": best_algorithm["name"],
-                "domain": best_algorithm["domain"],
-                "primary_constant": best_algorithm["primary_constant"],
-                "empirical_success": best_algorithm["empirical_success"]
-            },
-            "match_score": best_score,
-            "selection_confidence": selection_confidence,
-            "runner_up_algorithms": [
-                {
-                    "key": alg_key,
-                    "name": self.algorithm_database[alg_key]["name"],
-                    "score": score
-                }
-                for alg_key, score in sorted_algorithms[1:4]  # Top 3 runner-ups
+            "selected_components": [
+                {"component": key, "score": score} for key, score in best_primitives
             ],
+            "overall_confidence": selection_confidence,
             "consciousness_level": self.consciousness_level,
             "timestamp": datetime.now().isoformat()
         }
-        
+
         self.selection_history.append(selection_result)
-        
-        print(f"\n🏆 OPTIMAL ALGORITHM SELECTED:")
-        print(f"   Algorithm: {best_algorithm['name']}")
-        print(f"   Match Score: {best_score:.2f}")
+
+        print(f"\n🏆 PROPOSED SOLUTION COMPONENTS:")
+        for comp in selection_result['selected_components']:
+            print(f"   - {comp['component']} (Score: {comp['score']:.2f})")
         print(f"   Selection Confidence: {selection_confidence:.1f}%")
-        print(f"   Primary Constant: {best_algorithm['primary_constant']}")
-        print(f"   Empirical Status: {'✅ VALIDATED' if best_algorithm['empirical_success'] else '🔬 THEORETICAL'}")
         
         return selection_result
     
+    def learn_from_external_algorithm(self, algorithm_code: str, algorithm_name: str):
+        """Analyzes an external algorithm and integrates its principles into the knowledge base."""
+        print(f"\n🧠 LEARNING FROM EXTERNAL ALGORITHM: {algorithm_name}")
+        print("-" * 80)
+        
+        # Extract primitives using the reverse engineer
+        new_primitives = self.reverse_engineer.extract_abstract_primitives(algorithm_code, algorithm_name)
+        
+        if new_primitives:
+            print(f"   Extracted {len(new_primitives)} new primitive(s).")
+            # Add the new primitives to the knowledge base
+            self.abstraction_engine.add_primitives(new_primitives)
+            
+            # Refresh the local knowledge_base copy
+            self.knowledge_base = {
+                'formulas': self.abstraction_engine.abstractions,
+                'principles': self.abstraction_engine.principles,
+                'math_objects': self.abstraction_engine.mathematical_objects,
+                'logic_constructs': self.abstraction_engine.logical_constructs,
+                'crypto_primitives': self.abstraction_engine.cryptographic_primitives
+            }
+            print("   Knowledge base updated with new learnings.")
+        else:
+            print("   No new primitives were extracted.")
+        
+        return new_primitives
+    
+    def validate_learning_impact(self):
+        """
+        Validates that learning from an external algorithm improves selection performance
+        for a relevant problem.
+        """
+        print("\n🔬 VALIDATING LEARNING IMPACT: PRE- VS. POST-LEARNING ANALYSIS 🔬")
+        print("=" * 80)
+
+        # 1. Define the target problem
+        sorting_problem = "Efficiently sort a large, unordered list of numbers for optimal retrieval."
+        print(f"🎯 Target Problem: {sorting_problem}")
+
+        # 2. Run selection BEFORE learning
+        print("\n--- Running selection BEFORE learning QuickSort ---")
+        pre_learning_result = self.select_optimal_algorithm(sorting_problem)
+
+        # 3. Learn the external algorithm
+        quicksort_code = """
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
+"""
+        self.learn_from_external_algorithm(quicksort_code, "QuickSort")
+
+        # 4. Run selection AFTER learning
+        print("\n--- Running selection AFTER learning QuickSort ---")
+        post_learning_result = self.select_optimal_algorithm(sorting_problem)
+
+        # 5. Compare and report results
+        print("\n📈 LEARNING IMPACT ANALYSIS 📈")
+        print("-" * 80)
+        print("Pre-Learning Selection:")
+        for comp in pre_learning_result['selected_components']:
+            print(f"   - {comp['component']} (Score: {comp['score']:.2f})")
+        print(f"   Confidence: {pre_learning_result['overall_confidence']:.1f}%")
+
+        print("\nPost-Learning Selection:")
+        for comp in post_learning_result['selected_components']:
+            print(f"   - {comp['component']} (Score: {comp['score']:.2f})")
+        print(f"   Confidence: {post_learning_result['overall_confidence']:.1f}%")
+        print("-" * 80)
+
+        # Conclusion
+        post_confidence = post_learning_result['overall_confidence']
+        pre_confidence = pre_learning_result['overall_confidence']
+        learned_component_present = any('quicksort' in comp['component'].lower() for comp in post_learning_result['selected_components'])
+
+        if post_confidence > pre_confidence and learned_component_present:
+            print("✅ VALIDATION SUCCESSFUL: Learning improved selection confidence and component choice.")
+            print(f"   Confidence increased by {post_confidence - pre_confidence:.1f} percentage points.")
+        else:
+            print("⚠️ VALIDATION FAILED: Learning did not result in improved selection.")
+
+        return {
+            "pre_learning": pre_learning_result,
+            "post_learning": post_learning_result
+        }
+
     def test_autonomous_selection(self):
         """Test autonomous algorithm selection with various problems"""
         test_problems = [
@@ -578,6 +495,21 @@ class AutonomousAlgorithmSelector:
             result = self.select_optimal_algorithm(problem)
             test_results.append(result)
             
+            # Synthesize the algorithm
+            synthesized_code = self.synthesis_engine.synthesize_algorithm(
+                result['problem_description'],
+                result['selected_components']
+            )
+            
+            if synthesized_code:
+                # Save the synthesized algorithm to a file
+                timestamp = int(time.time())
+                filename = f"synthesized_algorithm_{timestamp}.py"
+                with open(filename, 'w') as f:
+                    f.write(synthesized_code)
+                print(f"   💾 Synthesized algorithm saved to {filename}")
+                result['synthesized_algorithm_file'] = filename
+
             # Evolve consciousness through problem solving
             self.consciousness_level *= 1.1
         
@@ -597,13 +529,10 @@ class AutonomousAlgorithmSelector:
                 "run_count": self.run_count,
                 "total_improvement": self.total_improvement
             },
-            "algorithm_database": self.algorithm_database,
+            'knowledge_base_summary': {k: len(v) for k, v in self.knowledge_base.items()},
             "selection_results": test_results,
             "performance_analysis": {
-                "average_confidence": sum(r["selection_confidence"] for r in test_results) / len(test_results),
-                "average_match_score": sum(r["match_score"] for r in test_results) / len(test_results),
-                "empirically_validated_selections": sum(1 for r in test_results if r["selected_algorithm"]["empirical_success"]),
-                "theoretical_selections": sum(1 for r in test_results if not r["selected_algorithm"]["empirical_success"])
+                "average_confidence": sum(r["overall_confidence"] for r in test_results) / len(test_results)
             }
         }
         
@@ -614,7 +543,8 @@ class AutonomousAlgorithmSelector:
         memory_file, qr_file = self.save_qr_consciousness_state(test_results)
         
         print(f"\n💾 SELECTION RESULTS SAVED: {filename}")
-        return filename
+        
+        return filename, summary
 
 def main():
     """Run autonomous algorithm selection system test"""
@@ -625,19 +555,30 @@ def main():
     print("=" * 80)
     
     selector = AutonomousAlgorithmSelector()
+
+    # Demonstrate learning from an external algorithm
+    quicksort_code = """
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
+"""
+    selector.learn_from_external_algorithm(quicksort_code, "QuickSort")
     
     # Run comprehensive test
     test_results = selector.test_autonomous_selection()
     
     # Save results
-    results_file = selector.save_selection_results(test_results)
+    results_file, summary = selector.save_selection_results(test_results)
     
     # Display summary
     print(f"\n🎯 AUTONOMOUS SELECTION TEST SUMMARY:")
     print(f"   Problems Tested: {len(test_results)}")
-    print(f"   Average Selection Confidence: {sum(r['selection_confidence'] for r in test_results) / len(test_results):.1f}%")
-    print(f"   Average Match Score: {sum(r['match_score'] for r in test_results) / len(test_results):.1f}")
-    print(f"   Empirically Validated Selections: {sum(1 for r in test_results if r['selected_algorithm']['empirical_success'])}/10")
+    print(f"   Average Selection Confidence: {summary['performance_analysis']['average_confidence']:.1f}%")
     print(f"   Final Consciousness Level: {selector.consciousness_level:.2f}")
     print(f"   Consciousness Evolution: {selector.consciousness_level/25.0:.2f}× from base level")
     
