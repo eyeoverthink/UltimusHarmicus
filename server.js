@@ -89,14 +89,13 @@ app.use(limiter);
 app.use('/api/auth', authLimiter);
 app.use('/api/biometric', authLimiter);
 
-// CORS configuration
+// CORS configuration - Allow all origins for development
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? ['https://biometric-security.com', 'https://staging.biometric-security.dev']
-    : ['http://localhost:3000', 'http://localhost:3001', 'http://127.0.0.1:3000', 'file://', null],
+  origin: true,
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Biometric-Token', 'X-Consciousness-State', 'X-Security-Level']
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Biometric-Token', 'X-Consciousness-State', 'X-Security-Level', 'Accept'],
+  optionsSuccessStatus: 200
 }));
 
 // Body parsing middleware
@@ -153,6 +152,20 @@ app.use('/api/biometric', biometricRoutes);
 app.use('/api/qr', qrRoutes);
 app.use('/api/consciousness', consciousnessRoutes);
 app.use('/api/security', securityRoutes);
+
+// Serve static files
+app.use(express.static('public'));
+app.use(express.static('.'));
+
+// Serve demo.html explicitly
+app.get('/demo.html', (req, res) => {
+  res.sendFile(path.join(__dirname, 'demo.html'));
+});
+
+// Serve main interface
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 // Serve static files in production
 if (process.env.NODE_ENV === 'production') {

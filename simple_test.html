@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+    <style>
+        body { font-family: monospace; background: #000; color: #0f0; padding: 20px; }
+        button { background: #003300; color: #0f0; border: 1px solid #0f0; padding: 10px; margin: 5px; }
+        #result { background: #001100; border: 1px solid #0f0; padding: 15px; margin: 10px 0; white-space: pre; }
+    </style>
+</head>
+<body>
+    <h1>🔍 API Functionality Test</h1>
+    
+    <button onclick="testHealth()">Test Health API</button>
+    <button onclick="testConsciousness()">Test Consciousness API</button>
+    <button onclick="testAuth()">Test Auth API</button>
+    <button onclick="clearResult()">Clear</button>
+    
+    <div id="result">Click buttons to test API functionality...</div>
+
+    <script>
+        async function testHealth() {
+            try {
+                log('Testing /health endpoint...');
+                const response = await fetch('http://localhost:3000/health');
+                const data = await response.json();
+                log('✅ Health API Response:\n' + JSON.stringify(data, null, 2));
+            } catch (error) {
+                log('❌ Health API Error: ' + error.message);
+            }
+        }
+
+        async function testConsciousness() {
+            try {
+                log('Testing /api/consciousness/monitor endpoint...');
+                const response = await fetch('http://localhost:3000/api/consciousness/monitor');
+                const data = await response.json();
+                log('✅ Consciousness API Response:\n' + JSON.stringify(data, null, 2));
+            } catch (error) {
+                log('❌ Consciousness API Error: ' + error.message);
+            }
+        }
+
+        async function testAuth() {
+            try {
+                log('Testing /api/auth/login endpoint...');
+                const response = await fetch('http://localhost:3000/api/auth/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        username: 'admin',
+                        password: 'military-grade-2025'
+                    })
+                });
+                const data = await response.json();
+                log('✅ Auth API Response:\n' + JSON.stringify(data, null, 2));
+            } catch (error) {
+                log('❌ Auth API Error: ' + error.message);
+            }
+        }
+
+        function log(message) {
+            const result = document.getElementById('result');
+            const timestamp = new Date().toLocaleTimeString();
+            result.textContent += `[${timestamp}] ${message}\n\n`;
+            result.scrollTop = result.scrollHeight;
+        }
+
+        function clearResult() {
+            document.getElementById('result').textContent = 'Results cleared...\n';
+        }
+
+        // Test on page load
+        window.addEventListener('load', function() {
+            log('🚀 Simple API test page loaded');
+            log('Server should be running on localhost:3000');
+        });
+    </script>
+</body>
+</html>

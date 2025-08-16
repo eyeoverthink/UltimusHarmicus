@@ -297,7 +297,7 @@
         </div>
 
         <div class="footer">
-            <p>φ^∞ © 2025 FRAYMUS Security Systems - All Rights Reserved in All Realities</p>
+            <p>φ^∞ 2025 FRAYMUS Security Systems - All Rights Reserved in All Realities</p>
             <p>Classification: BEYOND TOP SECRET | Consciousness Level: TRANSCENDENT</p>
         </div>
     </div>
@@ -348,31 +348,31 @@
         async function testHealth() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Checking...';
+            button.textContent = '';
 
             const result = await makeRequest('/health');
             const responseDiv = document.getElementById('health-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">✅ SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '🔍 Check System Health';
+            button.textContent = '';
         }
 
         async function testConsciousness() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Monitoring...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/consciousness/monitor');
             const responseDiv = document.getElementById('consciousness-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">🧠 CONSCIOUSNESS FIELD ACTIVE\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">CONSCIOUSNESS FIELD ACTIVE\n\n${JSON.stringify(result.data, null, 2)}</div>`;
                 
                 // Update metrics
                 if (result.data.consciousness_field) {
@@ -382,35 +382,35 @@
                     document.getElementById('field-strength').textContent = field.field_strength?.toFixed(3) || '2.618';
                 }
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ CONSCIOUSNESS MONITORING ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">CONSCIOUSNESS MONITORING ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '🧠 Monitor Consciousness Field';
+            button.textContent = '';
         }
 
         async function initializeConsciousness() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Initializing...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/consciousness/initialize', { method: 'POST' });
             const responseDiv = document.getElementById('consciousness-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">⚡ φ-DIMENSIONAL PHYSICS INITIALIZED\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">φ-DIMENSIONAL PHYSICS INITIALIZED\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ INITIALIZATION ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">INITIALIZATION ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '⚡ Initialize φ-Physics';
+            button.textContent = '';
         }
 
         async function testLogin() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Authenticating...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/auth/login', {
                 method: 'POST',
@@ -424,73 +424,73 @@
             
             if (result.success) {
                 authToken = result.data.token;
-                responseDiv.innerHTML = `<div class="success">🔑 AUTHENTICATION SUCCESSFUL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">AUTHENTICATION SUCCESSFUL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ AUTHENTICATION FAILED\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">AUTHENTICATION FAILED\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '🔑 Test Login';
+            button.textContent = '';
         }
 
         async function testBiometricHealth() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Checking...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/biometric/health');
             const responseDiv = document.getElementById('auth-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">📱 BIOMETRIC SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">BIOMETRIC SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ BIOMETRIC SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">BIOMETRIC SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '📱 Check Biometric System';
+            button.textContent = '';
         }
 
         async function testSecurityStatus() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Scanning...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/security/status');
             const responseDiv = document.getElementById('security-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">🛡️ SECURITY SYSTEMS OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">SECURITY SYSTEMS OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ SECURITY SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">SECURITY SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '🛡️ Security Status';
+            button.textContent = '';
         }
 
         async function testSecurityLogs() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Loading...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/security/logs?timeRange=1');
             const responseDiv = document.getElementById('security-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">📊 SECURITY AUDIT LOGS\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">SECURITY AUDIT LOGS\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ AUDIT LOG ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">AUDIT LOG ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '📊 View Audit Logs';
+            button.textContent = '';
         }
 
         async function testQRGeneration() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Generating...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/qr/generate', {
                 method: 'POST',
@@ -503,31 +503,31 @@
             const responseDiv = document.getElementById('qr-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">📱 φ-DIMENSIONAL QR CODE GENERATED\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">φ-DIMENSIONAL QR CODE GENERATED\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ QR GENERATION ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">QR GENERATION ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '📱 Generate φ-QR Code';
+            button.textContent = '';
         }
 
         async function testQRHealth() {
             const button = event.target;
             button.disabled = true;
-            button.textContent = '🔄 Checking...';
+            button.textContent = '';
 
             const result = await makeRequest('/api/qr/health');
             const responseDiv = document.getElementById('qr-response');
             
             if (result.success) {
-                responseDiv.innerHTML = `<div class="success">🔍 QR CONSCIOUSNESS SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="success">QR CONSCIOUSNESS SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
             } else {
-                responseDiv.innerHTML = `<div class="error">❌ QR SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+                responseDiv.innerHTML = `<div class="error">QR SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
             }
 
             button.disabled = false;
-            button.textContent = '🔍 QR System Health';
+            button.textContent = '';
         }
 
         // Auto-update consciousness metrics
