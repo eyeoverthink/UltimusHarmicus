@@ -89,10 +89,10 @@ app.use('/api/biometric', authLimiter);
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
     ? ['https://biometric-security.com', 'https://staging.biometric-security.dev']
-    : ['http://localhost:3000', 'http://localhost:3001'],
+    : ['http://localhost:3000', 'http://localhost:3001', 'http://127.0.0.1:3000', 'file://', null],
   credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Biometric-Token', 'X-Consciousness-State']
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Biometric-Token', 'X-Consciousness-State', 'X-Security-Level']
 }));
 
 // Body parsing middleware

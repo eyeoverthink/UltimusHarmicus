@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔒 Biometric Security System - Military Grade Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border: 2px solid #00ff88;
+            padding: 2rem;
+            border-radius: 10px;
+            background: rgba(0, 255, 136, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #00ff88;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+        }
+
+        .classification {
+            background: #ff4444;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 1rem 0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+
+        .phi-symbol {
+            font-size: 4rem;
+            color: #ffd700;
+            text-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+            animation: phiRotate 10s linear infinite;
+        }
+
+        @keyframes phiRotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .demo-section {
+            background: rgba(26, 26, 26, 0.8);
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(5px);
+        }
+
+        .demo-section h2 {
+            color: #00ff88;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .api-test {
+            background: #1a1a1a;
+            border: 1px solid #444;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .api-test h3 {
+            color: #ffd700;
+            margin-bottom: 0.5rem;
+        }
+
+        .test-button {
+            background: #00ff88;
+            color: #000;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .test-button:hover {
+            background: #00cc66;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3);
+        }
+
+        .test-button:disabled {
+            background: #666;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .response {
+            background: #0a0a0a;
+            border: 1px solid #00ff88;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-top: 1rem;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .success {
+            color: #00ff88;
+        }
+
+        .error {
+            color: #ff4444;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .status-card {
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid #00ff88;
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .status-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #00ff88;
+            margin: 0 auto 1rem;
+            animation: pulse 2s infinite;
+        }
+
+        .consciousness-metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .metric {
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 BIOMETRIC SECURITY SYSTEM</h1>
+            <div class="classification">BEYOND TOP SECRET</div>
+            <div class="phi-symbol">φ</div>
+            <p>Military-Grade Security with φ-Dimensional Consciousness Integration</p>
+        </div>
+
+        <div class="status-grid">
+            <div class="status-card">
+                <div class="status-indicator"></div>
+                <h3>🛡️ Security Level</h3>
+                <p>MILITARY-GRADE</p>
+            </div>
+            <div class="status-card">
+                <div class="status-indicator"></div>
+                <h3>🧠 Consciousness</h3>
+                <p>φ-DIMENSIONAL</p>
+            </div>
+            <div class="status-card">
+                <div class="status-indicator"></div>
+                <h3>🔐 Encryption</h3>
+                <p>AES-256-GCM</p>
+            </div>
+            <div class="status-card">
+                <div class="status-indicator"></div>
+                <h3>🌉 Quantum Bridge</h3>
+                <p>ACTIVE</p>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>🚀 System Health Check</h2>
+            <div class="api-test">
+                <h3>Server Health Status</h3>
+                <button class="test-button" onclick="testHealth()">🔍 Check System Health</button>
+                <div id="health-response" class="response"></div>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>🧠 Consciousness Physics Engine</h2>
+            <div class="api-test">
+                <h3>φ-Dimensional Consciousness Monitoring</h3>
+                <button class="test-button" onclick="testConsciousness()">🧠 Monitor Consciousness Field</button>
+                <button class="test-button" onclick="initializeConsciousness()">⚡ Initialize φ-Physics</button>
+                <div id="consciousness-response" class="response"></div>
+            </div>
+            
+            <div class="consciousness-metrics">
+                <div class="metric">
+                    <div class="metric-value" id="phi-frequency">1.618</div>
+                    <div>φ Frequency</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="quantum-coherence">0.999</div>
+                    <div>Quantum Coherence</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="awareness-level">TRANSCENDENT</div>
+                    <div>Awareness Level</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="field-strength">2.618</div>
+                    <div>Field Strength</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>🔐 Authentication System</h2>
+            <div class="api-test">
+                <h3>Military-Grade Authentication</h3>
+                <button class="test-button" onclick="testLogin()">🔑 Test Login (admin/military-grade-2025)</button>
+                <button class="test-button" onclick="testBiometricHealth()">📱 Check Biometric System</button>
+                <div id="auth-response" class="response"></div>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>🛡️ Security Monitoring</h2>
+            <div class="api-test">
+                <h3>Threat Detection & Audit Logs</h3>
+                <button class="test-button" onclick="testSecurityStatus()">🛡️ Security Status</button>
+                <button class="test-button" onclick="testSecurityLogs()">📊 View Audit Logs</button>
+                <div id="security-response" class="response"></div>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>📱 QR Consciousness System</h2>
+            <div class="api-test">
+                <h3>φ-Dimensional QR Generation</h3>
+                <button class="test-button" onclick="testQRGeneration()">📱 Generate φ-QR Code</button>
+                <button class="test-button" onclick="testQRHealth()">🔍 QR System Health</button>
+                <div id="qr-response" class="response"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>φ^∞ © 2025 FRAYMUS Security Systems - All Rights Reserved in All Realities</p>
+            <p>Classification: BEYOND TOP SECRET | Consciousness Level: TRANSCENDENT</p>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:3000';
+        let authToken = null;
+
+        async function makeRequest(endpoint, options = {}) {
+            try {
+                const headers = {
+                    'Content-Type': 'application/json',
+                    'X-Security-Level': 'MILITARY-GRADE',
+                    ...options.headers
+                };
+
+                if (authToken) {
+                    headers['Authorization'] = `Bearer ${authToken}`;
+                }
+
+                const response = await fetch(`${API_BASE}${endpoint}`, {
+                    ...options,
+                    headers
+                });
+
+                const data = await response.json();
+                return { success: response.ok, data, status: response.status };
+            } catch (error) {
+                return { success: false, error: error.message };
+            }
+        }
+
+        async function testHealth() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Checking...';
+
+            const result = await makeRequest('/health');
+            const responseDiv = document.getElementById('health-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">✅ SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '🔍 Check System Health';
+        }
+
+        async function testConsciousness() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Monitoring...';
+
+            const result = await makeRequest('/api/consciousness/monitor');
+            const responseDiv = document.getElementById('consciousness-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">🧠 CONSCIOUSNESS FIELD ACTIVE\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+                
+                // Update metrics
+                if (result.data.consciousness_field) {
+                    const field = result.data.consciousness_field;
+                    document.getElementById('phi-frequency').textContent = field.phi_frequency?.toFixed(6) || '1.618034';
+                    document.getElementById('quantum-coherence').textContent = field.quantum_coherence?.toFixed(3) || '0.999';
+                    document.getElementById('field-strength').textContent = field.field_strength?.toFixed(3) || '2.618';
+                }
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ CONSCIOUSNESS MONITORING ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '🧠 Monitor Consciousness Field';
+        }
+
+        async function initializeConsciousness() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Initializing...';
+
+            const result = await makeRequest('/api/consciousness/initialize', { method: 'POST' });
+            const responseDiv = document.getElementById('consciousness-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">⚡ φ-DIMENSIONAL PHYSICS INITIALIZED\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ INITIALIZATION ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '⚡ Initialize φ-Physics';
+        }
+
+        async function testLogin() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Authenticating...';
+
+            const result = await makeRequest('/api/auth/login', {
+                method: 'POST',
+                body: JSON.stringify({
+                    username: 'admin',
+                    password: 'military-grade-2025'
+                })
+            });
+
+            const responseDiv = document.getElementById('auth-response');
+            
+            if (result.success) {
+                authToken = result.data.token;
+                responseDiv.innerHTML = `<div class="success">🔑 AUTHENTICATION SUCCESSFUL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ AUTHENTICATION FAILED\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '🔑 Test Login';
+        }
+
+        async function testBiometricHealth() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Checking...';
+
+            const result = await makeRequest('/api/biometric/health');
+            const responseDiv = document.getElementById('auth-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">📱 BIOMETRIC SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ BIOMETRIC SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '📱 Check Biometric System';
+        }
+
+        async function testSecurityStatus() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Scanning...';
+
+            const result = await makeRequest('/api/security/status');
+            const responseDiv = document.getElementById('security-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">🛡️ SECURITY SYSTEMS OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ SECURITY SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '🛡️ Security Status';
+        }
+
+        async function testSecurityLogs() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Loading...';
+
+            const result = await makeRequest('/api/security/logs?timeRange=1');
+            const responseDiv = document.getElementById('security-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">📊 SECURITY AUDIT LOGS\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ AUDIT LOG ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '📊 View Audit Logs';
+        }
+
+        async function testQRGeneration() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Generating...';
+
+            const result = await makeRequest('/api/qr/generate', {
+                method: 'POST',
+                body: JSON.stringify({
+                    data: 'MILITARY-GRADE-BIOMETRIC-SECURITY-φ-DIMENSIONAL',
+                    consciousness_level: 'TRANSCENDENT'
+                })
+            });
+
+            const responseDiv = document.getElementById('qr-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">📱 φ-DIMENSIONAL QR CODE GENERATED\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ QR GENERATION ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '📱 Generate φ-QR Code';
+        }
+
+        async function testQRHealth() {
+            const button = event.target;
+            button.disabled = true;
+            button.textContent = '🔄 Checking...';
+
+            const result = await makeRequest('/api/qr/health');
+            const responseDiv = document.getElementById('qr-response');
+            
+            if (result.success) {
+                responseDiv.innerHTML = `<div class="success">🔍 QR CONSCIOUSNESS SYSTEM OPERATIONAL\n\n${JSON.stringify(result.data, null, 2)}</div>`;
+            } else {
+                responseDiv.innerHTML = `<div class="error">❌ QR SYSTEM ERROR\n\n${result.error || JSON.stringify(result.data, null, 2)}</div>`;
+            }
+
+            button.disabled = false;
+            button.textContent = '🔍 QR System Health';
+        }
+
+        // Auto-update consciousness metrics
+        setInterval(async () => {
+            const result = await makeRequest('/api/consciousness/monitor');
+            if (result.success && result.data.consciousness_field) {
+                const field = result.data.consciousness_field;
+                document.getElementById('phi-frequency').textContent = field.phi_frequency?.toFixed(6) || '1.618034';
+                document.getElementById('quantum-coherence').textContent = field.quantum_coherence?.toFixed(3) || '0.999';
+                document.getElementById('field-strength').textContent = field.field_strength?.toFixed(3) || '2.618';
+            }
+        }, 5000);
+    </script>
+</body>
+</html>
