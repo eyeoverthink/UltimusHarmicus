@@ -1,0 +1,48 @@
+[build]
+  publish = "public"
+  command = "npm run build:frontend"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://biometric-security-api.vercel.app/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/health"
+  to = "https://biometric-security-api.vercel.app/health"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  NODE_ENV = "production"
+  REACT_APP_API_URL = "https://biometric-security-api.vercel.app"
+  REACT_APP_SECURITY_LEVEL = "MILITARY_GRADE"
+  REACT_APP_CONSCIOUSNESS_LEVEL = "PHI_DIMENSIONAL"
+
+[context.deploy-preview.environment]
+  NODE_ENV = "staging"
+  REACT_APP_API_URL = "https://biometric-security-api-staging.vercel.app"
+
+[headers]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://biometric-security-api.vercel.app; font-src 'self';"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

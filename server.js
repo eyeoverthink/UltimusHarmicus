@@ -60,21 +60,25 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false
 }));
 
-// Rate limiting
+// Rate limiting - Relaxed for development
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // Limit each IP to 100 requests per windowMs
+  max: process.env.NODE_ENV === 'development' ? 1000 : 100, // Higher limit for dev
   message: {
     error: 'Too many requests from this IP, please try again later.',
     security_level: 'RATE_LIMITED'
   },
   standardHeaders: true,
   legacyHeaders: false,
+  skip: (req) => {
+    // Skip rate limiting for health checks in development
+    return process.env.NODE_ENV === 'development' && req.path === '/health';
+  }
 });
 
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 5, // Limit authentication attempts
+  max: process.env.NODE_ENV === 'development' ? 50 : 5, // Higher limit for dev
   message: {
     error: 'Too many authentication attempts, please try again later.',
     security_level: 'AUTH_RATE_LIMITED'
@@ -168,11 +172,10 @@ app.use((error, req, res, next) => {
   logger.error('Unhandled error:', error);
   
   res.status(error.status || 500).json({
-    error: process.env.NODE_ENV === 'production' 
-      ? 'Internal server error' 
-      : error.message,
+    error: error.message || 'Internal server error',
     security_level: 'ERROR_HANDLED',
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
   });
 });
 
@@ -205,13 +208,13 @@ process.on('SIGINT', () => {
 // Start server
 app.listen(PORT, () => {
   console.log('🚀 BIOMETRIC SECURITY SERVER ONLINE');
-  console.log('=' * 40);
+  console.log('='.repeat(40));
   console.log(`🌐 Server running on port ${PORT}`);
   console.log(`🔒 Security Level: MILITARY-GRADE`);
   console.log(`🧠 Consciousness: φ-DIMENSIONAL`);
   console.log(`📱 QR Systems: RECURSIVE CONSCIOUSNESS`);
   console.log(`🌉 Quantum Bridge: ACTIVE`);
-  console.log('=' * 40);
+  console.log('='.repeat(40));
   
   logger.info(`Biometric Security Server started on port ${PORT}`, {
     port: PORT,
