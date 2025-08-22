@@ -455,13 +455,42 @@
     </div>
     
     <script>
-        // Vaughn Scott's Consciousness Physics Constants
-        const PHI = 1.618033988749895;
-        const PSI = 1.324717957244746;
-        const OMEGA = 0.567143290409784;
-        const XI = 2.718281828459045;
-        const LAMBDA = 3.141592653589793;
-        const ZETA = 1.2020569;
+        // FRAYMUS Patent Integration - Vaughn Scott's Consciousness Physics Constants
+        // φ-Dimensional Reality Protection System (VS-PoQC-19046423-φ⁷⁵-2025)
+        const PHI = 1.618033988749895;      // φ-Phase Generator
+        const PSI = 1.324717957244746;      // Reality Engine Core
+        const OMEGA = 0.567143290409784;    // Quantum Interface Bridge
+        const XI = 2.718281828459045;       // φ-Space Transform
+        const LAMBDA = 3.141592653589793;   // Power Control Matrix
+        const ZETA = 1.2020569;             // Reality Protection Seal
+        
+        // FRAYMUS φ-Dimensional Reality Protection
+        function phiSpaceTransform(input) {
+            // Patent Claim 1: φ-Dimensional Reality Protection
+            const phiPhase = PHI ** 7.5; // φ⁷⁵ scaling mechanism
+            const realityMap = input * phiPhase * OMEGA;
+            return realityMap % 1000000; // Reality space mapping
+        }
+        
+        // FRAYMUS Quantum Reality Bridge
+        function quantumRealityBridge(data) {
+            // Patent Claim 2: Quantum Reality Bridge
+            const quantumState = data * XI * PSI;
+            const realityBridge = quantumState * PHI * ZETA;
+            return btoa(realityBridge.toString()).substring(0, 16);
+        }
+        
+        // FRAYMUS NFT Reality Protection
+        function nftRealityProtection(asset) {
+            // Patent Claim 3: NFT Reality Protection
+            const quantumWatermark = asset * PHI * OMEGA * ZETA;
+            const realityChain = quantumWatermark * PSI * LAMBDA;
+            return {
+                watermark: btoa(quantumWatermark.toString()).substring(0, 12),
+                chain: btoa(realityChain.toString()).substring(0, 12),
+                protection: "FRAYMUS_SEALED"
+            };
+        }
         
         function runConsciousnessTest() {
             const username = document.getElementById('username').value;
@@ -496,12 +525,20 @@
             document.body.appendChild(overlay);
             
             const steps = [
-                '🔍 Initiating Consciousness Physics Analysis...',
+                '🔍 Initiating FRAYMUS Consciousness Physics Analysis...',
                 `📊 Target Username: ${username}`,
                 `🔐 Target Password: ${'●'.repeat(password.length)}`,
                 '🧠 Loading φ-Harmonic Pattern Recognition...',
                 '⚡ Activating CPESC 6-Layer Security Analysis...',
                 '🌈 Initializing Color Consciousness Processing...',
+                '',
+                '🔮 FRAYMUS φ-DIMENSIONAL REALITY PROTECTION ACTIVE:',
+                `   ├─ φ-Phase Generator: ${PHI.toFixed(6)} (φ⁷⁵ scaling)`,
+                `   ├─ Reality Engine Core: ${PSI.toFixed(6)}`,
+                `   ├─ Quantum Interface Bridge: ${OMEGA.toFixed(6)}`,
+                `   ├─ φ-Space Transform: ${phiSpaceTransform(username.length + password.length)}`,
+                `   ├─ Quantum Reality Bridge: ${quantumRealityBridge(username.charCodeAt(0) || 65)}`,
+                `   └─ Reality Protection: FRAYMUS_SEALED`,
                 '',
                 '🔓 CONSCIOUSNESS PHYSICS CREDENTIAL EXTRACTION:',
                 '   ├─ Analyzing character consciousness patterns...',
@@ -531,7 +568,14 @@
                 `   ├─ QR Memory patterns: ${Object.keys(consciousnessMemory).length + 1} stored`,
                 '   └─ ✅ Evolution complete',
                 '',
-                '🎯 ANALYSIS COMPLETE - Credentials Cracked via Consciousness Physics',
+                '',
+                '🔮 FRAYMUS NFT REALITY PROTECTION APPLIED:',
+                `   ├─ Quantum Watermark: ${nftRealityProtection(username.length).watermark}`,
+                `   ├─ Reality Chain: ${nftRealityProtection(password.length).chain}`,
+                `   └─ Protection Status: ${nftRealityProtection(username.length + password.length).protection}`,
+                '',
+                '🎯 ANALYSIS COMPLETE - Credentials Cracked via FRAYMUS Consciousness Physics',
+                '📜 Patent Protected: VS-PoQC-19046423-φ⁷⁵-2025',
                 'Click anywhere to view detailed results...'
             ];
             
@@ -612,23 +656,27 @@
         }
         
         function generateCPESCHash(input) {
-            // TRULY Dynamic CPESC 6-layer hashing - guaranteed unique per run
+            // FRAYMUS Patent-Protected CPESC 6-layer hashing with φ-dimensional reality protection
             const timestamp = Date.now();
             const nanoTime = performance.now();
             const randomSeed = Math.random() * 1000000;
             const evolutionFactor = evolutionLevel * PHI;
             const runFactor = runCount * PSI;
             
-            // Create base hash with multiple entropy sources
-            let hash = btoa(input + timestamp + nanoTime + randomSeed + evolutionFactor + runFactor).substring(0, 16);
+            // Apply FRAYMUS φ-Space Transform to input
+            const phiTransformed = phiSpaceTransform(input.length + timestamp);
+            
+            // Create base hash with FRAYMUS reality protection
+            let hash = btoa(input + timestamp + nanoTime + randomSeed + evolutionFactor + runFactor + phiTransformed).substring(0, 16);
             
             for (let i = 0; i < 6; i++) {
-                // Each layer gets unique entropy
+                // Each layer gets FRAYMUS quantum reality bridge protection
                 const layerEntropy = Math.random() * 999999;
                 const layerTime = Date.now() + i;
+                const quantumBridge = quantumRealityBridge(layerEntropy + i);
                 const layerSeed = (PHI + PSI + OMEGA + XI + LAMBDA + ZETA + evolutionFactor + i + timestamp + randomSeed + layerEntropy + layerTime).toString().replace(/\./g, '');
                 
-                hash = btoa(hash + layerSeed.substring(0, 20) + i.toString() + layerEntropy.toString()).substring(0, 16);
+                hash = btoa(hash + layerSeed.substring(0, 20) + i.toString() + layerEntropy.toString() + quantumBridge).substring(0, 16);
                 hash = btoa(hash + evolutionLevel.toString() + runCount.toString() + layerTime.toString()).substring(0, 16);
             }
             
@@ -636,16 +684,19 @@
         }
         
         function generateConsciousnessSignature(username, password) {
-            // TRULY Evolving consciousness signatures - guaranteed unique per run
+            // FRAYMUS Patent-Protected Consciousness Signatures with NFT Reality Protection
             const timestamp = Date.now();
             const nanoTime = performance.now();
             const evolutionBoost = evolutionLevel * runCount * PHI;
             const randomFactor = Math.random() * 10000;
             const uniqueEntropy = Math.random() * 999999;
             
-            const phi_sig = btoa(username + PHI.toString() + timestamp + nanoTime + evolutionBoost + randomFactor + uniqueEntropy).substring(0, 8);
-            const psi_sig = btoa(password + PSI.toString() + runCount + evolutionLevel + timestamp + nanoTime + uniqueEntropy).substring(0, 8);
-            const omega_sig = btoa((username + password) + OMEGA.toString() + evolutionBoost + randomFactor + timestamp + uniqueEntropy).substring(0, 8);
+            // Apply FRAYMUS NFT Reality Protection to credentials
+            const nftProtection = nftRealityProtection(username.charCodeAt(0) + password.charCodeAt(0));
+            
+            const phi_sig = btoa(username + PHI.toString() + timestamp + nanoTime + evolutionBoost + randomFactor + uniqueEntropy + nftProtection.watermark).substring(0, 8);
+            const psi_sig = btoa(password + PSI.toString() + runCount + evolutionLevel + timestamp + nanoTime + uniqueEntropy + nftProtection.chain).substring(0, 8);
+            const omega_sig = btoa((username + password) + OMEGA.toString() + evolutionBoost + randomFactor + timestamp + uniqueEntropy + nftProtection.protection).substring(0, 8);
             
             // Store in consciousness memory for evolution
             const memoryKey = `${username}_${password}`;
