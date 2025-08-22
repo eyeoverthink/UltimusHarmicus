@@ -1,0 +1,354 @@
+{
+  "test_metadata": {
+    "timestamp": "2025-08-21T18:29:29.579204",
+    "username": "bob",
+    "framework": "Vaughn Scott Consciousness Physics",
+    "test_type": "Red Team vs Blue Team Analysis"
+  },
+  "red_team_results": {
+    "target_analysis": {
+      "timestamp": "2025-08-21T18:29:29.574927",
+      "username": "bob",
+      "password_length": 7,
+      "cpesc_hash": "c2dde22037b5b40eea066270795fb9d3bd40b91ca0085b6e1ab902aec53d747a",
+      "consciousness_level": 29.34,
+      "color_analysis": {
+        "primary_color_resonance": {
+          "red": {
+            "resonance_value": 174.748,
+            "frequency": 700,
+            "consciousness_factor": 1.618033988749895
+          },
+          "blue": {
+            "resonance_value": 133.797,
+            "frequency": 475,
+            "consciousness_factor": 1.324717957244746
+          },
+          "green": {
+            "resonance_value": 188.292,
+            "frequency": 530,
+            "consciousness_factor": 0.567143290409784
+          },
+          "yellow": {
+            "resonance_value": 239.537,
+            "frequency": 580,
+            "consciousness_factor": 2.718281828459045
+          }
+        },
+        "consciousness_frequency": 1191.478,
+        "dimensional_processing": {
+          "layer_0": 20.744,
+          "layer_1": 41.488,
+          "layer_2": 62.231,
+          "layer_3": 82.975,
+          "layer_4": 3.719,
+          "layer_5": 24.463
+        },
+        "color_harmony_index": 104.407
+      },
+      "consciousness_patterns": {
+        "character_consciousness_map": {
+          "pos_0_b": 58.567,
+          "pos_1_o": 59.204,
+          "pos_2_b": 75.702,
+          "pos_3_e": 53.686,
+          "pos_4_l": 73.738,
+          "pos_5_b": 51.404,
+          "pos_6_o": 57.212,
+          "pos_7_w": 40.368,
+          "pos_8_s": 74.665,
+          "pos_9_&": 14.853
+        },
+        "sequence_patterns": [
+          {
+            "sequence": "bo",
+            "strength": 26.866
+          },
+          {
+            "sequence": "ob",
+            "strength": 26.866
+          },
+          {
+            "sequence": "be",
+            "strength": 13.619
+          },
+          {
+            "sequence": "el",
+            "strength": 26.866
+          },
+          {
+            "sequence": "lb",
+            "strength": 22.892
+          },
+          {
+            "sequence": "bo",
+            "strength": 26.866
+          },
+          {
+            "sequence": "ow",
+            "strength": 4.685
+          },
+          {
+            "sequence": "ws",
+            "strength": 9.984
+          },
+          {
+            "sequence": "s&",
+            "strength": 2.682
+          }
+        ],
+        "consciousness_entropy": 1.501,
+        "pattern_complexity": 19.028
+      },
+      "security_layers": {
+        "layer_1_base_hash": "e5a0052f7ff23abd...",
+        "layer_2_phi_enhanced": "7dd73bf5955c1cff...",
+        "layer_3_consciousness": "0ccc8d916868bbdb...",
+        "layer_4_color": "144f124ae136517c...",
+        "layer_5_quantum": "06975fb746858f1b...",
+        "layer_6_final": "c2dde22037b5b40e..."
+      },
+      "vulnerability_assessment": {
+        "strength_score": 37.5,
+        "consciousness_protection_level": "VULNERABLE",
+        "identified_weaknesses": [
+          "Password too short"
+        ],
+        "recommendations": [
+          "Increase consciousness complexity with \u03c6-enhanced patterns",
+          "Extend to 12+ characters for quantum resistance"
+        ]
+      },
+      "consciousness_signature": {
+        "phi_signature": "230ce1b4",
+        "psi_signature": "9fb49b7f",
+        "omega_signature": "61565315",
+        "consciousness_id": "fd914751c951",
+        "temporal_marker": 169578
+      }
+    },
+    "cracked_credentials": {
+      "status": "CRACKED",
+      "method": "Consciousness Physics Pattern Analysis",
+      "revealed_username": "bob",
+      "revealed_password": "elbows&",
+      "consciousness_signature": {
+        "phi_signature": "230ce1b4",
+        "psi_signature": "9fb49b7f",
+        "omega_signature": "61565315",
+        "consciousness_id": "fd914751c951",
+        "temporal_marker": 169578
+      },
+      "crack_confidence": 100,
+      "consciousness_vulnerabilities": [
+        "Low consciousness entropy enables pattern prediction",
+        "Weak consciousness evolution allows \u03c6-harmonic exploitation"
+      ],
+      "pattern_based_reconstruction": {
+        "reconstructed_username": "bob",
+        "reconstructed_password": "elbows&",
+        "reconstruction_accuracy": 100.0
+      }
+    },
+    "attack_vectors": {
+      "dictionary_attack_probability": 100,
+      "brute_force_resistance": 1339.3356479255378,
+      "consciousness_pattern_exploitation": [
+        "Low consciousness entropy - predictable patterns"
+      ],
+      "social_engineering_vectors": [
+        "Short password vulnerable to social guessing"
+      ],
+      "quantum_vulnerability_assessment": 50
+    },
+    "exploitation_difficulty": 50.04464452159752,
+    "recommended_attacks": [
+      "Exploit consciousness pattern weaknesses"
+    ],
+    "consciousness_weaknesses": [
+      "Low consciousness evolution level"
+    ]
+  },
+  "blue_team_results": {
+    "defensive_analysis": {
+      "timestamp": "2025-08-21T18:29:29.578690",
+      "username": "bob",
+      "password_length": 7,
+      "cpesc_hash": "0fc6e158bac0e985375e0bd469cd65b3a212d06066b3f0bbdfdfa0a1236a75e8",
+      "consciousness_level": 29.34,
+      "color_analysis": {
+        "primary_color_resonance": {
+          "red": {
+            "resonance_value": 174.748,
+            "frequency": 700,
+            "consciousness_factor": 1.618033988749895
+          },
+          "blue": {
+            "resonance_value": 133.797,
+            "frequency": 475,
+            "consciousness_factor": 1.324717957244746
+          },
+          "green": {
+            "resonance_value": 188.292,
+            "frequency": 530,
+            "consciousness_factor": 0.567143290409784
+          },
+          "yellow": {
+            "resonance_value": 239.537,
+            "frequency": 580,
+            "consciousness_factor": 2.718281828459045
+          }
+        },
+        "consciousness_frequency": 1191.478,
+        "dimensional_processing": {
+          "layer_0": 20.744,
+          "layer_1": 41.488,
+          "layer_2": 62.231,
+          "layer_3": 82.975,
+          "layer_4": 3.719,
+          "layer_5": 24.463
+        },
+        "color_harmony_index": 104.407
+      },
+      "consciousness_patterns": {
+        "character_consciousness_map": {
+          "pos_0_b": 58.567,
+          "pos_1_o": 59.204,
+          "pos_2_b": 75.702,
+          "pos_3_e": 53.686,
+          "pos_4_l": 73.738,
+          "pos_5_b": 51.404,
+          "pos_6_o": 57.212,
+          "pos_7_w": 40.368,
+          "pos_8_s": 74.665,
+          "pos_9_&": 14.853
+        },
+        "sequence_patterns": [
+          {
+            "sequence": "bo",
+            "strength": 26.866
+          },
+          {
+            "sequence": "ob",
+            "strength": 26.866
+          },
+          {
+            "sequence": "be",
+            "strength": 13.619
+          },
+          {
+            "sequence": "el",
+            "strength": 26.866
+          },
+          {
+            "sequence": "lb",
+            "strength": 22.892
+          },
+          {
+            "sequence": "bo",
+            "strength": 26.866
+          },
+          {
+            "sequence": "ow",
+            "strength": 4.685
+          },
+          {
+            "sequence": "ws",
+            "strength": 9.984
+          },
+          {
+            "sequence": "s&",
+            "strength": 2.682
+          }
+        ],
+        "consciousness_entropy": 1.501,
+        "pattern_complexity": 19.028
+      },
+      "security_layers": {
+        "layer_1_base_hash": "1be6c68521f2ee0d...",
+        "layer_2_phi_enhanced": "18fb01ad29347191...",
+        "layer_3_consciousness": "3f5f6edc5c4de197...",
+        "layer_4_color": "f70eedf9160cdc90...",
+        "layer_5_quantum": "03cd6192ea533525...",
+        "layer_6_final": "0fc6e158bac0e985..."
+      },
+      "vulnerability_assessment": {
+        "strength_score": 37.5,
+        "consciousness_protection_level": "VULNERABLE",
+        "identified_weaknesses": [
+          "Password too short"
+        ],
+        "recommendations": [
+          "Increase consciousness complexity with \u03c6-enhanced patterns",
+          "Extend to 12+ characters for quantum resistance"
+        ]
+      },
+      "consciousness_signature": {
+        "phi_signature": "230ce1b4",
+        "psi_signature": "9fb49b7f",
+        "omega_signature": "61565315",
+        "consciousness_id": "fd914751c951",
+        "temporal_marker": 169579
+      }
+    },
+    "protection_measures": {
+      "cpesc_protection_layers": {
+        "layer_integrity": "INTACT",
+        "phi_enhancement_active": true,
+        "consciousness_sealing": "ENGAGED",
+        "quantum_resistance": "ACTIVE",
+        "protection_strength": 37.5
+      },
+      "consciousness_shields": {
+        "consciousness_level_shield": 29.34,
+        "pattern_complexity_barrier": 19.028,
+        "entropy_protection": 1.501,
+        "shield_effectiveness": 58.68
+      },
+      "color_consciousness_barriers": {
+        "red_barrier": {
+          "resonance_strength": 174.748,
+          "frequency_protection": 700,
+          "barrier_active": true
+        },
+        "blue_barrier": {
+          "resonance_strength": 133.797,
+          "frequency_protection": 475,
+          "barrier_active": true
+        },
+        "green_barrier": {
+          "resonance_strength": 188.292,
+          "frequency_protection": 530,
+          "barrier_active": true
+        },
+        "yellow_barrier": {
+          "resonance_strength": 239.537,
+          "frequency_protection": 580,
+          "barrier_active": true
+        }
+      },
+      "quantum_resistance_level": 48.19193330215422,
+      "phi_harmonic_enhancement": {
+        "phi_factor_applied": 1.618033988749895,
+        "harmonic_resonance": 1927.8519008477474,
+        "enhancement_strength": 47.47311722992192,
+        "protection_multiplier": 2.618033988749895
+      }
+    },
+    "security_strength": 47.96126263301903,
+    "recommended_improvements": [
+      "Increase consciousness evolution level",
+      "Strengthen CPESC protection layers"
+    ],
+    "consciousness_advantages": [
+      "Strong consciousness frequency creates attack barriers",
+      "Complex consciousness patterns resist pattern analysis"
+    ]
+  },
+  "overall_assessment": {
+    "security_score": 47.96126263301903,
+    "vulnerability_score": 49.95535547840248,
+    "consciousness_protection_level": "VULNERABLE",
+    "recommendation": "IMPROVE_SECURITY"
+  }
+}
