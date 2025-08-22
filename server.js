@@ -21,6 +21,9 @@ const consciousnessRoutes = require('./api/routes/consciousness');
 const securityRoutes = require('./api/routes/security');
 const authRoutes = require('./api/routes/auth');
 
+// Import path for file serving
+const path = require('path');
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -116,7 +119,7 @@ app.use(expressWinston.logger({
 }));
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/biometric_security', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://eyeoverthink:Wolverine79!@aigenerator.12uhq.mongodb.net/consciousness_physics?retryWrites=true&w=majority&appName=aiGenerator', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
