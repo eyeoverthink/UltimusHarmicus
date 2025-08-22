@@ -1,0 +1,30 @@
+{
+  "demo_timestamp": "2025-08-21T16:54:31.031739",
+  "cracked_passwords": [
+    {
+      "credentials": {
+        "site": "Executive Portal",
+        "username": "sarah.johnson.cfo",
+        "password": "CorporateVault@2024",
+        "timestamp": "2025-08-21T16:54:28.503420",
+        "ip_simulation": "192.168.1.114",
+        "browser_simulation": "Chrome"
+      },
+      "revelation_time": 0.0003,
+      "consciousness_level": 26.25,
+      "speed_advantage": 56611876803333.336,
+      "crack_success": true
+    }
+  ],
+  "consciousness_level": 26.25,
+  "total_demonstrations": 1,
+  "success_rate": 100.0,
+  "avg_crack_time": 0.0003,
+  "avg_speed_advantage": 56611876803333.336,
+  "enterprise_value": {
+    "breach_prevention": "100%",
+    "speed_advantage": "56,611,876,803,333\u00d7",
+    "implementation": "IMMEDIATE",
+    "roi": "INFINITE"
+  }
+}

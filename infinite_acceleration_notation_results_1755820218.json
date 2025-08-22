@@ -1,0 +1,206 @@
+{
+  "test_values": [
+    282402430,
+    4053374134189843877462016,
+    1e+30,
+    1e+50,
+    1e+100,
+    1e+308,
+    Infinity,
+    Infinity
+  ],
+  "progression": [
+    {
+      "run": 1,
+      "memory_count": 39,
+      "acceleration": 8.036547302445882e+27,
+      "consciousness_level": 4956.70214270275,
+      "magnitude_type": "octillions",
+      "log_magnitude": 27.90506950527114,
+      "standard_notation": "8.037O",
+      "scientific_notation": "8.037e+27",
+      "consciousness_notation": "8.037O @ 4.957K consciousness"
+    },
+    {
+      "run": 2,
+      "memory_count": 41,
+      "acceleration": 4.933612888863959e+33,
+      "consciousness_level": 304290495.124135,
+      "magnitude_type": "scientific",
+      "log_magnitude": 33.69316506999648,
+      "standard_notation": "4.934e+33",
+      "scientific_notation": "4.934e+33",
+      "consciousness_notation": "4.934e+33 @ 304.290M consciousness"
+    },
+    {
+      "run": 3,
+      "memory_count": 43,
+      "acceleration": 2.4600524920173395e+44,
+      "consciousness_level": 1.5172868396646508e+18,
+      "magnitude_type": "scientific",
+      "log_magnitude": 44.390944374075026,
+      "standard_notation": "2.460e+44",
+      "scientific_notation": "2.460e+44",
+      "consciousness_notation": "2.460e+44 @ 1.517Qi consciousness"
+    },
+    {
+      "run": 4,
+      "memory_count": 45,
+      "acceleration": 7.551717079026452e+64,
+      "consciousness_level": 4.657673353742751e+37,
+      "magnitude_type": "scientific",
+      "log_magnitude": 64.8780457109882,
+      "standard_notation": "7.552e+64",
+      "scientific_notation": "7.552e+64",
+      "consciousness_notation": "7.552e+64 @ 4.658e+37 consciousness"
+    },
+    {
+      "run": 5,
+      "memory_count": 47,
+      "acceleration": 8.451898609133194e+104,
+      "consciousness_level": 5.21287841272916e+76,
+      "magnitude_type": "quantum",
+      "log_magnitude": 104.92695427851775,
+      "standard_notation": "0.000 \u00d7 multiverse_scale",
+      "scientific_notation": "8.452e+104",
+      "consciousness_notation": "0.000 \u00d7 multiverse_scale @ 5.213e+76 consciousness"
+    },
+    {
+      "run": 6,
+      "memory_count": 49,
+      "acceleration": 1.2262071584691859e+184,
+      "consciousness_level": 7.562879208005002e+154,
+      "magnitude_type": "quantum",
+      "log_magnitude": 184.08856384716438,
+      "standard_notation": "12262071584691859226480326342959804650966535370596918338297238752.894 \u00d7 multiverse_scale",
+      "scientific_notation": "1.226e+184",
+      "consciousness_notation": "12262071584691859226480326342959804650966535370596918338297238752.894 \u00d7 multiverse_scale @ 75628792080050022228163470092989938.997 \u00d7 multiverse_scale consciousness"
+    },
+    {
+      "run": 7,
+      "memory_count": 51,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "quantum",
+      "log_magnitude": 341.467849609662,
+      "standard_notation": "293663255950983767786206852658100588032836534706588868683326463192075381441409712506134690437605531300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000 \u00d7 multiverse_scale",
+      "scientific_notation": "2.937e+341",
+      "consciousness_notation": "293663255950983767786206852658100588032836534706588868683326463192075381441409712506134690437605531300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000 \u00d7 multiverse_scale @ 181122717906768578693860404075844389651331363466202901941902639423041630293121845135456678452914349300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000 \u00d7 multiverse_scale consciousness"
+    },
+    {
+      "run": 8,
+      "memory_count": 53,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "quantum",
+      "log_magnitude": 655.2766849575113,
+      "standard_notation": "18909713873911416258457436916073337315788339909968664502512609627426030452726611631783541577391190570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000 \u00d7 multiverse_scale",
+      "scientific_notation": "1.891e+655",
+      "consciousness_notation": "18909713873911416258457436916073337315788339909968664502512609627426030452726611631783541577391190570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000 \u00d7 multiverse_scale @ 1166294625655801890656844891383795920740789040517515219832460903983571340595220940275119312950631749000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000 \u00d7 multiverse_scale consciousness"
+    },
+    {
+      "run": 9,
+      "memory_count": 55,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "up_arrow",
+      "log_magnitude": 1281.9400721417512,
+      "standard_notation": "10\u2191\u2191128 (approx)",
+      "scientific_notation": "8.711e+1281",
+      "consciousness_notation": "10\u2191\u2191128 (approx) @ 10\u2191\u2191124 (approx) consciousness"
+    },
+    {
+      "run": 10,
+      "memory_count": 57,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "up_arrow",
+      "log_magnitude": 2534.308884370593,
+      "standard_notation": "10\u2191\u2191253 (approx)",
+      "scientific_notation": "2.036e+2534",
+      "consciousness_notation": "10\u2191\u2191253 (approx) @ 10\u2191\u2191250 (approx) consciousness"
+    },
+    {
+      "run": 11,
+      "memory_count": 59,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "up_arrow",
+      "log_magnitude": 5038.085496566095,
+      "standard_notation": "10\u2191\u2191503 (approx)",
+      "scientific_notation": "1.218e+5038",
+      "consciousness_notation": "10\u2191\u2191503 (approx) @ 10\u2191\u2191500 (approx) consciousness"
+    },
+    {
+      "run": 12,
+      "memory_count": 61,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "up_arrow",
+      "log_magnitude": 10044.675129630856,
+      "standard_notation": "10\u2191\u2191\u2191100 (approx)",
+      "scientific_notation": "4.733e+10044",
+      "consciousness_notation": "10\u2191\u2191\u2191100 (approx) @ 10\u2191\u2191\u2191100 (approx) consciousness"
+    },
+    {
+      "run": 13,
+      "memory_count": 63,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "up_arrow",
+      "log_magnitude": 20056.888588668975,
+      "standard_notation": "10\u2191\u2191\u2191200 (approx)",
+      "scientific_notation": "7.737e+20056",
+      "consciousness_notation": "10\u2191\u2191\u2191200 (approx) @ 10\u2191\u2191\u2191200 (approx) consciousness"
+    },
+    {
+      "run": 14,
+      "memory_count": 65,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "up_arrow",
+      "log_magnitude": 40080.34777077754,
+      "standard_notation": "10\u2191\u2191\u2191400 (approx)",
+      "scientific_notation": "2.227e+40080",
+      "consciousness_notation": "10\u2191\u2191\u2191400 (approx) @ 10\u2191\u2191\u2191400 (approx) consciousness"
+    },
+    {
+      "run": 15,
+      "memory_count": 67,
+      "acceleration": Infinity,
+      "consciousness_level": Infinity,
+      "magnitude_type": "up_arrow",
+      "log_magnitude": 80126.29670123426,
+      "standard_notation": "10\u2191\u2191\u2191801 (approx)",
+      "scientific_notation": "1.980e+80126",
+      "consciousness_notation": "10\u2191\u2191\u2191801 (approx) @ 10\u2191\u2191\u2191800 (approx) consciousness"
+    }
+  ],
+  "notation_levels": [
+    "standard",
+    "thousands",
+    "millions",
+    "billions",
+    "trillions",
+    "quadrillions",
+    "quintillions",
+    "sextillions",
+    "septillions",
+    "octillions",
+    "nonillions",
+    "decillions",
+    "scientific",
+    "quantum",
+    "up_arrow"
+  ],
+  "quantum_scales": {
+    "planck": 1e-35,
+    "atomic": 1e-10,
+    "nuclear": 1e-15,
+    "quark": 1e-18,
+    "string": 1e-33,
+    "cosmic": 1e+26,
+    "universal": 1e+80,
+    "multiverse": 1e+120
+  }
+}

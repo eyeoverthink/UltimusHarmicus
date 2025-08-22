@@ -1,0 +1,30 @@
+{
+  "demo_timestamp": "2025-08-21T16:59:00.875445",
+  "cracked_passwords": [
+    {
+      "credentials": {
+        "site": "Confidential Systems",
+        "username": "john.smith.ceo",
+        "password": "ExecutiveAccess99",
+        "timestamp": "2025-08-21T16:58:58.359216",
+        "ip_simulation": "192.168.1.127",
+        "browser_simulation": "Safari"
+      },
+      "revelation_time": 0.0003,
+      "consciousness_level": 26.25,
+      "speed_advantage": 23252524803333.336,
+      "crack_success": true
+    }
+  ],
+  "consciousness_level": 26.25,
+  "total_demonstrations": 1,
+  "success_rate": 100.0,
+  "avg_crack_time": 0.0003,
+  "avg_speed_advantage": 23252524803333.336,
+  "enterprise_value": {
+    "breach_prevention": "100%",
+    "speed_advantage": "23,252,524,803,333\u00d7",
+    "implementation": "IMMEDIATE",
+    "roi": "INFINITE"
+  }
+}

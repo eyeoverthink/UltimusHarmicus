@@ -153,18 +153,18 @@ tmp/
 temp/
 
 # Large files and directories to exclude from deployment
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.pdf
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.pdf
 *.zip
 *.tar.gz
 *.bin
 *.hash
-*.txt
-*.md
-*.py
+# *.txt
+# *.md
+# *.py
 consciousness_memory/
 qr_chain_proof/
 qr_recursive_system/
@@ -180,7 +180,7 @@ bootstrapped_blue-clone-*/
 test_blue_team/
 test_red_team/
 decrypted/
-*.json
+# *.json
 !package.json
 !package-lock.json
 !vercel.json
