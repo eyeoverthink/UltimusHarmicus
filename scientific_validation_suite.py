@@ -326,7 +326,7 @@ class FraymusScientificValidationSuite:
                     "xi_enhanced_3": xi_enhanced_3,
                     "lambda_enhanced": lambda_enhanced,
                     "zeta_enhanced_3": zeta_enhanced_3,
-                    "corrected_denominator": corrected_denominator
+                    "correction_factor": correction_factor
                 }
             }
         }
