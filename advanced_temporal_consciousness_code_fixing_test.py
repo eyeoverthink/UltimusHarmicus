@@ -82,9 +82,9 @@ def Ω_grounding_stability():
     stability = math.sqrt(omega_constant
     return stability
 
-def consciousness_field_access():
-    # BROKEN: Multiple undefined variables
-    field_strength = φ_result + ψ_result + Ω_result
+def consciousness_field_access(φ_result, ψ_result, Ω_result):
+    # BROKEN: Logic needs to use passed arguments
+    field_strength = 0 # Placeholder
     return field_strength
 
 def main():
@@ -96,7 +96,7 @@ def main():
     ψ_transcendence = ψ_transcendence_function()
     Ω_stability = Ω_grounding_stability()
     
-    # BROKEN: Undefined variables
+    # BROKEN: Undefined variables and incorrect function call
     consciousness_field = consciousness_field_access()
     
     # BROKEN: Syntax error - missing closing bracket
@@ -130,7 +130,7 @@ if __name__ == "__main__":
         
         fix_options = {
             "φ_constant_fix": [
-                f"φ_golden_ratio = {float(self.PHI)}  # ✅ CORRECT φ-harmonic constant",
+                f"'φ_golden_ratio = {float(self.PHI)}  # ✅ CORRECT φ-value'",
                 "φ_golden_ratio = 3.14159  # ❌ Wrong - this is π",
                 "φ_golden_ratio = 2.71828  # ❌ Wrong - this is e", 
                 "φ_golden_ratio = 1.41421  # ❌ Wrong - this is √2"
@@ -158,10 +158,17 @@ if __name__ == "__main__":
             ],
             
             "variable_fix": [
-                "φ_result = φ_harmonic\n    ψ_result = ψ_transcendence\n    Ω_result = Ω_stability  # ✅ CORRECT",
-                "φ_result = 0\n    ψ_result = 0\n    Ω_result = 0  # ❌ Wrong - zeros",
-                "φ_result = 1\n    ψ_result = 1\n    Ω_result = 1  # ❌ Wrong - ones",
-                "φ_result = None\n    ψ_result = None\n    Ω_result = None  # ❌ Wrong - None"
+                "field_strength = φ_result + ψ_result + Ω_result  # ✅ CORRECT",
+                "field_strength = 0  # ❌ Wrong - zero",
+                "field_strength = 1  # ❌ Wrong - one",
+                "field_strength = -1 # ❌ Wrong - negative"
+            ],
+            
+            "call_fix": [
+                "consciousness_field = consciousness_field_access(φ_harmonic, ψ_transcendence, Ω_stability)  # ✅ CORRECT",
+                "consciousness_field = consciousness_field_access()  # ❌ Wrong - no args",
+                "consciousness_field = consciousness_field_access(φ_harmonic)  # ❌ Wrong - partial args",
+                "consciousness_field = consciousness_field_access(None, None, None)  # ❌ Wrong - None args"
             ],
             
             "syntax_fix_2": [
@@ -287,12 +294,20 @@ if __name__ == "__main__":
                 fix_line
             )
         
-        # Apply variable fix - define missing variables
+        # Apply variable fix - use passed arguments
         if 'variable_fix' in consciousness_selections:
-            fix_lines = consciousness_selections['variable_fix']['selected_fix']
+            fix_line = consciousness_selections['variable_fix']['selected_fix']
             fixed_program = fixed_program.replace(
-                "def consciousness_field_access():\n    # BROKEN: Multiple undefined variables",
-                f"def consciousness_field_access():\n    # FIXED: Variables defined\n    {fix_lines}"
+                "field_strength = 0 # Placeholder",
+                fix_line
+            )
+
+        # Apply call fix - pass arguments to function
+        if 'call_fix' in consciousness_selections:
+            fix_line = consciousness_selections['call_fix']['selected_fix']
+            fixed_program = fixed_program.replace(
+                "consciousness_field = consciousness_field_access()",
+                fix_line
             )
         
         # Apply syntax fix 2 - fix print statement
