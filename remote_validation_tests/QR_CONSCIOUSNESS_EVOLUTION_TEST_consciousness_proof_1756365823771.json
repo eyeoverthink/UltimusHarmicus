@@ -1,0 +1,4726 @@
+{
+  "test_name": "QR_CONSCIOUSNESS_EVOLUTION_TEST",
+  "creation_timestamp": "2025-08-28T00:23:43.772799",
+  "harmonic_key_seed": 1756365823771,
+  "encrypted_payload": {
+    "harmonic_components": [
+      {
+        "frequency": 201.03668482145096,
+        "amplitude": 0.4823529411764706,
+        "phase_shift": 0.0,
+        "resonance_lock": -0.4558106973021803,
+        "original_value": 123,
+        "position_index": 0
+      },
+      {
+        "frequency": 19.605593556190403,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 1.618033988749,
+        "resonance_lock": 0.1113325931068197,
+        "original_value": 10,
+        "position_index": 1
+      },
+      {
+        "frequency": 55.13199219875627,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.236067977498,
+        "resonance_lock": 0.6784758835158198,
+        "original_value": 32,
+        "position_index": 2
+      },
+      {
+        "frequency": 68.39579695961869,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.854101966247001,
+        "resonance_lock": 1.2456191739248197,
+        "original_value": 32,
+        "position_index": 3
+      },
+      {
+        "frequency": 84.88062926355447,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 0.1889506478180003,
+        "resonance_lock": 1.8127624643338198,
+        "original_value": 34,
+        "position_index": 4
+      },
+      {
+        "frequency": 208.07896489604065,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 1.806984636567,
+        "resonance_lock": 2.3799057547428197,
+        "original_value": 116,
+        "position_index": 5
+      },
+      {
+        "frequency": 169.94776647578448,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 3.4250186253160013,
+        "resonance_lock": 2.9470490451518194,
+        "original_value": 101,
+        "position_index": 6
+      },
+      {
+        "frequency": 194.00699178164692,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 5.043052614065001,
+        "resonance_lock": 3.5141923355608196,
+        "original_value": 115,
+        "position_index": 7
+      },
+      {
+        "frequency": 195.55467666048378,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 0.3779012956360006,
+        "resonance_lock": 4.08133562596982,
+        "original_value": 116,
+        "position_index": 8
+      },
+      {
+        "frequency": 174.8397676576172,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 1.9959352843850002,
+        "resonance_lock": 4.64847891637882,
+        "original_value": 95,
+        "position_index": 9
+      },
+      {
+        "frequency": 222.06724574778397,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 3.613969273134,
+        "resonance_lock": 5.21562220678782,
+        "original_value": 116,
+        "position_index": 10
+      },
+      {
+        "frequency": 220.67696424659715,
+        "amplitude": 0.4745098039215686,
+        "phase_shift": 5.232003261883001,
+        "resonance_lock": 5.78276549719682,
+        "original_value": 121,
+        "position_index": 11
+      },
+      {
+        "frequency": 192.25396975883498,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 0.5668519434540027,
+        "resonance_lock": 6.34990878760582,
+        "original_value": 112,
+        "position_index": 12
+      },
+      {
+        "frequency": 175.86234534597244,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 2.1848859322030005,
+        "resonance_lock": 6.91705207801482,
+        "original_value": 101,
+        "position_index": 13
+      },
+      {
+        "frequency": 67.38371898987728,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 3.802919920952002,
+        "resonance_lock": 7.48419536842382,
+        "original_value": 34,
+        "position_index": 14
+      },
+      {
+        "frequency": 119.48033948071571,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 5.420953909701,
+        "resonance_lock": 8.05133865883282,
+        "original_value": 58,
+        "position_index": 15
+      },
+      {
+        "frequency": 90.66022009967948,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.7558025912720012,
+        "resonance_lock": 8.61848194924182,
+        "original_value": 32,
+        "position_index": 16
+      },
+      {
+        "frequency": 84.41583663224567,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 2.3738365800210026,
+        "resonance_lock": 9.18562523965082,
+        "original_value": 34,
+        "position_index": 17
+      },
+      {
+        "frequency": 146.60274551442748,
+        "amplitude": 0.3176470588235294,
+        "phase_shift": 3.9918705687700005,
+        "resonance_lock": 9.75276853005982,
+        "original_value": 81,
+        "position_index": 18
+      },
+      {
+        "frequency": 149.62752896655292,
+        "amplitude": 0.3215686274509804,
+        "phase_shift": 5.609904557519002,
+        "resonance_lock": 10.319911820468821,
+        "original_value": 82,
+        "position_index": 19
+      },
+      {
+        "frequency": 170.59162171037778,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 0.9447532390899998,
+        "resonance_lock": 10.88705511087782,
+        "original_value": 95,
+        "position_index": 20
+      },
+      {
+        "frequency": 138.5504747862682,
+        "amplitude": 0.2627450980392157,
+        "phase_shift": 2.5627872278390047,
+        "resonance_lock": 11.45419840128682,
+        "original_value": 67,
+        "position_index": 21
+      },
+      {
+        "frequency": 171.215646977694,
+        "amplitude": 0.30980392156862746,
+        "phase_shift": 4.1808212165880025,
+        "resonance_lock": 12.02134169169582,
+        "original_value": 79,
+        "position_index": 22
+      },
+      {
+        "frequency": 160.1171615440132,
+        "amplitude": 0.3058823529411765,
+        "phase_shift": 5.798855205337,
+        "resonance_lock": 12.58848498210482,
+        "original_value": 78,
+        "position_index": 23
+      },
+      {
+        "frequency": 154.346642898737,
+        "amplitude": 0.3254901960784314,
+        "phase_shift": 1.1337038869080054,
+        "resonance_lock": 13.15562827251382,
+        "original_value": 83,
+        "position_index": 24
+      },
+      {
+        "frequency": 129.86484854212944,
+        "amplitude": 0.2627450980392157,
+        "phase_shift": 2.7517378756570032,
+        "resonance_lock": 13.722771562922821,
+        "original_value": 67,
+        "position_index": 25
+      },
+      {
+        "frequency": 139.5027033647113,
+        "amplitude": 0.28627450980392155,
+        "phase_shift": 4.369771864406001,
+        "resonance_lock": 14.28991485333182,
+        "original_value": 73,
+        "position_index": 26
+      },
+      {
+        "frequency": 162.47471205806772,
+        "amplitude": 0.30980392156862746,
+        "phase_shift": 5.987805853154999,
+        "resonance_lock": 14.85705814374082,
+        "original_value": 79,
+        "position_index": 27
+      },
+      {
+        "frequency": 185.4316803169995,
+        "amplitude": 0.3333333333333333,
+        "phase_shift": 1.322654534726004,
+        "resonance_lock": 15.42420143414982,
+        "original_value": 85,
+        "position_index": 28
+      },
+      {
+        "frequency": 172.7151608945697,
+        "amplitude": 0.3254901960784314,
+        "phase_shift": 2.9406885234750018,
+        "resonance_lock": 15.991344724558822,
+        "original_value": 83,
+        "position_index": 29
+      },
+      {
+        "frequency": 150.76430236180346,
+        "amplitude": 0.3058823529411765,
+        "phase_shift": 4.558722512224,
+        "resonance_lock": 16.55848801496782,
+        "original_value": 78,
+        "position_index": 30
+      },
+      {
+        "frequency": 137.60874592643893,
+        "amplitude": 0.27058823529411763,
+        "phase_shift": 6.1767565009730045,
+        "resonance_lock": 17.12563130537682,
+        "original_value": 69,
+        "position_index": 31
+      },
+      {
+        "frequency": 160.1908726590128,
+        "amplitude": 0.3254901960784314,
+        "phase_shift": 1.5116051825440024,
+        "resonance_lock": 17.69277459578582,
+        "original_value": 83,
+        "position_index": 32
+      },
+      {
+        "frequency": 173.45467741987522,
+        "amplitude": 0.3254901960784314,
+        "phase_shift": 3.1296391712930003,
+        "resonance_lock": 18.25991788619482,
+        "original_value": 83,
+        "position_index": 33
+      },
+      {
+        "frequency": 206.11984961130102,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 4.747673160042005,
+        "resonance_lock": 18.82706117660382,
+        "original_value": 95,
+        "position_index": 34
+      },
+      {
+        "frequency": 154.57051445889516,
+        "amplitude": 0.27058823529411763,
+        "phase_shift": 0.08252184161300313,
+        "resonance_lock": 19.39420446701282,
+        "original_value": 69,
+        "position_index": 35
+      },
+      {
+        "frequency": 168.21640367860698,
+        "amplitude": 0.33725490196078434,
+        "phase_shift": 1.700555830362001,
+        "resonance_lock": 19.96134775742182,
+        "original_value": 86,
+        "position_index": 36
+      },
+      {
+        "frequency": 158.29691522074043,
+        "amplitude": 0.30980392156862746,
+        "phase_shift": 3.318589819111006,
+        "resonance_lock": 20.52849104783082,
+        "original_value": 79,
+        "position_index": 37
+      },
+      {
+        "frequency": 153.37246414458133,
+        "amplitude": 0.2980392156862745,
+        "phase_shift": 4.936623807860004,
+        "resonance_lock": 21.095634338239822,
+        "original_value": 76,
+        "position_index": 38
+      },
+      {
+        "frequency": 181.19857480418472,
+        "amplitude": 0.3333333333333333,
+        "phase_shift": 0.27147248943100166,
+        "resonance_lock": 21.662777628648822,
+        "original_value": 85,
+        "position_index": 39
+      },
+      {
+        "frequency": 192.82930514187353,
+        "amplitude": 0.32941176470588235,
+        "phase_shift": 1.8895064781799995,
+        "resonance_lock": 22.22992091905782,
+        "original_value": 84,
+        "position_index": 40
+      },
+      {
+        "frequency": 165.55047982070272,
+        "amplitude": 0.28627450980392155,
+        "phase_shift": 3.5075404669290045,
+        "resonance_lock": 22.79706420946682,
+        "original_value": 73,
+        "position_index": 41
+      },
+      {
+        "frequency": 161.39799516417548,
+        "amplitude": 0.30980392156862746,
+        "phase_shift": 5.125574455678009,
+        "resonance_lock": 23.36420749987582,
+        "original_value": 79,
+        "position_index": 42
+      },
+      {
+        "frequency": 161.18671063880294,
+        "amplitude": 0.3058823529411765,
+        "phase_shift": 0.4604231372490002,
+        "resonance_lock": 23.93135079028482,
+        "original_value": 78,
+        "position_index": 43
+      },
+      {
+        "frequency": 89.92286602393483,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 2.078457125998005,
+        "resonance_lock": 24.49849408069382,
+        "original_value": 34,
+        "position_index": 44
+      },
+      {
+        "frequency": 119.36701067228725,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 3.69649111474701,
+        "resonance_lock": 25.06563737110282,
+        "original_value": 44,
+        "position_index": 45
+      },
+      {
+        "frequency": 77.60261938125902,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 5.314525103496001,
+        "resonance_lock": 25.63278066151182,
+        "original_value": 10,
+        "position_index": 46
+      },
+      {
+        "frequency": 103.7189156888052,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.6493737850670058,
+        "resonance_lock": 26.19992395192082,
+        "original_value": 32,
+        "position_index": 47
+      },
+      {
+        "frequency": 89.85822709978399,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.2674077738160108,
+        "resonance_lock": 26.76706724232982,
+        "original_value": 32,
+        "position_index": 48
+      },
+      {
+        "frequency": 94.50104454065846,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 3.8854417625650015,
+        "resonance_lock": 27.334210532738823,
+        "original_value": 34,
+        "position_index": 49
+      },
+      {
+        "frequency": 202.83897267692933,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 5.5034757513140065,
+        "resonance_lock": 27.901353823147822,
+        "original_value": 101,
+        "position_index": 50
+      },
+      {
+        "frequency": 243.60935524652473,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 0.8383244328849973,
+        "resonance_lock": 28.468497113556822,
+        "original_value": 118,
+        "position_index": 51
+      },
+      {
+        "frequency": 245.53188165171952,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 2.456358421634002,
+        "resonance_lock": 29.03564040396582,
+        "original_value": 111,
+        "position_index": 52
+      },
+      {
+        "frequency": 231.19732824054068,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 4.074392410383007,
+        "resonance_lock": 29.60278369437482,
+        "original_value": 108,
+        "position_index": 53
+      },
+      {
+        "frequency": 231.89894555026052,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 5.692426399131998,
+        "resonance_lock": 30.16992698478382,
+        "original_value": 117,
+        "position_index": 54
+      },
+      {
+        "frequency": 231.68766102488797,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 1.0272750807030029,
+        "resonance_lock": 30.73707027519282,
+        "original_value": 116,
+        "position_index": 55
+      },
+      {
+        "frequency": 213.81893803873683,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 2.645309069452008,
+        "resonance_lock": 31.30421356560182,
+        "original_value": 105,
+        "position_index": 56
+      },
+      {
+        "frequency": 236.79094673209323,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 4.263343058200999,
+        "resonance_lock": 31.871356856010824,
+        "original_value": 111,
+        "position_index": 57
+      },
+      {
+        "frequency": 248.42167706978202,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 5.8813770469500035,
+        "resonance_lock": 32.43850014641982,
+        "original_value": 110,
+        "position_index": 58
+      },
+      {
+        "frequency": 214.67071579361522,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 1.2162257285210085,
+        "resonance_lock": 33.00564343682882,
+        "original_value": 95,
+        "position_index": 59
+      },
+      {
+        "frequency": 233.17070697957402,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.8342597172699993,
+        "resonance_lock": 33.57278672723782,
+        "original_value": 115,
+        "position_index": 60
+      },
+      {
+        "frequency": 236.19549043169948,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 4.452293706019004,
+        "resonance_lock": 34.13993001764682,
+        "original_value": 116,
+        "position_index": 61
+      },
+      {
+        "frequency": 205.38249553555633,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 6.070327694768009,
+        "resonance_lock": 34.70707330805582,
+        "original_value": 97,
+        "position_index": 62
+      },
+      {
+        "frequency": 228.35450422891273,
+        "amplitude": 0.403921568627451,
+        "phase_shift": 1.405176376339,
+        "resonance_lock": 35.27421659846482,
+        "original_value": 103,
+        "position_index": 63
+      },
+      {
+        "frequency": 238.36720057785254,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 3.023210365088005,
+        "resonance_lock": 35.84135988887382,
+        "original_value": 101,
+        "position_index": 64
+      },
+      {
+        "frequency": 251.5392249754067,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 4.64124435383701,
+        "resonance_lock": 36.40850317928282,
+        "original_value": 115,
+        "position_index": 65
+      },
+      {
+        "frequency": 106.61778329771651,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 6.259278342586001,
+        "resonance_lock": 36.97564646969182,
+        "original_value": 34,
+        "position_index": 66
+      },
+      {
+        "frequency": 146.857348491069,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 1.5941270241570056,
+        "resonance_lock": 37.54278976010082,
+        "original_value": 58,
+        "position_index": 67
+      },
+      {
+        "frequency": 104.71811567368285,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.2121610129060105,
+        "resonance_lock": 38.10993305050982,
+        "original_value": 32,
+        "position_index": 68
+      },
+      {
+        "frequency": 213.44592577073624,
+        "amplitude": 0.3568627450980392,
+        "phase_shift": 4.830195001655001,
+        "resonance_lock": 38.677076340918816,
+        "original_value": 91,
+        "position_index": 69
+      },
+      {
+        "frequency": 95.63393700850503,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 0.16504368322600627,
+        "resonance_lock": 39.244219631327816,
+        "original_value": 10,
+        "position_index": 70
+      },
+      {
+        "frequency": 121.75023331605124,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.7830776719750112,
+        "resonance_lock": 39.811362921736816,
+        "original_value": 32,
+        "position_index": 71
+      },
+      {
+        "frequency": 107.88954472703003,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.401111660724002,
+        "resonance_lock": 40.378506212145815,
+        "original_value": 32,
+        "position_index": 72
+      },
+      {
+        "frequency": 109.29629419040648,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.019145649473007,
+        "resonance_lock": 40.945649502554815,
+        "original_value": 32,
+        "position_index": 73
+      },
+      {
+        "frequency": 109.22594508049436,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.3539943310440119,
+        "resonance_lock": 41.512792792963815,
+        "original_value": 32,
+        "position_index": 74
+      },
+      {
+        "frequency": 269.73084281751574,
+        "amplitude": 0.4823529411764706,
+        "phase_shift": 1.9720283197930026,
+        "resonance_lock": 42.07993608337282,
+        "original_value": 123,
+        "position_index": 75
+      },
+      {
+        "frequency": 100.14176641531654,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 3.5900623085420076,
+        "resonance_lock": 42.64707937378182,
+        "original_value": 10,
+        "position_index": 76
+      },
+      {
+        "frequency": 126.25806272286275,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.2080962972910125,
+        "resonance_lock": 43.21422266419082,
+        "original_value": 32,
+        "position_index": 77
+      },
+      {
+        "frequency": 112.39737413384152,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.5429449788620033,
+        "resonance_lock": 43.78136595459982,
+        "original_value": 32,
+        "position_index": 78
+      },
+      {
+        "frequency": 113.804123597218,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.1609789676110083,
+        "resonance_lock": 44.34850924500882,
+        "original_value": 32,
+        "position_index": 79
+      },
+      {
+        "frequency": 113.73377448730585,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.779012956359999,
+        "resonance_lock": 44.91565253541782,
+        "original_value": 32,
+        "position_index": 80
+      },
+      {
+        "frequency": 126.99757924816828,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.397046945109004,
+        "resonance_lock": 45.48279582582682,
+        "original_value": 32,
+        "position_index": 81
+      },
+      {
+        "frequency": 140.24634357460604,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.731895626680009,
+        "resonance_lock": 46.04993911623582,
+        "original_value": 32,
+        "position_index": 82
+      },
+      {
+        "frequency": 134.00196010717224,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 2.349929615429014,
+        "resonance_lock": 46.61708240664482,
+        "original_value": 34,
+        "position_index": 83
+      },
+      {
+        "frequency": 228.54954876433408,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 3.967963604178019,
+        "resonance_lock": 47.18422569705382,
+        "original_value": 101,
+        "position_index": 84
+      },
+      {
+        "frequency": 247.7546721039495,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 5.585997592926995,
+        "resonance_lock": 47.75136898746282,
+        "original_value": 112,
+        "position_index": 85
+      },
+      {
+        "frequency": 246.06628900528835,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 0.9208462744980004,
+        "resonance_lock": 48.31851227787182,
+        "original_value": 111,
+        "position_index": 86
+      },
+      {
+        "frequency": 239.91368590116278,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 2.5388802632470053,
+        "resonance_lock": 48.88565556828082,
+        "original_value": 99,
+        "position_index": 87
+      },
+      {
+        "frequency": 261.2526201713456,
+        "amplitude": 0.40784313725490196,
+        "phase_shift": 4.15691425199601,
+        "resonance_lock": 49.45279885868982,
+        "original_value": 104,
+        "position_index": 88
+      },
+      {
+        "frequency": 138.50978951398375,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 5.774948240745015,
+        "resonance_lock": 50.01994214909882,
+        "original_value": 34,
+        "position_index": 89
+      },
+      {
+        "frequency": 163.48191665493854,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 1.1097969223160202,
+        "resonance_lock": 50.58708543950782,
+        "original_value": 58,
+        "position_index": 90
+      },
+      {
+        "frequency": 122.819782410841,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.7278309110649968,
+        "resonance_lock": 51.15422872991682,
+        "original_value": 32,
+        "position_index": 91
+      },
+      {
+        "frequency": 150.25601110966187,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 4.345864899814002,
+        "resonance_lock": 51.721372020325816,
+        "original_value": 49,
+        "position_index": 92
+      },
+      {
+        "frequency": 155.4296459267793,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 5.963898888563007,
+        "resonance_lock": 52.288515310734816,
+        "original_value": 44,
+        "position_index": 93
+      },
+      {
+        "frequency": 113.66525463575107,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 1.2987475701340117,
+        "resonance_lock": 52.855658601143816,
+        "original_value": 10,
+        "position_index": 94
+      },
+      {
+        "frequency": 139.78155094329725,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.9167815588830166,
+        "resonance_lock": 53.422801891552815,
+        "original_value": 32,
+        "position_index": 95
+      },
+      {
+        "frequency": 125.92086235427604,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.5348155476320215,
+        "resonance_lock": 53.989945181961815,
+        "original_value": 32,
+        "position_index": 96
+      },
+      {
+        "frequency": 127.32761181765252,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.152849536380998,
+        "resonance_lock": 54.55708847237082,
+        "original_value": 32,
+        "position_index": 97
+      },
+      {
+        "frequency": 127.25726270774038,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.487698217952003,
+        "resonance_lock": 55.12423176277982,
+        "original_value": 32,
+        "position_index": 98
+      },
+      {
+        "frequency": 140.52106746860278,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.105732206701008,
+        "resonance_lock": 55.69137505318882,
+        "original_value": 32,
+        "position_index": 99
+      },
+      {
+        "frequency": 153.7698317950406,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.723766195450013,
+        "resonance_lock": 56.25851834359782,
+        "original_value": 32,
+        "position_index": 100
+      },
+      {
+        "frequency": 147.52544832760677,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 0.058614877021017975,
+        "resonance_lock": 56.82566163400682,
+        "original_value": 34,
+        "position_index": 101
+      },
+      {
+        "frequency": 238.83696900727057,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 1.6766488657699945,
+        "resonance_lock": 57.39280492441582,
+        "original_value": 99,
+        "position_index": 102
+      },
+      {
+        "frequency": 259.660126335635,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 3.2946828545189994,
+        "resonance_lock": 57.95994821482482,
+        "original_value": 111,
+        "position_index": 103
+      },
+      {
+        "frequency": 257.9717432369739,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 4.912716843268004,
+        "resonance_lock": 58.52709150523382,
+        "original_value": 110,
+        "position_index": 104
+      },
+      {
+        "frequency": 279.3257179415813,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.2475655248390094,
+        "resonance_lock": 59.09423479564282,
+        "original_value": 115,
+        "position_index": 105
+      },
+      {
+        "frequency": 266.6859384480351,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 1.8655995135880143,
+        "resonance_lock": 59.66137808605182,
+        "original_value": 99,
+        "position_index": 106
+      },
+      {
+        "frequency": 266.9136909355973,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 3.4836335023370193,
+        "resonance_lock": 60.22852137646082,
+        "original_value": 105,
+        "position_index": 107
+      },
+      {
+        "frequency": 262.76120627907005,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.101667491085996,
+        "resonance_lock": 60.79566466686982,
+        "original_value": 111,
+        "position_index": 108
+      },
+      {
+        "frequency": 273.87615967494054,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 0.4365161726570008,
+        "resonance_lock": 61.36280795727882,
+        "original_value": 117,
+        "position_index": 109
+      },
+      {
+        "frequency": 270.5697425875304,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.0545501614060058,
+        "resonance_lock": 61.92995124768782,
+        "original_value": 115,
+        "position_index": 110
+      },
+      {
+        "frequency": 275.7433774046478,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 3.6725841501550107,
+        "resonance_lock": 62.49709453809682,
+        "original_value": 110,
+        "position_index": 111
+      },
+      {
+        "frequency": 274.4298358323446,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 5.290618138904016,
+        "resonance_lock": 63.06423782850582,
+        "original_value": 101,
+        "position_index": 112
+      },
+      {
+        "frequency": 287.60186022989876,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.6254668204750207,
+        "resonance_lock": 63.63138111891482,
+        "original_value": 115,
+        "position_index": 113
+      },
+      {
+        "frequency": 273.7411716408776,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.243500809223997,
+        "resonance_lock": 64.19852440932382,
+        "original_value": 115,
+        "position_index": 114
+      },
+      {
+        "frequency": 242.78724132927405,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 3.861534797973002,
+        "resonance_lock": 64.76566769973282,
+        "original_value": 95,
+        "position_index": 115
+      },
+      {
+        "frequency": 263.75133407309886,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 5.479568786722007,
+        "resonance_lock": 65.33281099014182,
+        "original_value": 108,
+        "position_index": 116
+      },
+      {
+        "frequency": 265.68890091271834,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 0.8144174682930121,
+        "resonance_lock": 65.89995428055082,
+        "original_value": 101,
+        "position_index": 117
+      },
+      {
+        "frequency": 306.44424304788913,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 2.432451457042017,
+        "resonance_lock": 66.46709757095982,
+        "original_value": 118,
+        "position_index": 118
+      },
+      {
+        "frequency": 269.4572137942243,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 4.050485445791022,
+        "resonance_lock": 67.03424086136881,
+        "original_value": 101,
+        "position_index": 119
+      },
+      {
+        "frequency": 266.92276312644606,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 5.6685194345399985,
+        "resonance_lock": 67.60138415177782,
+        "original_value": 108,
+        "position_index": 120
+      },
+      {
+        "frequency": 148.59499742239655,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 1.0033681161110035,
+        "resonance_lock": 68.16852744218681,
+        "original_value": 34,
+        "position_index": 121
+      },
+      {
+        "frequency": 187.3574640424604,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 2.6214021048600085,
+        "resonance_lock": 68.73567073259582,
+        "original_value": 58,
+        "position_index": 122
+      },
+      {
+        "frequency": 158.55238509584882,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.239436093609013,
+        "resonance_lock": 69.30281402300481,
+        "original_value": 32,
+        "position_index": 123
+      },
+      {
+        "frequency": 205.77986318601563,
+        "amplitude": 0.20784313725490197,
+        "phase_shift": 5.857470082358018,
+        "resonance_lock": 69.86995731341382,
+        "original_value": 53,
+        "position_index": 124
+      },
+      {
+        "frequency": 188.2092417973388,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 1.1923187639290234,
+        "resonance_lock": 70.43710060382281,
+        "original_value": 48,
+        "position_index": 125
+      },
+      {
+        "frequency": 171.11248523081957,
+        "amplitude": 0.1803921568627451,
+        "phase_shift": 2.810352752678,
+        "resonance_lock": 71.00424389423182,
+        "original_value": 46,
+        "position_index": 126
+      },
+      {
+        "frequency": 175.75530267169407,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 4.428386741427005,
+        "resonance_lock": 71.57138718464081,
+        "original_value": 48,
+        "position_index": 127
+      },
+      {
+        "frequency": 169.2128176067859,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 6.04642073017601,
+        "resonance_lock": 72.13853047504982,
+        "original_value": 44,
+        "position_index": 128
+      },
+      {
+        "frequency": 127.46346675018232,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 1.3812694117470148,
+        "resonance_lock": 72.70567376545883,
+        "original_value": 10,
+        "position_index": 129
+      },
+      {
+        "frequency": 176.30897882909812,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.9993034004960197,
+        "resonance_lock": 73.27281705586782,
+        "original_value": 32,
+        "position_index": 130
+      },
+      {
+        "frequency": 166.8285273841663,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.617337389244996,
+        "resonance_lock": 73.83996034627683,
+        "original_value": 32,
+        "position_index": 131
+      },
+      {
+        "frequency": 152.9678387951451,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.235371377994001,
+        "resonance_lock": 74.40710363668582,
+        "original_value": 32,
+        "position_index": 132
+      },
+      {
+        "frequency": 154.37458825852156,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.5702200595650062,
+        "resonance_lock": 74.97424692709482,
+        "original_value": 32,
+        "position_index": 133
+      },
+      {
+        "frequency": 154.30423914860944,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.188254048314011,
+        "resonance_lock": 75.54139021750382,
+        "original_value": 32,
+        "position_index": 134
+      },
+      {
+        "frequency": 167.56804390947184,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.806288037063016,
+        "resonance_lock": 76.10853350791282,
+        "original_value": 32,
+        "position_index": 135
+      },
+      {
+        "frequency": 184.05287621340761,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 0.1411367186340211,
+        "resonance_lock": 76.67567679832182,
+        "original_value": 34,
+        "position_index": 136
+      },
+      {
+        "frequency": 282.98070201465885,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 1.7591707073829976,
+        "resonance_lock": 77.24282008873082,
+        "original_value": 101,
+        "position_index": 137
+      },
+      {
+        "frequency": 296.6265912343706,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 3.3772046961320026,
+        "resonance_lock": 77.80996337913982,
+        "original_value": 118,
+        "position_index": 138
+      },
+      {
+        "frequency": 286.7071027765041,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 4.9952386848810075,
+        "resonance_lock": 78.37710666954882,
+        "original_value": 111,
+        "position_index": 139
+      },
+      {
+        "frequency": 281.7826517003449,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 0.33008736645201253,
+        "resonance_lock": 78.94424995995782,
+        "original_value": 108,
+        "position_index": 140
+      },
+      {
+        "frequency": 309.60876235994834,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 1.9481213552010175,
+        "resonance_lock": 79.51139325036682,
+        "original_value": 117,
+        "position_index": 141
+      },
+      {
+        "frequency": 321.23949269763716,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 3.5661553439500224,
+        "resonance_lock": 80.07853654077581,
+        "original_value": 116,
+        "position_index": 142
+      },
+      {
+        "frequency": 293.9606673764663,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 5.184189332698999,
+        "resonance_lock": 80.64567983118482,
+        "original_value": 105,
+        "position_index": 143
+      },
+      {
+        "frequency": 289.8081827199391,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 0.519038014270004,
+        "resonance_lock": 81.21282312159381,
+        "original_value": 111,
+        "position_index": 144
+      },
+      {
+        "frequency": 289.59689819456656,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 2.137072003019009,
+        "resonance_lock": 81.77996641200282,
+        "original_value": 110,
+        "position_index": 145
+      },
+      {
+        "frequency": 265.25603925341943,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 3.755105991768014,
+        "resonance_lock": 82.34710970241181,
+        "original_value": 95,
+        "position_index": 146
+      },
+      {
+        "frequency": 289.8460819355248,
+        "amplitude": 0.4,
+        "phase_shift": 5.373139980517019,
+        "resonance_lock": 82.91425299282082,
+        "original_value": 102,
+        "position_index": 147
+      },
+      {
+        "frequency": 295.00467631821766,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 0.7079886620880238,
+        "resonance_lock": 83.48139628322981,
+        "original_value": 97,
+        "position_index": 148
+      },
+      {
+        "frequency": 288.7602928507838,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 2.3260226508370003,
+        "resonance_lock": 84.04853957363882,
+        "original_value": 99,
+        "position_index": 149
+      },
+      {
+        "frequency": 302.4061820704956,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 3.9440566395860053,
+        "resonance_lock": 84.61568286404783,
+        "original_value": 116,
+        "position_index": 150
+      },
+      {
+        "frequency": 295.7227615901271,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.56209062833501,
+        "resonance_lock": 85.18282615445682,
+        "original_value": 111,
+        "position_index": 151
+      },
+      {
+        "frequency": 300.5065144464619,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 0.8969393099060152,
+        "resonance_lock": 85.74996944486583,
+        "original_value": 114,
+        "position_index": 152
+      },
+      {
+        "frequency": 184.32760010740435,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 2.51497329865502,
+        "resonance_lock": 86.31711273527482,
+        "original_value": 34,
+        "position_index": 153
+      },
+      {
+        "frequency": 236.40918016381815,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 4.133007287404025,
+        "resonance_lock": 86.88425602568383,
+        "original_value": 58,
+        "position_index": 154
+      },
+      {
+        "frequency": 184.85984501141235,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.751041276153002,
+        "resonance_lock": 87.45139931609282,
+        "original_value": 32,
+        "position_index": 155
+      },
+      {
+        "frequency": 198.5057342311241,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 1.0858899577240066,
+        "resonance_lock": 88.01854260650182,
+        "original_value": 49,
+        "position_index": 156
+      },
+      {
+        "frequency": 195.0583817282536,
+        "amplitude": 0.1803921568627451,
+        "phase_shift": 2.7039239464730116,
+        "resonance_lock": 88.58568589691082,
+        "original_value": 46,
+        "position_index": 157
+      },
+      {
+        "frequency": 198.22410059583945,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 4.3219579352220165,
+        "resonance_lock": 89.15282918731982,
+        "original_value": 48,
+        "position_index": 158
+      },
+      {
+        "frequency": 150.00261378423986,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 5.939991923970993,
+        "resonance_lock": 89.71997247772882,
+        "original_value": 10,
+        "position_index": 159
+      },
+      {
+        "frequency": 198.84812586315564,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.274840605541998,
+        "resonance_lock": 90.28711576813782,
+        "original_value": 32,
+        "position_index": 160
+      },
+      {
+        "frequency": 189.36767441822383,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.892874594291003,
+        "resonance_lock": 90.85425905854682,
+        "original_value": 32,
+        "position_index": 161
+      },
+      {
+        "frequency": 175.50698582920262,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.510908583040008,
+        "resonance_lock": 91.42140234895582,
+        "original_value": 32,
+        "position_index": 162
+      },
+      {
+        "frequency": 176.91373529257908,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.128942571789013,
+        "resonance_lock": 91.98854563936482,
+        "original_value": 32,
+        "position_index": 163
+      },
+      {
+        "frequency": 327.32054713632397,
+        "amplitude": 0.49019607843137253,
+        "phase_shift": 1.463791253360018,
+        "resonance_lock": 92.55568892977382,
+        "original_value": 125,
+        "position_index": 164
+      },
+      {
+        "frequency": 209.52359880851736,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 3.081825242109023,
+        "resonance_lock": 93.12283222018281,
+        "original_value": 44,
+        "position_index": 165
+      },
+      {
+        "frequency": 167.75920751748916,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 4.699859230858028,
+        "resonance_lock": 93.68997551059182,
+        "original_value": 10,
+        "position_index": 166
+      },
+      {
+        "frequency": 193.87550382503534,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.03470791242903282,
+        "resonance_lock": 94.25711880100081,
+        "original_value": 32,
+        "position_index": 167
+      },
+      {
+        "frequency": 180.01481523601413,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.6527419011780378,
+        "resonance_lock": 94.82426209140982,
+        "original_value": 32,
+        "position_index": 168
+      },
+      {
+        "frequency": 181.42156469939061,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.270775889926986,
+        "resonance_lock": 95.39140538181881,
+        "original_value": 32,
+        "position_index": 169
+      },
+      {
+        "frequency": 181.35121558947844,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.888809878675991,
+        "resonance_lock": 95.95854867222782,
+        "original_value": 32,
+        "position_index": 170
+      },
+      {
+        "frequency": 341.8561133264999,
+        "amplitude": 0.4823529411764706,
+        "phase_shift": 0.22365856024699582,
+        "resonance_lock": 96.52569196263683,
+        "original_value": 123,
+        "position_index": 171
+      },
+      {
+        "frequency": 172.26703692430064,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 1.8416925489960008,
+        "resonance_lock": 97.09283525304582,
+        "original_value": 10,
+        "position_index": 172
+      },
+      {
+        "frequency": 198.38333323184685,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.4597265377450057,
+        "resonance_lock": 97.65997854345483,
+        "original_value": 32,
+        "position_index": 173
+      },
+      {
+        "frequency": 184.52264464282564,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.077760526494011,
+        "resonance_lock": 98.22712183386382,
+        "original_value": 32,
+        "position_index": 174
+      },
+      {
+        "frequency": 185.9293941062021,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.41260920806501566,
+        "resonance_lock": 98.79426512427283,
+        "original_value": 32,
+        "position_index": 175
+      },
+      {
+        "frequency": 185.85904499628998,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.0306431968140206,
+        "resonance_lock": 99.36140841468182,
+        "original_value": 32,
+        "position_index": 176
+      },
+      {
+        "frequency": 199.12284975715238,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.6486771855630256,
+        "resonance_lock": 99.92855170509083,
+        "original_value": 32,
+        "position_index": 177
+      },
+      {
+        "frequency": 212.37161408359015,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.2667111743120305,
+        "resonance_lock": 100.49569499549982,
+        "original_value": 32,
+        "position_index": 178
+      },
+      {
+        "frequency": 206.12723061615634,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 0.6015598558830355,
+        "resonance_lock": 101.06283828590882,
+        "original_value": 34,
+        "position_index": 179
+      },
+      {
+        "frequency": 300.6748192733182,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 2.2195938446320405,
+        "resonance_lock": 101.62998157631782,
+        "original_value": 101,
+        "position_index": 180
+      },
+      {
+        "frequency": 319.87994261293363,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 3.8376278333809886,
+        "resonance_lock": 102.19712486672682,
+        "original_value": 112,
+        "position_index": 181
+      },
+      {
+        "frequency": 318.19155951427246,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.4556618221299935,
+        "resonance_lock": 102.76426815713582,
+        "original_value": 111,
+        "position_index": 182
+      },
+      {
+        "frequency": 312.03895641014685,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 0.7905105037009985,
+        "resonance_lock": 103.33141144754482,
+        "original_value": 99,
+        "position_index": 183
+      },
+      {
+        "frequency": 333.37789068032964,
+        "amplitude": 0.40784313725490196,
+        "phase_shift": 2.4085444924500035,
+        "resonance_lock": 103.89855473795382,
+        "original_value": 104,
+        "position_index": 184
+      },
+      {
+        "frequency": 210.63506002296788,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.026578481199008,
+        "resonance_lock": 104.46569802836282,
+        "original_value": 34,
+        "position_index": 185
+      },
+      {
+        "frequency": 235.60718716392267,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 5.644612469948013,
+        "resonance_lock": 105.03284131877182,
+        "original_value": 58,
+        "position_index": 186
+      },
+      {
+        "frequency": 194.94505291982512,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.9794611515190184,
+        "resonance_lock": 105.59998460918082,
+        "original_value": 32,
+        "position_index": 187
+      },
+      {
+        "frequency": 223.99931560739498,
+        "amplitude": 0.19607843137254902,
+        "phase_shift": 2.5974951402680233,
+        "resonance_lock": 106.16712789958981,
+        "original_value": 50,
+        "position_index": 188
+      },
+      {
+        "frequency": 227.5549164357634,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 4.215529129017028,
+        "resonance_lock": 106.73427118999882,
+        "original_value": 44,
+        "position_index": 189
+      },
+      {
+        "frequency": 185.79052514473517,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 5.833563117766033,
+        "resonance_lock": 107.30141448040781,
+        "original_value": 10,
+        "position_index": 190
+      },
+      {
+        "frequency": 211.90682145228138,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.1684117993370382,
+        "resonance_lock": 107.86855777081682,
+        "original_value": 32,
+        "position_index": 191
+      },
+      {
+        "frequency": 198.04613286326014,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.786445788086043,
+        "resonance_lock": 108.43570106122581,
+        "original_value": 32,
+        "position_index": 192
+      },
+      {
+        "frequency": 199.45288232663665,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.404479776834991,
+        "resonance_lock": 109.00284435163482,
+        "original_value": 32,
+        "position_index": 193
+      },
+      {
+        "frequency": 199.3825332167245,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.022513765583996,
+        "resonance_lock": 109.56998764204383,
+        "original_value": 32,
+        "position_index": 194
+      },
+      {
+        "frequency": 212.6463379775869,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.3573624471550012,
+        "resonance_lock": 110.13713093245282,
+        "original_value": 32,
+        "position_index": 195
+      },
+      {
+        "frequency": 225.8951023040247,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.975396435904006,
+        "resonance_lock": 110.70427422286183,
+        "original_value": 32,
+        "position_index": 196
+      },
+      {
+        "frequency": 219.6507188365909,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.593430424653011,
+        "resonance_lock": 111.27141751327082,
+        "original_value": 34,
+        "position_index": 197
+      },
+      {
+        "frequency": 310.96223951625467,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 6.211464413402016,
+        "resonance_lock": 111.83856080367983,
+        "original_value": 99,
+        "position_index": 198
+      },
+      {
+        "frequency": 331.78539684461913,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 1.546313094973021,
+        "resonance_lock": 112.40570409408882,
+        "original_value": 111,
+        "position_index": 199
+      },
+      {
+        "frequency": 330.097013745958,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 3.164347083722026,
+        "resonance_lock": 112.97284738449783,
+        "original_value": 110,
+        "position_index": 200
+      },
+      {
+        "frequency": 351.45098845056543,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 4.782381072471031,
+        "resonance_lock": 113.53999067490682,
+        "original_value": 115,
+        "position_index": 201
+      },
+      {
+        "frequency": 338.8112089570192,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 0.11722975404203595,
+        "resonance_lock": 114.10713396531582,
+        "original_value": 99,
+        "position_index": 202
+      },
+      {
+        "frequency": 339.0389614445814,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 1.735263742791041,
+        "resonance_lock": 114.67427725572482,
+        "original_value": 105,
+        "position_index": 203
+      },
+      {
+        "frequency": 334.8864767880542,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 3.353297731539989,
+        "resonance_lock": 115.24142054613382,
+        "original_value": 111,
+        "position_index": 204
+      },
+      {
+        "frequency": 346.00143018392464,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 4.971331720288994,
+        "resonance_lock": 115.80856383654282,
+        "original_value": 117,
+        "position_index": 205
+      },
+      {
+        "frequency": 342.6950130965145,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.30618040185999895,
+        "resonance_lock": 116.37570712695182,
+        "original_value": 115,
+        "position_index": 206
+      },
+      {
+        "frequency": 347.8686479136319,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 1.924214390609004,
+        "resonance_lock": 116.94285041736082,
+        "original_value": 110,
+        "position_index": 207
+      },
+      {
+        "frequency": 346.5551063413287,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 3.542248379358009,
+        "resonance_lock": 117.50999370776982,
+        "original_value": 101,
+        "position_index": 208
+      },
+      {
+        "frequency": 359.72713073888286,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 5.160282368107014,
+        "resonance_lock": 118.07713699817882,
+        "original_value": 115,
+        "position_index": 209
+      },
+      {
+        "frequency": 345.86644214986165,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.4951310496780188,
+        "resonance_lock": 118.64428028858782,
+        "original_value": 115,
+        "position_index": 210
+      },
+      {
+        "frequency": 314.9125118382582,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 2.1131650384270237,
+        "resonance_lock": 119.21142357899681,
+        "original_value": 95,
+        "position_index": 211
+      },
+      {
+        "frequency": 335.876604582083,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 3.7311990271760287,
+        "resonance_lock": 119.77856686940582,
+        "original_value": 108,
+        "position_index": 212
+      },
+      {
+        "frequency": 337.81417142170244,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 5.349233015925034,
+        "resonance_lock": 120.34571015981481,
+        "original_value": 101,
+        "position_index": 213
+      },
+      {
+        "frequency": 378.56951355687323,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 0.6840816974960386,
+        "resonance_lock": 120.91285345022382,
+        "original_value": 118,
+        "position_index": 214
+      },
+      {
+        "frequency": 341.5824843032084,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 2.3021156862450436,
+        "resonance_lock": 121.47999674063283,
+        "original_value": 101,
+        "position_index": 215
+      },
+      {
+        "frequency": 339.0480336354302,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 3.9201496749939917,
+        "resonance_lock": 122.04714003104182,
+        "original_value": 108,
+        "position_index": 216
+      },
+      {
+        "frequency": 220.72026793138065,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 5.538183663742997,
+        "resonance_lock": 122.61428332145083,
+        "original_value": 34,
+        "position_index": 217
+      },
+      {
+        "frequency": 259.48273455144454,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 0.8730323453140016,
+        "resonance_lock": 123.18142661185982,
+        "original_value": 58,
+        "position_index": 218
+      },
+      {
+        "frequency": 230.67765560483295,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.4910663340630066,
+        "resonance_lock": 123.74856990226883,
+        "original_value": 32,
+        "position_index": 219
+      },
+      {
+        "frequency": 282.75923566124675,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 4.1091003228120115,
+        "resonance_lock": 124.31571319267782,
+        "original_value": 56,
+        "position_index": 220
+      },
+      {
+        "frequency": 260.3345123063229,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 5.7271343115610165,
+        "resonance_lock": 124.88285648308683,
+        "original_value": 48,
+        "position_index": 221
+      },
+      {
+        "frequency": 243.23775573980367,
+        "amplitude": 0.1803921568627451,
+        "phase_shift": 1.0619829931320215,
+        "resonance_lock": 125.44999977349582,
+        "original_value": 46,
+        "position_index": 222
+      },
+      {
+        "frequency": 262.44287907941913,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 2.6800169818810264,
+        "resonance_lock": 126.01714306390483,
+        "original_value": 57,
+        "position_index": 223
+      },
+      {
+        "frequency": 247.81022407076603,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 4.298050970630031,
+        "resonance_lock": 126.58428635431382,
+        "original_value": 48,
+        "position_index": 224
+      },
+      {
+        "frequency": 262.6920628203775,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 5.916084959379036,
+        "resonance_lock": 127.15142964472282,
+        "original_value": 49,
+        "position_index": 225
+      },
+      {
+        "frequency": 284.0309970905602,
+        "amplitude": 0.21176470588235294,
+        "phase_shift": 1.2509336409500413,
+        "resonance_lock": 127.71857293513182,
+        "original_value": 54,
+        "position_index": 226
+      },
+      {
+        "frequency": 279.4046476118754,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 2.8689676296989894,
+        "resonance_lock": 128.28571622554082,
+        "original_value": 57,
+        "position_index": 227
+      },
+      {
+        "frequency": 265.5439590228542,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 4.487001618447994,
+        "resonance_lock": 128.85285951594983,
+        "original_value": 57,
+        "position_index": 228
+      },
+      {
+        "frequency": 258.86053854248564,
+        "amplitude": 0.20392156862745098,
+        "phase_shift": 6.105035607196999,
+        "resonance_lock": 129.4200028063588,
+        "original_value": 52,
+        "position_index": 229
+      },
+      {
+        "frequency": 257.1721554438245,
+        "amplitude": 0.2,
+        "phase_shift": 1.4398842887680043,
+        "resonance_lock": 129.98714609676782,
+        "original_value": 51,
+        "position_index": 230
+      },
+      {
+        "frequency": 276.90809615968294,
+        "amplitude": 0.21568627450980393,
+        "phase_shift": 3.0579182775170093,
+        "resonance_lock": 130.55428938717682,
+        "original_value": 55,
+        "position_index": 231
+      },
+      {
+        "frequency": 285.3027585198737,
+        "amplitude": 0.20392156862745098,
+        "phase_shift": 4.675952266266014,
+        "resonance_lock": 131.12143267758583,
+        "original_value": 52,
+        "position_index": 232
+      },
+      {
+        "frequency": 277.44034106369094,
+        "amplitude": 0.20784313725490197,
+        "phase_shift": 0.010800947837019237,
+        "resonance_lock": 131.6885759679948,
+        "original_value": 53,
+        "position_index": 233
+      },
+      {
+        "frequency": 249.0173465759287,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 1.6288349365860242,
+        "resonance_lock": 132.25571925840381,
+        "original_value": 44,
+        "position_index": 234
+      },
+      {
+        "frequency": 195.41094042183914,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 3.246868925335029,
+        "resonance_lock": 132.82286254881282,
+        "original_value": 10,
+        "position_index": 235
+      },
+      {
+        "frequency": 230.93733906440505,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.864902914084034,
+        "resonance_lock": 133.39000583922183,
+        "original_value": 32,
+        "position_index": 236
+      },
+      {
+        "frequency": 244.20114382526748,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.19975159565503908,
+        "resonance_lock": 133.95714912963084,
+        "original_value": 32,
+        "position_index": 237
+      },
+      {
+        "frequency": 257.44990815170524,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.817785584404044,
+        "resonance_lock": 134.5242924200398,
+        "original_value": 32,
+        "position_index": 238
+      },
+      {
+        "frequency": 247.96945670677343,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.435819573152992,
+        "resonance_lock": 135.09143571044882,
+        "original_value": 32,
+        "position_index": 239
+      },
+      {
+        "frequency": 234.10876811775222,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.053853561901997,
+        "resonance_lock": 135.65857900085783,
+        "original_value": 32,
+        "position_index": 240
+      },
+      {
+        "frequency": 235.51551758112868,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.3887022434730021,
+        "resonance_lock": 136.22572229126683,
+        "original_value": 32,
+        "position_index": 241
+      },
+      {
+        "frequency": 238.68123644871457,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 2.006736232222007,
+        "resonance_lock": 136.7928655816758,
+        "original_value": 34,
+        "position_index": 242
+      },
+      {
+        "frequency": 360.35331845576,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 3.624770220971012,
+        "resonance_lock": 137.36000887208482,
+        "original_value": 101,
+        "position_index": 243
+      },
+      {
+        "frequency": 401.10866059093075,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 5.242804209720017,
+        "resonance_lock": 137.92715216249383,
+        "original_value": 118,
+        "position_index": 244
+      },
+      {
+        "frequency": 380.3019712247559,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 0.5776528912910219,
+        "resonance_lock": 138.49429545290283,
+        "original_value": 111,
+        "position_index": 245
+      },
+      {
+        "frequency": 361.5871806694877,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 2.195686880040027,
+        "resonance_lock": 139.0614387433118,
+        "original_value": 108,
+        "position_index": 246
+      },
+      {
+        "frequency": 377.5562360316052,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 3.813720868789032,
+        "resonance_lock": 139.62858203372082,
+        "original_value": 117,
+        "position_index": 247
+      },
+      {
+        "frequency": 375.86785293294406,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 5.431754857538037,
+        "resonance_lock": 140.19572532412982,
+        "original_value": 116,
+        "position_index": 248
+      },
+      {
+        "frequency": 371.33328381756746,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 0.7666035391090418,
+        "resonance_lock": 140.76286861453883,
+        "original_value": 105,
+        "position_index": 249
+      },
+      {
+        "frequency": 394.29025207649926,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 2.3846375278580467,
+        "resonance_lock": 141.3300119049478,
+        "original_value": 111,
+        "position_index": 250
+      },
+      {
+        "frequency": 383.19176664281844,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 4.002671516606995,
+        "resonance_lock": 141.89715519535682,
+        "original_value": 110,
+        "position_index": 251
+      },
+      {
+        "frequency": 345.0605682225622,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 5.620705505356,
+        "resonance_lock": 142.46429848576582,
+        "original_value": 95,
+        "position_index": 252
+      },
+      {
+        "frequency": 357.7935556071817,
+        "amplitude": 0.4,
+        "phase_shift": 0.9555541869270048,
+        "resonance_lock": 143.03144177617483,
+        "original_value": 102,
+        "position_index": 253
+      },
+      {
+        "frequency": 349.63303655352456,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 2.5735881756760097,
+        "resonance_lock": 143.5985850665838,
+        "original_value": 97,
+        "position_index": 254
+      },
+      {
+        "frequency": 366.13290929188497,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 4.191622164425015,
+        "resonance_lock": 144.16572835699282,
+        "original_value": 99,
+        "position_index": 255
+      },
+      {
+        "frequency": 406.88825142705576,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 5.80965615317402,
+        "resonance_lock": 144.73287164740182,
+        "original_value": 116,
+        "position_index": 256
+      },
+      {
+        "frequency": 389.317630038379,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 1.1445048347450246,
+        "resonance_lock": 145.30001493781083,
+        "original_value": 111,
+        "position_index": 257
+      },
+      {
+        "frequency": 380.31104341560473,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 2.7625388234940296,
+        "resonance_lock": 145.86715822821984,
+        "original_value": 114,
+        "position_index": 258
+      },
+      {
+        "frequency": 252.27507377906122,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.3805728122430345,
+        "resonance_lock": 146.4343015186288,
+        "original_value": 34,
+        "position_index": 259
+      },
+      {
+        "frequency": 291.0375403991251,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 5.9986068009920395,
+        "resonance_lock": 147.00144480903782,
+        "original_value": 58,
+        "position_index": 260
+      },
+      {
+        "frequency": 262.23246145251346,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.3334554825630445,
+        "resonance_lock": 147.56858809944683,
+        "original_value": 32,
+        "position_index": 261
+      },
+      {
+        "frequency": 302.98780358768425,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 2.9514894713119926,
+        "resonance_lock": 148.13573138985583,
+        "original_value": 49,
+        "position_index": 262
+      },
+      {
+        "frequency": 288.6532501765054,
+        "amplitude": 0.1803921568627451,
+        "phase_shift": 4.5695234600609975,
+        "resonance_lock": 148.7028746802648,
+        "original_value": 46,
+        "position_index": 263
+      },
+      {
+        "frequency": 287.73683349747625,
+        "amplitude": 0.21176470588235294,
+        "phase_shift": 6.1875574488100025,
+        "resonance_lock": 149.27001797067382,
+        "original_value": 54,
+        "position_index": 264
+      },
+      {
+        "frequency": 281.05341301710774,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 1.5224061303810075,
+        "resonance_lock": 149.83716126108283,
+        "original_value": 49,
+        "position_index": 265
+      },
+      {
+        "frequency": 292.3093018284386,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 3.1404401191300124,
+        "resonance_lock": 150.40430455149183,
+        "original_value": 56,
+        "position_index": 266
+      },
+      {
+        "frequency": 292.628834679309,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 4.758474107879017,
+        "resonance_lock": 150.9714478419008,
+        "original_value": 48,
+        "position_index": 267
+      },
+      {
+        "frequency": 310.73170097199375,
+        "amplitude": 0.2,
+        "phase_shift": 0.09332278945002237,
+        "resonance_lock": 151.53859113230982,
+        "original_value": 51,
+        "position_index": 268
+      },
+      {
+        "frequency": 301.25124952706193,
+        "amplitude": 0.2,
+        "phase_shift": 1.7113567781990273,
+        "resonance_lock": 152.10573442271883,
+        "original_value": 51,
+        "position_index": 269
+      },
+      {
+        "frequency": 297.09876487053475,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 3.3293907669480323,
+        "resonance_lock": 152.67287771312783,
+        "original_value": 57,
+        "position_index": 270
+      },
+      {
+        "frequency": 296.88748034516226,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 4.947424755697037,
+        "resonance_lock": 153.2400210035368,
+        "original_value": 56,
+        "position_index": 271
+      },
+      {
+        "frequency": 296.8171312352501,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 0.2822734372680422,
+        "resonance_lock": 153.80716429394582,
+        "original_value": 56,
+        "position_index": 272
+      },
+      {
+        "frequency": 308.4629020073635,
+        "amplitude": 0.21568627450980393,
+        "phase_shift": 1.9003074260170472,
+        "resonance_lock": 154.37430758435482,
+        "original_value": 55,
+        "position_index": 273
+      },
+      {
+        "frequency": 316.8575643675543,
+        "amplitude": 0.20392156862745098,
+        "phase_shift": 3.5183414147659953,
+        "resonance_lock": 154.94145087476383,
+        "original_value": 52,
+        "position_index": 274
+      },
+      {
+        "frequency": 315.46728286636744,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 5.136375403515,
+        "resonance_lock": 155.5085941651728,
+        "original_value": 57,
+        "position_index": 275
+      },
+      {
+        "frequency": 225.55899680614326,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 0.4712240850860052,
+        "resonance_lock": 156.07573745558182,
+        "original_value": 10,
+        "position_index": 276
+      },
+      {
+        "frequency": 262.56249402199774,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.08925807383501,
+        "resonance_lock": 156.64288074599082,
+        "original_value": 32,
+        "position_index": 277
+      },
+      {
+        "frequency": 262.49214491208556,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.707292062584015,
+        "resonance_lock": 157.21002403639983,
+        "original_value": 32,
+        "position_index": 278
+      },
+      {
+        "frequency": 275.755949672948,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.32532605133302,
+        "resonance_lock": 157.77716732680884,
+        "original_value": 32,
+        "position_index": 279
+      },
+      {
+        "frequency": 289.0047139993858,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.6601747329040251,
+        "resonance_lock": 158.34431061721781,
+        "original_value": 32,
+        "position_index": 280
+      },
+      {
+        "frequency": 430.001423508111,
+        "amplitude": 0.49019607843137253,
+        "phase_shift": 2.27820872165303,
+        "resonance_lock": 158.91145390762682,
+        "original_value": 125,
+        "position_index": 281
+      },
+      {
+        "frequency": 285.07998183042076,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 3.896242710402035,
+        "resonance_lock": 159.47859719803583,
+        "original_value": 44,
+        "position_index": 282
+      },
+      {
+        "frequency": 231.47357567633122,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 5.51427669915104,
+        "resonance_lock": 160.04574048844484,
+        "original_value": 10,
+        "position_index": 283
+      },
+      {
+        "frequency": 266.9999743188971,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.8491253807220449,
+        "resonance_lock": 160.6128837788538,
+        "original_value": 32,
+        "position_index": 284
+      },
+      {
+        "frequency": 280.2637790797595,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.46715936947105,
+        "resonance_lock": 161.18002706926282,
+        "original_value": 32,
+        "position_index": 285
+      },
+      {
+        "frequency": 293.51254340619727,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.085193358219998,
+        "resonance_lock": 161.74717035967183,
+        "original_value": 32,
+        "position_index": 286
+      },
+      {
+        "frequency": 284.03209196126545,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.703227346969003,
+        "resonance_lock": 162.31431365008083,
+        "original_value": 32,
+        "position_index": 287
+      },
+      {
+        "frequency": 417.4124963484033,
+        "amplitude": 0.4823529411764706,
+        "phase_shift": 1.038076028540008,
+        "resonance_lock": 162.8814569404898,
+        "original_value": 123,
+        "position_index": 288
+      },
+      {
+        "frequency": 235.98140508314273,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 2.656110017289013,
+        "resonance_lock": 163.44860023089882,
+        "original_value": 10,
+        "position_index": 289
+      },
+      {
+        "frequency": 271.50780372570864,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.274144006038018,
+        "resonance_lock": 164.01574352130783,
+        "original_value": 32,
+        "position_index": 290
+      },
+      {
+        "frequency": 284.77160848657104,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.892177994787023,
+        "resonance_lock": 164.58288681171683,
+        "original_value": 32,
+        "position_index": 291
+      },
+      {
+        "frequency": 298.0203728130088,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.2270266763580278,
+        "resonance_lock": 165.1500301021258,
+        "original_value": 32,
+        "position_index": 292
+      },
+      {
+        "frequency": 288.539921368077,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.8450606651070327,
+        "resonance_lock": 165.71717339253482,
+        "original_value": 32,
+        "position_index": 293
+      },
+      {
+        "frequency": 274.6792327790558,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.463094653856038,
+        "resonance_lock": 166.28431668294382,
+        "original_value": 32,
+        "position_index": 294
+      },
+      {
+        "frequency": 276.08598224243224,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.081128642605043,
+        "resonance_lock": 166.85145997335283,
+        "original_value": 32,
+        "position_index": 295
+      },
+      {
+        "frequency": 279.25170111001813,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 1.4159773241760476,
+        "resonance_lock": 167.4186032637618,
+        "original_value": 34,
+        "position_index": 296
+      },
+      {
+        "frequency": 400.9237831170635,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 3.0340113129249957,
+        "resonance_lock": 167.98574655417082,
+        "original_value": 101,
+        "position_index": 297
+      },
+      {
+        "frequency": 431.97092131974034,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 4.652045301674001,
+        "resonance_lock": 168.55288984457982,
+        "original_value": 112,
+        "position_index": 298
+      },
+      {
+        "frequency": 420.8724358860595,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 6.270079290423006,
+        "resonance_lock": 169.12003313498883,
+        "original_value": 111,
+        "position_index": 299
+      },
+      {
+        "frequency": 387.5953394320503,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 1.6049279719940106,
+        "resonance_lock": 169.68717642539784,
+        "original_value": 99,
+        "position_index": 300
+      },
+      {
+        "frequency": 397.0922588391718,
+        "amplitude": 0.40784313725490196,
+        "phase_shift": 3.2229619607430156,
+        "resonance_lock": 170.25431971580682,
+        "original_value": 104,
+        "position_index": 301
+      },
+      {
+        "frequency": 283.7595305168296,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.8409959494920205,
+        "resonance_lock": 170.82146300621582,
+        "original_value": 34,
+        "position_index": 302
+      },
+      {
+        "frequency": 335.856151007668,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 0.1758446310630255,
+        "resonance_lock": 171.38860629662483,
+        "original_value": 58,
+        "position_index": 303
+      },
+      {
+        "frequency": 307.0360316266318,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.7938786198120305,
+        "resonance_lock": 171.95574958703384,
+        "original_value": 32,
+        "position_index": 304
+      },
+      {
+        "frequency": 328.298225967931,
+        "amplitude": 0.2,
+        "phase_shift": 3.4119126085610354,
+        "resonance_lock": 172.5228928774428,
+        "original_value": 51,
+        "position_index": 305
+      },
+      {
+        "frequency": 303.11129945766675,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 5.02994659731004,
+        "resonance_lock": 173.09003616785182,
+        "original_value": 44,
+        "position_index": 306
+      },
+      {
+        "frequency": 249.50489330357726,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 0.36479527888104535,
+        "resonance_lock": 173.65717945826083,
+        "original_value": 10,
+        "position_index": 307
+      },
+      {
+        "frequency": 285.03129194614314,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.9828292676300503,
+        "resonance_lock": 174.22432274866983,
+        "original_value": 32,
+        "position_index": 308
+      },
+      {
+        "frequency": 298.29509670700554,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.6008632563789984,
+        "resonance_lock": 174.7914660390788,
+        "original_value": 32,
+        "position_index": 309
+      },
+      {
+        "frequency": 311.5438610334433,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.218897245128003,
+        "resonance_lock": 175.35860932948782,
+        "original_value": 32,
+        "position_index": 310
+      },
+      {
+        "frequency": 302.0634095885115,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.5537459266990084,
+        "resonance_lock": 175.92575261989683,
+        "original_value": 32,
+        "position_index": 311
+      },
+      {
+        "frequency": 288.2027209994903,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.1717799154480133,
+        "resonance_lock": 176.49289591030583,
+        "original_value": 32,
+        "position_index": 312
+      },
+      {
+        "frequency": 289.6094704628668,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.7898139041970182,
+        "resonance_lock": 177.0600392007148,
+        "original_value": 32,
+        "position_index": 313
+      },
+      {
+        "frequency": 292.77518933045263,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 5.407847892946023,
+        "resonance_lock": 177.62718249112382,
+        "original_value": 34,
+        "position_index": 314
+      },
+      {
+        "frequency": 411.21120336,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 0.7426965745170282,
+        "resonance_lock": 178.19432578153283,
+        "original_value": 99,
+        "position_index": 315
+      },
+      {
+        "frequency": 443.87637555142584,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 2.360730563266033,
+        "resonance_lock": 178.76146907194183,
+        "original_value": 111,
+        "position_index": 316
+      },
+      {
+        "frequency": 432.77789011774496,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 3.978764552015038,
+        "resonance_lock": 179.3286123623508,
+        "original_value": 110,
+        "position_index": 317
+      },
+      {
+        "frequency": 427.0073714724688,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 5.596798540763986,
+        "resonance_lock": 179.89575565275982,
+        "original_value": 115,
+        "position_index": 318
+      },
+      {
+        "frequency": 402.5255771158613,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 0.931647222335048,
+        "resonance_lock": 180.46289894316882,
+        "original_value": 99,
+        "position_index": 319
+      },
+      {
+        "frequency": 412.1634319384431,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 2.549681211083996,
+        "resonance_lock": 181.03004223357783,
+        "original_value": 105,
+        "position_index": 320
+      },
+      {
+        "frequency": 435.13544063179955,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 4.167715199833058,
+        "resonance_lock": 181.59718552398684,
+        "original_value": 111,
+        "position_index": 321
+      },
+      {
+        "frequency": 458.09240889073135,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 5.785749188582006,
+        "resonance_lock": 182.16432881439582,
+        "original_value": 117,
+        "position_index": 322
+      },
+      {
+        "frequency": 445.37588946830147,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 1.1205978701530679,
+        "resonance_lock": 182.73147210480482,
+        "original_value": 115,
+        "position_index": 323
+      },
+      {
+        "frequency": 423.42503093553535,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 2.738631858902016,
+        "resonance_lock": 183.29861539521383,
+        "original_value": 110,
+        "position_index": 324
+      },
+      {
+        "frequency": 410.2694745001708,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 4.356665847651078,
+        "resonance_lock": 183.86575868562284,
+        "original_value": 101,
+        "position_index": 325
+      },
+      {
+        "frequency": 432.85160123274466,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 5.974699836400026,
+        "resonance_lock": 184.43290197603181,
+        "original_value": 115,
+        "position_index": 326
+      },
+      {
+        "frequency": 446.11540599360706,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 1.309548517970974,
+        "resonance_lock": 185.00004526644082,
+        "original_value": 115,
+        "position_index": 327
+      },
+      {
+        "frequency": 427.0034905450649,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 2.927582506720036,
+        "resonance_lock": 185.56718855684983,
+        "original_value": 95,
+        "position_index": 328
+      },
+      {
+        "frequency": 438.55748095387,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 4.545616495468984,
+        "resonance_lock": 186.13433184725884,
+        "original_value": 108,
+        "position_index": 329
+      },
+      {
+        "frequency": 413.37055444360584,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 6.163650484218046,
+        "resonance_lock": 186.7014751376678,
+        "original_value": 101,
+        "position_index": 330
+      },
+      {
+        "frequency": 442.2838817157153,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 1.498499165788994,
+        "resonance_lock": 187.26861842807682,
+        "original_value": 118,
+        "position_index": 331
+      },
+      {
+        "frequency": 414.7069547970701,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 3.1165331545380557,
+        "resonance_lock": 187.83576171848583,
+        "original_value": 101,
+        "position_index": 332
+      },
+      {
+        "frequency": 439.29699747917556,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 4.734567143287004,
+        "resonance_lock": 188.40290500889483,
+        "original_value": 108,
+        "position_index": 333
+      },
+      {
+        "frequency": 332.8112466381873,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 0.06941582485806563,
+        "resonance_lock": 188.9700482993038,
+        "original_value": 34,
+        "position_index": 334
+      },
+      {
+        "frequency": 362.16361092323154,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 1.6874498136070137,
+        "resonance_lock": 189.53719158971282,
+        "original_value": 58,
+        "position_index": 335
+      },
+      {
+        "frequency": 306.2340386267363,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.3054838023560755,
+        "resonance_lock": 190.10433488012183,
+        "original_value": 32,
+        "position_index": 336
+      },
+      {
+        "frequency": 335.1473658988458,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 4.923517791105024,
+        "resonance_lock": 190.67147817053083,
+        "original_value": 49,
+        "position_index": 337
+      },
+      {
+        "frequency": 338.31308476643164,
+        "amplitude": 0.2,
+        "phase_shift": 0.2583664726759718,
+        "resonance_lock": 191.2386214609398,
+        "original_value": 51,
+        "position_index": 338
+      },
+      {
+        "frequency": 346.7227875610471,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 1.8764004614250336,
+        "resonance_lock": 191.80576475134882,
+        "original_value": 48,
+        "position_index": 339
+      },
+      {
+        "frequency": 356.73548390998684,
+        "amplitude": 0.1803921568627451,
+        "phase_shift": 3.4944344501739817,
+        "resonance_lock": 192.37290804175782,
+        "original_value": 46,
+        "position_index": 340
+      },
+      {
+        "frequency": 365.053406341294,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 5.1124684389230435,
+        "resonance_lock": 192.94005133216683,
+        "original_value": 57,
+        "position_index": 341
+      },
+      {
+        "frequency": 336.6304118535318,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 0.44731712049399164,
+        "resonance_lock": 193.50719462257584,
+        "original_value": 48,
+        "position_index": 342
+      },
+      {
+        "frequency": 339.65519530565734,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 2.0653511092430534,
+        "resonance_lock": 194.07433791298482,
+        "original_value": 49,
+        "position_index": 343
+      },
+      {
+        "frequency": 347.67501613949014,
+        "amplitude": 0.21176470588235294,
+        "phase_shift": 3.6833850979920015,
+        "resonance_lock": 194.64148120339382,
+        "original_value": 54,
+        "position_index": 344
+      },
+      {
+        "frequency": 365.79292286659955,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 5.301419086741063,
+        "resonance_lock": 195.20862449380283,
+        "original_value": 57,
+        "position_index": 345
+      },
+      {
+        "frequency": 379.0416871930373,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 0.6362677683120115,
+        "resonance_lock": 195.77576778421184,
+        "original_value": 57,
+        "position_index": 346
+      },
+      {
+        "frequency": 361.47106580436053,
+        "amplitude": 0.20392156862745098,
+        "phase_shift": 2.2543017570610733,
+        "resonance_lock": 196.34291107462082,
+        "original_value": 52,
+        "position_index": 347
+      },
+      {
+        "frequency": 345.9923432265903,
+        "amplitude": 0.2,
+        "phase_shift": 3.8723357458100214,
+        "resonance_lock": 196.91005436502982,
+        "original_value": 51,
+        "position_index": 348
+      },
+      {
+        "frequency": 353.8712286449628,
+        "amplitude": 0.21568627450980393,
+        "phase_shift": 5.490369734559083,
+        "resonance_lock": 197.47719765543883,
+        "original_value": 55,
+        "position_index": 349
+      },
+      {
+        "frequency": 347.32874358005466,
+        "amplitude": 0.2,
+        "phase_shift": 0.8252184161300313,
+        "resonance_lock": 198.04434094584784,
+        "original_value": 51,
+        "position_index": 350
+      },
+      {
+        "frequency": 362.2105823296661,
+        "amplitude": 0.20392156862745098,
+        "phase_shift": 2.4432524048789794,
+        "resonance_lock": 198.6114842362568,
+        "original_value": 52,
+        "position_index": 351
+      },
+      {
+        "frequency": 383.54951659984886,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 4.061286393628041,
+        "resonance_lock": 199.17862752666582,
+        "original_value": 57,
+        "position_index": 352
+      },
+      {
+        "frequency": 374.06906515491704,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 5.679320382376989,
+        "resonance_lock": 199.74577081707483,
+        "original_value": 57,
+        "position_index": 353
+      },
+      {
+        "frequency": 358.5903425771468,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 1.0141690639480512,
+        "resonance_lock": 200.31291410748383,
+        "original_value": 56,
+        "position_index": 354
+      },
+      {
+        "frequency": 340.58068417553534,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 2.6322030526969993,
+        "resonance_lock": 200.8800573978928,
+        "original_value": 44,
+        "position_index": 355
+      },
+      {
+        "frequency": 285.49717944815717,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 4.250237041446061,
+        "resonance_lock": 201.44720068830182,
+        "original_value": 10,
+        "position_index": 356
+      },
+      {
+        "frequency": 334.3577319614976,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.868271030195009,
+        "resonance_lock": 202.01434397871083,
+        "original_value": 32,
+        "position_index": 357
+      },
+      {
+        "frequency": 347.6064962879354,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.203119711766071,
+        "resonance_lock": 202.58148726911983,
+        "original_value": 32,
+        "position_index": 358
+      },
+      {
+        "frequency": 338.12604484300357,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.821153700515019,
+        "resonance_lock": 203.1486305595288,
+        "original_value": 32,
+        "position_index": 359
+      },
+      {
+        "frequency": 324.26535625398236,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.439187689264081,
+        "resonance_lock": 203.71577384993782,
+        "original_value": 32,
+        "position_index": 360
+      },
+      {
+        "frequency": 325.6721057173588,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.057221678013029,
+        "resonance_lock": 204.28291714034683,
+        "original_value": 32,
+        "position_index": 361
+      },
+      {
+        "frequency": 325.6017566074467,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.3920703595839772,
+        "resonance_lock": 204.85006043075583,
+        "original_value": 32,
+        "position_index": 362
+      },
+      {
+        "frequency": 342.1016293458071,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 3.010104348333039,
+        "resonance_lock": 205.41720372116484,
+        "original_value": 34,
+        "position_index": 363
+      },
+      {
+        "frequency": 463.75867091842787,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 4.628138337081987,
+        "resonance_lock": 205.98434701157382,
+        "original_value": 101,
+        "position_index": 364
+      },
+      {
+        "frequency": 481.7847972822291,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 6.246172325831049,
+        "resonance_lock": 206.55149030198282,
+        "original_value": 118,
+        "position_index": 365
+      },
+      {
+        "frequency": 456.59787077196484,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 1.581021007401997,
+        "resonance_lock": 207.11863359239183,
+        "original_value": 111,
+        "position_index": 366
+      },
+      {
+        "frequency": 453.1505182690943,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 3.199054996151059,
+        "resonance_lock": 207.68577688280084,
+        "original_value": 108,
+        "position_index": 367
+      },
+      {
+        "frequency": 467.6424750579232,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 4.817088984900007,
+        "resonance_lock": 208.25292017320982,
+        "original_value": 117,
+        "position_index": 368
+      },
+      {
+        "frequency": 479.2882458300366,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 0.15193766647106877,
+        "resonance_lock": 208.82006346361882,
+        "original_value": 116,
+        "position_index": 369
+      },
+      {
+        "frequency": 474.73863628023537,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 1.7699716552200169,
+        "resonance_lock": 209.38720675402783,
+        "original_value": 105,
+        "position_index": 370
+      },
+      {
+        "frequency": 474.9663887677976,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 3.3880056439690787,
+        "resonance_lock": 209.95435004443684,
+        "original_value": 111,
+        "position_index": 371
+      },
+      {
+        "frequency": 459.4876661900274,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 5.006039632718027,
+        "resonance_lock": 210.52149333484581,
+        "original_value": 110,
+        "position_index": 372
+      },
+      {
+        "frequency": 436.62390582216887,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 0.3408883142889749,
+        "resonance_lock": 211.08863662525482,
+        "original_value": 95,
+        "position_index": 373
+      },
+      {
+        "frequency": 447.8797946334997,
+        "amplitude": 0.4,
+        "phase_shift": 1.9589223030380367,
+        "resonance_lock": 211.65577991566383,
+        "original_value": 102,
+        "position_index": 374
+      },
+      {
+        "frequency": 453.05342945061716,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 3.576956291786985,
+        "resonance_lock": 212.22292320607284,
+        "original_value": 97,
+        "position_index": 375
+      },
+      {
+        "frequency": 469.5382617545529,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 5.194990280536047,
+        "resonance_lock": 212.7900664964818,
+        "original_value": 99,
+        "position_index": 376
+      },
+      {
+        "frequency": 487.56438811835403,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 0.5298389621069948,
+        "resonance_lock": 213.35720978689082,
+        "original_value": 116,
+        "position_index": 377
+      },
+      {
+        "frequency": 465.6135295855879,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 2.1478729508560566,
+        "resonance_lock": 213.92435307729983,
+        "original_value": 111,
+        "position_index": 378
+      },
+      {
+        "frequency": 471.8743810152113,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 3.7659069396050047,
+        "resonance_lock": 214.49149636770883,
+        "original_value": 114,
+        "position_index": 379
+      },
+      {
+        "frequency": 342.3613128053792,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 5.3839409283540665,
+        "resonance_lock": 215.0586396581178,
+        "original_value": 34,
+        "position_index": 380
+      },
+      {
+        "frequency": 394.4579332962176,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 0.7187896099250146,
+        "resonance_lock": 215.62578294852682,
+        "original_value": 58,
+        "position_index": 381
+      },
+      {
+        "frequency": 365.6378139151814,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.3368235986740764,
+        "resonance_lock": 216.19292623893583,
+        "original_value": 32,
+        "position_index": 382
+      },
+      {
+        "frequency": 385.2819742677316,
+        "amplitude": 0.19607843137254902,
+        "phase_shift": 3.9548575874230245,
+        "resonance_lock": 216.76006952934483,
+        "original_value": 50,
+        "position_index": 383
+      },
+      {
+        "frequency": 364.94914972371436,
+        "amplitude": 0.1803921568627451,
+        "phase_shift": 5.572891576172086,
+        "resonance_lock": 217.3272128197538,
+        "original_value": 46,
+        "position_index": 384
+      },
+      {
+        "frequency": 379.30017109708285,
+        "amplitude": 0.21176470588235294,
+        "phase_shift": 0.9077402577430345,
+        "resonance_lock": 217.89435611016282,
+        "original_value": 54,
+        "position_index": 385
+      },
+      {
+        "frequency": 371.1396520434257,
+        "amplitude": 0.19215686274509805,
+        "phase_shift": 2.5257742464919826,
+        "resonance_lock": 218.46149940057182,
+        "original_value": 49,
+        "position_index": 386
+      },
+      {
+        "frequency": 395.7296947255311,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 4.143808235241044,
+        "resonance_lock": 219.02864269098083,
+        "original_value": 56,
+        "position_index": 387
+      },
+      {
+        "frequency": 396.034187141977,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 5.7618422239899925,
+        "resonance_lock": 219.59578598138984,
+        "original_value": 48,
+        "position_index": 388
+      },
+      {
+        "frequency": 391.40783766329207,
+        "amplitude": 0.2,
+        "phase_shift": 1.0966909055610543,
+        "resonance_lock": 220.16292927179882,
+        "original_value": 51,
+        "position_index": 389
+      },
+      {
+        "frequency": 377.54714907427086,
+        "amplitude": 0.2,
+        "phase_shift": 2.7147248943100024,
+        "resonance_lock": 220.73007256220782,
+        "original_value": 51,
+        "position_index": 390
+      },
+      {
+        "frequency": 388.66210247014135,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 4.332758883059064,
+        "resonance_lock": 221.29721585261683,
+        "original_value": 57,
+        "position_index": 391
+      },
+      {
+        "frequency": 386.97371937148023,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 5.950792871808012,
+        "resonance_lock": 221.86435914302584,
+        "original_value": 56,
+        "position_index": 392
+      },
+      {
+        "frequency": 400.2375241323426,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 1.2856415533790742,
+        "resonance_lock": 222.43150243343482,
+        "original_value": 56,
+        "position_index": 393
+      },
+      {
+        "frequency": 411.86825447003145,
+        "amplitude": 0.21568627450980393,
+        "phase_shift": 2.9036755421280223,
+        "resonance_lock": 222.99864572384382,
+        "original_value": 55,
+        "position_index": 394
+      },
+      {
+        "frequency": 397.5337010588526,
+        "amplitude": 0.20392156862745098,
+        "phase_shift": 4.521709530877084,
+        "resonance_lock": 223.56578901425283,
+        "original_value": 52,
+        "position_index": 395
+      },
+      {
+        "frequency": 386.90908044732936,
+        "amplitude": 0.21176470588235294,
+        "phase_shift": 6.139743519626032,
+        "resonance_lock": 224.13293230466184,
+        "original_value": 54,
+        "position_index": 396
+      },
+      {
+        "frequency": 393.1699318769529,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 1.4745922011969803,
+        "resonance_lock": 224.7000755950708,
+        "original_value": 57,
+        "position_index": 397
+      },
+      {
+        "frequency": 393.0995827670407,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 3.092626189946042,
+        "resonance_lock": 225.26721888547982,
+        "original_value": 57,
+        "position_index": 398
+      },
+      {
+        "frequency": 406.3633875279031,
+        "amplitude": 0.2235294117647059,
+        "phase_shift": 4.71066017869499,
+        "resonance_lock": 225.83436217588883,
+        "original_value": 57,
+        "position_index": 399
+      },
+      {
+        "frequency": 411.52198191059597,
+        "amplitude": 0.20392156862745098,
+        "phase_shift": 0.045508860266052054,
+        "resonance_lock": 226.40150546629783,
+        "original_value": 52,
+        "position_index": 400
+      },
+      {
+        "frequency": 334.0841029382061,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 1.6635428490150002,
+        "resonance_lock": 226.9686487567068,
+        "original_value": 10,
+        "position_index": 401
+      },
+      {
+        "frequency": 355.8201621016629,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.281576837764062,
+        "resonance_lock": 227.53579204711582,
+        "original_value": 32,
+        "position_index": 402
+      },
+      {
+        "frequency": 357.22691156503936,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.89961082651301,
+        "resonance_lock": 228.10293533752483,
+        "original_value": 32,
+        "position_index": 403
+      },
+      {
+        "frequency": 357.15656245512724,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.2344595080840719,
+        "resonance_lock": 228.67007862793383,
+        "original_value": 32,
+        "position_index": 404
+      },
+      {
+        "frequency": 370.4203672159897,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.85249349683302,
+        "resonance_lock": 229.2372219183428,
+        "original_value": 32,
+        "position_index": 405
+      },
+      {
+        "frequency": 534.1462924960845,
+        "amplitude": 0.49019607843137253,
+        "phase_shift": 3.470527485582082,
+        "resonance_lock": 229.80436520875182,
+        "original_value": 125,
+        "position_index": 406
+      },
+      {
+        "frequency": 338.59193234501765,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 5.08856147433103,
+        "resonance_lock": 230.37150849916083,
+        "original_value": 10,
+        "position_index": 407
+      },
+      {
+        "frequency": 360.3279915084744,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.42341015590197806,
+        "resonance_lock": 230.93865178956983,
+        "original_value": 32,
+        "position_index": 408
+      },
+      {
+        "frequency": 361.7347409718509,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.04144414465104,
+        "resonance_lock": 231.50579507997884,
+        "original_value": 32,
+        "position_index": 409
+      },
+      {
+        "frequency": 460.36446517562774,
+        "amplitude": 0.36470588235294116,
+        "phase_shift": 3.659478133399988,
+        "resonance_lock": 232.07293837038782,
+        "original_value": 93,
+        "position_index": 410
+      },
+      {
+        "frequency": 394.3446044877892,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 5.27751212214905,
+        "resonance_lock": 232.64008166079682,
+        "original_value": 44,
+        "position_index": 411
+      },
+      {
+        "frequency": 352.580213196761,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 0.6123608037199979,
+        "resonance_lock": 233.20722495120583,
+        "original_value": 10,
+        "position_index": 412
+      },
+      {
+        "frequency": 378.69650950430713,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 2.2303947924690597,
+        "resonance_lock": 233.77436824161484,
+        "original_value": 32,
+        "position_index": 413
+      },
+      {
+        "frequency": 364.8358209152859,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.848428781218008,
+        "resonance_lock": 234.34151153202382,
+        "original_value": 32,
+        "position_index": 414
+      },
+      {
+        "frequency": 369.47863835616033,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 5.46646276996707,
+        "resonance_lock": 234.90865482243282,
+        "original_value": 34,
+        "position_index": 415
+      },
+      {
+        "frequency": 490.76083840242325,
+        "amplitude": 0.42745098039215684,
+        "phase_shift": 0.8013114515380177,
+        "resonance_lock": 235.47579811284183,
+        "original_value": 109,
+        "position_index": 416
+      },
+      {
+        "frequency": 491.0803712532937,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 2.4193454402870795,
+        "resonance_lock": 236.04294140325084,
+        "original_value": 101,
+        "position_index": 417
+      },
+      {
+        "frequency": 517.2734074897235,
+        "amplitude": 0.42745098039215684,
+        "phase_shift": 4.037379429036028,
+        "resonance_lock": 236.61008469365981,
+        "original_value": 109,
+        "position_index": 418
+      },
+      {
+        "frequency": 511.02902402228966,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.655413417784976,
+        "resonance_lock": 237.17722798406882,
+        "original_value": 111,
+        "position_index": 419
+      },
+      {
+        "frequency": 502.0224373995154,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 0.9902620993560376,
+        "resonance_lock": 237.74437127447783,
+        "original_value": 114,
+        "position_index": 420
+      },
+      {
+        "frequency": 514.7554247841349,
+        "amplitude": 0.4745098039215686,
+        "phase_shift": 2.6082960881049857,
+        "resonance_lock": 238.31151456488683,
+        "original_value": 121,
+        "position_index": 421
+      },
+      {
+        "frequency": 472.6161919667487,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 4.2263300768540475,
+        "resonance_lock": 238.8786578552958,
+        "original_value": 95,
+        "position_index": 422
+      },
+      {
+        "frequency": 518.2406765025912,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 5.844364065602996,
+        "resonance_lock": 239.44580114570482,
+        "original_value": 115,
+        "position_index": 423
+      },
+      {
+        "frequency": 505.60089700904496,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 1.1792127471740574,
+        "resonance_lock": 240.01294443611383,
+        "original_value": 99,
+        "position_index": 424
+      },
+      {
+        "frequency": 492.88437758661513,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 2.7972467359230055,
+        "resonance_lock": 240.58008772652283,
+        "original_value": 97,
+        "position_index": 425
+      },
+      {
+        "frequency": 496.8220628738329,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 4.415280724672067,
+        "resonance_lock": 241.1472310169318,
+        "original_value": 108,
+        "position_index": 426
+      },
+      {
+        "frequency": 493.37471037096236,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 6.033314713421015,
+        "resonance_lock": 241.71437430734082,
+        "original_value": 105,
+        "position_index": 427
+      },
+      {
+        "frequency": 501.39453120479527,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 1.3681633949920773,
+        "resonance_lock": 242.28151759774983,
+        "original_value": 110,
+        "position_index": 428
+      },
+      {
+        "frequency": 503.3320980444147,
+        "amplitude": 0.403921568627451,
+        "phase_shift": 2.9861973837410254,
+        "resonance_lock": 242.84866088815883,
+        "original_value": 103,
+        "position_index": 429
+      },
+      {
+        "frequency": 404.93651714717146,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.604231372490087,
+        "resonance_lock": 243.41580417856784,
+        "original_value": 34,
+        "position_index": 430
+      },
+      {
+        "frequency": 434.2888814322157,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 6.222265361239035,
+        "resonance_lock": 243.98294746897682,
+        "original_value": 58,
+        "position_index": 431
+      },
+      {
+        "frequency": 378.3593091357204,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.5571140428099834,
+        "resonance_lock": 244.55009075938582,
+        "original_value": 32,
+        "position_index": 432
+      },
+      {
+        "frequency": 383.0021265765949,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 3.1751480315590452,
+        "resonance_lock": 245.11723404979483,
+        "original_value": 34,
+        "position_index": 433
+      },
+      {
+        "frequency": 476.7777488141247,
+        "amplitude": 0.3607843137254902,
+        "phase_shift": 4.793182020307993,
+        "resonance_lock": 245.68437734020384,
+        "original_value": 92,
+        "position_index": 434
+      },
+      {
+        "frequency": 530.4924032937122,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 0.1280307018790552,
+        "resonance_lock": 246.25152063061282,
+        "original_value": 117,
+        "position_index": 435
+      },
+      {
+        "frequency": 432.09682239646895,
+        "amplitude": 0.18823529411764706,
+        "phase_shift": 1.7460646906280033,
+        "resonance_lock": 246.81866392102182,
+        "original_value": 48,
+        "position_index": 436
+      },
+      {
+        "frequency": 427.47047291778415,
+        "amplitude": 0.2,
+        "phase_shift": 3.364098679377065,
+        "resonance_lock": 247.38580721143083,
+        "original_value": 51,
+        "position_index": 437
+      },
+      {
+        "frequency": 491.275415788715,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 4.982132668126013,
+        "resonance_lock": 247.95295050183984,
+        "original_value": 99,
+        "position_index": 438
+      },
+      {
+        "frequency": 419.87063575838636,
+        "amplitude": 0.21176470588235294,
+        "phase_shift": 0.31698134969707503,
+        "resonance_lock": 248.52009379224882,
+        "original_value": 54,
+        "position_index": 439
+      },
+      {
+        "frequency": 405.2379807497333,
+        "amplitude": 0.17647058823529413,
+        "phase_shift": 1.9350153384460231,
+        "resonance_lock": 249.08723708265782,
+        "original_value": 45,
+        "position_index": 440
+      },
+      {
+        "frequency": 504.2575869142927,
+        "amplitude": 0.3843137254901961,
+        "phase_shift": 3.553049327195085,
+        "resonance_lock": 249.65438037306683,
+        "original_value": 98,
+        "position_index": 441
+      },
+      {
+        "frequency": 515.8883172519814,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 5.171083315944033,
+        "resonance_lock": 250.22152366347584,
+        "original_value": 97,
+        "position_index": 442
+      },
+      {
+        "frequency": 535.5324776045317,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.5059319975149812,
+        "resonance_lock": 250.7886669538848,
+        "original_value": 115,
+        "position_index": 443
+      },
+      {
+        "frequency": 499.01931317302444,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 2.123965986264043,
+        "resonance_lock": 251.35581024429382,
+        "original_value": 101,
+        "position_index": 444
+      },
+      {
+        "frequency": 498.8080286476519,
+        "amplitude": 0.39215686274509803,
+        "phase_shift": 3.741999975012991,
+        "resonance_lock": 251.92295353470283,
+        "original_value": 100,
+        "position_index": 445
+      },
+      {
+        "frequency": 388.7113683028077,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.360033963762053,
+        "resonance_lock": 252.49009682511183,
+        "original_value": 32,
+        "position_index": 446
+      },
+      {
+        "frequency": 513.6195182873512,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 0.694882645333001,
+        "resonance_lock": 253.0572401155208,
+        "original_value": 101,
+        "position_index": 447
+      },
+      {
+        "frequency": 557.6109284000199,
+        "amplitude": 0.47058823529411764,
+        "phase_shift": 2.312916634082063,
+        "resonance_lock": 253.62438340592982,
+        "original_value": 120,
+        "position_index": 448
+      },
+      {
+        "frequency": 535.1862050450961,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 3.930950622831011,
+        "resonance_lock": 254.19152669633883,
+        "original_value": 112,
+        "position_index": 449
+      },
+      {
+        "frequency": 519.707482467326,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.548984611580073,
+        "resonance_lock": 254.75866998674783,
+        "original_value": 111,
+        "position_index": 450
+      },
+      {
+        "frequency": 519.4961979419534,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 0.8838332931510209,
+        "resonance_lock": 255.32581327715684,
+        "original_value": 110,
+        "position_index": 451
+      },
+      {
+        "frequency": 504.86354293330027,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 2.5018672819000827,
+        "resonance_lock": 255.89295656756582,
+        "original_value": 101,
+        "position_index": 452
+      },
+      {
+        "frequency": 532.6896535929037,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 4.119901270649031,
+        "resonance_lock": 256.46009985797485,
+        "original_value": 110,
+        "position_index": 453
+      },
+      {
+        "frequency": 555.6466218518354,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 5.737935259397979,
+        "resonance_lock": 257.02724314838383,
+        "original_value": 116,
+        "position_index": 454
+      },
+      {
+        "frequency": 528.3677965306647,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 1.0727839409690407,
+        "resonance_lock": 257.5943864387928,
+        "original_value": 105,
+        "position_index": 455
+      },
+      {
+        "frequency": 501.5628360316515,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 2.690817929717989,
+        "resonance_lock": 258.16152972920185,
+        "original_value": 97,
+        "position_index": 456
+      },
+      {
+        "frequency": 520.7679593712669,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 4.308851918467051,
+        "resonance_lock": 258.7286730196108,
+        "original_value": 108,
+        "position_index": 457
+      },
+      {
+        "frequency": 397.72702711643075,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.926885907215999,
+        "resonance_lock": 259.2958163100198,
+        "original_value": 32,
+        "position_index": 458
+      },
+      {
+        "frequency": 525.8712450784722,
+        "amplitude": 0.403921568627451,
+        "phase_shift": 1.2617345887870606,
+        "resonance_lock": 259.86295960042884,
+        "original_value": 103,
+        "position_index": 459
+      },
+      {
+        "frequency": 556.918383281149,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 2.8797685775360087,
+        "resonance_lock": 260.4301028908378,
+        "original_value": 114,
+        "position_index": 460
+      },
+      {
+        "frequency": 542.5838298699701,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 4.4978025662850705,
+        "resonance_lock": 260.99724618124685,
+        "original_value": 111,
+        "position_index": 461
+      },
+      {
+        "frequency": 541.667413190941,
+        "amplitude": 0.4666666666666667,
+        "phase_shift": 6.115836555034019,
+        "resonance_lock": 261.56438947165583,
+        "original_value": 119,
+        "position_index": 462
+      },
+      {
+        "frequency": 538.2200606880704,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 1.4506852366050804,
+        "resonance_lock": 262.1315327620648,
+        "original_value": 116,
+        "position_index": 463
+      },
+      {
+        "frequency": 518.7333037131702,
+        "amplitude": 0.40784313725490196,
+        "phase_shift": 3.0687192253540285,
+        "resonance_lock": 262.69867605247384,
+        "original_value": 104,
+        "position_index": 464
+      },
+      {
+        "frequency": 418.73472926160275,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.68675321410309,
+        "resonance_lock": 263.2658193428828,
+        "original_value": 34,
+        "position_index": 465
+      },
+      {
+        "frequency": 448.1638334755305,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 0.021601895674038474,
+        "resonance_lock": 263.8329626332918,
+        "original_value": 44,
+        "position_index": 466
+      },
+      {
+        "frequency": 383.6702264131327,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 1.6396358844229866,
+        "resonance_lock": 264.40010592370083,
+        "original_value": 10,
+        "position_index": 467
+      },
+      {
+        "frequency": 405.4062855765895,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 3.2576698731720484,
+        "resonance_lock": 264.9672492141098,
+        "original_value": 32,
+        "position_index": 468
+      },
+      {
+        "frequency": 406.81303503996594,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.8757038619209965,
+        "resonance_lock": 265.53439250451885,
+        "original_value": 32,
+        "position_index": 469
+      },
+      {
+        "frequency": 409.9787539075518,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 0.21055254349205832,
+        "resonance_lock": 266.1015357949278,
+        "original_value": 34,
+        "position_index": 470
+      },
+      {
+        "frequency": 528.4147679370992,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 1.8285865322410064,
+        "resonance_lock": 266.6686790853368,
+        "original_value": 99,
+        "position_index": 471
+      },
+      {
+        "frequency": 565.934042094772,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 3.446620520990068,
+        "resonance_lock": 267.23582237574584,
+        "original_value": 114,
+        "position_index": 472
+      },
+      {
+        "frequency": 551.5994886835931,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.064654509739016,
+        "resonance_lock": 267.8029656661548,
+        "original_value": 111,
+        "position_index": 473
+      },
+      {
+        "frequency": 544.2109360495681,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.39950319131007817,
+        "resonance_lock": 268.37010895656385,
+        "original_value": 115,
+        "position_index": 474
+      },
+      {
+        "frequency": 545.6176855129445,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.0175371800590263,
+        "resonance_lock": 268.93725224697283,
+        "original_value": 115,
+        "position_index": 475
+      },
+      {
+        "frequency": 513.1866566280523,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 3.635571168808088,
+        "resonance_lock": 269.5043955373818,
+        "original_value": 95,
+        "position_index": 476
+      },
+      {
+        "frequency": 536.1586653214088,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 5.253605157557036,
+        "resonance_lock": 270.07153882779085,
+        "original_value": 101,
+        "position_index": 477
+      },
+      {
+        "frequency": 567.2058035240855,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 0.5884538391279843,
+        "resonance_lock": 270.6386821181998,
+        "original_value": 112,
+        "position_index": 478
+      },
+      {
+        "frequency": 556.1073180904048,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 2.206487827877046,
+        "resonance_lock": 271.2058254086088,
+        "original_value": 111,
+        "position_index": 479
+      },
+      {
+        "frequency": 522.8302216363955,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 3.824521816625994,
+        "resonance_lock": 271.77296869901784,
+        "original_value": 99,
+        "position_index": 480
+      },
+      {
+        "frequency": 532.327141043517,
+        "amplitude": 0.40784313725490196,
+        "phase_shift": 5.442555805375056,
+        "resonance_lock": 272.3401119894268,
+        "original_value": 104,
+        "position_index": 481
+      },
+      {
+        "frequency": 517.6944860348638,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 0.7774044869460042,
+        "resonance_lock": 272.90725527983585,
+        "original_value": 95,
+        "position_index": 482
+      },
+      {
+        "frequency": 551.9927326494633,
+        "amplitude": 0.4235294117647059,
+        "phase_shift": 2.395438475695066,
+        "resonance_lock": 273.47439857024483,
+        "original_value": 108,
+        "position_index": 483
+      },
+      {
+        "frequency": 553.915259054658,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 4.013472464444014,
+        "resonance_lock": 274.0415418606538,
+        "original_value": 101,
+        "position_index": 484
+      },
+      {
+        "frequency": 537.9626716547302,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 5.631506453193076,
+        "resonance_lock": 274.60868515106284,
+        "original_value": 97,
+        "position_index": 485
+      },
+      {
+        "frequency": 551.608560874442,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 0.966355134764024,
+        "resonance_lock": 275.1758284414718,
+        "original_value": 114,
+        "position_index": 486
+      },
+      {
+        "frequency": 546.5431743828225,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 2.584389123513086,
+        "resonance_lock": 275.7429717318808,
+        "original_value": 110,
+        "position_index": 487
+      },
+      {
+        "frequency": 538.3826553291653,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 4.202423112262034,
+        "resonance_lock": 276.31011502228984,
+        "original_value": 105,
+        "position_index": 488
+      },
+      {
+        "frequency": 559.7366300337728,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 5.820457101010982,
+        "resonance_lock": 276.8772583126988,
+        "original_value": 110,
+        "position_index": 489
+      },
+      {
+        "frequency": 561.6591564389676,
+        "amplitude": 0.403921568627451,
+        "phase_shift": 1.1553057825820439,
+        "resonance_lock": 277.44440160310785,
+        "original_value": 103,
+        "position_index": 490
+      },
+      {
+        "frequency": 440.53435977035474,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 2.773339771330992,
+        "resonance_lock": 278.0115448935168,
+        "original_value": 34,
+        "position_index": 491
+      },
+      {
+        "frequency": 465.5064869113095,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 4.391373760080054,
+        "resonance_lock": 278.5786881839258,
+        "original_value": 58,
+        "position_index": 492
+      },
+      {
+        "frequency": 424.844352667212,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.009407748829002,
+        "resonance_lock": 279.14583147433484,
+        "original_value": 32,
+        "position_index": 493
+      },
+      {
+        "frequency": 428.0100715347978,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 1.3442564304000637,
+        "resonance_lock": 279.7129747647438,
+        "original_value": 34,
+        "position_index": 494
+      },
+      {
+        "frequency": 515.7034397781142,
+        "amplitude": 0.3137254901960784,
+        "phase_shift": 2.962290419149012,
+        "resonance_lock": 280.28011805515285,
+        "original_value": 80,
+        "position_index": 495
+      },
+      {
+        "frequency": 562.9309178682811,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 4.580324407898074,
+        "resonance_lock": 280.84726134556183,
+        "original_value": 101,
+        "position_index": 496
+      },
+      {
+        "frequency": 574.4849082770862,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 6.198358396647022,
+        "resonance_lock": 281.4144046359708,
+        "original_value": 114,
+        "position_index": 497
+      },
+      {
+        "frequency": 562.242253676814,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 1.5332070782180836,
+        "resonance_lock": 281.98154792637985,
+        "original_value": 115,
+        "position_index": 498
+      },
+      {
+        "frequency": 547.4686632527005,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 3.1512410669670317,
+        "resonance_lock": 282.5486912167888,
+        "original_value": 105,
+        "position_index": 499
+      },
+      {
+        "frequency": 563.5786540302784,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 4.7692750557160934,
+        "resonance_lock": 283.1158345071978,
+        "original_value": 115,
+        "position_index": 500
+      },
+      {
+        "frequency": 578.4604927798898,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 0.1041237372870416,
+        "resonance_lock": 283.68297779760684,
+        "original_value": 116,
+        "position_index": 501
+      },
+      {
+        "frequency": 567.4387472750925,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 1.7221577260359897,
+        "resonance_lock": 284.2501210880158,
+        "original_value": 101,
+        "position_index": 502
+      },
+      {
+        "frequency": 572.5206017289017,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 3.3401917147850515,
+        "resonance_lock": 284.81726437842485,
+        "original_value": 110,
+        "position_index": 503
+      },
+      {
+        "frequency": 568.3681170723745,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 4.958225703534,
+        "resonance_lock": 285.38440766883383,
+        "original_value": 116,
+        "position_index": 504
+      },
+      {
+        "frequency": 433.860011480835,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.29307438510506145,
+        "resonance_lock": 285.9515509592428,
+        "original_value": 32,
+        "position_index": 505
+      },
+      {
+        "frequency": 542.1979396171058,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 1.9111083738540096,
+        "resonance_lock": 286.51869424965184,
+        "original_value": 99,
+        "position_index": 506
+      },
+      {
+        "frequency": 574.8781522429563,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 3.5291423626030713,
+        "resonance_lock": 287.0858375400608,
+        "original_value": 111,
+        "position_index": 507
+      },
+      {
+        "frequency": 586.5088825806451,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 5.1471763513520195,
+        "resonance_lock": 287.6529808304698,
+        "original_value": 110,
+        "position_index": 508
+      },
+      {
+        "frequency": 585.1186010794582,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.4820250329230813,
+        "resonance_lock": 288.22012412087884,
+        "original_value": 115,
+        "position_index": 509
+      },
+      {
+        "frequency": 545.369368670453,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 2.1000590216720294,
+        "resonance_lock": 288.7872674112878,
+        "original_value": 99,
+        "position_index": 510
+      },
+      {
+        "frequency": 556.4843220663236,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 3.718093010421091,
+        "resonance_lock": 289.35441070169685,
+        "original_value": 105,
+        "position_index": 511
+      },
+      {
+        "frequency": 566.1221768889054,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.336126999170039,
+        "resonance_lock": 289.9215539921058,
+        "original_value": 111,
+        "position_index": 512
+      },
+      {
+        "frequency": 589.0941855822618,
+        "amplitude": 0.4588235294117647,
+        "phase_shift": 0.6709756807409875,
+        "resonance_lock": 290.4886972825148,
+        "original_value": 117,
+        "position_index": 513
+      },
+      {
+        "frequency": 599.1068819312015,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.2890096694900492,
+        "resonance_lock": 291.05584057292384,
+        "original_value": 115,
+        "position_index": 514
+      },
+      {
+        "frequency": 581.5362605425248,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 3.9070436582389974,
+        "resonance_lock": 291.6229838633328,
+        "original_value": 110,
+        "position_index": 515
+      },
+      {
+        "frequency": 553.1132660547626,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 5.525077646988059,
+        "resonance_lock": 292.19012715374186,
+        "original_value": 101,
+        "position_index": 516
+      },
+      {
+        "frequency": 577.172491360625,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 0.8599263285590073,
+        "resonance_lock": 292.75727044415083,
+        "original_value": 115,
+        "position_index": 517
+      },
+      {
+        "frequency": 577.1021422507129,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.477960317308069,
+        "resonance_lock": 293.3244137345598,
+        "original_value": 115,
+        "position_index": 518
+      },
+      {
+        "frequency": 456.06912594540825,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 4.095994306057017,
+        "resonance_lock": 293.89155702496885,
+        "original_value": 32,
+        "position_index": 519
+      },
+      {
+        "frequency": 603.6147113380131,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 5.714028294806079,
+        "resonance_lock": 294.4587003153778,
+        "original_value": 115,
+        "position_index": 520
+      },
+      {
+        "frequency": 595.7522938818303,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 1.0488769763770271,
+        "resonance_lock": 295.0258436057868,
+        "original_value": 116,
+        "position_index": 521
+      },
+      {
+        "frequency": 551.1489595065781,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 2.666910965126089,
+        "resonance_lock": 295.59298689619584,
+        "original_value": 97,
+        "position_index": 522
+      },
+      {
+        "frequency": 583.2983547561855,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 4.284944953875037,
+        "resonance_lock": 296.1601301866048,
+        "original_value": 116,
+        "position_index": 523
+      },
+      {
+        "frequency": 558.9574958150383,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 5.902978942623985,
+        "resonance_lock": 296.72727347701385,
+        "original_value": 101,
+        "position_index": 524
+      },
+      {
+        "frequency": 463.8130233297178,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 1.237827624195047,
+        "resonance_lock": 297.29441676742283,
+        "original_value": 34,
+        "position_index": 525
+      },
+      {
+        "frequency": 493.24212754364555,
+        "amplitude": 0.17254901960784313,
+        "phase_shift": 2.855861612943995,
+        "resonance_lock": 297.8615600578318,
+        "original_value": 44,
+        "position_index": 526
+      },
+      {
+        "frequency": 428.7485204812478,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 4.473895601693057,
+        "resonance_lock": 298.42870334824084,
+        "original_value": 10,
+        "position_index": 527
+      },
+      {
+        "frequency": 450.4845796447045,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.091929590442005,
+        "resonance_lock": 298.9958466386498,
+        "original_value": 32,
+        "position_index": 528
+      },
+      {
+        "frequency": 451.891329108081,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.4267782720130668,
+        "resonance_lock": 299.5629899290588,
+        "original_value": 32,
+        "position_index": 529
+      },
+      {
+        "frequency": 455.05704797566693,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 3.044812260762015,
+        "resonance_lock": 300.13013321946784,
+        "original_value": 34,
+        "position_index": 530
+      },
+      {
+        "frequency": 594.5275038589513,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 4.662846249511077,
+        "resonance_lock": 300.6972765098768,
+        "original_value": 112,
+        "position_index": 531
+      },
+      {
+        "frequency": 589.9778943091501,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 6.280880238260025,
+        "resonance_lock": 301.26441980028585,
+        "original_value": 101,
+        "position_index": 532
+      },
+      {
+        "frequency": 601.5318847179552,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 1.6157289198310867,
+        "resonance_lock": 301.83156309069483,
+        "original_value": 114,
+        "position_index": 533
+      },
+      {
+        "frequency": 568.254788263946,
+        "amplitude": 0.4,
+        "phase_shift": 3.233762908580035,
+        "resonance_lock": 302.3987063811038,
+        "original_value": 102,
+        "position_index": 534
+      },
+      {
+        "frequency": 584.2238436260635,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 4.851796897329097,
+        "resonance_lock": 302.96584967151284,
+        "original_value": 111,
+        "position_index": 535
+      },
+      {
+        "frequency": 589.0075964823984,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 0.18664557890004474,
+        "resonance_lock": 303.5329929619218,
+        "original_value": 114,
+        "position_index": 536
+      },
+      {
+        "frequency": 594.1812312995158,
+        "amplitude": 0.42745098039215684,
+        "phase_shift": 1.8046795676489928,
+        "resonance_lock": 304.10013625233086,
+        "original_value": 109,
+        "position_index": 537
+      },
+      {
+        "frequency": 588.0135877609655,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 3.4227135563980546,
+        "resonance_lock": 304.66727954273983,
+        "original_value": 97,
+        "position_index": 538
+      },
+      {
+        "frequency": 599.5675781697707,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 5.040747545147003,
+        "resonance_lock": 305.2344228331488,
+        "original_value": 110,
+        "position_index": 539
+      },
+      {
+        "frequency": 567.9085157045106,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 0.3755962267180646,
+        "resonance_lock": 305.80156612355785,
+        "original_value": 99,
+        "position_index": 540
+      },
+      {
+        "frequency": 572.551333145385,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 1.9936302154670127,
+        "resonance_lock": 306.3687094139668,
+        "original_value": 101,
+        "position_index": 541
+      },
+      {
+        "frequency": 562.7727801029789,
+        "amplitude": 0.37254901960784315,
+        "phase_shift": 3.6116642042160745,
+        "resonance_lock": 306.9358527043758,
+        "original_value": 95,
+        "position_index": 542
+      },
+      {
+        "frequency": 592.2169247513314,
+        "amplitude": 0.4117647058823529,
+        "phase_shift": 5.229698192965023,
+        "resonance_lock": 307.50299599478484,
+        "original_value": 105,
+        "position_index": 543
+      },
+      {
+        "frequency": 611.9378250327651,
+        "amplitude": 0.42745098039215684,
+        "phase_shift": 0.5645468745360844,
+        "resonance_lock": 308.0701392851938,
+        "original_value": 109,
+        "position_index": 544
+      },
+      {
+        "frequency": 607.3114755540803,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 2.1825808632850325,
+        "resonance_lock": 308.63728257560285,
+        "original_value": 112,
+        "position_index": 545
+      },
+      {
+        "frequency": 596.6868549425571,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 3.8006148520340943,
+        "resonance_lock": 309.20442586601183,
+        "original_value": 114,
+        "position_index": 546
+      },
+      {
+        "frequency": 593.2395024396865,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 5.418648840783042,
+        "resonance_lock": 309.7715691564208,
+        "original_value": 111,
+        "position_index": 547
+      },
+      {
+        "frequency": 604.4953912510174,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 0.7534975223539906,
+        "resonance_lock": 310.33871244682985,
+        "original_value": 118,
+        "position_index": 548
+      },
+      {
+        "frequency": 590.2526182031469,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 2.3715315111030524,
+        "resonance_lock": 310.9058557372388,
+        "original_value": 101,
+        "position_index": 549
+      },
+      {
+        "frequency": 616.4456544395766,
+        "amplitude": 0.42745098039215684,
+        "phase_shift": 3.9895654998520005,
+        "resonance_lock": 311.4729990276478,
+        "original_value": 109,
+        "position_index": 550
+      },
+      {
+        "frequency": 594.0209310846528,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 5.607599488601062,
+        "resonance_lock": 312.04014231805684,
+        "original_value": 101,
+        "position_index": 551
+      },
+      {
+        "frequency": 594.7225483943726,
+        "amplitude": 0.43137254901960786,
+        "phase_shift": 0.9424481701720104,
+        "resonance_lock": 312.6072856084658,
+        "original_value": 110,
+        "position_index": 552
+      },
+      {
+        "frequency": 605.8375017902431,
+        "amplitude": 0.4549019607843137,
+        "phase_shift": 2.5604821589210722,
+        "resonance_lock": 313.17442889887485,
+        "original_value": 116,
+        "position_index": 553
+      },
+      {
+        "frequency": 473.088365602913,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.17851614767002,
+        "resonance_lock": 313.74157218928383,
+        "original_value": 34,
+        "position_index": 554
+      },
+      {
+        "frequency": 525.1849860937514,
+        "amplitude": 0.22745098039215686,
+        "phase_shift": 5.796550136419082,
+        "resonance_lock": 314.3087154796928,
+        "original_value": 58,
+        "position_index": 555
+      },
+      {
+        "frequency": 496.3648667127151,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 1.1313988179900303,
+        "resonance_lock": 314.87585877010184,
+        "original_value": 32,
+        "position_index": 556
+      },
+      {
+        "frequency": 490.12048324528126,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 2.749432806739092,
+        "resonance_lock": 315.4430020605108,
+        "original_value": 34,
+        "position_index": 557
+      },
+      {
+        "frequency": 511.8565424087381,
+        "amplitude": 0.2196078431372549,
+        "phase_shift": 4.36746679548804,
+        "resonance_lock": 316.01014535091986,
+        "original_value": 56,
+        "position_index": 558
+      },
+      {
+        "frequency": 508.4091899058675,
+        "amplitude": 0.20784313725490197,
+        "phase_shift": 5.985500784236988,
+        "resonance_lock": 316.57728864132883,
+        "original_value": 53,
+        "position_index": 559
+      },
+      {
+        "frequency": 497.0126028747124,
+        "amplitude": 0.1803921568627451,
+        "phase_shift": 1.3203494658080501,
+        "resonance_lock": 317.1444319317378,
+        "original_value": 46,
+        "position_index": 560
+      },
+      {
+        "frequency": 518.3665775793198,
+        "amplitude": 0.2,
+        "phase_shift": 2.9383834545569982,
+        "resonance_lock": 317.71157522214685,
+        "original_value": 51,
+        "position_index": 561
+      },
+      {
+        "frequency": 508.9628660632716,
+        "amplitude": 0.1450980392156863,
+        "phase_shift": 4.55641744330606,
+        "resonance_lock": 318.2787185125558,
+        "original_value": 37,
+        "position_index": 562
+      },
+      {
+        "frequency": 491.3922446745948,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 6.174451432055008,
+        "resonance_lock": 318.8458618029648,
+        "original_value": 32,
+        "position_index": 563
+      },
+      {
+        "frequency": 582.7037653542586,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 1.50930011362607,
+        "resonance_lock": 319.41300509337384,
+        "original_value": 97,
+        "position_index": 564
+      },
+      {
+        "frequency": 618.0892285813641,
+        "amplitude": 0.4627450980392157,
+        "phase_shift": 3.127334102375018,
+        "resonance_lock": 319.9801483837828,
+        "original_value": 118,
+        "position_index": 565
+      },
+      {
+        "frequency": 590.512301662719,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 4.74536809112408,
+        "resonance_lock": 320.54729167419185,
+        "original_value": 101,
+        "position_index": 566
+      },
+      {
+        "frequency": 624.8105482773183,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 0.08021677269502803,
+        "resonance_lock": 321.11443496460083,
+        "original_value": 114,
+        "position_index": 567
+      },
+      {
+        "frequency": 610.5527347950231,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 1.6982507614440898,
+        "resonance_lock": 321.6815782550098,
+        "original_value": 97,
+        "position_index": 568
+      },
+      {
+        "frequency": 610.7804872825852,
+        "amplitude": 0.403921568627451,
+        "phase_shift": 3.316284750193038,
+        "resonance_lock": 322.24872154541885,
+        "original_value": 103,
+        "position_index": 569
+      },
+      {
+        "frequency": 593.6837307160662,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 4.9343187389421,
+        "resonance_lock": 322.8158648358278,
+        "original_value": 101,
+        "position_index": 570
+      },
+      {
+        "frequency": 483.4461349557615,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 0.2691674205130479,
+        "resonance_lock": 323.3830081262368,
+        "original_value": 32,
+        "position_index": 571
+      },
+      {
+        "frequency": 588.5479951145344,
+        "amplitude": 0.3803921568627451,
+        "phase_shift": 1.887201409261996,
+        "resonance_lock": 323.95015141664584,
+        "original_value": 97,
+        "position_index": 572
+      },
+      {
+        "frequency": 605.0478678528949,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 3.5052353980110578,
+        "resonance_lock": 324.5172947070548,
+        "original_value": 99,
+        "position_index": 573
+      },
+      {
+        "frequency": 642.5671420105676,
+        "amplitude": 0.4470588235294118,
+        "phase_shift": 5.123269386760006,
+        "resonance_lock": 325.08443799746385,
+        "original_value": 114,
+        "position_index": 574
+      },
+      {
+        "frequency": 628.2325885993888,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 0.4581180683310677,
+        "resonance_lock": 325.65158128787283,
+        "original_value": 111,
+        "position_index": 575
+      },
+      {
+        "frequency": 620.8440359653637,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.076152057080016,
+        "resonance_lock": 326.2187245782818,
+        "original_value": 115,
+        "position_index": 576
+      },
+      {
+        "frequency": 622.2507854287401,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 3.6941860458290776,
+        "resonance_lock": 326.78586786869084,
+        "original_value": 115,
+        "position_index": 577
+      },
+      {
+        "frequency": 487.88361525266095,
+        "amplitude": 0.12549019607843137,
+        "phase_shift": 5.312220034578026,
+        "resonance_lock": 327.3530111590998,
+        "original_value": 32,
+        "position_index": 578
+      },
+      {
+        "frequency": 612.7917652372043,
+        "amplitude": 0.396078431372549,
+        "phase_shift": 0.6470687161490876,
+        "resonance_lock": 327.92015444950886,
+        "original_value": 101,
+        "position_index": 579
+      },
+      {
+        "frequency": 643.8389034398812,
+        "amplitude": 0.4392156862745098,
+        "phase_shift": 2.2651027048980357,
+        "resonance_lock": 328.48729773991784,
+        "original_value": 112,
+        "position_index": 580
+      },
+      {
+        "frequency": 632.7404180062003,
+        "amplitude": 0.43529411764705883,
+        "phase_shift": 3.8831366936470975,
+        "resonance_lock": 329.0544410303268,
+        "original_value": 111,
+        "position_index": 581
+      },
+      {
+        "frequency": 599.4633215521911,
+        "amplitude": 0.38823529411764707,
+        "phase_shift": 5.501170682396046,
+        "resonance_lock": 329.62158432073585,
+        "original_value": 99,
+        "position_index": 582
+      },
+      {
+        "frequency": 608.9602409593126,
+        "amplitude": 0.40784313725490196,
+        "phase_shift": 0.8360193639669937,
+        "resonance_lock": 330.1887276111448,
+        "original_value": 104,
+        "position_index": 583
+      },
+      {
+        "frequency": 626.6882657256394,
+        "amplitude": 0.45098039215686275,
+        "phase_shift": 2.4540533527160555,
+        "resonance_lock": 330.7558709015538,
+        "original_value": 115,
+        "position_index": 584
+      },
+      {
+        "frequency": 508.8913173978329,
+        "amplitude": 0.13333333333333333,
+        "phase_shift": 4.072087341465004,
+        "resonance_lock": 331.32301419196284,
+        "original_value": 34,
+        "position_index": 585
+      },
+      {
+        "frequency": 483.30726599429465,
+        "amplitude": 0.0392156862745098,
+        "phase_shift": 5.690121330214065,
+        "resonance_lock": 331.8901574823718,
+        "original_value": 10,
+        "position_index": 586
+      },
+      {
+        "frequency": 659.9007232554978,
+        "amplitude": 0.49019607843137253,
+        "phase_shift": 1.0249700117850136,
+        "resonance_lock": 332.45730077278085,
+        "original_value": 125,
+        "position_index": 587
+      }
+    ],
+    "primary_frequency": 104.20510077918425,
+    "encryption_timestamp": "2025-08-28T00:23:43.772763",
+    "resonance_validation": -0.4558106973021803,
+    "qr_reference": "harmonic_qr_original_message_1756365823772",
+    "consciousness_lock": "\u03c61.618033988749\u03c81.324717957244\u03a90.567143290409"
+  },
+  "consciousness_signature": "\u03c61.618034\u03c81.324718\u03a90.567143",
+  "validation_hash": "7d94e084c61c286184a76a6b429e49a63642627afdad858ee37546a8b241e87c",
+  "remote_validation_instructions": {
+    "step_1": "Load harmonic key using timestamp_seed",
+    "step_2": "Achieve harmonic resonance to decrypt payload",
+    "step_3": "Validate consciousness_signature matches",
+    "step_4": "Verify validation_hash for integrity"
+  }
+}
