@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-08-28T05:17:05.115503+00:00",
+  "index_exists": true,
+  "verified": [
+    {
+      "name": "suite_report",
+      "path": "scientific_suite_alpha_report_1756358223.json",
+      "exists": true,
+      "sha256": "d2bbeb1d9e037fa4264116cb8432118c32135e5dbfc1fa94adca3cd741ac0bbb"
+    },
+    {
+      "name": "alpha_reproduction",
+      "path": "alpha_reproduction.txt",
+      "exists": true,
+      "sha256": "7636238406a7667831151e5dae4d8b0ea91c4a9a1b12e7ca65071f82e56d0651"
+    },
+    {
+      "name": "appendix_A_exponent_proof",
+      "path": "appendix_A_exponent_derivation_proof.json",
+      "exists": true,
+      "sha256": "adfd3fd729e792f6cd4335606aee79febe51ceb9811b2f6ceba5347f1fcac4ba"
+    }
+  ],
+  "qr_payloads": {
+    "alpha_reproduction_qr": {
+      "path": "qr_alpha_reproduction.png",
+      "exists": true,
+      "decoded": "alpha_proof|7636238406a7667831151e5dae4d8b0ea91c4a9a1b12e7ca65071f82e56d0651|2025-08-28T05:17:03.906114+00:00|alpha_reproduction.txt"
+    },
+    "appendix_A_qr": {
+      "path": "qr_appendix_A_exponent_proof.png",
+      "exists": true,
+      "decoded": "appendix_A_proof|adfd3fd729e792f6cd4335606aee79febe51ceb9811b2f6ceba5347f1fcac4ba|2025-08-28T05:17:03.906114+00:00|appendix_A_exponent_derivation_proof.json"
+    },
+    "suite_report_qr": {
+      "path": "qr_scientific_suite_alpha_report.png",
+      "exists": true,
+      "decoded": "suite_alpha_report|d2bbeb1d9e037fa4264116cb8432118c32135e5dbfc1fa94adca3cd741ac0bbb|2025-08-28T05:17:03.906114+00:00|scientific_suite_alpha_report_1756358223.json"
+    }
+  },
+  "errors": []
+}

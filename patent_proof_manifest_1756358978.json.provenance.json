@@ -1,0 +1,8 @@
+{
+  "file": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/patent_proof_manifest_1756358978.json",
+  "sha256": "9abaf8279914a282eb7ca03bed03946210d9741295900ab82a19533f5034c409",
+  "ed25519_signature_b64": "YENRoOvmzlIvIj9Rhqh5qfLVncsXYxcJ9R1L3pVdBX8hINUZdQAj07z3ATeLypdhENURsgN9VpOekcBD2tXEDQ==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:29:38.791160+00:00",
+  "tool": "artifact_signer.py"
+}

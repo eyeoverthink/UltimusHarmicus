@@ -1,0 +1,8 @@
+{
+  "file": "iss_validation_wrapper_result_1756358225.json",
+  "sha256": "7601512bd05c275b2cdcbb5fb576d18527238f60452cf1dfaf6ec46240fdacab",
+  "ed25519_signature_b64": "mUS6xRRGfassyP/ummR17zq7pU2KzSM8d0Vt4WzEmlG0rIjVVoP3YAC6ZFf7/oPNrvkxdgMjqrZuzCcAaaDwBg==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:31:47.654454+00:00",
+  "tool": "artifact_signer.py"
+}

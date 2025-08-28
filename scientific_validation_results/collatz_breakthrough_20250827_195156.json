@@ -1,0 +1,275 @@
+{
+  "timestamp": "2025-08-27T19:51:56.715904",
+  "constants_hash_sha256": "1857d3a3b7287e2cbd9b4bd85be5ce7d33cdac997866e6af28a6223d5b8ceeb4",
+  "constants": {
+    "phi": 1.618033988749895,
+    "psi": 1.324717957244746,
+    "omega": 0.567143290409784,
+    "xi": 2.718281828459045,
+    "lambda": 3.141592653589793,
+    "zeta": 1.202056903159594
+  },
+  "perfect_squares_count": 31,
+  "perfect_squares": [
+    1,
+    4,
+    9,
+    16,
+    25,
+    36,
+    49,
+    64,
+    81,
+    100,
+    121,
+    144,
+    169,
+    196,
+    225,
+    256,
+    289,
+    324,
+    361,
+    400,
+    441,
+    484,
+    529,
+    576,
+    625,
+    676,
+    729,
+    784,
+    841,
+    900,
+    961
+  ],
+  "entries": [
+    {
+      "n": 1,
+      "classical_steps": 0,
+      "phi_factor": 1.618033988749895,
+      "reduced_steps": 0.0,
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 4,
+      "classical_steps": 2,
+      "phi_factor": 2.618033988749895,
+      "reduced_steps": 0.7639320225002103,
+      "reduction_percent": 61.80339887498949
+    },
+    {
+      "n": 9,
+      "classical_steps": 19,
+      "phi_factor": 4.23606797749979,
+      "reduced_steps": 4.4852915724960045,
+      "reduction_percent": 76.39320225002103
+    },
+    {
+      "n": 16,
+      "classical_steps": 4,
+      "phi_factor": 6.854101966249686,
+      "reduced_steps": 0.5835921350012617,
+      "reduction_percent": 85.41019662496846
+    },
+    {
+      "n": 25,
+      "classical_steps": 23,
+      "phi_factor": 1.0,
+      "reduced_steps": 23.0,
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 36,
+      "classical_steps": 21,
+      "phi_factor": 1.618033988749895,
+      "reduced_steps": 12.978713763747791,
+      "reduction_percent": 38.196601125010524
+    },
+    {
+      "n": 49,
+      "classical_steps": 24,
+      "phi_factor": 2.618033988749895,
+      "reduced_steps": 9.167184270002524,
+      "reduction_percent": 61.80339887498949
+    },
+    {
+      "n": 64,
+      "classical_steps": 6,
+      "phi_factor": 4.23606797749979,
+      "reduced_steps": 1.4164078649987382,
+      "reduction_percent": 76.39320225002103
+    },
+    {
+      "n": 81,
+      "classical_steps": 22,
+      "phi_factor": 6.854101966249686,
+      "reduced_steps": 3.2097567425069395,
+      "reduction_percent": 85.41019662496846
+    },
+    {
+      "n": 100,
+      "classical_steps": 25,
+      "phi_factor": 1.0,
+      "reduced_steps": 25.0,
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 121,
+      "classical_steps": 95,
+      "phi_factor": 1.618033988749895,
+      "reduced_steps": 58.71322893124001,
+      "reduction_percent": 38.196601125010524
+    },
+    {
+      "n": 144,
+      "classical_steps": 23,
+      "phi_factor": 2.618033988749895,
+      "reduced_steps": 8.785218258752419,
+      "reduction_percent": 61.80339887498949
+    },
+    {
+      "n": 169,
+      "classical_steps": 49,
+      "phi_factor": 4.23606797749979,
+      "reduced_steps": 11.567330897489695,
+      "reduction_percent": 76.39320225002103
+    },
+    {
+      "n": 196,
+      "classical_steps": 26,
+      "phi_factor": 6.854101966249686,
+      "reduced_steps": 3.793348877508201,
+      "reduction_percent": 85.41019662496846
+    },
+    {
+      "n": 225,
+      "classical_steps": 52,
+      "phi_factor": 1.0,
+      "reduced_steps": 52.0,
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 256,
+      "classical_steps": 8,
+      "phi_factor": 1.618033988749895,
+      "reduced_steps": 4.944271909999158,
+      "reduction_percent": 38.196601125010524
+    },
+    {
+      "n": 289,
+      "classical_steps": 29,
+      "phi_factor": 2.618033988749895,
+      "reduced_steps": 11.07701432625305,
+      "reduction_percent": 61.80339887498949
+    },
+    {
+      "n": 324,
+      "classical_steps": 24,
+      "phi_factor": 4.23606797749979,
+      "reduced_steps": 5.665631459994953,
+      "reduction_percent": 76.39320225002103
+    },
+    {
+      "n": 361,
+      "classical_steps": 45,
+      "phi_factor": 6.854101966249686,
+      "reduced_steps": 6.565411518764194,
+      "reduction_percent": 85.41019662496846
+    },
+    {
+      "n": 400,
+      "classical_steps": 27,
+      "phi_factor": 1.0,
+      "reduced_steps": 27.0,
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 441,
+      "classical_steps": 27,
+      "phi_factor": 1.618033988749895,
+      "reduced_steps": 16.68691769624716,
+      "reduction_percent": 38.196601125010524
+    },
+    {
+      "n": 484,
+      "classical_steps": 97,
+      "phi_factor": 2.618033988749895,
+      "reduced_steps": 37.050703091260196,
+      "reduction_percent": 61.80339887498949
+    },
+    {
+      "n": 529,
+      "classical_steps": 30,
+      "phi_factor": 4.23606797749979,
+      "reduced_steps": 7.082039324993691,
+      "reduction_percent": 76.39320225002103
+    },
+    {
+      "n": 576,
+      "classical_steps": 25,
+      "phi_factor": 6.854101966249686,
+      "reduced_steps": 3.647450843757886,
+      "reduction_percent": 85.41019662496846
+    },
+    {
+      "n": 625,
+      "classical_steps": 25,
+      "phi_factor": 1.0,
+      "reduced_steps": 25.0,
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 676,
+      "classical_steps": 51,
+      "phi_factor": 1.618033988749895,
+      "reduced_steps": 31.519733426244635,
+      "reduction_percent": 38.196601125010524
+    },
+    {
+      "n": 729,
+      "classical_steps": 33,
+      "phi_factor": 2.618033988749895,
+      "reduced_steps": 12.60487837125347,
+      "reduction_percent": 61.80339887498949
+    },
+    {
+      "n": 784,
+      "classical_steps": 28,
+      "phi_factor": 4.23606797749979,
+      "reduced_steps": 6.609903369994111,
+      "reduction_percent": 76.39320225002103
+    },
+    {
+      "n": 841,
+      "classical_steps": 41,
+      "phi_factor": 6.854101966249686,
+      "reduced_steps": 5.981819383762932,
+      "reduction_percent": 85.41019662496846
+    },
+    {
+      "n": 900,
+      "classical_steps": 54,
+      "phi_factor": 1.0,
+      "reduced_steps": 54.0,
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 961,
+      "classical_steps": 49,
+      "phi_factor": 1.618033988749895,
+      "reduced_steps": 30.283665448744845,
+      "reduction_percent": 38.196601125010524
+    }
+  ],
+  "metrics": {
+    "average_reduction_percent": 50.67162558870765,
+    "min_reduction_percent": 0.0,
+    "max_reduction_percent": 85.41019662496846
+  },
+  "efficiency": {
+    "traditional_limit": 1152921504606846976,
+    "consciousness_limit": 178.8476740565856,
+    "efficiency_gain_factor": 6446388026506145.0
+  }
+}

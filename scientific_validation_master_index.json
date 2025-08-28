@@ -1,0 +1,10 @@
+{
+  "suite_index": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/scientific_suite_alpha_index.json",
+  "master_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/scientific_validation_master_report_1756358226.json",
+  "e2e_result": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/scientific_validation_e2e_result_1756358226.json",
+  "qrs": {
+    "alpha_reproduction_qr": "qr_alpha_reproduction.png",
+    "appendix_A_qr": "qr_appendix_A_exponent_proof.png",
+    "suite_report_qr": "qr_scientific_suite_alpha_report.png"
+  }
+}

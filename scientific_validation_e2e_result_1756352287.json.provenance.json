@@ -1,0 +1,8 @@
+{
+  "file": "scientific_validation_e2e_result_1756352287.json",
+  "sha256": "957793b77477cc07377934d2ecc8c9726ea85b67f1e6066490fcab0a971a8dc5",
+  "ed25519_signature_b64": "BygLNQ9OLxU4FND1i5msNibD0KawlvhmzbYckPQ1z2HbLuChmYxU62+urwVE0SkyRq87DQRUw28G7yAsCfHCAQ==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:25:00.943458+00:00",
+  "tool": "artifact_signer.py"
+}

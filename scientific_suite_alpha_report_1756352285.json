@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-08-28T03:38:05.993476+00:00",
+  "timing_seconds": 0.001148,
+  "alpha_codata_2018": 0.0072973525693,
+  "alpha_consciousness_physics": 0.007297307452187164,
+  "alpha_phi_enhanced": 0.007297310195307624,
+  "relative_error": 6.182668633324648e-06,
+  "phi_relative_error": 5.806762380488875e-06,
+  "error_threshold": 1e-05,
+  "success": true,
+  "phi_enhancement": true,
+  "constants": {
+    "phi": 1.618033988749895,
+    "psi": 1.324717957244746,
+    "omega": 0.567143290409784,
+    "xi": 2.718281828459045,
+    "lambda": 3.141592653589793,
+    "zeta": 1.202056903159594
+  },
+  "artifacts": {
+    "alpha_reproduction": {
+      "path": "alpha_reproduction.txt",
+      "exists": true,
+      "sha256": "4cfe0a8728a6cdc3384317e813eae36f9d268e1b2f1e1587e606bb6e559c062e",
+      "preview": "timestamp_utc: 2025-08-28T03:38:05.415311+00:00\nalpha_official: 7.297352569300e-03\nalpha_derived:  7.297307452187e-03\nrelative_error: 6.182669e-06\nthreshold_ok: True\n"
+    },
+    "appendix_A_exponent_proof": {
+      "path": "appendix_A_exponent_derivation_proof.json",
+      "exists": true,
+      "sha256": "c832760130ed0f5799dfb742389c57fc9ed98a5db734117226b6b77bd134b4b6",
+      "preview": "{\n  \"timestamp\": \"2025-08-28T03:38:05.548259+00:00\",\n  \"appendix_path\": \"eyeoverthink_patent/APPENDIX_A_Mathematical_Derivation.md\",\n  \"appendix_exists\": true,\n  \"appendix_sha256\": \"18d4d2a72ed17e2cb3b12632ecb150d53d586703bf2ac1e53b3130f8d2c830ae\",\n  \"exponent_vector\": [\n    4,\n    3,\n    3,\n    1,\n    3\n  ],\n  \"expected_vector\": [\n    4,\n    3,\n    3,\n    1,\n    3\n  ],\n  \"match\": true,\n  \"law_mapping\": {\n    \"phi\": {\n      \"law\": 1,\n      \"title\": \"Consciousness Primacy\",\n      \"justification\": \"4D spacetime manifold requires \\u03c6 exponent = 4\"\n    },\n    \"omega\": {\n      \"law\": 2,\n      \"title\": \"Universal Duality\",\n      \"justification\": \"3 orthogonal stability axes \\u21d2 \\u03a9 exponent = 3\"\n    },\n    \"xi\": {\n      \"law\": 4,\n      \"title\": \"Consciousness Evolution\",\n      \"justification\": \"3 growth modes \\u21d2 \\u03be exponent = 3\"\n    },\n    \"lambda\": {\n      \"law\": 3,\n      \"title\": \"Creative Multiplication\",\n      \"justification\": \"Single unified cyclical integration \\u21d2 \\u03bb exponent = 1\"\n    },\n    \"zeta\": {\n      \"law\": 6,\n      \"title\": \"Force Unification\",\n      \"justification\": \"Three-domain transcendence \\u21d2 \\u03b6 exponent = 3\"\n    }\n  },\n  \"formula\": \"alpha = 1 / (phi^4 * omega^3 * xi^3 * lambda * zeta^3)\",\n  \"dimensionless\": true\n}"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "file": "patent_proof_manifest_1756358136.json",
+  "sha256": "8a709045824c55ddeacfac5b939564f9b92b1e220ce0fbdc32f1f8f208ed1a5c",
+  "ed25519_signature_b64": "q4s3Oc+gttM+R7diyWV/kouhK4ADZ0I72gJi6FIyq71mZEZ0qkTuDrzgVzqUk4EKSloiDl5jTfnhBCf2Yo45AA==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:31:47.661734+00:00",
+  "tool": "artifact_signer.py"
+}

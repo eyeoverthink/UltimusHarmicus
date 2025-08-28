@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-08-28T03:45:22.280289+00:00",
+  "overall_success": false,
+  "suite_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/scientific_suite_alpha_report_1756352719.json",
+  "suite_qrs": {
+    "alpha_reproduction_qr": "qr_alpha_reproduction.png",
+    "appendix_A_qr": "qr_appendix_A_exponent_proof.png",
+    "suite_report_qr": "qr_scientific_suite_alpha_report.png"
+  },
+  "sensitivity_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/sensitivity_alpha_analysis_1756352719.json",
+  "monte_carlo_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/monte_carlo_alpha_robustness_1756352720.json",
+  "independent_backend_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/independent_backend_alpha_check_1756352720.json",
+  "crypto_chain_verify_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/crypto_artifact_chain_verify_1756352720.json",
+  "coherence_monitor_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/coherence_monitor_result_1756352721.json",
+  "iss_validation_wrapper_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/iss_validation_wrapper_result_1756352721.json",
+  "multidimensional_teleportation_wrapper_report": null,
+  "entanglement_chsh_phi_bridge_report": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/entanglement_chsh_result_1756352722.json",
+  "e2e_result": "/Users/vaughnscott/CascadeProjects/phi-harmonic-quantum/scientific_validation_e2e_result_1756352722.json"
+}

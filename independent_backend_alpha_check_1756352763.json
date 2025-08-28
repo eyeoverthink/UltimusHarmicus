@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-08-28T03:46:03.048284+00:00",
+  "timing_seconds": 0.000368,
+  "alpha_decimal": 0.007297307452187161,
+  "alpha_float": 0.007297307452187164,
+  "alpha_codata_2018": 0.0072973525693,
+  "relative_error_decimal": 6.182668633625165e-06,
+  "relative_error_float": 6.182668633253096e-06,
+  "agree_decimal_vs_float": true,
+  "threshold": 1e-05,
+  "pass_decimal": true,
+  "pass_float": true
+}

@@ -1,0 +1,5 @@
+timestamp_utc: 2025-08-28T05:17:03.443555+00:00
+alpha_official: 7.297352569300e-03
+alpha_derived:  7.297307452187e-03
+relative_error: 6.182669e-06
+threshold_ok: True

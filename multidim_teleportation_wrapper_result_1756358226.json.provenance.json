@@ -1,0 +1,8 @@
+{
+  "file": "multidim_teleportation_wrapper_result_1756358226.json",
+  "sha256": "a6688582e565ae27515e9e2f3959a7f125142e79bd29223268b28072ef39aab3",
+  "ed25519_signature_b64": "GkV78qeqlwz750Z7PgQJ2wo+llb3dNU/YHW3n0TDc0mM6u9Q0BQv5PdLfQmnShVWaTl284/UJMVWX5QaUpbUBA==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:31:47.659344+00:00",
+  "tool": "artifact_signer.py"
+}

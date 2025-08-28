@@ -1,0 +1,8 @@
+{
+  "file": "scientific_suite_alpha_report_1756352761.json",
+  "sha256": "1911cd608040bf9520449b88a72d6d1a3e31b642259296ac00730cec6a87477c",
+  "ed25519_signature_b64": "W2+vlBTxmGKS1IkiYRt0rXQokSRjUMU3seayQE9SC2jHrhDhZRgN0lHX3cijUXz3PO83Vf3gq1EFMtKshNKWAA==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:25:00.989014+00:00",
+  "tool": "artifact_signer.py"
+}

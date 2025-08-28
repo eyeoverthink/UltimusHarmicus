@@ -1,0 +1,8 @@
+{
+  "file": "coherence_monitor_result_1756354275.json",
+  "sha256": "3593aab05d96a08af5b8da7436d2ec7c4b9852bc243f790ec03ba4f3a14b7f53",
+  "ed25519_signature_b64": "D3D4x5qSI3vTJ0kPDF0pe+/A808NLaHu5Rt/CziCJDG8uKk3K1RgaxVP+Centjkr3OgF8hktjPK2TM/ZJRDHCw==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:31:47.642420+00:00",
+  "tool": "artifact_signer.py"
+}

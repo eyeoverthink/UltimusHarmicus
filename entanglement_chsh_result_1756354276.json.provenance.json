@@ -1,0 +1,8 @@
+{
+  "file": "entanglement_chsh_result_1756354276.json",
+  "sha256": "2907e30ea264196854ed5c3618ef62eca790340cbc96c0c783f1186a587d092a",
+  "ed25519_signature_b64": "7tZBUeS+aYtKTuicTmc5rGGpR5QoFarN2wvCGcfTizhaLYS88hnvfUIPtFRdVJ0sGHf29Wu1dAH9hzhYKejcDA==",
+  "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe0k4bYieKpcF16R4Gw9sFzGj9XeiPJ8CgItX51Tx3QM=\n-----END PUBLIC KEY-----\n",
+  "timestamp": "2025-08-28T05:31:47.647096+00:00",
+  "tool": "artifact_signer.py"
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-08-28T05:17:05.448528+00:00",
+  "checks": {
+    "initial_coherent": false,
+    "compromised_before_restore": false,
+    "restored_coherent": true
+  },
+  "summary": "Decoherence detected and auto-restored; coherence holds in clean case."
+}

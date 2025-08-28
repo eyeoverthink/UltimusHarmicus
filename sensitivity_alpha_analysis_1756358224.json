@@ -1,0 +1,459 @@
+{
+  "timestamp": "2025-08-28T05:17:04.230856+00:00",
+  "base": {
+    "alpha": 0.007297307452187164,
+    "relative_error": 6.182668633324648e-06
+  },
+  "sensitivity": [
+    {
+      "const": "phi",
+      "direction": "-",
+      "pct_change": 0.0001,
+      "alpha": 0.007300227105044757,
+      "delta_alpha": 2.919652857593172e-06,
+      "sensitivity": -4.001000200036915,
+      "relative_error": 0.0003939148776845231
+    },
+    {
+      "const": "phi",
+      "direction": "+",
+      "pct_change": 0.0001,
+      "alpha": 0.007294389258791113,
+      "delta_alpha": -2.918193396051101e-06,
+      "sensitivity": -3.999000199966159,
+      "relative_error": 0.00040608021618063043
+    },
+    {
+      "const": "phi",
+      "direction": "-",
+      "pct_change": 0.0005,
+      "alpha": 0.007311920328619412,
+      "delta_alpha": 1.4612876432247741e-05,
+      "sensitivity": -4.005005004378139,
+      "relative_error": 0.0019963074527463366
+    },
+    {
+      "const": "phi",
+      "direction": "+",
+      "pct_change": 0.0005,
+      "alpha": 0.007282731062324103,
+      "delta_alpha": -1.4576389863060757e-05,
+      "sensitivity": -3.9950049956280496,
+      "relative_error": 0.002003672816551311
+    },
+    {
+      "const": "phi",
+      "direction": "-",
+      "pct_change": 0.001,
+      "alpha": 0.0073265698012724,
+      "delta_alpha": 2.926234908523593e-05,
+      "sensitivity": -4.010020035056267,
+      "relative_error": 0.004003812573797853
+    },
+    {
+      "const": "phi",
+      "direction": "+",
+      "pct_change": 0.001,
+      "alpha": 0.007268191049761788,
+      "delta_alpha": -2.9116402425376046e-05,
+      "sensitivity": -3.9900199650556343,
+      "relative_error": 0.003996177964717675
+    },
+    {
+      "const": "phi",
+      "direction": "-",
+      "pct_change": 0.005,
+      "alpha": 0.0074450963322778615,
+      "delta_alpha": 0.00014778888009069763,
+      "sensitivity": -4.05050441026442,
+      "relative_error": 0.020246214168055943
+    },
+    {
+      "const": "phi",
+      "direction": "+",
+      "pct_change": 0.005,
+      "alpha": 0.0071531675450989245,
+      "delta_alpha": -0.00014413990708823932,
+      "sensitivity": -3.9504956597391936,
+      "relative_error": 0.019758538844301284
+    },
+    {
+      "const": "phi",
+      "direction": "-",
+      "pct_change": 0.01,
+      "alpha": 0.0075966455994202625,
+      "delta_alpha": 0.00029933814723309866,
+      "sensitivity": -4.102035568521653,
+      "relative_error": 0.04101391940131678
+    },
+    {
+      "const": "phi",
+      "direction": "+",
+      "pct_change": 0.01,
+      "alpha": 0.007012569029199844,
+      "delta_alpha": -0.0002847384229873202,
+      "sensitivity": -3.9019655517183645,
+      "relative_error": 0.03902559694021672
+    },
+    {
+      "const": "omega",
+      "direction": "-",
+      "pct_change": 0.0001,
+      "alpha": 0.007299497082334251,
+      "delta_alpha": 2.1896301470869517e-06,
+      "sensitivity": -3.000600100014521,
+      "relative_error": 0.00029387548619651553
+    },
+    {
+      "const": "omega",
+      "direction": "+",
+      "pct_change": 0.0001,
+      "alpha": 0.007295118697716992,
+      "delta_alpha": -2.1887544701714237e-06,
+      "sensitivity": -2.9994000999853796,
+      "relative_error": 0.0003061208242021709
+    },
+    {
+      "const": "omega",
+      "direction": "-",
+      "pct_change": 0.0005,
+      "alpha": 0.007308264368455102,
+      "delta_alpha": 1.0956916267937725e-05,
+      "sensitivity": -3.0030025018758653,
+      "relative_error": 0.001495309299019921
+    },
+    {
+      "const": "omega",
+      "direction": "+",
+      "pct_change": 0.0005,
+      "alpha": 0.007286372427855264,
+      "delta_alpha": -1.0935024331899454e-05,
+      "sensitivity": -2.9970024981260686,
+      "relative_error": 0.0015046746529596895
+    },
+    {
+      "const": "omega",
+      "direction": "-",
+      "pct_change": 0.001,
+      "alpha": 0.007319243231471123,
+      "delta_alpha": 2.1935779283959247e-05,
+      "sensitivity": -3.006010015020624,
+      "relative_error": 0.002999808761223468
+    },
+    {
+      "const": "omega",
+      "direction": "+",
+      "pct_change": 0.001,
+      "alpha": 0.007275459240811548,
+      "delta_alpha": -2.1848211375615455e-05,
+      "sensitivity": -2.9940099850208535,
+      "relative_error": 0.0030001741426825563
+    },
+    {
+      "const": "omega",
+      "direction": "-",
+      "pct_change": 0.005,
+      "alpha": 0.007407870850616472,
+      "delta_alpha": 0.00011056339842930793,
+      "sensitivity": -3.0302518882130873,
+      "relative_error": 0.01514498309721561
+    },
+    {
+      "const": "omega",
+      "direction": "+",
+      "pct_change": 0.005,
+      "alpha": 0.007188933382824415,
+      "delta_alpha": -0.00010837406936274867,
+      "sensitivity": -2.9702481380379986,
+      "relative_error": 0.014857331538523337
+    },
+    {
+      "const": "omega",
+      "direction": "-",
+      "pct_change": 0.01,
+      "alpha": 0.007520679143426062,
+      "delta_alpha": 0.00022337169123889857,
+      "sensitivity": -3.061015212836471,
+      "relative_error": 0.03060378020730396
+    },
+    {
+      "const": "omega",
+      "direction": "+",
+      "pct_change": 0.01,
+      "alpha": 0.007082694719491841,
+      "delta_alpha": -0.00021461273269532313,
+      "sensitivity": -2.940985207235567,
+      "relative_error": 0.029415852909619074
+    },
+    {
+      "const": "xi",
+      "direction": "-",
+      "pct_change": 0.0001,
+      "alpha": 0.0072994970823342525,
+      "delta_alpha": 2.1896301470886864e-06,
+      "sensitivity": -3.0006001000168983,
+      "relative_error": 0.0002938754861967533
+    },
+    {
+      "const": "xi",
+      "direction": "+",
+      "pct_change": 0.0001,
+      "alpha": 0.007295118697716991,
+      "delta_alpha": -2.1887544701731584e-06,
+      "sensitivity": -2.9994000999877573,
+      "relative_error": 0.00030612082420240864
+    },
+    {
+      "const": "xi",
+      "direction": "-",
+      "pct_change": 0.0005,
+      "alpha": 0.007308264368455104,
+      "delta_alpha": 1.0956916267940327e-05,
+      "sensitivity": -3.0030025018765785,
+      "relative_error": 0.0014953092990202775
+    },
+    {
+      "const": "xi",
+      "direction": "+",
+      "pct_change": 0.0005,
+      "alpha": 0.007286372427855264,
+      "delta_alpha": -1.0935024331899454e-05,
+      "sensitivity": -2.9970024981260686,
+      "relative_error": 0.0015046746529596895
+    },
+    {
+      "const": "xi",
+      "direction": "-",
+      "pct_change": 0.001,
+      "alpha": 0.007319243231471128,
+      "delta_alpha": 2.193577928396445e-05,
+      "sensitivity": -3.006010015021337,
+      "relative_error": 0.002999808761224181
+    },
+    {
+      "const": "xi",
+      "direction": "+",
+      "pct_change": 0.001,
+      "alpha": 0.007275459240811551,
+      "delta_alpha": -2.1848211375612853e-05,
+      "sensitivity": -2.9940099850204973,
+      "relative_error": 0.0030001741426821994
+    },
+    {
+      "const": "xi",
+      "direction": "-",
+      "pct_change": 0.005,
+      "alpha": 0.00740787085061647,
+      "delta_alpha": 0.0001105633984293062,
+      "sensitivity": -3.03025188821304,
+      "relative_error": 0.015144983097215372
+    },
+    {
+      "const": "xi",
+      "direction": "+",
+      "pct_change": 0.005,
+      "alpha": 0.0071889333828244134,
+      "delta_alpha": -0.00010837406936275041,
+      "sensitivity": -2.970248138038046,
+      "relative_error": 0.014857331538523574
+    },
+    {
+      "const": "xi",
+      "direction": "-",
+      "pct_change": 0.01,
+      "alpha": 0.007520679143426062,
+      "delta_alpha": 0.00022337169123889857,
+      "sensitivity": -3.061015212836471,
+      "relative_error": 0.03060378020730396
+    },
+    {
+      "const": "xi",
+      "direction": "+",
+      "pct_change": 0.01,
+      "alpha": 0.007082694719491841,
+      "delta_alpha": -0.00021461273269532313,
+      "sensitivity": -2.940985207235567,
+      "relative_error": 0.029415852909619074
+    },
+    {
+      "const": "lambda",
+      "direction": "-",
+      "pct_change": 0.0001,
+      "alpha": 0.007298037255912756,
+      "delta_alpha": 7.298037255918169e-07,
+      "sensitivity": -1.0001000100017419,
+      "relative_error": 9.382671403815334e-05
+    },
+    {
+      "const": "lambda",
+      "direction": "+",
+      "pct_change": 0.0001,
+      "alpha": 0.007296577794407722,
+      "delta_alpha": -7.296577794416864e-07,
+      "sensitivity": -0.9999000100002527,
+      "relative_error": 0.0001061720514283071
+    },
+    {
+      "const": "lambda",
+      "direction": "-",
+      "pct_change": 0.0005,
+      "alpha": 0.007300957931152741,
+      "delta_alpha": 3.6504789655772765e-06,
+      "sensitivity": -1.0005002501253109,
+      "relative_error": 0.0004940643635485737
+    },
+    {
+      "const": "lambda",
+      "direction": "+",
+      "pct_change": 0.0005,
+      "alpha": 0.007293660621876226,
+      "delta_alpha": -3.646830310937571e-06,
+      "sensitivity": -0.9995002498749139,
+      "relative_error": 0.0005059297037813597
+    },
+    {
+      "const": "lambda",
+      "direction": "-",
+      "pct_change": 0.001,
+      "alpha": 0.007304612064251415,
+      "delta_alpha": 7.304612064251356e-06,
+      "sensitivity": -1.0010010010009929,
+      "relative_error": 0.0009948121435101773
+    },
+    {
+      "const": "lambda",
+      "direction": "+",
+      "pct_change": 0.001,
+      "alpha": 0.007290017434752413,
+      "delta_alpha": -7.290017434750766e-06,
+      "sensitivity": -0.9990009990007734,
+      "relative_error": 0.001005177491141957
+    },
+    {
+      "const": "lambda",
+      "direction": "-",
+      "pct_change": 0.005,
+      "alpha": 0.0073339773388815714,
+      "delta_alpha": 3.666988669440759e-05,
+      "sensitivity": -1.0050251256281335,
+      "relative_error": 0.005018911890820743
+    },
+    {
+      "const": "lambda",
+      "direction": "+",
+      "pct_change": 0.005,
+      "alpha": 0.00726100243998723,
+      "delta_alpha": -3.6305012199934136e-05,
+      "sensitivity": -0.9950248756218357,
+      "relative_error": 0.004981276287197064
+    },
+    {
+      "const": "lambda",
+      "direction": "-",
+      "pct_change": 0.01,
+      "alpha": 0.007371017628471884,
+      "delta_alpha": 7.371017628471973e-05,
+      "sensitivity": -1.0101010101010224,
+      "relative_error": 0.010094764981178584
+    },
+    {
+      "const": "lambda",
+      "direction": "+",
+      "pct_change": 0.01,
+      "alpha": 0.007225056883353629,
+      "delta_alpha": -7.225056883353523e-05,
+      "sensitivity": -0.9900990099009757,
+      "relative_error": 0.009907111553102158
+    },
+    {
+      "const": "zeta",
+      "direction": "-",
+      "pct_change": 0.0001,
+      "alpha": 0.0072994970823342525,
+      "delta_alpha": 2.1896301470886864e-06,
+      "sensitivity": -3.0006001000168983,
+      "relative_error": 0.0002938754861967533
+    },
+    {
+      "const": "zeta",
+      "direction": "+",
+      "pct_change": 0.0001,
+      "alpha": 0.007295118697716992,
+      "delta_alpha": -2.1887544701714237e-06,
+      "sensitivity": -2.9994000999853796,
+      "relative_error": 0.0003061208242021709
+    },
+    {
+      "const": "zeta",
+      "direction": "-",
+      "pct_change": 0.0005,
+      "alpha": 0.007308264368455104,
+      "delta_alpha": 1.0956916267940327e-05,
+      "sensitivity": -3.0030025018765785,
+      "relative_error": 0.0014953092990202775
+    },
+    {
+      "const": "zeta",
+      "direction": "+",
+      "pct_change": 0.0005,
+      "alpha": 0.007286372427855263,
+      "delta_alpha": -1.0935024331901189e-05,
+      "sensitivity": -2.997002498126544,
+      "relative_error": 0.0015046746529599271
+    },
+    {
+      "const": "zeta",
+      "direction": "-",
+      "pct_change": 0.001,
+      "alpha": 0.007319243231471128,
+      "delta_alpha": 2.193577928396445e-05,
+      "sensitivity": -3.006010015021337,
+      "relative_error": 0.002999808761224181
+    },
+    {
+      "const": "zeta",
+      "direction": "+",
+      "pct_change": 0.001,
+      "alpha": 0.007275459240811551,
+      "delta_alpha": -2.1848211375612853e-05,
+      "sensitivity": -2.9940099850204973,
+      "relative_error": 0.0030001741426821994
+    },
+    {
+      "const": "zeta",
+      "direction": "-",
+      "pct_change": 0.005,
+      "alpha": 0.00740787085061647,
+      "delta_alpha": 0.0001105633984293062,
+      "sensitivity": -3.03025188821304,
+      "relative_error": 0.015144983097215372
+    },
+    {
+      "const": "zeta",
+      "direction": "+",
+      "pct_change": 0.005,
+      "alpha": 0.007188933382824415,
+      "delta_alpha": -0.00010837406936274867,
+      "sensitivity": -2.9702481380379986,
+      "relative_error": 0.014857331538523337
+    },
+    {
+      "const": "zeta",
+      "direction": "-",
+      "pct_change": 0.01,
+      "alpha": 0.007520679143426062,
+      "delta_alpha": 0.00022337169123889857,
+      "sensitivity": -3.061015212836471,
+      "relative_error": 0.03060378020730396
+    },
+    {
+      "const": "zeta",
+      "direction": "+",
+      "pct_change": 0.01,
+      "alpha": 0.007082694719491841,
+      "delta_alpha": -0.00021461273269532313,
+      "sensitivity": -2.940985207235567,
+      "relative_error": 0.029415852909619074
+    }
+  ]
+}

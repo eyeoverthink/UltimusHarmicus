@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-08-28T03:46:03.320333+00:00",
+  "index_exists": true,
+  "verified": [
+    {
+      "name": "suite_report",
+      "path": "scientific_suite_alpha_report_1756352761.json",
+      "exists": true,
+      "sha256": "1911cd608040bf9520449b88a72d6d1a3e31b642259296ac00730cec6a87477c"
+    },
+    {
+      "name": "alpha_reproduction",
+      "path": "alpha_reproduction.txt",
+      "exists": true,
+      "sha256": "061114e3bad0bddde684f57374cd1f3cbff0f8815f66a5e9f772e478f2dd35fb"
+    },
+    {
+      "name": "appendix_A_exponent_proof",
+      "path": "appendix_A_exponent_derivation_proof.json",
+      "exists": true,
+      "sha256": "5beb7eee9790424ada8644440e064ad4cee3bcaabb8e355359534362ca0ff07c"
+    }
+  ],
+  "qr_payloads": {
+    "alpha_reproduction_qr": {
+      "path": "qr_alpha_reproduction.png",
+      "exists": true,
+      "decoded": null
+    },
+    "appendix_A_qr": {
+      "path": "qr_appendix_A_exponent_proof.png",
+      "exists": true,
+      "decoded": null
+    },
+    "suite_report_qr": {
+      "path": "qr_scientific_suite_alpha_report.png",
+      "exists": true,
+      "decoded": null
+    }
+  },
+  "errors": []
+}
